@@ -1,0 +1,119 @@
+/* Font & Color Variables */
+:root {
+  --default-font: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --heading-font: "Raleway", sans-serif;
+  --nav-font: "Poppins", sans-serif;
+  --background-color: #f4fafd; /* Light blue background */
+  --default-color: #272829;
+  --heading-color: #050d18;
+  --accent-color: #149ddd;
+  --surface-color: #ffffff;
+  --contrast-color: #ffffff;
+  --altbackground-color: #040b14;
+}
+
+/* General Styling */
+body {
+  color: var(--default-color);
+  background-color: var(--altbackground-color);
+  font-family: var(--default-font);
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: var(--surface-color);
+}
+
+/* Headers */
+header h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--heading-color);
+  text-align: center;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--heading-color);
+  margin-bottom: 10px;
+  position: relative;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+h2:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: var(--accent-color);
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+}
+
+/* Paragraphs */
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--default-color);
+  margin-bottom: 20px;
+  text-align: justify;
+  padding: 0 10px; /* Add padding to paragraphs */
+}
+
+/* Lists */
+ul, ol {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+ul li, ol li {
+  font-size: 16px;
+  color: var(--default-color);
+  margin-bottom: 10px;
+}
+
+/* Sections */
+section {
+  padding: 20px 0;
+  margin: 0 -20px; /* Extend section background */
+}
+
+section:nth-child(odd) {
+  background-color: var(--surface-color);
+}
+
+section:nth-child(even) {
+  background-color: var(--background-color);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px 0;
+  background-color: var(--surface-color);
+}
+
+footer a {
+  font-size: 16px;
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: color-mix(in srgb, var(--accent-color), transparent 25%);
+  text-decoration: underline;
+}
+
+#project-document p {
+  padding: 0 10px; /* Align the link */
+}
