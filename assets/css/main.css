@@ -827,6 +827,9 @@ section,
 
 .portfolio .portfolio-content img {
   transition: 0.3s;
+  width: 100%; /* Set the width to 100% of the container */
+  height: 290px; /* Set a fixed height */
+  object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
 }
 
 .portfolio .portfolio-content .portfolio-info {
