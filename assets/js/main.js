@@ -210,23 +210,26 @@
   /**
    * Navmenu Scrollspy
    */
-  let navmenulinks = document.querySelectorAll('.navmenu a');
+let navmenulinks = document.querySelectorAll('.navmenu a');
 
-  function navmenuScrollspy() {
-    navmenulinks.forEach(navmenulink => {
-      if (!navmenulink.hash) return;
-      let section = document.querySelector(navmenulink.hash);
-      if (!section) return;
-      let position = window.scrollY + 200;
-      if (position >= section.offsetTop && position <= (section.offsetTop + section.offsetHeight)) {
-        document.querySelectorAll('.navmenu a.active').forEach(link => link.classList.remove('active'));
-        navmenulink.classList.add('active');
-      } else {
-        navmenulink.classList.remove('active');
-      }
-    })
-  }
-  window.addEventListener('load', navmenuScrollspy);
-  document.addEventListener('scroll', navmenuScrollspy);
+function navmenuScrollspy() {
+  let position = window.scrollY + 150; // Adjust this offset as needed
+
+  navmenulinks.forEach(navmenulink => {
+    if (!navmenulink.hash) return;
+    let section = document.querySelector(navmenulink.hash);
+    if (!section) return;
+
+    if (position >= section.offsetTop && position <= (section.offsetTop + section.offsetHeight)) {
+      document.querySelectorAll('.navmenu a.active').forEach(link => link.classList.remove('active'));
+      navmenulink.classList.add('active');
+    } else {
+      navmenulink.classList.remove('active');
+    }
+  });
+}
+
+window.addEventListener('load', navmenuScrollspy);
+document.addEventListener('scroll', navmenuScrollspy);
 
 })();

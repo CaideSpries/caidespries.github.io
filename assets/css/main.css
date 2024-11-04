@@ -87,6 +87,10 @@ h6 {
   font-family: var(--heading-font);
 }
 
+.navmenu a.active {
+  color: var(--heading-color);
+}
+
 /* PHP Email Form Messages
 ------------------------------*/
 .php-email-form .error-message {
