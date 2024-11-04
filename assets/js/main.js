@@ -92,7 +92,6 @@
 
   window.addEventListener('load', aosInit);
 
-  document.addEventListener('DOMContentLoaded', function () {
     /**
      * Init typed.js
      */
@@ -108,7 +107,6 @@
         backDelay: 2000
       });
     }
-  });
 
   /**
    * Initiate Pure Counter
