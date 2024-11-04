@@ -213,7 +213,7 @@
 let navmenulinks = document.querySelectorAll('.navmenu a');
 
 function navmenuScrollspy() {
-  let position = window.scrollY + 150; // Adjust this offset as needed
+  let position = window.scrollY + 110; // Adjust this offset as needed
 
   navmenulinks.forEach(navmenulink => {
     if (!navmenulink.hash) return;
