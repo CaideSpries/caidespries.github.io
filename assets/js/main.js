@@ -102,6 +102,7 @@
       new Typed('.typed', {
         strings: typed_strings,
         loop: true,
+        startDelay: 500,
         typeSpeed: 100,
         backSpeed: 50,
         backDelay: 2000
@@ -111,7 +112,12 @@
   /**
    * Initiate Pure Counter
    */
-  new PureCounter();
+// Ensure PureCounter is defined before attempting to use it
+if (typeof PureCounter !== 'undefined') {
+    new PureCounter();
+} else {
+    console.warn("PureCounter is not defined.");
+}
 
   /**
    * Animate the skills items on reveal
@@ -210,19 +216,22 @@
   /**
    * Navmenu Scrollspy
    */
+// Select all nav links
 let navmenulinks = document.querySelectorAll('.navmenu a');
 
 function navmenuScrollspy() {
-  let position = window.scrollY + 110; // Adjust this offset as needed
+  let position = window.scrollY + 200; // Adjust offset as needed
 
   navmenulinks.forEach(navmenulink => {
     if (!navmenulink.hash) return;
+
     let section = document.querySelector(navmenulink.hash);
     if (!section) return;
 
-    if (position >= section.offsetTop && position <= (section.offsetTop + section.offsetHeight)) {
+    if (position >= section.offsetTop && position < (section.offsetTop + section.offsetHeight)) {
       document.querySelectorAll('.navmenu a.active').forEach(link => link.classList.remove('active'));
       navmenulink.classList.add('active');
+      console.log(`Active section: ${section.id}`); // Debug output
     } else {
       navmenulink.classList.remove('active');
     }
