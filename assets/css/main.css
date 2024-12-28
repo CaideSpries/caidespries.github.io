@@ -652,6 +652,11 @@ section,
   line-height: 0;
 }
 
+/* Ensuring paragraphs are justified */
+.about .content p {
+  text-align: justify;
+  text-justify: inter-word;
+}
 /*--------------------------------------------------------------
 # Stats Section
 --------------------------------------------------------------*/
