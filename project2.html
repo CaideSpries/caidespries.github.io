@@ -2,66 +2,201 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Analysis of Hashing Algorithms on FPGAs</title>
-  <link rel="stylesheet" href="assets/css/projects.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparative Analysis of MD5 & MD6 Hashing Implementations</title>
+    <link rel="stylesheet" href="assets/css/projects.css">
 </head>
 
 <body>
-  <div class="container">
+<div class="container">
     <header>
-      <h1>Analysis of Hashing Algorithms on FPGAs</h1>
+        <h1>Comparative Analysis of MD5 & MD6 Hashing Implementations</h1>
     </header>
     <main>
-      <section id="project-overview">
-        <h2>Project Overview</h2>
-        <p>This project compares the performance and efficiency of MD5 and MD6 hashing algorithm implementations across different programming languages: Verilog, C++, and OpenCL. The focus is on evaluating execution time and leveraging parallelisation capabilities to enhance performance on FPGAs.</p>
-      </section>
-      <section id="project-objectives">
-        <h2>Objectives</h2>
-        <ul>
-          <li>Implement MD5 and MD6 hashing algorithms in Verilog, C++, and OpenCL.</li>
-          <li>Evaluate the performance of each implementation.</li>
-          <li>Compare the efficiency of software and hardware implementations.</li>
-          <li>Explore the potential of parallelisation in improving performance.</li>
-        </ul>
-      </section>
-      <section id="technologies-used">
-        <h2>Technologies Used</h2>
-        <ul>
-          <li>MD5 and MD6 hashing algorithms</li>
-          <li>Verilog for FPGA implementation</li>
-          <li>C++ for software implementation</li>
-          <li>OpenCL for parallel computing</li>
-          <li>Nexys A7 FPGA development board</li>
-        </ul>
-      </section>
-      <section id="project-details">
-        <h2>Project Details</h2>
-        <p>The project involves the following tasks:</p>
-        <ol>
-          <li>Sequential implementation of MD5 in C++ to establish a performance baseline.</li>
-          <li>Hardware implementation of MD5 using Verilog on an FPGA.</li>
-          <li>Parallel implementation of MD5 using OpenCL to explore parallelisation capabilities.</li>
-          <li>Sequential and parallel implementations of MD6 in C++.</li>
-          <li>Performance evaluation based on execution time and throughput.</li>
-        </ol>
-      </section>
-      <section id="project-results">
-        <h2>Results</h2>
-        <p>The analysis showed that the parallelised MD6 implementation in C++ provided the best performance across various input sizes. The hardware implementation of MD5 using Verilog demonstrated significant speedup for small input sizes, highlighting the efficiency of dedicated hardware for specific tasks.</p>
-      </section>
-      <section id="project-document">
-        <h2>Project Document</h2>
-        <p>For more detailed information, you can view the full project document here:</p>
-        <p><a href="assets/docs/Projects Docs/project2/Analysis%20of%20Hashing%20Algorithms%20on%20FPGAs.pdf" target="_blank">View the Project Document (PDF)</a></p>
-      </section>
+        <section id="project-overview">
+            <h2>Project Overview</h2>
+            <div style="text-align: center; max-width: 90%; margin: 1rem auto;">
+                <p>Hashing algorithms are fundamental to data integrity and security, but not all are created equal.
+                    This project explores the critical trade-offs between the classic, sequential MD5 algorithm and the
+                    modern, parallel-by-design MD6 algorithm. We conducted a comparative analysis by implementing these
+                    hashes across three distinct platforms:</p>
+            </div>
+            <ul>
+                <li><strong>Standard Software (C++):</strong> To establish a performance baseline.</li>
+                <li><strong>Hardware Acceleration (Verilog on an FPGA):</strong> To test the limits of raw speed
+                    with dedicated hardware.
+                </li>
+                <li><strong>GPU Parallel Computing (OpenCL):</strong> To investigate how a parallel framework
+                    handles both sequential and parallel-native algorithms.
+                </li>
+            </ul>
+            <div style="text-align: center; max-width: 90%; margin: 1rem auto;">
+                <p>The core objective was to quantify the performance differences in execution time and throughput,
+                    revealing the optimal use case for each approach.</p>
+            </div>
+        </section>
+        <section id="algorithms-explained">
+            <h2>The Algorithms: MD5 vs. MD6</h2>
+            <div style="text-align: center; max-width: 90%; margin: 1rem auto;">
+                <p>The key difference between the two algorithms lies in their structure. MD5 processes data in a
+                    strictly
+                    sequential order, where each step depends on the previous one. This makes it inherently difficult to
+                    parallelise. The MD6 algorithm, in contrast, was designed with a tree-like structure that allows
+                    large
+                    files to be broken down and hashed concurrently, making it ideal for modern multi-core processors
+                    and
+                    parallel environments.</p>
+            </div>
+
+            <figure style="text-align: center;">
+                <img src="assets/img/Projects Docs/project2/flowchart-md5-hashing-algorithm.webp"
+                     alt="Flowchart showing the sequential nature of the MD5 hashing algorithm"
+                     style="max-width:100%; height:auto;">
+                <figcaption>Figure 1: MD5 Algorithm Flowchart illustrating its sequential processing structure
+                </figcaption>
+            </figure>
+        </section>
+        <section id="methodology">
+            <h2>Methodology: Implementations Across Platforms</h2>
+            <div style="text-align: center; max-width: 90%; margin: 1rem auto;">
+                <p>To perform a comprehensive comparison, we developed several implementations:</p>
+            </div>
+            <ul>
+                <li><strong>C++ (MD5 & MD6):</strong> Served as our "golden standard" for software performance. We
+                    created both sequential and parallel (multi-threaded) versions of MD6 to directly measure the
+                    benefits of parallelization in software.
+                </li>
+                <li><strong>Verilog (MD5):</strong> A hardware implementation designed for a Nexys A7 FPGA. The goal was
+                    to offload the entire hashing computation to a dedicated chip to achieve the lowest possible
+                    execution time.
+                </li>
+                <li><strong>OpenCL (MD5):</strong> A GPU-based implementation to test whether the massively parallel
+                    architecture of a GPU could overcome the sequential nature of the MD5 algorithm.
+                </li>
+            </ul>
+        </section>
+        <section id="project-results">
+            <h2>Results and Performance Analysis</h2>
+            <div style="text-align: center; max-width: 90%; margin: 1rem auto;">
+                <p>Our experiments, which tested files of various sizes, revealed significant performance differences
+                    across the implementations. The two graphs below summarise the overall comparison of execution time
+                    and throughput for the software-based approaches.</p>
+            </div>
+
+            <figure style="text-align: center;">
+                <img src="assets/img/Projects Docs/project2/execution-time-across-implementations.webp"
+                     alt="Line graph comparing execution time across different implementations including C++ MD5, C++ MD6, Parallel MD6, and OpenCL MD5"
+                     style="max-width:100%; height:auto;">
+                <figcaption>Figure 2: Comparison of Execution Time Across Implementations</figcaption>
+            </figure>
+
+            <figure style="text-align: center;">
+                <img src="assets/img/Projects Docs/project2/throughput-comparisons.webp"
+                     alt="Line graph comparing throughput in MB/s across different implementations including C++ MD5, C++ MD6, Parallel MD6, and OpenCL MD5"
+                     style="max-width:100%; height:auto;">
+                <figcaption>Figure 3: Comparison of Throughput Across Implementations</figcaption>
+            </figure>
+
+            <div style="text-align: center; max-width: 90%; margin: 1rem auto;">
+                <p>As the graphs clearly show, the parallelised C++ MD6 implementation is the undisputed winner for
+                    handling large data volumes. It consistently demonstrates the lowest execution time and the highest
+                    throughput, reaching nearly 500 MB/s. This directly confirms the architectural advantages of a
+                    parallel-aware algorithm.</p>
+
+                <h3>Key Performance Highlights</h3>
+
+                <p>Digging deeper into the data reveals two fascinating edge cases:</p>
+            </div>
+
+            <ul>
+                <li><strong>The Power of Dedicated Hardware:</strong> For very small messages (0 bytes), the Verilog
+                    FPGA implementation was astonishingly fast, achieving a speedup of over 132x compared to the
+                    standard C++ MD5. Its execution time was a mere 8.88 nanoseconds. This highlights the incredible
+                    efficiency of hardware acceleration for highly specific, repetitive tasks, even though its input
+                    size was limited.
+                </li>
+                <li><strong>An Insightful Failure:</strong> The OpenCL implementation of MD5 was significantly slower
+                    than the basic C++ version. This is a critical finding: applying a parallel framework to an
+                    inherently sequential algorithm does not guarantee a speedup. The overhead of transferring data to
+                    the GPU and managing the kernel outweighed any potential benefits, proving that the algorithm's
+                    design is paramount.
+                </li>
+            </ul>
+        </section>
+        <section id="acceptance-testing">
+            <h2>Acceptance Testing: Proof of Correctness</h2>
+            <div style="text-align: center; max-width: 90%; margin: 1rem auto;">
+                <p>Beyond performance, we rigorously tested each implementation to ensure it produced correct,
+                    standard-compliant hash values. All implementations passed verification against known test vectors
+                    for both MD5 and MD6.</p>
+            </div>
+
+            <div class="image-grid"
+                 style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem; margin-top: 2rem;">
+                <figure style="text-align: center; flex: 1; min-width: 45%;">
+                    <img src="assets/img/Projects Docs/project2/sequential-md5-base-test.webp"
+                         alt="Terminal output showing successful verification of sequential MD5 implementation"
+                         style="max-width:100%; height:auto;">
+                    <figcaption>Figure 4: Sequential MD5 Implementation Verification</figcaption>
+                </figure>
+
+                <figure style="text-align: center; flex: 1; min-width: 45%;">
+                    <img src="assets/img/Projects Docs/project2/parallel-md5-accuracy-test.webp"
+                         alt="Terminal output showing successful verification of parallel MD5 implementation"
+                         style="max-width:100%; height:auto;">
+                    <figcaption>Figure 5: Parallel MD5 Implementation Verification</figcaption>
+                </figure>
+
+                <figure style="text-align: center; flex: 1; min-width: 45%;">
+                    <img src="assets/img/Projects Docs/project2/md6-length-accuracy-test.webp"
+                         alt="Terminal output showing successful verification of MD6 implementation with different input lengths"
+                         style="max-width:100%; height:auto;">
+                    <figcaption>Figure 6: MD6 Implementation Verification</figcaption>
+                </figure>
+
+                <figure style="text-align: center; flex: 1; min-width: 45%;">
+                    <img src="assets/img/Projects Docs/project2/verilog-accuracy-test.webp"
+                         alt="Output showing successful verification of Verilog FPGA implementation"
+                         style="max-width:100%; height:auto;">
+                    <figcaption>Figure 7: Verilog FPGA Implementation Verification</figcaption>
+                </figure>
+            </div>
+        </section>
+        <section id="conclusion">
+            <h2>Conclusion</h2>
+            <div style="text-align: center; max-width: 90%; margin: 1rem auto;">
+                <p>This project successfully quantified the trade-offs between software, GPU, and hardware
+                    implementations of sequential and parallel hashing algorithms. The key findings are clear:</p>
+            </div>
+            <ul>
+                <li>For high-throughput applications on modern systems, the parallelised MD6 algorithm is the superior
+                    choice.
+                </li>
+                <li>For specialised, low-latency tasks with small inputs, a hardware (FPGA) implementation offers
+                    unparalleled speed.
+                </li>
+                <li>A parallel architecture like a GPU cannot fix a fundamentally sequential algorithm like MD5; in
+                    fact, the overhead can make performance worse.
+                </li>
+            </ul>
+            <div style="text-align: center; max-width: 90%; margin: 1rem auto;">
+                <p>Ultimately, the analysis provides valuable insights into selecting the right tool for the job,
+                    demonstrating the crucial interplay between algorithm design and the underlying hardware
+                    platform.</p>
+            </div>
+        </section>
+        <section id="project-document">
+            <h2>Project Document</h2>
+            <p>For more detailed information, you can view the full project document here:</p>
+            <p><a href="assets/docs/Projects Docs/project2/Analysis%20of%20Hashing%20Algorithms%20on%20FPGAs.pdf"
+                  target="_blank">View the Project Document (PDF)</a></p>
+        </section>
     </main>
     <footer>
-      <a href="index.html">Back to Homepage</a>
+        <a href="index.html">Back to Homepage</a>
     </footer>
-  </div>
+</div>
 </body>
 
 </html>
