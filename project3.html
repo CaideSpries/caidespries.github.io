@@ -3,63 +3,175 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Compression and Encryption Algorithm for Communications</title>
+    <title>Data Processing Pipeline for a Remote Antarctic Buoy</title>
     <link rel="stylesheet" href="assets/css/projects.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Compression and Encryption Algorithm for Communications</h1>
-        </header>
-        <main>
-            <section id="project-overview">
-                <h2>Project Overview</h2>
-                <p>This project outlines the requirements and design procedures for the compression and encryption of data received by the Inertial Measurement Unit (IMU) onboard the SHARC buoy in Antarctica. The goal is to compress data to reduce transmission costs and encrypt it for secure transmission.</p>
-            </section>
-            <section id="project-objectives">
-                <h2>Objectives</h2>
-                <ul>
-                    <li>Analyse the requirements outlined in the project design brief.</li>
-                    <li>Compare various compression and encryption algorithms to determine the most suitable one.</li>
-                    <li>Design a system that fulfills the project's requirements for low power usage and high efficiency.</li>
-                    <li>Implement the system using the STM32F051 Discovery Board.</li>
-                </ul>
-            </section>
-            <section id="technologies-used">
-                <h2>Technologies Used</h2>
-                <ul>
-                    <li>STM32F051 Discovery Board</li>
-                    <li>Sense HAT B for data collection</li>
-                    <li>Twofish encryption algorithm</li>
-                    <li>LZSS compression algorithm</li>
-                    <li>Python for simulation and testing</li>
-                </ul>
-            </section>
-            <section id="project-details">
-                <h2>Project Details</h2>
-                <p>The project encompasses the following tasks:</p>
-                <ol>
-                    <li>Interpretation of user requirements and feasibility analysis.</li>
-                    <li>Comparison of encryption algorithms (AES, RSA, Blowfish, Twofish).</li>
-                    <li>Comparison of compression algorithms (LZ77, LZR, LZSS, Deflate, Brotli).</li>
-                    <li>Design and implementation of the system on the STM32F051 Discovery Board.</li>
-                    <li>Validation and testing using simulated and old data.</li>
-                    <li>Analysis of results and performance evaluation.</li>
-                </ol>
-            </section>
-            <section id="project-results">
-                <h2>Results</h2>
-                <p>The system successfully compressed and encrypted data from the IMU, achieving a compression ratio of at least 1.5 and encryption times within the acceptable range. The implementation of the Twofish and LZSS algorithms was efficient, and the data transmission via Iridium was secure and cost-effective.</p>
-            </section>
-            <section id="project-document">
-                <h2>Project Document</h2>
-                <p>For more detailed information, you can view the full project document here:</p>
-                <p><a href="assets/docs/Projects Docs/project3/Compression%20and%20Encryption%20Algorithm%20for%20Communications.pdf" target="_blank">View the Project Document (PDF)</a></p>
-            </section>
-        </main>
-        <footer>
-            <a href="index.html">Back to Homepage</a>
-        </footer>
+<div class="container">
+    <header>
+        <h1>Data Processing Pipeline for a Remote Antarctic Buoy</h1>
+    </header>
+    <main>
+        <section id="project-overview">
+            <h2>Project Overview</h2>
+            <div style="text-align: center; max-width: 90%; margin: 1rem auto;">
+                <p>This project involved designing and implementing a critical data processing system for the SHARC
+                    (Sea-ice, Heat, and Atmosphere Research Cabled) buoy, a scientific instrument deployed to study
+                    pancake ice in Antarctica. Operating in a remote, power-constrained environment, the system's
+                    primary challenge is to collect sensor data from an Inertial Measurement Unit (IMU), process it
+                    efficiently, and transmit it securely over an exceptionally costly Iridium satellite link.</p>
+
+                <p>Our solution is an embedded system pipeline built on an ARM-based STM32 microcontroller that performs
+                    three key tasks:</p>
+            </div>
+            <ul>
+                <li><strong>Data Compression:</strong> To dramatically reduce satellite transmission costs.</li>
+                <li><strong>Data Encryption:</strong> To ensure the confidentiality of the scientific data.</li>
+                <li><strong>Data Integrity Check:</strong> To guarantee the data received by researchers is identical to
+                    what was collected.
+                </li>
+            </ul>
+        </section>
+        <section id="system-architecture">
+            <h2>System Architecture and Data Flow</h2>
+            <div style="text-align: center; max-width: 90%; margin: 1rem auto;">
+                <p>The system is designed as a sequential data pipeline, where raw sensor data is processed through
+                    several key submodules before transmission. Each stage must be computationally inexpensive and
+                    memory-efficient to operate on the resource-constrained STM32 board. The entire process, from data
+                    collection to transmission, is designed to be robust and autonomous.</p>
+            </div>
+
+            <figure style="text-align: center; margin: 1rem auto;">
+                <img src="assets/img/Projects Docs/project3/system-design-operation.webp"
+                     alt="Diagram showing the complete system architecture with IMU sensor, STM32 microcontroller processing pipeline (compression, encryption, integrity check), and Iridium satellite transmission"
+                     style="max-width:100%; height:auto;">
+                <figcaption>Figure 1: Complete system architecture showing the data flow from IMU sensor through the
+                    processing pipeline to Iridium transmission
+                </figcaption>
+            </figure>
+        </section>
+        <section id="technology-stack">
+            <h2>Technology Stack and Algorithm Selection</h2>
+            <div style="text-align: center; max-width: 90%; margin: 1rem auto;">
+                <p>Selecting the right technologies was critical to meeting the project's strict power and processing
+                    constraints.</p>
+
+                <p><strong>Hardware:</strong> The core of the system is the STM32F051 Discovery Board, featuring a
+                    low-power ARM Cortex-M0 processor. For sensor data, we used a SparkFun 9DoF IMU (ICM-20948), which
+                    closely mimics the sensor planned for the final buoy.</p>
+
+                <p><strong>Compression Algorithm:</strong> We chose the LZSS algorithm. Our research showed it offered a
+                    great balance of high compression ratio, speed, and low computational complexity, making it ideal
+                    for this embedded application.</p>
+
+                <p><strong>Encryption Algorithm:</strong> After initial testing, we implemented a custom modified
+                    Blowfish algorithm. The popular Twofish algorithm proved too resource-intensive for the STM32's
+                    hardware, so we pivoted to its predecessor, which was designed for hardware efficiency and provided
+                    robust security.</p>
+            </div>
+
+            <figure style="text-align: center; margin: 2rem auto;">
+                <img src="assets/img/Projects Docs/project3/SparkFun-9DoF-IMU Breakout.webp"
+                     alt="SparkFun 9DoF IMU Breakout board showing the ICM-20948 sensor used for data collection in the project"
+                     style="max-width:100%; height:auto; max-height: 400px;">
+                <figcaption>Figure 2: The SparkFun 9DoF IMU Breakout board used for collecting motion data</figcaption>
+            </figure>
+        </section>
+        <section id="performance-validation">
+            <h2>Performance, Validation, and Results</h2>
+            <div style="text-align: center; max-width: 90%; margin: 1rem auto;">
+                <p>We conducted extensive testing to validate both the functionality and performance of the entire data
+                    pipeline. The system was benchmarked for compression ratio, processing speed, and correctness across
+                    various data sizes and conditions.</p>
+            </div>
+
+            <div style="text-align: center; max-width: 90%; margin: 1rem auto;">
+                <h3>Performance Analysis</h3>
+            </div>
+            <div class="image-grid"
+                 style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem; margin-top: 2rem;">
+                <figure style="text-align: center; flex: 1; min-width: 45%;">
+                    <img src="assets/img/Projects Docs/project3/speed-vs-size-comp-decomp.webp"
+                         alt="Graph showing compression and decompression speed versus input size"
+                         style="max-width:100%; height:auto;">
+                    <figcaption>Figure 5: Compression and decompression performance versus input size</figcaption>
+                </figure>
+
+                <figure style="text-align: center; flex: 1; min-width: 45%;">
+                    <img src="assets/img/Projects Docs/project3/speed-vs-size-encrypt-decrypt.webp"
+                         alt="Graph showing encryption and decryption speed versus input size"
+                         style="max-width:100%; height:auto;">
+                    <figcaption>Figure 6: Encryption and decryption performance versus input size</figcaption>
+                </figure>
+            </div>
+
+            <div style="text-align: center; max-width: 90%; margin: 2rem auto;">
+                <h3>Complete Pipeline Validation</h3>
+                <p>To validate the entire data pipeline, we conducted end-to-end tests that processed sample IMU data
+                    through compression, encryption, simulated transmission, decryption, and finally decompression. The
+                    final checksum verification confirmed that data integrity was maintained throughout the entire
+                    process, as shown in the output below:</p>
+
+                <figure style="text-align: center; margin: 1.5rem auto;">
+                    <img src="assets/img/Projects Docs/project3/command-line-output-functionality.webp"
+                         alt="Command line output showing full pipeline validation with successful compression, encryption, decryption, decompression, and matching checksums"
+                         style="max-width:100%; height:auto;">
+                    <figcaption>Figure 7: Complete pipeline validation showing successful data processing with matching
+                        checksums
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div style="text-align: center; max-width: 90%; margin: 1rem auto; margin-top: 2rem;">
+                <p>Our results demonstrate a highly efficient system. The compression algorithm consistently achieved an
+                    average compression ratio of over 15:1, a crucial factor for reducing satellite costs. As shown in
+                    the graphs, both the compression and encryption algorithms operate at high speeds (averaging ~950
+                    bytes/second and ~910 bytes/second respectively), well within the performance requirements for the
+                    buoy's sampling rate.</p>
+
+                <p>We also tested the system's robustness by introducing under-sampling, high-frequency sampling, and
+                    Gaussian noise, with the pipeline continuing to perform reliably under all tested conditions.</p>
+            </div>
+        </section>
+        <section id="conclusion">
+            <h2>Conclusion</h2>
+            <div style="text-align: center; max-width: 90%; margin: 1rem auto;">
+                <p>This project resulted in a successful, end-to-end data processing pipeline for a real-world
+                    scientific instrument. We met the primary objective of creating a system that could compress and
+                    encrypt sensor data efficiently on a low-power microcontroller.</p>
+
+                <p>A key learning experience was the practical challenge of implementation on embedded hardware. Our
+                    initial choices of Twofish and LZMA, while theoretically sound, were unsuited for the STM32's
+                    architecture. By successfully pivoting to a modified Blowfish and the LZSS algorithm, we were able
+                    to meet all user requirements and deliver a robust, working system. The project is a testament to
+                    the importance of balancing theoretical performance with the practical constraints of hardware in
+                    embedded systems design.</p>
+            </div>
+        </section>
+        <section id="project-document">
+    <h2>Project Document</h2>
+    <div style="text-align: center; max-width: 90%; margin: 1rem auto;">
+        <p>For more detailed information, you can access the following resources:</p>
+        <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-top: 1rem;">
+            <a href="assets/docs/Projects Docs/project3/Compression%20and%20Encryption%20Algorithm%20for%20Communications.pdf"
+               target="_blank"
+               class="button-link"
+               style="display: inline-block; padding: 10px 15px; background-color: #3498db; color: white; text-decoration: none; border-radius: 4px;">
+                View Project Document (PDF)
+            </a>
+            <a href="https://github.com/CaideSpries/EEE3097S-Project"
+               target="_blank"
+               class="button-link"
+               style="display: inline-block; padding: 10px 15px; background-color: #333; color: white; text-decoration: none; border-radius: 4px;">
+                View Source Code on GitHub
+            </a>
+        </div>
     </div>
+</section>
+    </main>
+    <footer>
+        <a href="index.html">Back to Homepage</a>
+    </footer>
+</div>
 </body>
 </html>
