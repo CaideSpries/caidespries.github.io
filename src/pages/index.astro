@@ -1,0 +1,27 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Hero from "../components/sections/Hero.astro";
+import About from "../components/sections/About.astro";
+import Experience from "../components/sections/Experience.astro";
+import Ventures from "../components/sections/Ventures.astro";
+import Projects from "../components/sections/Projects.astro";
+import Education from "../components/sections/Education.astro";
+import Skills from "../components/sections/Skills.astro";
+import Listening from "../components/sections/Listening.astro";
+import ChatWidget from "../components/interactive/ChatWidget";
+---
+
+<BaseLayout
+  title="Caide Spriestersbach | Electrical & Computer Engineer"
+  description="Electrical and Computer Engineer from UCT. Building full-stack applications, server infrastructure, and geospatial platforms in the renewable energy sector."
+>
+  <Hero />
+  <About />
+  <Experience />
+  <Ventures />
+  <Projects />
+  <Education />
+  <Skills />
+  <Listening />
+  <ChatWidget client:idle />
+</BaseLayout>
