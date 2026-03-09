@@ -1,1 +1,0 @@
-/Users/spries/Documents/Curriculum Vitae/skills.md
