@@ -1,44 +1,82 @@
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 
-const PLACEHOLDER_RESPONSES = [
-  "Still being trained on Caide's full portfolio. Check back soon.",
-  "This chat will be powered by a fine-tuned model. For now, have a look around.",
-  "Coming soon. I'll be able to answer questions about Caide's experience, skills, and projects.",
-  "I'm a work in progress. In the meantime, feel free to reach out via email.",
-];
+const API_URL = "https://portfolio-chat.caidespries1.workers.dev";
+
+interface ChatMessage {
+  role: "user" | "assistant";
+  content: string;
+}
 
 export default function ChatWidget() {
   const [isOpen, setIsOpen] = useState(false);
-  const [messages, setMessages] = useState<
-    { role: "user" | "assistant"; content: string }[]
-  >([
+  const [messages, setMessages] = useState<ChatMessage[]>([
     {
       role: "assistant",
       content:
-        "Hey. I'm Caide's AI assistant. Still being built, but feel free to say hi.",
+        "Hey! I'm Caide's portfolio assistant. Ask me anything about his experience, projects, skills, or education.",
     },
   ]);
   const [input, setInput] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
+  const messagesEndRef = useRef<HTMLDivElement>(null);
 
-  function handleSend() {
-    if (!input.trim()) return;
+  useEffect(() => {
+    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+  }, [messages]);
+
+  async function handleSend() {
+    if (!input.trim() || isLoading) return;
     const userMsg = input.trim();
     setInput("");
-    setMessages((prev) => [
-      ...prev,
-      { role: "user", content: userMsg },
-    ]);
 
-    setTimeout(() => {
-      const response =
-        PLACEHOLDER_RESPONSES[
-          Math.floor(Math.random() * PLACEHOLDER_RESPONSES.length)
-        ];
+    const updatedMessages: ChatMessage[] = [
+      ...messages,
+      { role: "user", content: userMsg },
+    ];
+    setMessages(updatedMessages);
+    setIsLoading(true);
+
+    try {
+      // Convert to Gemini format (assistant -> model)
+      const apiMessages = updatedMessages
+        .filter((m) => m.role !== "assistant" || updatedMessages.indexOf(m) !== 0) // skip initial greeting
+        .map((m) => ({
+          role: m.role === "assistant" ? ("model" as const) : ("user" as const),
+          content: m.content,
+        }));
+
+      const res = await fetch(API_URL, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ messages: apiMessages }),
+      });
+
+      if (!res.ok) {
+        const err = await res.json().catch(() => ({ error: "Request failed" }));
+        throw new Error((err as { error?: string }).error || `HTTP ${res.status}`);
+      }
+
+      const data = (await res.json()) as { response: string };
       setMessages((prev) => [
         ...prev,
-        { role: "assistant", content: response },
+        { role: "assistant", content: data.response },
       ]);
-    }, 800);
+    } catch (err) {
+      const message =
+        err instanceof Error ? err.message : "Something went wrong";
+      setMessages((prev) => [
+        ...prev,
+        {
+          role: "assistant",
+          content:
+            message.includes("Rate limit")
+              ? "You've sent too many messages. Please wait a minute and try again."
+              : "Sorry, I couldn't get a response. Please try again.",
+        },
+      ]);
+    } finally {
+      setIsLoading(false);
+    }
   }
 
   return (
@@ -79,7 +117,7 @@ export default function ChatWidget() {
               Chat with Caide's AI
             </p>
             <p className="text-xs" style={{ color: "rgba(8, 8, 8, 0.6)" }}>
-              Coming soon / placeholder mode
+              Powered by Gemini — ask about experience, projects, skills
             </p>
           </div>
 
@@ -104,6 +142,22 @@ export default function ChatWidget() {
                 </div>
               </div>
             ))}
+            {isLoading && (
+              <div className="flex justify-start">
+                <div
+                  className="px-3 py-2 rounded-xl text-sm flex gap-1"
+                  style={{
+                    background: "rgba(232, 213, 192, 0.08)",
+                    color: "#f2e8dc",
+                  }}
+                >
+                  <span className="animate-bounce" style={{ animationDelay: "0ms" }}>.</span>
+                  <span className="animate-bounce" style={{ animationDelay: "150ms" }}>.</span>
+                  <span className="animate-bounce" style={{ animationDelay: "300ms" }}>.</span>
+                </div>
+              </div>
+            )}
+            <div ref={messagesEndRef} />
           </div>
 
           <div className="p-3" style={{ borderTop: "1px solid rgba(232, 213, 192, 0.1)" }}>
@@ -113,8 +167,9 @@ export default function ChatWidget() {
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
                 onKeyDown={(e) => e.key === "Enter" && handleSend()}
-                placeholder="Say something..."
-                className="flex-1 px-3 py-2 text-sm rounded-lg focus:outline-none"
+                placeholder="Ask about Caide's work..."
+                disabled={isLoading}
+                className="flex-1 px-3 py-2 text-sm rounded-lg focus:outline-none disabled:opacity-50"
                 style={{
                   background: "rgba(232, 213, 192, 0.05)",
                   border: "1px solid rgba(232, 213, 192, 0.12)",
@@ -123,7 +178,8 @@ export default function ChatWidget() {
               />
               <button
                 onClick={handleSend}
-                className="px-3 py-2 rounded-lg transition-colors"
+                disabled={isLoading}
+                className="px-3 py-2 rounded-lg transition-colors disabled:opacity-50"
                 style={{ background: "#e85d3a", color: "#080808" }}
               >
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">

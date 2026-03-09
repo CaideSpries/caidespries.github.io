@@ -1,0 +1,7 @@
+name = "portfolio-chat"
+main = "src/index.ts"
+compatibility_date = "2025-12-01"
+
+[vars]
+# GEMINI_API_KEY should be set as a secret via:
+#   npx wrangler secret put GEMINI_API_KEY
