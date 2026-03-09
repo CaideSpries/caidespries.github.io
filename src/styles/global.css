@@ -1,0 +1,248 @@
+@import "tailwindcss";
+
+@theme {
+  /* Retro palette: black, cream, orange-red */
+  --color-cream-50: #faf6f1;
+  --color-cream-100: #f5ede3;
+  --color-cream-200: #f2e8dc;
+  --color-cream-300: #e8d5c0;
+  --color-cream-400: #d4b896;
+
+  --color-ember-400: #f07044;
+  --color-ember-500: #e85d3a;
+  --color-ember-600: #d04a2a;
+  --color-ember-700: #b03820;
+
+  --color-void-800: #141414;
+  --color-void-900: #0d0d0d;
+  --color-void-950: #080808;
+
+  --font-display: "Fraunces", "Georgia", serif;
+  --font-sans: "Space Grotesk", "Arial", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Light mode: cream background with readable text tiers */
+  :root {
+    --text-secondary: #5a4e42;   /* descriptions, about text — ~5.5:1 on cream */
+    --text-muted: #6d5f52;       /* dates, locations, meta — ~4.5:1 on cream */
+    --text-faint: #7d6f62;       /* footer, minor text — ~3.5:1 on cream (large text only) */
+    --border-subtle: rgba(26, 26, 26, 0.12);
+  }
+
+  .dark {
+    --text-secondary: #a09488;   /* descriptions — ~6.1:1 on black */
+    --text-muted: #8a7e72;       /* dates, locations — ~5.5:1 on black */
+    --text-faint: #6a6058;       /* footer, minor text — ~4.0:1 on black */
+    --border-subtle: rgba(232, 213, 192, 0.1);
+  }
+
+  body {
+    @apply font-sans antialiased;
+    color: #1a1a1a;
+    background-color: #f2e8dc;
+  }
+
+  .main-bg {
+    background-color: #f2e8dc;
+  }
+
+  /* Dark mode: deep black */
+  .dark body {
+    color: #f2e8dc;
+    background-color: #080808;
+  }
+
+  .dark .main-bg {
+    background-color: #080808;
+  }
+
+  /* Spacer ensures last section fills viewport so sticky footer only reveals on scroll past content */
+  .footer-spacer {
+    height: 50vh;
+  }
+
+  ::selection {
+    background: rgba(232, 93, 58, 0.3);
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+  }
+}
+
+@layer components {
+  .section-heading {
+    @apply text-4xl md:text-5xl lg:text-6xl font-black mb-3 tracking-tight;
+    font-family: var(--font-display);
+  }
+
+  .section-subheading {
+    @apply text-lg mb-12;
+    color: var(--text-secondary);
+  }
+
+  .retro-card {
+    @apply rounded-2xl transition-all duration-300;
+    background: transparent;
+    border: 1px solid rgba(232, 213, 192, 0.1);
+  }
+
+  .retro-card:hover {
+    border-color: rgba(232, 93, 58, 0.3);
+    box-shadow: 0 0 30px rgba(232, 93, 58, 0.06);
+    transform: translateY(-2px);
+  }
+
+  /* Light mode cards */
+  html:not(.dark) .retro-card {
+    background: rgba(255, 255, 255, 0.5);
+    border-color: rgba(26, 26, 26, 0.08);
+  }
+
+  html:not(.dark) .retro-card:hover {
+    border-color: rgba(232, 93, 58, 0.4);
+    box-shadow: 0 0 30px rgba(232, 93, 58, 0.1);
+  }
+
+  .chip {
+    @apply inline-block px-3 py-1 text-sm font-medium rounded-full;
+  }
+
+  /* Neon glow for accent text */
+  .neon-text {
+    color: #e85d3a;
+    text-shadow:
+      0 0 10px rgba(232, 93, 58, 0.4),
+      0 0 40px rgba(232, 93, 58, 0.15);
+  }
+
+  .dark .neon-text {
+    text-shadow:
+      0 0 10px rgba(232, 93, 58, 0.5),
+      0 0 40px rgba(232, 93, 58, 0.2),
+      0 0 80px rgba(232, 93, 58, 0.1);
+  }
+
+  /* Footer reveal text — retro extrusion shadow */
+  .footer-reveal-text {
+    color: rgba(140, 50, 20, 0.32);
+    text-shadow:
+      1px 1px 0 rgba(60, 20, 8, 0.40),
+      2px 2px 0 rgba(60, 20, 8, 0.38),
+      3px 3px 0 rgba(60, 20, 8, 0.36),
+      4px 4px 0 rgba(60, 20, 8, 0.34),
+      5px 5px 0 rgba(60, 20, 8, 0.32),
+      6px 6px 0 rgba(60, 20, 8, 0.30),
+      7px 7px 0 rgba(60, 20, 8, 0.28),
+      8px 8px 0 rgba(60, 20, 8, 0.26),
+      9px 9px 0 rgba(60, 20, 8, 0.24),
+      10px 10px 0 rgba(60, 20, 8, 0.22);
+  }
+
+  .dark .footer-reveal-text {
+    color: rgba(232, 93, 58, 0.15);
+    text-shadow:
+      1px 1px 0 rgba(60, 10, 5, 0.5),
+      2px 2px 0 rgba(60, 10, 5, 0.48),
+      3px 3px 0 rgba(60, 10, 5, 0.46),
+      4px 4px 0 rgba(60, 10, 5, 0.44),
+      5px 5px 0 rgba(60, 10, 5, 0.42),
+      6px 6px 0 rgba(60, 10, 5, 0.40),
+      7px 7px 0 rgba(60, 10, 5, 0.38),
+      8px 8px 0 rgba(60, 10, 5, 0.36),
+      9px 9px 0 rgba(60, 10, 5, 0.34),
+      10px 10px 0 rgba(60, 10, 5, 0.32);
+  }
+
+  /* Headshot warm treatment */
+  .headshot-frame {
+    position: relative;
+    box-shadow: 0 8px 40px rgba(232, 93, 58, 0.15);
+  }
+
+  .headshot-frame::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(180, 120, 70, 0.06);
+    mix-blend-mode: color;
+    pointer-events: none;
+    border-radius: inherit;
+  }
+
+  .headshot-img {
+    filter: saturate(0.95) brightness(1.02);
+  }
+
+  .dark .headshot-frame::after {
+    background: rgba(160, 100, 60, 0.1);
+  }
+
+  .dark .headshot-img {
+    filter: saturate(0.85) brightness(0.88) contrast(1.05);
+  }
+
+  /* Spray-paint / rough edge effect for featured badges */
+  .spray-badge {
+    @apply inline-block px-4 py-1 font-black uppercase tracking-widest text-xs;
+    background: #e85d3a;
+    color: #080808;
+    clip-path: polygon(
+      2% 8%, 6% 2%, 12% 6%, 18% 1%, 25% 4%, 32% 0%, 38% 5%,
+      45% 2%, 52% 7%, 58% 1%, 65% 3%, 72% 0%, 78% 6%, 85% 2%,
+      92% 5%, 97% 1%, 100% 8%, 98% 15%, 100% 25%, 99% 35%,
+      100% 45%, 98% 55%, 100% 65%, 99% 75%, 100% 85%, 98% 92%,
+      100% 98%, 95% 100%, 88% 97%, 80% 100%, 72% 96%, 65% 100%,
+      58% 97%, 50% 100%, 42% 96%, 35% 100%, 28% 97%, 20% 100%,
+      12% 96%, 5% 100%, 0% 95%, 2% 88%, 0% 80%, 1% 72%,
+      0% 65%, 2% 58%, 0% 50%, 1% 42%, 0% 35%, 2% 28%,
+      0% 20%, 1% 12%
+    );
+  }
+}
+
+@layer utilities {
+  .animate-fade-up {
+    animation: fadeUp 0.6s ease-out both;
+  }
+
+  @keyframes fadeUp {
+    from {
+      opacity: 0;
+      transform: translateY(24px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 0.5s ease-out both;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  /* Retro grain overlay */
+  .grain::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    opacity: 0.03;
+    pointer-events: none;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+
+  .dark .grain::after {
+    opacity: 0.05;
+  }
+}

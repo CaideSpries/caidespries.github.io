@@ -1,0 +1,72 @@
+---
+import ApplyColorMode from "../components/common/ApplyColorMode.astro";
+import SEO from "../components/common/SEO.astro";
+import Header from "../components/common/Header.astro";
+import Footer from "../components/common/Footer.astro";
+import "../styles/global.css";
+
+interface Props {
+  title: string;
+  description: string;
+  image?: string;
+}
+
+const { title, description, image } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link rel="icon" type="image/png" href="/img/icon.png" />
+    <ApplyColorMode />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.cdnfonts.com/css/itc-benguiat-std"
+      rel="stylesheet"
+    />
+    <SEO title={title} description={description} image={image} />
+    <title>{title}</title>
+  </head>
+  <body>
+    <Header />
+    <main class="relative z-10 main-bg">
+      <slot />
+      <!-- Spacer ensures footer is fully hidden until user scrolls past all content -->
+      <div class="footer-spacer" aria-hidden="true"></div>
+    </main>
+    <Footer />
+
+    <script>
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("animate-fade-up");
+              observer.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.1, rootMargin: "0px 0px -50px 0px" },
+      );
+
+      document.querySelectorAll("[data-animate]").forEach((el) => {
+        el.classList.add("opacity-0");
+        observer.observe(el);
+      });
+    </script>
+  </body>
+</html>

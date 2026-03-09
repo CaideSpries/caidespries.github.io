@@ -1,0 +1,52 @@
+---
+interface Props {
+  items: {
+    title: string;
+    subtitle: string;
+    dates: string;
+    description: string;
+    tags?: string[];
+    link?: string;
+  }[];
+}
+
+const { items } = Astro.props;
+---
+
+<div class="relative">
+  <!-- Timeline line -->
+  <div class="absolute left-4 md:left-8 top-0 bottom-0 w-px bg-slate-200 dark:bg-slate-700"></div>
+
+  <div class="space-y-12">
+    {items.map((item, i) => (
+      <div class="relative pl-12 md:pl-20" data-animate>
+        <!-- Dot -->
+        <div class="absolute left-2.5 md:left-6.5 top-1.5 w-3 h-3 rounded-full bg-primary-500 ring-4 ring-white dark:ring-navy-950"></div>
+
+        <div class="glass-card p-6 transition-all duration-300">
+          <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 mb-3">
+            <div>
+              <h3 class="text-xl font-bold text-slate-900 dark:text-white">
+                {item.title}
+              </h3>
+              <p class="text-primary-500 font-medium">{item.subtitle}</p>
+            </div>
+            <span class="text-sm text-slate-500 dark:text-slate-400 font-mono whitespace-nowrap">
+              {item.dates}
+            </span>
+          </div>
+          <p class="text-slate-600 dark:text-slate-400 leading-relaxed" set:html={item.description} />
+          {item.tags && item.tags.length > 0 && (
+            <div class="flex flex-wrap gap-2 mt-4">
+              {item.tags.map((tag) => (
+                <span class="chip bg-primary-50 text-primary-700 dark:bg-primary-900/30 dark:text-primary-300">
+                  {tag}
+                </span>
+              ))}
+            </div>
+          )}
+        </div>
+      </div>
+    ))}
+  </div>
+</div>

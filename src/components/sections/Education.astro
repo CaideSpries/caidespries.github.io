@@ -1,0 +1,156 @@
+---
+import { loadEducation } from "../../lib/content/loader";
+
+const education = loadEducation();
+
+const logos: Record<string, string> = {
+  "University of Cape Town": "/img/uct-logo.jpeg",
+  "Bishops Diocesan College": "/img/bishops-logo-240x228.png",
+  "Hilton College": "/img/hilton-logo.png",
+};
+
+const docs: Record<string, { href: string; label: string }[]> = {
+  "University of Cape Town": [
+    { href: "/docs/Academic_Record.pdf", label: "Academic Record" },
+    { href: "/docs/GC24-Certificate_Caide.pdf", label: "IEEE GLOBECOM" },
+  ],
+  "Bishops Diocesan College": [
+    { href: "/docs/CMS_MATRIC_CERTIFICATE.pdf", label: "Matric Certificate" },
+  ],
+};
+---
+
+<section id="education" class="py-24">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-16" data-animate>
+      <h2 class="section-heading"><span class="neon-text">Education</span></h2>
+      <p class="section-subheading">Where I studied and what I learned</p>
+    </div>
+
+    <div class="space-y-8">
+      {education.map((edu, i) => (
+        <div class={`retro-card p-8 ${i === 0 ? "ring-1" : ""}`} style={i === 0 ? "ring-color: rgba(232, 93, 58, 0.3);" : ""} data-animate>
+          <div class="flex flex-col sm:flex-row gap-6">
+            {logos[edu.title] && (
+              <div class="shrink-0">
+                <div class="w-16 h-16 rounded-xl overflow-hidden bg-white flex items-center justify-center">
+                  <img
+                    src={logos[edu.title]}
+                    alt={edu.title}
+                    class="w-14 h-14 object-contain"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            )}
+
+            <div class="flex-1">
+              <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 mb-3">
+                <div>
+                  <h3 class="text-xl font-black" style="font-family: var(--font-display);">
+                    {edu.title}
+                  </h3>
+                  {edu.qualification && (
+                    <p class="neon-text font-semibold">{edu.qualification}</p>
+                  )}
+                  {edu.type && !edu.qualification && (
+                    <p style="color: var(--text-secondary);">{edu.type}</p>
+                  )}
+                </div>
+                <span class="text-sm font-mono whitespace-nowrap" style="color: var(--text-muted);">
+                  {edu.dates}
+                </span>
+              </div>
+
+              {edu.gpa && (
+                <div class="flex flex-wrap gap-4 mb-4">
+                  <div class="flex items-center gap-2">
+                    <span class="text-sm" style="color: var(--text-muted);">GPA:</span>
+                    <span class="text-sm font-bold">{edu.gpa}</span>
+                  </div>
+                  {edu.finalYearAggregate && (
+                    <div class="flex items-center gap-2">
+                      <span class="text-sm" style="color: var(--text-muted);">Final Year:</span>
+                      <span class="text-sm font-bold neon-text">{edu.finalYearAggregate}</span>
+                    </div>
+                  )}
+                  {edu.conferred && (
+                    <div class="flex items-center gap-2">
+                      <span class="text-sm" style="color: var(--text-muted);">Conferred:</span>
+                      <span class="text-sm font-bold">{edu.conferred}</span>
+                    </div>
+                  )}
+                </div>
+              )}
+
+              {edu.finalAggregate && (
+                <div class="flex flex-wrap gap-4 mb-4">
+                  <div class="flex items-center gap-2">
+                    <span class="text-sm" style="color: var(--text-muted);">Final Aggregate:</span>
+                    <span class="text-sm font-bold">{edu.finalAggregate}</span>
+                  </div>
+                  {edu.distinctions && (
+                    <div class="flex items-center gap-2">
+                      <span class="text-sm" style="color: var(--text-muted);">Distinctions:</span>
+                      <span class="text-sm font-bold neon-text">{edu.distinctions}</span>
+                    </div>
+                  )}
+                </div>
+              )}
+
+              {edu.researchProject && (
+                <div class="p-4 rounded-xl mb-4" style="background: rgba(232, 93, 58, 0.05); border: 1px solid rgba(232, 93, 58, 0.15);">
+                  <p class="text-sm font-bold" style="font-family: var(--font-display);">
+                    Research Project: {edu.researchProject.title}
+                  </p>
+                  <p class="text-sm" style="color: var(--text-secondary);">
+                    {edu.researchProject.mark} / {edu.researchProject.description}
+                  </p>
+                </div>
+              )}
+
+              {edu.achievements && edu.achievements.length > 0 && (
+                <div class="flex flex-wrap gap-2">
+                  {edu.achievements.map((a) => (
+                    <span class="chip text-xs" style="background: rgba(232, 213, 192, 0.08); color: var(--text-secondary);">
+                      {a}
+                    </span>
+                  ))}
+                </div>
+              )}
+
+              {edu.cvBullets.length > 0 && (
+                <ul class="space-y-1 mt-3">
+                  {edu.cvBullets.map((bullet) => (
+                    <li class="text-sm" style="color: var(--text-secondary);" set:html={bullet} />
+                  ))}
+                </ul>
+              )}
+
+              {docs[edu.title] && docs[edu.title].length > 0 && (
+                <div class="flex flex-wrap gap-3 mt-4">
+                  {docs[edu.title].map((doc) => (
+                    <a
+                      href={doc.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="inline-flex items-center gap-2 px-3 py-1.5 text-xs font-medium rounded-lg transition-colors"
+                      style="color: #e85d3a; border: 1px solid rgba(232, 93, 58, 0.3);"
+                      onmouseover="this.style.background='rgba(232, 93, 58, 0.1)';"
+                      onmouseout="this.style.background='transparent';"
+                    >
+                      <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
+                      </svg>
+                      {doc.label}
+                    </a>
+                  ))}
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

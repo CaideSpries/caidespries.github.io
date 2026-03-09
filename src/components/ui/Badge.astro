@@ -1,0 +1,16 @@
+---
+interface Props {
+  text: string;
+  variant?: "primary" | "accent" | "neutral";
+}
+
+const { text, variant = "primary" } = Astro.props;
+
+const classes = {
+  primary: "bg-primary-50 text-primary-700 dark:bg-primary-900/30 dark:text-primary-300",
+  accent: "bg-amber-50 text-amber-700 dark:bg-amber-900/30 dark:text-amber-300",
+  neutral: "bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-400",
+};
+---
+
+<span class={`chip ${classes[variant]}`}>{text}</span>

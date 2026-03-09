@@ -1,0 +1,118 @@
+---
+import ThemeToggle from "./ThemeToggle.astro";
+
+const navLinks = [
+  { href: "#about", label: "About" },
+  { href: "#experience", label: "Work" },
+  { href: "#ventures", label: "Ventures" },
+  { href: "#projects", label: "Projects" },
+  { href: "#education", label: "Education" },
+  { href: "#skills", label: "Skills" },
+  { href: "#listening", label: "Listening" },
+];
+---
+
+<header
+  id="header"
+  class="fixed top-0 left-0 right-0 z-50 transition-all duration-300"
+>
+  <nav
+    class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16"
+  >
+    <a
+      href="#hero"
+      class="text-xl font-display font-black tracking-tight neon-text hover:opacity-80 transition-opacity"
+      style="font-family: var(--font-display);"
+    >
+      CS.
+    </a>
+
+    <div class="hidden md:flex items-center gap-1">
+      {
+        navLinks.map((link) => (
+          <a
+            href={link.href}
+            class="nav-link px-3 py-2 text-sm font-medium rounded-lg transition-colors hover:text-ember-500"
+            style="color: inherit;"
+          >
+            {link.label}
+          </a>
+        ))
+      }
+      <ThemeToggle />
+    </div>
+
+    <div class="flex items-center gap-2 md:hidden">
+      <ThemeToggle />
+      <button
+        id="mobile-menu-btn"
+        type="button"
+        aria-label="Toggle menu"
+        class="p-2 rounded-lg transition-colors hover:text-ember-500"
+      >
+        <svg
+          class="w-6 h-6"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="2"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
+        </svg>
+      </button>
+    </div>
+  </nav>
+
+  <div
+    id="mobile-menu"
+    class="hidden md:hidden backdrop-blur-sm border-t"
+    style="background: inherit; border-color: rgba(232, 213, 192, 0.1);"
+  >
+    <div class="px-4 py-3 space-y-1">
+      {
+        navLinks.map((link) => (
+          <a
+            href={link.href}
+            class="mobile-nav-link block px-3 py-2 text-base font-medium rounded-lg transition-colors hover:text-ember-500"
+          >
+            {link.label}
+          </a>
+        ))
+      }
+    </div>
+  </div>
+</header>
+
+<script>
+  const header = document.getElementById("header");
+  function updateHeader() {
+    if (!header) return;
+    if (window.scrollY > 50) {
+      header.style.backdropFilter = "blur(12px)";
+      header.style.background = document.documentElement.classList.contains("dark")
+        ? "rgba(8, 8, 8, 0.85)"
+        : "rgba(242, 232, 220, 0.85)";
+      header.style.boxShadow = "0 1px 0 rgba(232, 213, 192, 0.1)";
+    } else {
+      header.style.backdropFilter = "none";
+      header.style.background = "transparent";
+      header.style.boxShadow = "none";
+    }
+  }
+  window.addEventListener("scroll", updateHeader, { passive: true });
+  updateHeader();
+
+  const menuBtn = document.getElementById("mobile-menu-btn");
+  const mobileMenu = document.getElementById("mobile-menu");
+  menuBtn?.addEventListener("click", () => {
+    mobileMenu?.classList.toggle("hidden");
+  });
+  document.querySelectorAll(".mobile-nav-link").forEach((link) => {
+    link.addEventListener("click", () => {
+      mobileMenu?.classList.add("hidden");
+    });
+  });
+</script>
