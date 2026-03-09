@@ -3,13 +3,63 @@ import { loadProjects } from "../../lib/content/loader";
 
 const projects = loadProjects();
 
-// Project images can be added to public/img/portfolio/ when available
-const projectImages: Record<string, string> = {};
-
-// Map project types to SVG icon paths for placeholder visuals
-const typeIconPaths: Record<string, string> = {
-  "University Project": "M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5",
-  "Final-Year Research Project (EEE 4022S)": "M9.75 3.104v5.714a2.25 2.25 0 0 1-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 0 1 4.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0 1 12 15a9.065 9.065 0 0 0-6.23.693L5 14.5m14.8.8 1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0 1 12 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5",
+// Poster designs for each project — retro gig poster style
+const posterDesigns: Record<string, {
+  headline: string;
+  subline: string;
+  detail: string;
+  icon: string;
+  accent: string;
+  bg: string;
+}> = {
+  "topsis-network-selection": {
+    headline: "TOPSIS",
+    subline: "NETWORK SELECTION",
+    detail: "Wi-Fi / 4G / 2G",
+    icon: `<svg class="w-16 h-16" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M32 52v-8m0 0a8 8 0 100-16 8 8 0 000 16z"/><path d="M16 36c0-8.837 7.163-16 16-16s16 7.163 16 16" opacity="0.4"/><path d="M8 32c0-13.255 10.745-24 24-24s24 10.745 24 24" opacity="0.2"/></svg>`,
+    accent: "#e85d3a",
+    bg: "linear-gradient(160deg, #1a0a05 0%, #2d1208 40%, #0d0d0d 100%)",
+  },
+  "md5-md6-hashing": {
+    headline: "MD5 vs MD6",
+    subline: "HASHING SHOWDOWN",
+    detail: "C++ / Verilog / OpenCL",
+    icon: `<svg class="w-16 h-16" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="8" y="8" width="20" height="20" rx="2" opacity="0.3"/><rect x="36" y="8" width="20" height="20" rx="2" opacity="0.5"/><rect x="8" y="36" width="20" height="20" rx="2" opacity="0.5"/><rect x="36" y="36" width="20" height="20" rx="2" opacity="0.3"/><path d="M18 18l28 28M46 18L18 46" opacity="0.15" stroke-width="8"/></svg>`,
+    accent: "#f07044",
+    bg: "linear-gradient(160deg, #0d0805 0%, #1a1008 40%, #0d0d0d 100%)",
+  },
+  "iridium-satellite": {
+    headline: "IRIDIUM",
+    subline: "ANTARCTIC DATA PIPELINE",
+    detail: "STM32 / LZSS / Blowfish",
+    icon: `<svg class="w-16 h-16" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="32" cy="32" r="6"/><ellipse cx="32" cy="32" rx="28" ry="10" opacity="0.3"/><ellipse cx="32" cy="32" rx="28" ry="10" transform="rotate(60 32 32)" opacity="0.3"/><ellipse cx="32" cy="32" rx="28" ry="10" transform="rotate(120 32 32)" opacity="0.3"/></svg>`,
+    accent: "#d04a2a",
+    bg: "linear-gradient(160deg, #050a10 0%, #0a1520 40%, #0d0d0d 100%)",
+  },
+  "online-filters": {
+    headline: "FIR/IIR/DFT",
+    subline: "FILTER SHOWDOWN",
+    detail: "ESP32-CAM / Real-Time DSP",
+    icon: `<svg class="w-16 h-16" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 32 Q12 12 20 32 Q28 52 36 32 Q44 12 52 32 Q56 42 60 32" opacity="0.5"/><path d="M4 32 Q16 20 28 32 Q40 44 52 32 L60 32" opacity="0.25"/><line x1="4" y1="32" x2="60" y2="32" opacity="0.1"/></svg>`,
+    accent: "#e85d3a",
+    bg: "linear-gradient(160deg, #0d0a05 0%, #1a1005 40%, #0d0d0d 100%)",
+  },
+  "camera-trap": {
+    headline: "CAMERA TRAP",
+    subline: "KRUGER WILDLIFE MONITOR",
+    detail: "ESP32 / RPi / LAMP",
+    icon: `<svg class="w-16 h-16" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="10" y="18" width="44" height="32" rx="4" opacity="0.4"/><circle cx="32" cy="34" r="10"/><circle cx="32" cy="34" r="5" opacity="0.5"/><rect x="24" y="12" width="16" height="8" rx="2" opacity="0.3"/></svg>`,
+    accent: "#b03820",
+    bg: "linear-gradient(160deg, #0a0d05 0%, #151a08 40%, #0d0d0d 100%)",
+  },
+  "plastic-to-power": {
+    headline: "PLASTIC",
+    subline: "TO POWER",
+    detail: "Microwave Pyrolysis / H\u2082",
+    icon: `<svg class="w-16 h-16" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M32 56c-10 0-16-8-16-18 0-14 16-30 16-30s16 16 16 30c0 10-6 18-16 18z" opacity="0.4"/><path d="M32 56c-4 0-8-4-8-10 0-8 8-18 8-18s8 10 8 18c0 6-4 10-8 10z" opacity="0.3"/></svg>`,
+    accent: "#f07044",
+    bg: "linear-gradient(160deg, #100505 0%, #1a0808 40%, #0d0d0d 100%)",
+  },
 };
 ---
 
@@ -25,8 +75,7 @@ const typeIconPaths: Record<string, string> = {
         const isDistinction = project.result === "Distinction"
           || project.result.includes("First Class")
           || project.result.includes("81%");
-        const iconPath = typeIconPaths[project.type] || typeIconPaths["University Project"];
-        const previewText = project.overview || project.cvBullets[0] || project.whatIDid[0] || "";
+        const poster = posterDesigns[project.slug];
         const previewTechs = project.technologies.slice(0, 4);
         const extraTechCount = project.technologies.length - 4;
 
@@ -36,68 +85,62 @@ const typeIconPaths: Record<string, string> = {
             class="group retro-card overflow-hidden flex flex-col"
             data-animate
           >
-            {/* Card header / visual area */}
-            <div class="relative h-48 overflow-hidden" style="background: linear-gradient(135deg, rgba(232, 93, 58, 0.15), rgba(232, 213, 192, 0.05));">
-              {projectImages[project.slug] ? (
-                <img
-                  src={projectImages[project.slug]}
-                  alt={project.title}
-                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                  loading="lazy"
-                />
-              ) : (
-                <div class="flex flex-col items-center justify-center h-full gap-3">
-                  <svg class="w-14 h-14" style="color: rgba(232, 93, 58, 0.2);" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" d={iconPath} />
-                  </svg>
-                  {/* Subtle type label inside the visual area */}
-                  <span class="text-[10px] font-mono uppercase tracking-[0.15em]" style="color: rgba(232, 93, 58, 0.25);">
-                    {project.type.includes("Research") ? "Research" : "Project"}
-                  </span>
+            {/* Poster header */}
+            <div
+              class="relative h-56 overflow-hidden flex flex-col items-center justify-center text-center px-5 py-6 grain"
+              style={`background: ${poster?.bg || 'linear-gradient(160deg, #1a0a05, #0d0d0d)'};`}
+            >
+              {/* Decorative icon */}
+              {poster && (
+                <div class="absolute inset-0 flex items-center justify-center opacity-20 group-hover:opacity-30 transition-opacity duration-500" style={`color: ${poster.accent};`}>
+                  <Fragment set:html={poster.icon} />
                 </div>
               )}
 
-              {/* Hover overlay */}
-              <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4" style="background: linear-gradient(to top, rgba(8, 8, 8, 0.8), transparent);">
-                <span class="text-sm font-medium" style="color: #f2e8dc;">View details</span>
+              {/* Poster typography */}
+              <div class="relative z-10">
+                <p class="text-[10px] font-mono uppercase tracking-[0.25em] mb-2" style={`color: ${poster?.accent || '#e85d3a'}; opacity: 0.6;`}>
+                  UCT &bull; {project.year || "2024"}
+                </p>
+                <h3
+                  class="text-2xl md:text-3xl font-black leading-none tracking-tight group-hover:scale-105 transition-transform duration-300"
+                  style={`font-family: var(--font-display); color: #f2e8dc; text-shadow: 0 0 40px ${poster?.accent || '#e85d3a'}33;`}
+                >
+                  {poster?.headline || project.title}
+                </h3>
+                <p
+                  class="text-xs font-black uppercase tracking-[0.2em] mt-1.5"
+                  style={`color: ${poster?.accent || '#e85d3a'};`}
+                >
+                  {poster?.subline || ""}
+                </p>
+                <p class="text-[10px] font-mono mt-3 tracking-wide" style="color: rgba(242, 232, 220, 0.35);">
+                  {poster?.detail || ""}
+                </p>
               </div>
 
-              {/* Distinction badge — more prominent */}
+              {/* Distinction badge */}
               {isDistinction && (
-                <div class="absolute top-3 right-3">
+                <div class="absolute top-3 right-3 z-10">
                   <span class="spray-badge text-[10px]">
                     {project.result.includes("%") ? project.result : "Distinction"}
                   </span>
                 </div>
               )}
+
+              {/* Bottom edge line */}
+              <div class="absolute bottom-0 left-0 right-0 h-px" style={`background: linear-gradient(to right, transparent, ${poster?.accent || '#e85d3a'}44, transparent);`}></div>
             </div>
 
             {/* Card body */}
             <div class="p-5 flex flex-col flex-1">
-              {/* Course tag */}
-              {project.course && (
-                <p class="text-[10px] font-mono uppercase tracking-[0.12em] mb-2" style="color: var(--text-muted);">
-                  {project.course}
-                </p>
-              )}
-              {!project.course && project.year && (
-                <p class="text-[10px] font-mono uppercase tracking-[0.12em] mb-2" style="color: var(--text-muted);">
-                  {project.year}
-                </p>
-              )}
-
-              <h3 class="text-lg font-bold group-hover:text-ember-500 transition-colors mb-2" style="font-family: var(--font-display);">
+              <h4 class="text-sm font-bold mb-2 group-hover:text-ember-500 transition-colors" style="font-family: var(--font-display);">
                 {project.title}
-              </h3>
+              </h4>
 
-              {/* Overview text preview */}
-              <p class="text-sm leading-relaxed line-clamp-3 mb-4 flex-1" style="color: var(--text-secondary);">
-                {previewText}
-              </p>
-
-              {/* Technology chips preview */}
+              {/* Technology chips */}
               {previewTechs.length > 0 && (
-                <div class="flex flex-wrap gap-1.5 mt-auto">
+                <div class="flex flex-wrap gap-1.5 mt-auto pt-3">
                   {previewTechs.map((tech) => (
                     <span class="inline-block px-2 py-0.5 text-[11px] font-medium rounded-full" style="background: rgba(232, 93, 58, 0.08); color: #e85d3a;">
                       {tech}
