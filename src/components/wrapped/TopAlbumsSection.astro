@@ -1,0 +1,50 @@
+---
+interface Album {
+  rank: number;
+  name: string;
+  artist: string;
+  minutes: number;
+  streams: number;
+  uniqueTracks: number;
+}
+
+interface Props {
+  albums: Album[];
+}
+
+const { albums } = Astro.props;
+if (!albums?.length) return;
+---
+
+<section class="py-24 px-4">
+  <div class="max-w-5xl mx-auto">
+    <div class="text-center mb-16" data-animate>
+      <p class="text-sm font-mono uppercase tracking-[0.3em] mb-3" style="color: var(--text-muted);">Top 20</p>
+      <h2 class="text-5xl md:text-6xl font-black tracking-tight" style="font-family: var(--font-display);">
+        <span class="neon-text">Albums</span>
+      </h2>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {albums.slice(0, 20).map((album) => (
+        <div class="retro-card p-5" data-animate>
+          <div class="flex items-start gap-3">
+            <span class={`text-2xl font-black shrink-0 ${album.rank <= 3 ? "neon-text" : ""}`}
+              style={`font-family: var(--font-mono); ${album.rank > 3 ? "color: var(--text-faint);" : ""}`}>
+              {album.rank}
+            </span>
+            <div class="min-w-0">
+              <p class="text-sm font-bold truncate" style="font-family: var(--font-display);">{album.name}</p>
+              <p class="text-xs truncate" style="color: var(--text-muted);">{album.artist}</p>
+              <div class="flex gap-3 mt-2">
+                <span class="text-xs font-mono" style="color: var(--text-faint);">{album.minutes.toLocaleString()} min</span>
+                <span class="text-xs font-mono" style="color: var(--text-faint);">{album.streams} plays</span>
+                <span class="text-xs font-mono" style="color: var(--text-faint);">{album.uniqueTracks} tracks</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

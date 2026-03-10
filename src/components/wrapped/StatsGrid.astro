@@ -1,0 +1,69 @@
+---
+interface Props {
+  headline?: {
+    totalMinutes: number;
+    totalStreams: number;
+    uniqueArtists: number;
+    uniqueTracks: number;
+    uniqueAlbums: number;
+    daysActive: number;
+    avgMinutesPerDay: number;
+  };
+  stats?: {
+    totalTracks: number;
+    uniqueArtists: number;
+    uniqueAlbums: number;
+    avgTrackDuration: string;
+  };
+}
+
+const { headline, stats } = Astro.props;
+
+type Card = { value: string; label: string };
+let cards: Card[] = [];
+
+if (headline) {
+  cards = [
+    { value: headline.totalMinutes.toLocaleString(), label: "Minutes" },
+    { value: headline.totalStreams.toLocaleString(), label: "Streams" },
+    { value: headline.uniqueArtists.toLocaleString(), label: "Artists" },
+    { value: headline.uniqueTracks.toLocaleString(), label: "Tracks" },
+    { value: headline.uniqueAlbums.toLocaleString(), label: "Albums" },
+    { value: headline.daysActive.toString(), label: "Days Active" },
+    { value: headline.avgMinutesPerDay.toString(), label: "Avg Min/Day" },
+  ];
+} else if (stats) {
+  cards = [
+    { value: stats.uniqueArtists.toString(), label: "Artists" },
+    { value: stats.uniqueAlbums.toString(), label: "Albums" },
+    { value: stats.totalTracks.toString(), label: "Top Tracks" },
+    { value: stats.avgTrackDuration, label: "Avg Length" },
+  ];
+}
+---
+
+{cards.length > 0 && (
+  <section class="py-24 px-4 relative grain">
+    <div class="absolute inset-0" style="background: radial-gradient(ellipse at 30% 50%, rgba(232, 93, 58, 0.05) 0%, transparent 60%);"></div>
+    <div class="max-w-5xl mx-auto relative z-10">
+      <div class="text-center mb-16" data-animate>
+        <p class="text-sm font-mono uppercase tracking-[0.3em] mb-3" style="color: var(--text-muted);">By The</p>
+        <h2 class="text-5xl md:text-6xl font-black tracking-tight" style="font-family: var(--font-display);">
+          <span class="neon-text">Numbers</span>
+        </h2>
+      </div>
+      <div class={`grid ${headline ? "grid-cols-2 sm:grid-cols-3 lg:grid-cols-4" : "grid-cols-2 md:grid-cols-4"} gap-4`} data-animate>
+        {cards.map((card) => (
+          <div class="retro-card p-6 text-center">
+            <p class="text-3xl md:text-4xl font-black neon-text" style="font-family: var(--font-display);">
+              {card.value}
+            </p>
+            <p class="text-xs font-mono uppercase tracking-wider mt-2" style="color: var(--text-muted);">
+              {card.label}
+            </p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+)}

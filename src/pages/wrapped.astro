@@ -1,0 +1,70 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import YearSelector from "../components/wrapped/YearSelector.tsx";
+
+import indexData from "../data/wrapped/index.json";
+
+const { years, allTime } = indexData;
+const reversedYears = [...years].reverse();
+---
+
+<BaseLayout
+  title="Wrapped — Caide Spriestersbach"
+  description="My Spotify listening history wrapped — every year, every stat."
+>
+  <!-- HERO -->
+  <section class="min-h-screen flex flex-col items-center justify-center relative grain px-4">
+    <div class="absolute inset-0" style="background: radial-gradient(ellipse at 50% 40%, rgba(232, 93, 58, 0.08) 0%, transparent 70%);"></div>
+    <div class="relative z-10 text-center" data-animate>
+      <p class="text-sm font-mono uppercase tracking-[0.3em] mb-6" style="color: var(--text-muted);">
+        Spotify &bull; {allTime.firstYear}{allTime.latestYear !== allTime.firstYear && `–${allTime.latestYear}`}
+      </p>
+      <h1 class="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-black tracking-tight" style="font-family: var(--font-display);">
+        My <span class="neon-text">Wrapped</span>
+      </h1>
+      {allTime.totalMinutes ? (
+        <p class="text-lg mt-6" style="color: var(--text-secondary);">
+          {allTime.totalMinutes.toLocaleString()} minutes across {allTime.totalYears} {allTime.totalYears === 1 ? "year" : "years"}
+        </p>
+      ) : (
+        <p class="text-lg mt-6" style="color: var(--text-secondary);">
+          {allTime.totalYears} {allTime.totalYears === 1 ? "year" : "years"} of listening
+        </p>
+      )}
+    </div>
+    <div class="absolute bottom-8 animate-bounce" style="color: var(--text-faint);">
+      <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3" />
+      </svg>
+    </div>
+  </section>
+
+  <!-- YEAR PICKER -->
+  <section class="py-24 px-4">
+    <div class="max-w-5xl mx-auto">
+      <div class="text-center mb-16" data-animate>
+        <p class="text-sm font-mono uppercase tracking-[0.3em] mb-3" style="color: var(--text-muted);">Choose A</p>
+        <h2 class="text-5xl md:text-6xl font-black tracking-tight" style="font-family: var(--font-display);">
+          <span class="neon-text">Year</span>
+        </h2>
+      </div>
+      <div data-animate>
+        <YearSelector client:load years={reversedYears} />
+      </div>
+    </div>
+  </section>
+
+  <!-- CLOSING -->
+  <section class="min-h-[40vh] flex flex-col items-center justify-center px-4">
+    <div class="text-center" data-animate>
+      <a href="/"
+        class="inline-flex items-center gap-2 text-sm font-medium transition-colors hover:text-ember-500"
+        style="color: var(--text-secondary);">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
+        </svg>
+        Back to portfolio
+      </a>
+    </div>
+  </section>
+</BaseLayout>

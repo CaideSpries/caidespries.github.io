@@ -1,0 +1,135 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import YearNav from "../../components/wrapped/YearNav.astro";
+import HeroSection from "../../components/wrapped/HeroSection.astro";
+import StatsGrid from "../../components/wrapped/StatsGrid.astro";
+import TopArtistsSection from "../../components/wrapped/TopArtistsSection.astro";
+import TopTracksSection from "../../components/wrapped/TopTracksSection.astro";
+import TopAlbumsSection from "../../components/wrapped/TopAlbumsSection.astro";
+import TemporalSection from "../../components/wrapped/TemporalSection.astro";
+import BehaviorSection from "../../components/wrapped/BehaviorSection.astro";
+import StreaksSection from "../../components/wrapped/StreaksSection.astro";
+import DiscoverySection from "../../components/wrapped/DiscoverySection.astro";
+import DecadeBar from "../../components/wrapped/DecadeBar.astro";
+import ExtremesSection from "../../components/wrapped/ExtremesSection.astro";
+import ClosingSection from "../../components/wrapped/ClosingSection.astro";
+
+import indexData from "../../data/wrapped/index.json";
+
+export async function getStaticPaths() {
+  const modules = import.meta.glob("../../data/wrapped/*.json", {
+    eager: true,
+  });
+
+  return Object.entries(modules)
+    .filter(([path]) => /\/\d{4}\.json$/.test(path))
+    .map(([path, mod]) => {
+      const year = path.match(/(\d{4})\.json$/)![1];
+      return {
+        params: { year },
+        props: { data: (mod as any).default ?? mod },
+      };
+    });
+}
+
+const { data } = Astro.props as { data: any };
+const years = indexData.years.map((y: any) => y.year);
+
+// Normalize field names (old format: artists/tracks, new: topArtists/topTracks)
+const topArtists = data.topArtists || data.artists || [];
+const topTracks = data.topTracks || data.tracks || [];
+
+// For extended history years, merge API images if available
+let displayArtists = topArtists;
+let displayTracks = topTracks;
+
+if (data.source === "extended_history" && data.apiSnapshot) {
+  if (data.apiSnapshot.topArtists) {
+    const apiByName: Record<string, any> = {};
+    for (const a of data.apiSnapshot.topArtists) apiByName[a.name] = a;
+    displayArtists = topArtists.map((a: any) => ({
+      ...a,
+      image: apiByName[a.name]?.image || a.image,
+      url: apiByName[a.name]?.url || a.url,
+    }));
+  }
+  if (data.apiSnapshot.topTracks) {
+    const apiByKey: Record<string, any> = {};
+    for (const t of data.apiSnapshot.topTracks)
+      apiByKey[`${t.name}|||${t.artist}`] = t;
+    displayTracks = topTracks.map((t: any) => {
+      const api = apiByKey[`${t.name}|||${t.artist}`];
+      return {
+        ...t,
+        albumArt: api?.albumArt || t.albumArt,
+        url: api?.url || t.url,
+      };
+    });
+  }
+}
+
+const decades = data.stats?.decades || data.eras?.decades;
+---
+
+<BaseLayout
+  title={`${data.year} Wrapped — Caide Spriestersbach`}
+  description={`My ${data.year} Spotify listening wrapped — top artists, tracks, and stats.`}
+>
+  <YearNav year={data.year} years={years} />
+
+  <HeroSection
+    year={data.year}
+    source={data.source}
+    headline={data.headline}
+    stats={data.stats}
+  />
+
+  <StatsGrid headline={data.headline} stats={data.stats} />
+
+  <TopArtistsSection artists={displayArtists} />
+
+  <TopTracksSection
+    tracks={displayTracks}
+    topTrackArtists={data.stats?.topTrackArtists}
+  />
+
+  {data.topAlbums && data.topAlbums.length > 0 && (
+    <TopAlbumsSection albums={data.topAlbums} />
+  )}
+
+  {decades && decades.length > 0 && (
+    <section class="py-24 px-4">
+      <div class="max-w-5xl mx-auto">
+        <div class="text-center mb-16" data-animate>
+          <p class="text-sm font-mono uppercase tracking-[0.3em] mb-3" style="color: var(--text-muted);">Your</p>
+          <h2 class="text-5xl md:text-6xl font-black tracking-tight" style="font-family: var(--font-display);">
+            <span class="neon-text">Decades</span>
+          </h2>
+        </div>
+        <DecadeBar decades={decades} />
+      </div>
+    </section>
+  )}
+
+  {(data.extremes || data.stats?.longestTrack) && (
+    <section class="py-12 px-4">
+      <ExtremesSection extremes={data.extremes} stats={data.stats} />
+    </section>
+  )}
+
+  {data.temporal && <TemporalSection temporal={data.temporal} />}
+
+  {data.behavior && <BehaviorSection behavior={data.behavior} />}
+
+  {data.streaks && <StreaksSection streaks={data.streaks} />}
+
+  {data.discovery && <DiscoverySection discovery={data.discovery} />}
+
+  <ClosingSection
+    year={data.year}
+    years={years}
+    lastUpdated={data.lastUpdated || data.fetchedAt}
+    topArtist={displayArtists[0]?.name}
+    decades={decades}
+  />
+</BaseLayout>

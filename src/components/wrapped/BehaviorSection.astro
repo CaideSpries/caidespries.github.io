@@ -1,0 +1,88 @@
+---
+interface Props {
+  behavior: {
+    shuffleRate: number;
+    offlineRate: number;
+    skipRate: number;
+    reasonStart?: { reason: string; count: number }[];
+    reasonEnd?: { reason: string; count: number }[];
+  };
+}
+
+const { behavior } = Astro.props;
+if (!behavior) return;
+
+const pct = (v: number) => `${Math.round(v * 100)}%`;
+
+const cards = [
+  { label: "Shuffle Rate", value: pct(behavior.shuffleRate), desc: "of streams on shuffle" },
+  { label: "Skip Rate", value: pct(behavior.skipRate), desc: "of streams skipped" },
+  { label: "Offline", value: pct(behavior.offlineRate), desc: "listened offline" },
+];
+
+const reasonLabels: Record<string, string> = {
+  trackdone: "Track ended",
+  fwdbtn: "Skipped forward",
+  backbtn: "Skipped back",
+  clickrow: "Clicked track",
+  playbtn: "Pressed play",
+  appload: "App opened",
+  remote: "Remote control",
+  endplay: "Playback ended",
+  logout: "Logged out",
+  unknown: "Unknown",
+};
+---
+
+<section class="py-24 px-4">
+  <div class="max-w-5xl mx-auto">
+    <div class="text-center mb-16" data-animate>
+      <p class="text-sm font-mono uppercase tracking-[0.3em] mb-3" style="color: var(--text-muted);">How You</p>
+      <h2 class="text-5xl md:text-6xl font-black tracking-tight" style="font-family: var(--font-display);">
+        <span class="neon-text">Listened</span>
+      </h2>
+    </div>
+
+    <div class="grid sm:grid-cols-3 gap-4 mb-8" data-animate>
+      {cards.map((card) => (
+        <div class="retro-card p-6 text-center">
+          <p class="text-4xl md:text-5xl font-black neon-text" style="font-family: var(--font-display);">
+            {card.value}
+          </p>
+          <p class="text-xs font-mono uppercase tracking-wider mt-2" style="color: var(--text-muted);">
+            {card.label}
+          </p>
+          <p class="text-xs mt-1" style="color: var(--text-faint);">{card.desc}</p>
+        </div>
+      ))}
+    </div>
+
+    {behavior.reasonEnd && behavior.reasonEnd.length > 0 && (
+      <div class="retro-card p-6 md:p-8" data-animate>
+        <p class="text-xs font-mono uppercase tracking-[0.2em] mb-6 text-center" style="color: var(--text-muted);">
+          How tracks ended
+        </p>
+        <div class="max-w-lg mx-auto space-y-2">
+          {behavior.reasonEnd.slice(0, 6).map((r, i) => {
+            const maxCount = behavior.reasonEnd![0].count;
+            const widthPct = (r.count / maxCount) * 100;
+            return (
+              <div class="flex items-center gap-3">
+                <span class="text-xs w-28 text-right truncate" style="color: var(--text-secondary);">
+                  {reasonLabels[r.reason] || r.reason}
+                </span>
+                <div class="flex-1 h-5 rounded overflow-hidden" style="background: rgba(232, 213, 192, 0.05);">
+                  <div class="h-full rounded"
+                    style={`width: ${widthPct}%; background: rgba(232, 93, 58, ${0.15 + (1 - i / 6) * 0.4});`}></div>
+                </div>
+                <span class="text-[10px] font-mono w-14 text-right" style="color: var(--text-faint);">
+                  {r.count.toLocaleString()}
+                </span>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    )}
+  </div>
+</section>

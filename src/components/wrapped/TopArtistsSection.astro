@@ -1,0 +1,118 @@
+---
+interface Artist {
+  rank: number;
+  name: string;
+  image?: string;
+  url?: string;
+  minutes?: number;
+  streams?: number;
+}
+
+interface Props {
+  artists: Artist[];
+}
+
+const { artists } = Astro.props;
+if (!artists?.length) return;
+
+const top = artists[0];
+const hasImages = !!top.image;
+const hasMinutes = !!top.minutes;
+---
+
+<section class="min-h-screen flex items-center justify-center py-24 px-4">
+  <div class="max-w-5xl mx-auto w-full">
+    <div class="text-center mb-16" data-animate>
+      <p class="text-sm font-mono uppercase tracking-[0.3em] mb-3" style="color: var(--text-muted);">Top 10</p>
+      <h2 class="text-5xl md:text-6xl font-black tracking-tight" style="font-family: var(--font-display);">
+        <span class="neon-text">Artists</span>
+      </h2>
+    </div>
+
+    <!-- #1 Artist — hero -->
+    <div class="mb-10" data-animate>
+      <a href={top.url || "#"} target={top.url ? "_blank" : undefined} rel={top.url ? "noopener noreferrer" : undefined}
+        class="group retro-card overflow-hidden flex flex-col sm:flex-row items-center gap-6 sm:gap-10 p-6 sm:p-8">
+        <div class="relative shrink-0">
+          <span class="absolute -top-3 -left-3 text-8xl sm:text-9xl font-black z-10 select-none"
+            style="font-family: var(--font-display); color: #e85d3a; opacity: 0.2; line-height: 1;">1</span>
+          {hasImages ? (
+            <img src={top.image} alt={top.name}
+              class="w-40 h-40 sm:w-52 sm:h-52 rounded-full object-cover group-hover:scale-105 transition-transform duration-500"
+              style="box-shadow: 0 0 60px rgba(232, 93, 58, 0.2);" loading="lazy" />
+          ) : (
+            <div class="w-40 h-40 sm:w-52 sm:h-52 rounded-full flex items-center justify-center"
+              style="background: rgba(232, 93, 58, 0.1);">
+              <span class="text-6xl font-black neon-text" style="font-family: var(--font-display);">1</span>
+            </div>
+          )}
+        </div>
+        <div>
+          <p class="text-xs font-mono uppercase tracking-[0.2em] mb-2" style="color: #e85d3a;">No. 1 Artist</p>
+          <h3 class="text-3xl sm:text-4xl md:text-5xl font-black tracking-tight group-hover:text-ember-500 transition-colors"
+            style="font-family: var(--font-display);">
+            {top.name}
+          </h3>
+          {hasMinutes && (
+            <p class="text-sm mt-2" style="color: var(--text-muted);">
+              {top.minutes?.toLocaleString()} min &bull; {top.streams?.toLocaleString()} streams
+            </p>
+          )}
+        </div>
+      </a>
+    </div>
+
+    <!-- Artists 2-5 — medium cards -->
+    <div class="grid sm:grid-cols-2 gap-4 mb-4">
+      {artists.slice(1, 5).map((artist, i) => (
+        <a href={artist.url || "#"} target={artist.url ? "_blank" : undefined} rel={artist.url ? "noopener noreferrer" : undefined}
+          class="group retro-card overflow-hidden flex items-center gap-5 p-5" data-animate>
+          <div class="relative shrink-0">
+            <span class="absolute -top-2 -left-2 text-5xl font-black z-10 select-none"
+              style={`font-family: var(--font-display); color: #e85d3a; opacity: ${0.18 - i * 0.02}; line-height: 1;`}>
+              {artist.rank}
+            </span>
+            {artist.image ? (
+              <img src={artist.image} alt={artist.name}
+                class="w-20 h-20 rounded-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+            ) : (
+              <div class="w-20 h-20 rounded-full flex items-center justify-center" style="background: rgba(232, 93, 58, 0.08);">
+                <span class="text-2xl font-black" style="color: #e85d3a; opacity: 0.3;">{artist.rank}</span>
+              </div>
+            )}
+          </div>
+          <div class="min-w-0">
+            <p class="text-[10px] font-mono uppercase tracking-[0.2em] mb-1" style="color: var(--text-faint);">No. {artist.rank}</p>
+            <h3 class="text-lg font-bold truncate group-hover:text-ember-500 transition-colors" style="font-family: var(--font-display);">
+              {artist.name}
+            </h3>
+            {artist.minutes && (
+              <p class="text-xs mt-1" style="color: var(--text-muted);">{artist.minutes.toLocaleString()} min</p>
+            )}
+          </div>
+        </a>
+      ))}
+    </div>
+
+    <!-- Artists 6-10 — compact -->
+    <div class="grid sm:grid-cols-5 gap-3" data-animate>
+      {artists.slice(5, 10).map((artist) => (
+        <a href={artist.url || "#"} target={artist.url ? "_blank" : undefined} rel={artist.url ? "noopener noreferrer" : undefined}
+          class="group retro-card flex flex-col items-center text-center p-4">
+          {artist.image ? (
+            <img src={artist.image} alt={artist.name}
+              class="w-16 h-16 rounded-full object-cover mb-3 group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+          ) : (
+            <div class="w-16 h-16 rounded-full flex items-center justify-center mb-3" style="background: rgba(232, 93, 58, 0.06);">
+              <span class="text-lg font-black" style="color: #e85d3a; opacity: 0.3;">{artist.rank}</span>
+            </div>
+          )}
+          <span class="text-xs font-mono mb-1" style="color: #e85d3a; opacity: 0.5;">{artist.rank}</span>
+          <p class="text-xs font-bold truncate w-full group-hover:text-ember-500 transition-colors" style="font-family: var(--font-display);">
+            {artist.name}
+          </p>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>

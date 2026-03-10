@@ -1,0 +1,48 @@
+---
+interface Props {
+  year: number;
+  years: number[];
+}
+
+const { year, years } = Astro.props;
+const idx = years.indexOf(year);
+const prev = idx > 0 ? years[idx - 1] : null;
+const next = idx < years.length - 1 ? years[idx + 1] : null;
+---
+
+<nav class="sticky top-16 z-30 backdrop-blur-md py-3 px-4 border-b" style="border-color: var(--border-subtle);">
+  <div class="absolute inset-0 opacity-90 main-bg"></div>
+  <div class="max-w-5xl mx-auto flex items-center justify-between relative z-10">
+    {prev ? (
+      <a href={`/wrapped/${prev}`}
+        class="flex items-center gap-1 text-sm font-mono hover:text-ember-500 transition-colors"
+        style="color: var(--text-secondary);">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+        </svg>
+        {prev}
+      </a>
+    ) : <div />}
+
+    <div class="flex items-center gap-3">
+      <a href="/wrapped"
+        class="text-xs font-mono uppercase tracking-wider hover:text-ember-500 transition-colors"
+        style="color: var(--text-muted);">
+        All Years
+      </a>
+      <span style="color: var(--text-faint);">|</span>
+      <span class="text-sm font-bold neon-text">{year}</span>
+    </div>
+
+    {next ? (
+      <a href={`/wrapped/${next}`}
+        class="flex items-center gap-1 text-sm font-mono hover:text-ember-500 transition-colors"
+        style="color: var(--text-secondary);">
+        {next}
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+        </svg>
+      </a>
+    ) : <div />}
+  </div>
+</nav>

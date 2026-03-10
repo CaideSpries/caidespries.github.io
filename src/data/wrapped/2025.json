@@ -1,0 +1,359 @@
+{
+  "year": 2025,
+  "fetchedAt": "2026-03-10T15:26:22.072Z",
+  "artists": [
+    {
+      "rank": 1,
+      "name": "Red Hot Chili Peppers",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc33cc15260b767ddec982ce8",
+      "url": "https://open.spotify.com/artist/0L8ExT028jH3ddEcZwqJJ5"
+    },
+    {
+      "rank": 2,
+      "name": "Rodríguez",
+      "image": "https://i.scdn.co/image/d1d0f4b212e16eb6bf079e8e7bae11828378a2bc",
+      "url": "https://open.spotify.com/artist/5PrHzxc3kFm4hIrGNmelpX"
+    },
+    {
+      "rank": 3,
+      "name": "Led Zeppelin",
+      "image": "https://i.scdn.co/image/207803ce008388d3427a685254f9de6a8f61dc2e",
+      "url": "https://open.spotify.com/artist/36QJpDe2go2KgaRleHCDTp"
+    },
+    {
+      "rank": 4,
+      "name": "andhim",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd7d74c48f97de722a7871d9f",
+      "url": "https://open.spotify.com/artist/6XJeFzmI6vrWyHcdB7EImP"
+    },
+    {
+      "rank": 5,
+      "name": "The Rolling Stones",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebe4cea917b68726aadb4854b8",
+      "url": "https://open.spotify.com/artist/22bE4uQ6baNwSHPVcDxLCe"
+    },
+    {
+      "rank": 6,
+      "name": "Queen",
+      "image": "https://i.scdn.co/image/ab6772690000dd2247488c35a509d42072c23976",
+      "url": "https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d"
+    },
+    {
+      "rank": 7,
+      "name": "Black Sabbath",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb4870cd833ebe1092601820c3",
+      "url": "https://open.spotify.com/artist/5M52tdBnJaKSvOpJGz8mfZ"
+    },
+    {
+      "rank": 8,
+      "name": "Fleetwood Mac",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc8752dd511cda8c31e9daee8",
+      "url": "https://open.spotify.com/artist/08GQAI4eElDnROBrJRGE0X"
+    },
+    {
+      "rank": 9,
+      "name": "Super Flu",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb61cbdc6dea665ca3c3142c98",
+      "url": "https://open.spotify.com/artist/1iZiG82D4w7FLHvOUUj4zW"
+    },
+    {
+      "rank": 10,
+      "name": "Mac Miller",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebed3b89aa602145fde71a163a",
+      "url": "https://open.spotify.com/artist/4LLpKhyESsyAXpc4laK94U"
+    }
+  ],
+  "tracks": [
+    {
+      "rank": 1,
+      "name": "12 to 12",
+      "artist": "sombr",
+      "album": "I Barely Know Her",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2734229702de91cb3d3a4383302",
+      "url": "https://open.spotify.com/track/05od2qm2MTSKCHxy1GBp5W",
+      "durationMs": 242903,
+      "duration": "4:02",
+      "explicit": false
+    },
+    {
+      "rank": 2,
+      "name": "Bless the Telephone",
+      "artist": "Labi Siffre",
+      "album": "The Singer and the Song",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b27397be3134250560894d37de57",
+      "url": "https://open.spotify.com/track/0620OecAlwJQxWieRW4L9s",
+      "durationMs": 100746,
+      "duration": "1:40",
+      "explicit": false
+    },
+    {
+      "rank": 3,
+      "name": "My My, Hey Hey (Out of the Blue) - 2016 Remaster",
+      "artist": "Neil Young, Crazy Horse",
+      "album": "Rust Never Sleeps",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273db0caaa2b01471d6068053a8",
+      "url": "https://open.spotify.com/track/6VltRkmJbCTqgKrTHk4Ulw",
+      "durationMs": 227705,
+      "duration": "3:47",
+      "explicit": false
+    },
+    {
+      "rank": 4,
+      "name": "Nutshell",
+      "artist": "Alice In Chains",
+      "album": "Jar Of Flies",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b27325b42be683b8d3c6500db726",
+      "url": "https://open.spotify.com/track/2JuasWPUodaUxf5nwNpciQ",
+      "durationMs": 259200,
+      "duration": "4:19",
+      "explicit": false
+    },
+    {
+      "rank": 5,
+      "name": "Talk of the Town",
+      "artist": "Fred again.., Sammy Virji, Reggie",
+      "album": "USB",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2732be7e3160b7f3df91c239e97",
+      "url": "https://open.spotify.com/track/2lBhjQtKFfpCtTyln9RX3M",
+      "durationMs": 193846,
+      "duration": "3:13",
+      "explicit": true
+    },
+    {
+      "rank": 6,
+      "name": "Come Together - Remastered 2009",
+      "artist": "The Beatles",
+      "album": "Abbey Road (Remastered)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273dc30583ba717007b00cceb25",
+      "url": "https://open.spotify.com/track/2EqlS6tkEnglzr7tkKAAYD",
+      "durationMs": 259946,
+      "duration": "4:19",
+      "explicit": false
+    },
+    {
+      "rank": 7,
+      "name": "When I See You - Super Flu Remix",
+      "artist": "Fritz Kalkbrenner, Super Flu",
+      "album": "When I See You (Super Flu Remix)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b27328265f5d85129ea053d5a99d",
+      "url": "https://open.spotify.com/track/4a9WGirpUwaonGcdOG4RbO",
+      "durationMs": 215923,
+      "duration": "3:35",
+      "explicit": false
+    },
+    {
+      "rank": 8,
+      "name": "Crucify Your Mind",
+      "artist": "Rodríguez",
+      "album": "Cold Fact",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273e7e1b574a9e6b9f26c7c3f49",
+      "url": "https://open.spotify.com/track/2Xn7NadvZ56D0B2D7x2CSL",
+      "durationMs": 152346,
+      "duration": "2:32",
+      "explicit": false
+    },
+    {
+      "rank": 9,
+      "name": "Start Me Up - Remastered 2009",
+      "artist": "The Rolling Stones",
+      "album": "Tattoo You (2009 Re-Mastered)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b27308fc42e575043a753f60d675",
+      "url": "https://open.spotify.com/track/7HKez549fwJQDzx3zLjHKC",
+      "durationMs": 213066,
+      "duration": "3:33",
+      "explicit": false
+    },
+    {
+      "rank": 10,
+      "name": "Howling - Âme Remix",
+      "artist": "Howling, RY X, Frank Wiedemann, Âme",
+      "album": "Howling (Âme Remix)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2731b3262b9b023c904a04b425b",
+      "url": "https://open.spotify.com/track/78jIj6Ph2364zg1ZVIvbIN",
+      "durationMs": 485220,
+      "duration": "8:05",
+      "explicit": false
+    },
+    {
+      "rank": 11,
+      "name": "La Llama - Super Flu Remix - Mixed",
+      "artist": "Inamo, Super Flu, Niña indigo",
+      "album": "trueSessions: 005 (DJ Mix)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b27391278e4e20336c704b98d52c",
+      "url": "https://open.spotify.com/track/2CeEEQ6w87zwyQJsuDevkZ",
+      "durationMs": 432912,
+      "duration": "7:12",
+      "explicit": false
+    },
+    {
+      "rank": 12,
+      "name": "No Rest for the Wicked - Joris Voorn Remix",
+      "artist": "Lykke Li, Joris Voorn",
+      "album": "No Rest for the Wicked (Remixes)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b27390d3ca9679b1e5de904dbc30",
+      "url": "https://open.spotify.com/track/4F9FCeqh9sqCxb6y14yc6h",
+      "durationMs": 366049,
+      "duration": "6:06",
+      "explicit": false
+    },
+    {
+      "rank": 13,
+      "name": "Wit Skoene",
+      "artist": "Loufi, Jayms",
+      "album": "Gan Se Jou Mense",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273e1548c7163575611e44d34d3",
+      "url": "https://open.spotify.com/track/6dTRMbokLOvbi1gnjT0gcu",
+      "durationMs": 279493,
+      "duration": "4:39",
+      "explicit": false
+    },
+    {
+      "rank": 14,
+      "name": "Carry on Wayward Son",
+      "artist": "Kansas",
+      "album": "Leftoverture (Expanded Edition)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2731be40e44db112e123e5e8b51",
+      "url": "https://open.spotify.com/track/4DMKwE2E2iYDKY01C335Uw",
+      "durationMs": 323000,
+      "duration": "5:23",
+      "explicit": false
+    },
+    {
+      "rank": 15,
+      "name": "Africa",
+      "artist": "TOTO",
+      "album": "Toto IV",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273ebd6d20c0082524244ef83df",
+      "url": "https://open.spotify.com/track/2374M0fQpWi3dLnB54qaLX",
+      "durationMs": 295282,
+      "duration": "4:55",
+      "explicit": false
+    },
+    {
+      "rank": 16,
+      "name": "Highway Tune",
+      "artist": "Greta Van Fleet",
+      "album": "From The Fires",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b27357b7f789d328c205b4d15893",
+      "url": "https://open.spotify.com/track/7aOor99o8NNLZYElOXlBG1",
+      "durationMs": 180640,
+      "duration": "3:00",
+      "explicit": false
+    },
+    {
+      "rank": 17,
+      "name": "Cornflake Boy - Solomun Remix - Vocal",
+      "artist": "Marbert Rocel, Solomun",
+      "album": "Cornflake Boy (Remix EP)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273d1346f27909dc928716870ba",
+      "url": "https://open.spotify.com/track/7bd3Afb3wFvfAyiAm4Yjnu",
+      "durationMs": 393586,
+      "duration": "6:33",
+      "explicit": false
+    },
+    {
+      "rank": 18,
+      "name": "This Is Not a Song, It's an Outburst: Or, the Establishment Blues",
+      "artist": "Rodríguez",
+      "album": "Cold Fact",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273e7e1b574a9e6b9f26c7c3f49",
+      "url": "https://open.spotify.com/track/4Dgus4Z1Dtbkv3BOnuwFf5",
+      "durationMs": 126866,
+      "duration": "2:06",
+      "explicit": false
+    },
+    {
+      "rank": 19,
+      "name": "Take It Easy - 2013 Remaster",
+      "artist": "Eagles",
+      "album": "Eagles (2013 Remaster)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273c13acd642ba9f6f5f127aa1b",
+      "url": "https://open.spotify.com/track/4yugZvBYaoREkJKtbG08Qr",
+      "durationMs": 211577,
+      "duration": "3:31",
+      "explicit": false
+    },
+    {
+      "rank": 20,
+      "name": "Like Janis",
+      "artist": "Rodríguez",
+      "album": "Cold Fact",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273e7e1b574a9e6b9f26c7c3f49",
+      "url": "https://open.spotify.com/track/6inwNRiGXUCjuPdEvW0ygq",
+      "durationMs": 156013,
+      "duration": "2:36",
+      "explicit": false
+    }
+  ],
+  "stats": {
+    "totalTracks": 50,
+    "uniqueArtists": 59,
+    "uniqueAlbums": 45,
+    "totalDurationMs": 13929851,
+    "totalDuration": "232:09",
+    "avgTrackDuration": "4:38",
+    "longestTrack": {
+      "name": "Hi Life - Cheeky Bold Cover",
+      "artist": "Monkey Safari",
+      "duration": "11:06"
+    },
+    "shortestTrack": {
+      "name": "Bless the Telephone",
+      "artist": "Labi Siffre",
+      "duration": "1:40"
+    },
+    "topTrackArtists": [
+      {
+        "name": "Rodríguez",
+        "count": 5
+      },
+      {
+        "name": "Red Hot Chili Peppers",
+        "count": 4
+      },
+      {
+        "name": "Super Flu",
+        "count": 2
+      },
+      {
+        "name": "sombr",
+        "count": 1
+      },
+      {
+        "name": "Labi Siffre",
+        "count": 1
+      }
+    ],
+    "decades": [
+      {
+        "decade": "1970s",
+        "count": 14
+      },
+      {
+        "decade": "2010s",
+        "count": 11
+      },
+      {
+        "decade": "1990s",
+        "count": 9
+      },
+      {
+        "decade": "2020s",
+        "count": 7
+      },
+      {
+        "decade": "1980s",
+        "count": 4
+      },
+      {
+        "decade": "2000s",
+        "count": 4
+      },
+      {
+        "decade": "1960s",
+        "count": 1
+      }
+    ]
+  },
+  "source": "api_snapshot"
+}

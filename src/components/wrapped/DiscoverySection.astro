@@ -1,0 +1,93 @@
+---
+interface Props {
+  discovery: {
+    newArtists: number;
+    newTracks: number;
+    discoveryRate: number;
+    topNewArtists: { name: string; minutes: number }[];
+    topNewTracks: { name: string; artist: string; streams: number }[];
+  };
+}
+
+const { discovery } = Astro.props;
+if (!discovery) return;
+
+const pct = Math.round(discovery.discoveryRate * 100);
+---
+
+<section class="py-24 px-4">
+  <div class="max-w-5xl mx-auto">
+    <div class="text-center mb-16" data-animate>
+      <p class="text-sm font-mono uppercase tracking-[0.3em] mb-3" style="color: var(--text-muted);">New</p>
+      <h2 class="text-5xl md:text-6xl font-black tracking-tight" style="font-family: var(--font-display);">
+        <span class="neon-text">Discoveries</span>
+      </h2>
+    </div>
+
+    <div class="grid sm:grid-cols-3 gap-4 mb-12" data-animate>
+      <div class="retro-card p-6 text-center">
+        <p class="text-4xl font-black neon-text" style="font-family: var(--font-display);">
+          {discovery.newArtists}
+        </p>
+        <p class="text-xs font-mono uppercase tracking-wider mt-2" style="color: var(--text-muted);">New Artists</p>
+      </div>
+      <div class="retro-card p-6 text-center">
+        <p class="text-4xl font-black neon-text" style="font-family: var(--font-display);">
+          {discovery.newTracks}
+        </p>
+        <p class="text-xs font-mono uppercase tracking-wider mt-2" style="color: var(--text-muted);">New Tracks</p>
+      </div>
+      <div class="retro-card p-6 text-center">
+        <p class="text-4xl font-black neon-text" style="font-family: var(--font-display);">
+          {pct}%
+        </p>
+        <p class="text-xs font-mono uppercase tracking-wider mt-2" style="color: var(--text-muted);">Discovery Rate</p>
+      </div>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-6">
+      {discovery.topNewArtists.length > 0 && (
+        <div class="retro-card p-6" data-animate>
+          <p class="text-xs font-mono uppercase tracking-[0.2em] mb-4" style="color: #e85d3a;">
+            Top new artists
+          </p>
+          <div class="space-y-3">
+            {discovery.topNewArtists.map((a, i) => (
+              <div class="flex items-center gap-3">
+                <span class="text-lg font-black w-6 text-right" style={`font-family: var(--font-mono); color: ${i < 3 ? "#e85d3a" : "var(--text-faint)"};`}>
+                  {i + 1}
+                </span>
+                <div class="flex-1 min-w-0">
+                  <p class="text-sm font-bold truncate" style="font-family: var(--font-display);">{a.name}</p>
+                </div>
+                <span class="text-xs font-mono shrink-0" style="color: var(--text-faint);">{a.minutes} min</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {discovery.topNewTracks.length > 0 && (
+        <div class="retro-card p-6" data-animate>
+          <p class="text-xs font-mono uppercase tracking-[0.2em] mb-4" style="color: #e85d3a;">
+            Top new tracks
+          </p>
+          <div class="space-y-3">
+            {discovery.topNewTracks.map((t, i) => (
+              <div class="flex items-center gap-3">
+                <span class="text-lg font-black w-6 text-right" style={`font-family: var(--font-mono); color: ${i < 3 ? "#e85d3a" : "var(--text-faint)"};`}>
+                  {i + 1}
+                </span>
+                <div class="flex-1 min-w-0">
+                  <p class="text-sm font-bold truncate" style="font-family: var(--font-display);">{t.name}</p>
+                  <p class="text-xs truncate" style="color: var(--text-muted);">{t.artist}</p>
+                </div>
+                <span class="text-xs font-mono shrink-0" style="color: var(--text-faint);">{t.streams}x</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
+  </div>
+</section>

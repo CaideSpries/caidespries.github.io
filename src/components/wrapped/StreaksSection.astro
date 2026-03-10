@@ -1,0 +1,78 @@
+---
+interface Props {
+  streaks: {
+    longestDailyStreak: { days: number; start: string; end: string };
+    longestBreak: { days: number; start: string; end: string };
+    biggestDay: { date: string; minutes: number } | null;
+    mostRepeatedTrack: { name: string; artist: string; count: number; date: string } | null;
+  };
+}
+
+const { streaks } = Astro.props;
+if (!streaks) return;
+
+function fmtDate(d: string) {
+  return new Date(d).toLocaleDateString("en-ZA", { month: "short", day: "numeric" });
+}
+---
+
+<section class="py-24 px-4 relative grain">
+  <div class="absolute inset-0" style="background: radial-gradient(ellipse at 50% 60%, rgba(232, 93, 58, 0.04) 0%, transparent 60%);"></div>
+  <div class="max-w-5xl mx-auto relative z-10">
+    <div class="text-center mb-16" data-animate>
+      <p class="text-sm font-mono uppercase tracking-[0.3em] mb-3" style="color: var(--text-muted);">Streaks &</p>
+      <h2 class="text-5xl md:text-6xl font-black tracking-tight" style="font-family: var(--font-display);">
+        <span class="neon-text">Records</span>
+      </h2>
+    </div>
+
+    <div class="grid sm:grid-cols-2 gap-4" data-animate>
+      <div class="retro-card p-6">
+        <p class="text-xs font-mono uppercase tracking-[0.2em] mb-3" style="color: #e85d3a;">Longest streak</p>
+        <p class="text-4xl font-black neon-text" style="font-family: var(--font-display);">
+          {streaks.longestDailyStreak.days} days
+        </p>
+        <p class="text-sm mt-2" style="color: var(--text-muted);">
+          {fmtDate(streaks.longestDailyStreak.start)} — {fmtDate(streaks.longestDailyStreak.end)}
+        </p>
+      </div>
+
+      <div class="retro-card p-6">
+        <p class="text-xs font-mono uppercase tracking-[0.2em] mb-3" style="color: #e85d3a;">Longest break</p>
+        <p class="text-4xl font-black" style="font-family: var(--font-display); color: var(--text-secondary);">
+          {streaks.longestBreak.days} days
+        </p>
+        <p class="text-sm mt-2" style="color: var(--text-muted);">
+          {fmtDate(streaks.longestBreak.start)} — {fmtDate(streaks.longestBreak.end)}
+        </p>
+      </div>
+
+      {streaks.biggestDay && (
+        <div class="retro-card p-6">
+          <p class="text-xs font-mono uppercase tracking-[0.2em] mb-3" style="color: #e85d3a;">Biggest day</p>
+          <p class="text-4xl font-black neon-text" style="font-family: var(--font-display);">
+            {streaks.biggestDay.minutes.toLocaleString()} min
+          </p>
+          <p class="text-sm mt-2" style="color: var(--text-muted);">
+            {fmtDate(streaks.biggestDay.date)}
+          </p>
+        </div>
+      )}
+
+      {streaks.mostRepeatedTrack && (
+        <div class="retro-card p-6">
+          <p class="text-xs font-mono uppercase tracking-[0.2em] mb-3" style="color: #e85d3a;">Most repeated (one day)</p>
+          <p class="text-3xl font-black neon-text" style="font-family: var(--font-display);">
+            {streaks.mostRepeatedTrack.count}x
+          </p>
+          <p class="text-sm font-bold mt-2" style="font-family: var(--font-display);">
+            {streaks.mostRepeatedTrack.name}
+          </p>
+          <p class="text-xs" style="color: var(--text-muted);">
+            {streaks.mostRepeatedTrack.artist} &bull; {fmtDate(streaks.mostRepeatedTrack.date)}
+          </p>
+        </div>
+      )}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,17 @@
+{
+  "years": [
+    {
+      "year": 2025,
+      "source": "api_snapshot",
+      "topArtist": "Red Hot Chili Peppers",
+      "topTrack": "12 to 12",
+      "lastUpdated": "2026-03-10T15:26:22.072Z",
+      "uniqueArtists": 59
+    }
+  ],
+  "allTime": {
+    "totalYears": 1,
+    "firstYear": 2025,
+    "latestYear": 2025
+  }
+}

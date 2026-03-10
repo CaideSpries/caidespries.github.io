@@ -1,0 +1,33 @@
+---
+interface Props {
+  decades: { decade: string; count: number }[];
+}
+
+const { decades } = Astro.props;
+if (!decades?.length) return;
+
+const maxCount = decades[0].count;
+---
+
+<div class="retro-card p-6 md:p-8" data-animate>
+  <p class="text-xs font-mono uppercase tracking-[0.2em] mb-6 text-center" style="color: var(--text-muted);">
+    Decades in your top tracks
+  </p>
+  <div class="flex flex-wrap items-end justify-center gap-4 md:gap-6">
+    {decades.map((d, i) => {
+      const heightPct = (d.count / maxCount) * 100;
+      return (
+        <div class="flex flex-col items-center gap-2">
+          <span class="text-xs font-mono" style="color: var(--text-faint);">{d.count}</span>
+          <div class="w-10 md:w-14 rounded-t-lg transition-all"
+            style={`height: ${Math.max(heightPct * 1.5, 16)}px; background: rgba(232, 93, 58, ${0.15 + (1 - i / decades.length) * 0.5});`}>
+          </div>
+          <span class={`text-xs font-bold ${i === 0 ? "neon-text" : ""}`}
+            style={i !== 0 ? "color: var(--text-secondary);" : ""}>
+            {d.decade}
+          </span>
+        </div>
+      );
+    })}
+  </div>
+</div>
