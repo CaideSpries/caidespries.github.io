@@ -17,20 +17,7 @@ export default function CVDownload() {
         href={CV_OPTIONS[0].file}
         target="_blank"
         rel="noopener noreferrer"
-        className="inline-flex items-center gap-2 px-6 py-3 font-semibold rounded-xl transition-all"
-        style={{
-          background: "#e85d3a",
-          color: "#080808",
-          boxShadow: "0 0 20px rgba(232, 93, 58, 0.3)",
-        }}
-        onMouseOver={(e) => {
-          e.currentTarget.style.boxShadow =
-            "0 0 30px rgba(232, 93, 58, 0.5)";
-        }}
-        onMouseOut={(e) => {
-          e.currentTarget.style.boxShadow =
-            "0 0 20px rgba(232, 93, 58, 0.3)";
-        }}
+        className="hero-cv-btn inline-flex items-center gap-2 px-6 py-3 font-semibold rounded-xl transition-all"
       >
         <svg
           className="w-5 h-5"

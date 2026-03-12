@@ -25,25 +25,10 @@ interface Star {
 interface ScoreEntry {
   name: string;
   score: number;
+  date?: string;
 }
 
-const STORAGE_KEY = "si_scores";
-
-function loadScores(): ScoreEntry[] {
-  try {
-    const raw = localStorage.getItem(STORAGE_KEY);
-    return raw ? JSON.parse(raw) : [];
-  } catch {
-    return [];
-  }
-}
-
-function saveScore(entry: ScoreEntry) {
-  const scores = loadScores();
-  scores.push(entry);
-  scores.sort((a, b) => b.score - a.score);
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(scores.slice(0, 10)));
-}
+const LEADERBOARD_URL = "https://portfolio-chat.caidespries1.workers.dev/leaderboard";
 
 export default function SpaceInvaders() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -52,6 +37,7 @@ export default function SpaceInvaders() {
   const [scores, setScores] = useState<ScoreEntry[]>([]);
   const [nameInput, setNameInput] = useState("");
   const [submitted, setSubmitted] = useState(false);
+  const [loadingScores, setLoadingScores] = useState(false);
   const gameRef = useRef<{
     player: Entity;
     invaders: Entity[];
@@ -67,6 +53,21 @@ export default function SpaceInvaders() {
     enemyShootTimer: number;
     wave: number;
   } | null>(null);
+
+  const fetchScores = useCallback(async () => {
+    setLoadingScores(true);
+    try {
+      const res = await fetch(LEADERBOARD_URL);
+      if (res.ok) {
+        const data = await res.json();
+        setScores(data.scores || []);
+      }
+    } catch {
+      // Silently fail — leaderboard is non-critical
+    } finally {
+      setLoadingScores(false);
+    }
+  }, []);
 
   const initStars = useCallback((w: number, h: number): Star[] => {
     return Array.from({ length: 60 }, () => ({
@@ -100,6 +101,13 @@ export default function SpaceInvaders() {
       }
     }
     return invaders;
+  }, []);
+
+  const exitGame = useCallback(() => {
+    const g = gameRef.current;
+    if (g) cancelAnimationFrame(g.animFrame);
+    gameRef.current = null;
+    setGameState("idle");
   }, []);
 
   const startGame = useCallback(() => {
@@ -191,6 +199,10 @@ export default function SpaceInvaders() {
       if (["ArrowLeft", "ArrowRight", " ", "ArrowUp"].includes(e.key)) {
         e.preventDefault();
       }
+      // Escape to exit
+      if (e.key === "Escape") {
+        exitGame();
+      }
     };
     const handleKeyUp = (e: KeyboardEvent) => {
       gameRef.current?.keys.delete(e.key);
@@ -268,7 +280,7 @@ export default function SpaceInvaders() {
           bullet.y >= g.player.y && bullet.y <= g.player.y + g.player.h
         ) {
           setGameState("gameover");
-          setScores(loadScores());
+          fetchScores();
           return;
         }
       }
@@ -277,7 +289,7 @@ export default function SpaceInvaders() {
       for (const inv of aliveInvaders) {
         if (inv.y + inv.h >= g.player.y) {
           setGameState("gameover");
-          setScores(loadScores());
+          fetchScores();
           return;
         }
       }
@@ -349,13 +361,27 @@ export default function SpaceInvaders() {
       window.removeEventListener("keydown", handleKeyDown);
       window.removeEventListener("keyup", handleKeyUp);
     };
-  }, [gameState, spawnInvaders]);
+  }, [gameState, spawnInvaders, exitGame, fetchScores]);
 
-  const handleSubmitScore = () => {
+  const handleSubmitScore = async () => {
     if (!nameInput.trim()) return;
-    saveScore({ name: nameInput.trim().substring(0, 12), score });
-    setScores(loadScores());
-    setSubmitted(true);
+    setLoadingScores(true);
+    try {
+      const res = await fetch(LEADERBOARD_URL, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ name: nameInput.trim().substring(0, 12), score }),
+      });
+      if (res.ok) {
+        const data = await res.json();
+        setScores(data.scores || []);
+      }
+    } catch {
+      // Silently fail
+    } finally {
+      setLoadingScores(false);
+      setSubmitted(true);
+    }
   };
 
   return (
@@ -384,6 +410,21 @@ export default function SpaceInvaders() {
             Press to play Space Invaders
           </button>
         </div>
+      )}
+
+      {/* Exit button during gameplay */}
+      {gameState === "playing" && (
+        <button
+          onClick={exitGame}
+          class="absolute top-4 right-4 z-30 px-3 py-1.5 text-xs font-mono uppercase tracking-widest rounded-lg transition-all hover:scale-105"
+          style={{
+            background: "rgba(8, 8, 8, 0.5)",
+            border: "1px solid rgba(232, 213, 192, 0.2)",
+            color: "rgba(232, 213, 192, 0.5)",
+          }}
+        >
+          ESC
+        </button>
       )}
 
       {/* Game over overlay */}
@@ -422,18 +463,23 @@ export default function SpaceInvaders() {
                 />
                 <button
                   onClick={handleSubmitScore}
+                  disabled={loadingScores}
                   class="w-full px-4 py-2 text-sm font-bold rounded-lg transition-colors"
-                  style={{ background: "#e85d3a", color: "#080808" }}
+                  style={{ background: "#e85d3a", color: "#080808", opacity: loadingScores ? 0.6 : 1 }}
                 >
-                  Save Score
+                  {loadingScores ? "Saving..." : "Save Score"}
                 </button>
               </div>
             ) : null}
 
-            {scores.length > 0 && (
+            {loadingScores && scores.length === 0 ? (
+              <p class="text-xs font-mono mb-6" style={{ color: "var(--text-muted)" }}>
+                Loading leaderboard...
+              </p>
+            ) : scores.length > 0 ? (
               <div class="mb-6">
                 <p class="text-xs font-mono uppercase tracking-wider mb-3" style={{ color: "var(--text-muted)" }}>
-                  Leaderboard
+                  Global Leaderboard
                 </p>
                 <div class="space-y-1">
                   {scores.slice(0, 5).map((s, i) => (
@@ -451,15 +497,24 @@ export default function SpaceInvaders() {
                   ))}
                 </div>
               </div>
-            )}
+            ) : null}
 
-            <button
-              onClick={startGame}
-              class="px-6 py-2 text-sm font-bold rounded-lg transition-colors"
-              style={{ background: "rgba(232, 93, 58, 0.15)", color: "#e85d3a", border: "1px solid rgba(232, 93, 58, 0.3)" }}
-            >
-              Play Again
-            </button>
+            <div class="flex items-center justify-center gap-3">
+              <button
+                onClick={startGame}
+                class="px-6 py-2 text-sm font-bold rounded-lg transition-colors"
+                style={{ background: "rgba(232, 93, 58, 0.15)", color: "#e85d3a", border: "1px solid rgba(232, 93, 58, 0.3)" }}
+              >
+                Play Again
+              </button>
+              <button
+                onClick={exitGame}
+                class="px-6 py-2 text-sm font-bold rounded-lg transition-colors"
+                style={{ background: "rgba(232, 213, 192, 0.05)", color: "var(--text-secondary)", border: "1px solid rgba(232, 213, 192, 0.12)" }}
+              >
+                Exit
+              </button>
+            </div>
           </div>
         </div>
       )}
