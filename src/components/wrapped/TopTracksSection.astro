@@ -39,7 +39,7 @@ const displayTracks = tracks.slice(0, count);
     <div class="grid md:grid-cols-2 gap-3">
       {displayTracks.map((track) => (
         <a href={track.url || "#"} target={track.url ? "_blank" : undefined} rel={track.url ? "noopener noreferrer" : undefined}
-          class="group retro-card flex items-center gap-4 p-4" data-animate>
+          class="group retro-card flex items-center gap-4 p-4 overflow-hidden" data-animate>
           <span class={`text-2xl font-black shrink-0 w-8 text-right ${track.rank <= 3 ? "neon-text" : ""}`}
             style={`font-family: var(--font-mono); ${track.rank > 3 ? "color: var(--text-faint);" : ""}`}>
             {track.rank}
