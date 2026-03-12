@@ -2,10 +2,6 @@ name = "portfolio-chat"
 main = "src/index.ts"
 compatibility_date = "2025-12-01"
 
-[[kv_namespaces]]
-binding = "LEADERBOARD"
-id = "66d6e0f0a18c4c8d9ec756224e3ba47d"
-
 [vars]
 # GEMINI_API_KEY should be set as a secret via:
 #   npx wrangler secret put GEMINI_API_KEY

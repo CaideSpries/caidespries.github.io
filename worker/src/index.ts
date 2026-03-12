@@ -1,6 +1,5 @@
 export interface Env {
 	GEMINI_API_KEY: string;
-	LEADERBOARD: KVNamespace;
 }
 
 // ---------------------------------------------------------------------------
@@ -55,7 +54,7 @@ function getCorsHeaders(request: Request): Record<string, string> {
 
 	return {
 		"Access-Control-Allow-Origin": allowed,
-		"Access-Control-Allow-Methods": "GET, POST, OPTIONS",
+		"Access-Control-Allow-Methods": "POST, OPTIONS",
 		"Access-Control-Allow-Headers": "Content-Type",
 		"Access-Control-Max-Age": "86400",
 	};
@@ -176,94 +175,7 @@ async function callGemini(messages: ChatMessage[], apiKey: string): Promise<stri
 }
 
 // ---------------------------------------------------------------------------
-// Leaderboard helpers
-// ---------------------------------------------------------------------------
-
-interface LeaderboardEntry {
-	name: string;
-	score: number;
-	date: string;
-}
-
-const KV_KEY = "scores";
-const MAX_STORED = 50;
-const MAX_DISPLAYED = 10;
-
-async function getLeaderboard(kv: KVNamespace): Promise<LeaderboardEntry[]> {
-	const raw = await kv.get(KV_KEY);
-	if (!raw) return [];
-	try {
-		return JSON.parse(raw) as LeaderboardEntry[];
-	} catch {
-		return [];
-	}
-}
-
-// ---------------------------------------------------------------------------
-// Route: GET /leaderboard
-// ---------------------------------------------------------------------------
-
-async function handleGetLeaderboard(
-	env: Env,
-	corsHeaders: Record<string, string>,
-): Promise<Response> {
-	const scores = await getLeaderboard(env.LEADERBOARD);
-	return Response.json(
-		{ scores: scores.slice(0, MAX_DISPLAYED) },
-		{ headers: corsHeaders },
-	);
-}
-
-// ---------------------------------------------------------------------------
-// Route: POST /leaderboard
-// ---------------------------------------------------------------------------
-
-async function handlePostLeaderboard(
-	request: Request,
-	env: Env,
-	corsHeaders: Record<string, string>,
-): Promise<Response> {
-	let body: { name?: string; score?: number };
-	try {
-		body = (await request.json()) as { name?: string; score?: number };
-	} catch {
-		return Response.json(
-			{ error: "Invalid JSON body." },
-			{ status: 400, headers: corsHeaders },
-		);
-	}
-
-	const name = typeof body.name === "string" ? body.name.trim().replace(/<[^>]*>/g, "").substring(0, 12) : "";
-	const score = typeof body.score === "number" ? Math.floor(body.score) : -1;
-
-	if (!name || name.length < 1) {
-		return Response.json(
-			{ error: "Name is required (1-12 characters)." },
-			{ status: 400, headers: corsHeaders },
-		);
-	}
-	if (score < 0) {
-		return Response.json(
-			{ error: "Score must be a positive number." },
-			{ status: 400, headers: corsHeaders },
-		);
-	}
-
-	const scores = await getLeaderboard(env.LEADERBOARD);
-	scores.push({ name, score, date: new Date().toISOString().split("T")[0] });
-	scores.sort((a, b) => b.score - a.score);
-	const trimmed = scores.slice(0, MAX_STORED);
-
-	await env.LEADERBOARD.put(KV_KEY, JSON.stringify(trimmed));
-
-	return Response.json(
-		{ scores: trimmed.slice(0, MAX_DISPLAYED) },
-		{ headers: corsHeaders },
-	);
-}
-
-// ---------------------------------------------------------------------------
-// Route: POST /chat (existing chat handler)
+// Route: POST /chat
 // ---------------------------------------------------------------------------
 
 async function handleChat(
@@ -335,21 +247,8 @@ export default {
 			);
 		}
 
-		const url = new URL(request.url);
-		const path = url.pathname;
-
-		// GET /leaderboard
-		if (path === "/leaderboard" && request.method === "GET") {
-			return handleGetLeaderboard(env, corsHeaders);
-		}
-
-		// POST /leaderboard
-		if (path === "/leaderboard" && request.method === "POST") {
-			return handlePostLeaderboard(request, env, corsHeaders);
-		}
-
-		// POST / or POST /chat — existing chat handler
-		if ((path === "/" || path === "/chat") && request.method === "POST") {
+		// POST / or POST /chat
+		if (request.method === "POST") {
 			return handleChat(request, env, corsHeaders);
 		}
 
