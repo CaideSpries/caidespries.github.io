@@ -1,5 +1,6 @@
 export interface Env {
 	GEMINI_API_KEY: string;
+	LEADERBOARD: KVNamespace;
 }
 
 // ---------------------------------------------------------------------------
@@ -54,7 +55,7 @@ function getCorsHeaders(request: Request): Record<string, string> {
 
 	return {
 		"Access-Control-Allow-Origin": allowed,
-		"Access-Control-Allow-Methods": "POST, OPTIONS",
+		"Access-Control-Allow-Methods": "GET, POST, OPTIONS",
 		"Access-Control-Allow-Headers": "Content-Type",
 		"Access-Control-Max-Age": "86400",
 	};
@@ -175,7 +176,145 @@ async function callGemini(messages: ChatMessage[], apiKey: string): Promise<stri
 }
 
 // ---------------------------------------------------------------------------
-// Request handler
+// Leaderboard helpers
+// ---------------------------------------------------------------------------
+
+interface LeaderboardEntry {
+	name: string;
+	score: number;
+	date: string;
+}
+
+const KV_KEY = "scores";
+const MAX_STORED = 50;
+const MAX_DISPLAYED = 10;
+
+async function getLeaderboard(kv: KVNamespace): Promise<LeaderboardEntry[]> {
+	const raw = await kv.get(KV_KEY);
+	if (!raw) return [];
+	try {
+		return JSON.parse(raw) as LeaderboardEntry[];
+	} catch {
+		return [];
+	}
+}
+
+// ---------------------------------------------------------------------------
+// Route: GET /leaderboard
+// ---------------------------------------------------------------------------
+
+async function handleGetLeaderboard(
+	env: Env,
+	corsHeaders: Record<string, string>,
+): Promise<Response> {
+	const scores = await getLeaderboard(env.LEADERBOARD);
+	return Response.json(
+		{ scores: scores.slice(0, MAX_DISPLAYED) },
+		{ headers: corsHeaders },
+	);
+}
+
+// ---------------------------------------------------------------------------
+// Route: POST /leaderboard
+// ---------------------------------------------------------------------------
+
+async function handlePostLeaderboard(
+	request: Request,
+	env: Env,
+	corsHeaders: Record<string, string>,
+): Promise<Response> {
+	let body: { name?: string; score?: number };
+	try {
+		body = (await request.json()) as { name?: string; score?: number };
+	} catch {
+		return Response.json(
+			{ error: "Invalid JSON body." },
+			{ status: 400, headers: corsHeaders },
+		);
+	}
+
+	const name = typeof body.name === "string" ? body.name.trim().replace(/<[^>]*>/g, "").substring(0, 12) : "";
+	const score = typeof body.score === "number" ? Math.floor(body.score) : -1;
+
+	if (!name || name.length < 1) {
+		return Response.json(
+			{ error: "Name is required (1-12 characters)." },
+			{ status: 400, headers: corsHeaders },
+		);
+	}
+	if (score < 0) {
+		return Response.json(
+			{ error: "Score must be a positive number." },
+			{ status: 400, headers: corsHeaders },
+		);
+	}
+
+	const scores = await getLeaderboard(env.LEADERBOARD);
+	scores.push({ name, score, date: new Date().toISOString().split("T")[0] });
+	scores.sort((a, b) => b.score - a.score);
+	const trimmed = scores.slice(0, MAX_STORED);
+
+	await env.LEADERBOARD.put(KV_KEY, JSON.stringify(trimmed));
+
+	return Response.json(
+		{ scores: trimmed.slice(0, MAX_DISPLAYED) },
+		{ headers: corsHeaders },
+	);
+}
+
+// ---------------------------------------------------------------------------
+// Route: POST /chat (existing chat handler)
+// ---------------------------------------------------------------------------
+
+async function handleChat(
+	request: Request,
+	env: Env,
+	corsHeaders: Record<string, string>,
+): Promise<Response> {
+	let body: { messages?: ChatMessage[] };
+	try {
+		body = (await request.json()) as { messages?: ChatMessage[] };
+	} catch {
+		return Response.json(
+			{ error: "Invalid JSON body." },
+			{ status: 400, headers: corsHeaders },
+		);
+	}
+
+	if (!body.messages || !Array.isArray(body.messages) || body.messages.length === 0) {
+		return Response.json(
+			{ error: 'Request body must include a non-empty "messages" array.' },
+			{ status: 400, headers: corsHeaders },
+		);
+	}
+
+	for (const msg of body.messages) {
+		if (!msg.role || !msg.content || !["user", "model"].includes(msg.role)) {
+			return Response.json(
+				{ error: 'Each message must have a "role" (user|model) and "content" string.' },
+				{ status: 400, headers: corsHeaders },
+			);
+		}
+	}
+
+	const MAX_MESSAGES = 20;
+	const messages = body.messages.slice(-MAX_MESSAGES);
+
+	try {
+		const response = await callGemini(messages, env.GEMINI_API_KEY);
+		return Response.json({ response }, { headers: corsHeaders });
+	} catch (err) {
+		const message = err instanceof Error ? err.message : "Unknown error";
+		console.error("Gemini API call failed:", message);
+		return Response.json(
+			{ error: "Failed to generate response. Please try again." },
+			{ status: 502, headers: corsHeaders },
+		);
+	}
+}
+
+// ---------------------------------------------------------------------------
+// Request handler — path-based routing
 // ---------------------------------------------------------------------------
 
 export default {
@@ -187,14 +326,6 @@ export default {
 			return new Response(null, { status: 204, headers: corsHeaders });
 		}
 
-		// Only accept POST
-		if (request.method !== "POST") {
-			return Response.json(
-				{ error: "Method not allowed. Use POST." },
-				{ status: 405, headers: corsHeaders },
-			);
-		}
-
 		// Rate limiting by IP
 		const clientIP = request.headers.get("CF-Connecting-IP") || "unknown";
 		if (isRateLimited(clientIP)) {
@@ -204,49 +335,27 @@ export default {
 			);
 		}
 
-		// Parse request body
-		let body: { messages?: ChatMessage[] };
-		try {
-			body = (await request.json()) as { messages?: ChatMessage[] };
-		} catch {
-			return Response.json(
-				{ error: "Invalid JSON body." },
-				{ status: 400, headers: corsHeaders },
-			);
+		const url = new URL(request.url);
+		const path = url.pathname;
+
+		// GET /leaderboard
+		if (path === "/leaderboard" && request.method === "GET") {
+			return handleGetLeaderboard(env, corsHeaders);
 		}
 
-		// Validate messages
-		if (!body.messages || !Array.isArray(body.messages) || body.messages.length === 0) {
-			return Response.json(
-				{ error: 'Request body must include a non-empty "messages" array.' },
-				{ status: 400, headers: corsHeaders },
-			);
+		// POST /leaderboard
+		if (path === "/leaderboard" && request.method === "POST") {
+			return handlePostLeaderboard(request, env, corsHeaders);
 		}
 
-		for (const msg of body.messages) {
-			if (!msg.role || !msg.content || !["user", "model"].includes(msg.role)) {
-				return Response.json(
-					{ error: 'Each message must have a "role" (user|model) and "content" string.' },
-					{ status: 400, headers: corsHeaders },
-				);
-			}
+		// POST / or POST /chat — existing chat handler
+		if ((path === "/" || path === "/chat") && request.method === "POST") {
+			return handleChat(request, env, corsHeaders);
 		}
 
-		// Cap conversation length to prevent abuse
-		const MAX_MESSAGES = 20;
-		const messages = body.messages.slice(-MAX_MESSAGES);
-
-		// Call Gemini
-		try {
-			const response = await callGemini(messages, env.GEMINI_API_KEY);
-			return Response.json({ response }, { headers: corsHeaders });
-		} catch (err) {
-			const message = err instanceof Error ? err.message : "Unknown error";
-			console.error("Gemini API call failed:", message);
-			return Response.json(
-				{ error: "Failed to generate response. Please try again." },
-				{ status: 502, headers: corsHeaders },
-			);
-		}
+		return Response.json(
+			{ error: "Not found." },
+			{ status: 404, headers: corsHeaders },
+		);
 	},
 } satisfies ExportedHandler<Env>;

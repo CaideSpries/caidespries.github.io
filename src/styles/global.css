@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: 'ITC Benguiat Std';
+  src: url('/fonts/ITCBenguiatStdBoldCn.OTF') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 @theme {
   /* Retro palette: black, cream, orange-red */
   --color-cream-50: #faf6f1;
