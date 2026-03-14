@@ -1,0 +1,87 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import AllTimeHero from "../../components/wrapped/AllTimeHero.astro";
+import YearByYearSection from "../../components/wrapped/YearByYearSection.astro";
+import TopArtistsSection from "../../components/wrapped/TopArtistsSection.astro";
+import TopTracksSection from "../../components/wrapped/TopTracksSection.astro";
+import TopAlbumsSection from "../../components/wrapped/TopAlbumsSection.astro";
+import AllTimeLoyaltySection from "../../components/wrapped/AllTimeLoyaltySection.astro";
+import TasteTurnoverSection from "../../components/wrapped/TasteTurnoverSection.astro";
+import AllTimeClosing from "../../components/wrapped/AllTimeClosing.astro";
+
+import data from "../../data/wrapped/all-time.json";
+
+const allTimeArtists = (data.allTimeTopArtists || []).map((a: any) => ({
+  rank: a.rank,
+  name: a.name,
+  minutes: a.totalMinutes,
+  streams: undefined,
+}));
+
+const allTimeTracks = (data.allTimeTopTracks || []).map((t: any) => ({
+  rank: t.rank,
+  name: t.name,
+  artist: t.artist,
+  album: t.album,
+  minutes: t.totalMinutes,
+  streams: t.totalStreams,
+}));
+
+const allTimeAlbums = (data.allTimeTopAlbums || []).map((a: any) => ({
+  rank: a.rank,
+  name: a.name,
+  artist: a.artist,
+  minutes: a.totalMinutes,
+  streams: a.totalStreams,
+}));
+---
+
+<BaseLayout
+  title="All Time Wrapped — Caide Spriestersbach"
+  description="My all-time Spotify listening wrapped — every year, every artist, every stat across the full history."
+>
+  {/* Back to All Years nav */}
+  <nav class="sticky top-16 z-30 backdrop-blur-md py-3 px-4 border-b" style="border-color: var(--border-subtle);">
+    <div class="absolute inset-0 opacity-90 main-bg"></div>
+    <div class="max-w-5xl mx-auto flex items-center justify-between relative z-10">
+      <a href="/wrapped"
+        class="flex items-center gap-1 text-sm font-mono hover:text-ember-500 transition-colors"
+        style="color: var(--text-secondary);">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+        </svg>
+        All Years
+      </a>
+
+      <div class="flex items-center gap-3">
+        <a href="/wrapped"
+          class="text-xs font-mono uppercase tracking-wider hover:text-ember-500 transition-colors"
+          style="color: var(--text-muted);">
+          All Years
+        </a>
+        <span style="color: var(--text-faint);">|</span>
+        <span class="text-sm font-bold neon-text">All Time</span>
+      </div>
+
+      <div></div>
+    </div>
+  </nav>
+
+  <AllTimeHero overview={data.overview} />
+
+  <YearByYearSection yearByYear={data.yearByYear} years={data.years} />
+
+  <TopArtistsSection artists={allTimeArtists} />
+
+  <TopTracksSection tracks={allTimeTracks} />
+
+  {allTimeAlbums.length > 0 && (
+    <TopAlbumsSection albums={allTimeAlbums} />
+  )}
+
+  <AllTimeLoyaltySection artistLoyalty={data.artistLoyalty} years={data.years} />
+
+  <TasteTurnoverSection tasteTurnover={data.tasteTurnover} years={data.years} />
+
+  <AllTimeClosing lastUpdated={data.lastUpdated} overview={data.overview} />
+</BaseLayout>

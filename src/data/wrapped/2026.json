@@ -1,0 +1,1669 @@
+{
+  "year": 2026,
+  "source": "extended_history",
+  "lastUpdated": "2026-03-14T16:39:45.672Z",
+  "headline": {
+    "totalMinutes": 9156,
+    "totalStreams": 2418,
+    "uniqueArtists": 665,
+    "uniqueTracks": 1197,
+    "uniqueAlbums": 982,
+    "daysActive": 61,
+    "avgMinutesPerDay": 150
+  },
+  "topArtists": [
+    {
+      "rank": 1,
+      "name": "Red Hot Chili Peppers",
+      "minutes": 295,
+      "streams": 74,
+      "uniqueTracks": 21,
+      "peakMonth": "Feb"
+    },
+    {
+      "rank": 2,
+      "name": "The Rolling Stones",
+      "minutes": 165,
+      "streams": 39,
+      "uniqueTracks": 10,
+      "peakMonth": "Feb"
+    },
+    {
+      "rank": 3,
+      "name": "Led Zeppelin",
+      "minutes": 126,
+      "streams": 28,
+      "uniqueTracks": 12,
+      "peakMonth": "Feb"
+    },
+    {
+      "rank": 4,
+      "name": "Dire Straits",
+      "minutes": 118,
+      "streams": 22,
+      "uniqueTracks": 7,
+      "peakMonth": "Feb"
+    },
+    {
+      "rank": 5,
+      "name": "HVOB",
+      "minutes": 106,
+      "streams": 23,
+      "uniqueTracks": 5,
+      "peakMonth": "Feb"
+    },
+    {
+      "rank": 6,
+      "name": "Mac Miller",
+      "minutes": 104,
+      "streams": 30,
+      "uniqueTracks": 13,
+      "peakMonth": "Feb"
+    },
+    {
+      "rank": 7,
+      "name": "Fleetwood Mac",
+      "minutes": 99,
+      "streams": 26,
+      "uniqueTracks": 7,
+      "peakMonth": "Feb"
+    },
+    {
+      "rank": 8,
+      "name": "Maribou State",
+      "minutes": 87,
+      "streams": 23,
+      "uniqueTracks": 10,
+      "peakMonth": "Jan"
+    },
+    {
+      "rank": 9,
+      "name": "Bosq",
+      "minutes": 86,
+      "streams": 14,
+      "uniqueTracks": 11,
+      "peakMonth": "Jan"
+    },
+    {
+      "rank": 10,
+      "name": "Fred again..",
+      "minutes": 84,
+      "streams": 28,
+      "uniqueTracks": 3,
+      "peakMonth": "Feb"
+    },
+    {
+      "rank": 11,
+      "name": "sombr",
+      "minutes": 84,
+      "streams": 23,
+      "uniqueTracks": 3,
+      "peakMonth": "Jan"
+    },
+    {
+      "rank": 12,
+      "name": "Pink Floyd",
+      "minutes": 83,
+      "streams": 18,
+      "uniqueTracks": 9,
+      "peakMonth": "Mar"
+    },
+    {
+      "rank": 13,
+      "name": "andhim",
+      "minutes": 83,
+      "streams": 14,
+      "uniqueTracks": 10,
+      "peakMonth": "Mar"
+    },
+    {
+      "rank": 14,
+      "name": "MGMT",
+      "minutes": 76,
+      "streams": 21,
+      "uniqueTracks": 3,
+      "peakMonth": "Feb"
+    },
+    {
+      "rank": 15,
+      "name": "Lynyrd Skynyrd",
+      "minutes": 73,
+      "streams": 13,
+      "uniqueTracks": 5,
+      "peakMonth": "Feb"
+    },
+    {
+      "rank": 16,
+      "name": "nimino",
+      "minutes": 72,
+      "streams": 21,
+      "uniqueTracks": 3,
+      "peakMonth": "Feb"
+    },
+    {
+      "rank": 17,
+      "name": "Kanye West",
+      "minutes": 70,
+      "streams": 18,
+      "uniqueTracks": 10,
+      "peakMonth": "Feb"
+    },
+    {
+      "rank": 18,
+      "name": "Khruangbin",
+      "minutes": 70,
+      "streams": 22,
+      "uniqueTracks": 9,
+      "peakMonth": "Jan"
+    },
+    {
+      "rank": 19,
+      "name": "Creedence Clearwater Revival",
+      "minutes": 66,
+      "streams": 21,
+      "uniqueTracks": 10,
+      "peakMonth": "Feb"
+    },
+    {
+      "rank": 20,
+      "name": "Queen",
+      "minutes": 66,
+      "streams": 18,
+      "uniqueTracks": 8,
+      "peakMonth": "Feb"
+    }
+  ],
+  "topTracks": [
+    {
+      "rank": 1,
+      "name": "12 to 12",
+      "artist": "sombr",
+      "album": "I Barely Know Her",
+      "minutes": 72,
+      "streams": 19,
+      "uri": "spotify:track:05od2qm2MTSKCHxy1GBp5W",
+      "url": "https://open.spotify.com/track/05od2qm2MTSKCHxy1GBp5W"
+    },
+    {
+      "rank": 2,
+      "name": "Talk of the Town",
+      "artist": "Fred again..",
+      "album": "USB",
+      "minutes": 45,
+      "streams": 16,
+      "uri": "spotify:track:26vIeRYFA2Nh56W4jfkjp5",
+      "url": "https://open.spotify.com/track/26vIeRYFA2Nh56W4jfkjp5"
+    },
+    {
+      "rank": 3,
+      "name": "Burning",
+      "artist": "The Whitest Boy Alive",
+      "album": "Dreams",
+      "minutes": 45,
+      "streams": 15,
+      "uri": "spotify:track:0QgR03vMDoBoLgcu08EtKl",
+      "url": "https://open.spotify.com/track/0QgR03vMDoBoLgcu08EtKl"
+    },
+    {
+      "rank": 4,
+      "name": "The Ship",
+      "artist": "Incredible Polo",
+      "album": "Ma Hill",
+      "minutes": 30,
+      "streams": 15,
+      "uri": "spotify:track:1WpCorgdzT5RzNfjbudcms",
+      "url": "https://open.spotify.com/track/1WpCorgdzT5RzNfjbudcms"
+    },
+    {
+      "rank": 5,
+      "name": "Oysters In My Pocket",
+      "artist": "Royel Otis",
+      "album": "Oysters In My Pocket",
+      "minutes": 33,
+      "streams": 13,
+      "uri": "spotify:track:2B664ulJSVBd6B8SAY3Wux",
+      "url": "https://open.spotify.com/track/2B664ulJSVBd6B8SAY3Wux"
+    },
+    {
+      "rank": 6,
+      "name": "Electric Feel",
+      "artist": "MGMT",
+      "album": "Oracular Spectacular",
+      "minutes": 39,
+      "streams": 13,
+      "uri": "spotify:track:3FtYbEfBqAlGO46NUDQSAt",
+      "url": "https://open.spotify.com/track/3FtYbEfBqAlGO46NUDQSAt"
+    },
+    {
+      "rank": 7,
+      "name": "No Broke Boys",
+      "artist": "Disco Lines",
+      "album": "No Broke Boys",
+      "minutes": 34,
+      "streams": 13,
+      "uri": "spotify:track:3cZajhyr8LmtPfHZ9296tj",
+      "url": "https://open.spotify.com/track/3cZajhyr8LmtPfHZ9296tj"
+    },
+    {
+      "rank": 8,
+      "name": "Better",
+      "artist": "nimino",
+      "album": "Better",
+      "minutes": 45,
+      "streams": 13,
+      "uri": "spotify:track:6oUgmZK0McW4706SLJlfDh",
+      "url": "https://open.spotify.com/track/6oUgmZK0McW4706SLJlfDh"
+    },
+    {
+      "rank": 9,
+      "name": "Always Like This - andhim Remix",
+      "artist": "HVOB",
+      "album": "Always Like This",
+      "minutes": 45,
+      "streams": 11,
+      "uri": "spotify:track:2Gzl0HAOGySuLysalinVP4",
+      "url": "https://open.spotify.com/track/2Gzl0HAOGySuLysalinVP4"
+    },
+    {
+      "rank": 10,
+      "name": "Paranoid - 2009 Remaster",
+      "artist": "Black Sabbath",
+      "album": "Paranoid",
+      "minutes": 26,
+      "streams": 11,
+      "uri": "spotify:track:3Jnxngdff0lVu2rza1GVx6",
+      "url": "https://open.spotify.com/track/3Jnxngdff0lVu2rza1GVx6"
+    },
+    {
+      "rank": 11,
+      "name": "Down Under (feat. Colin Hay)",
+      "artist": "Luude",
+      "album": "Down Under (feat. Colin Hay)",
+      "minutes": 23,
+      "streams": 11,
+      "uri": "spotify:track:7AVyve7cFYTd51ha5i9kE2",
+      "url": "https://open.spotify.com/track/7AVyve7cFYTd51ha5i9kE2"
+    },
+    {
+      "rank": 12,
+      "name": "Too Sweet",
+      "artist": "Hozier",
+      "album": "Unreal Unearth: Unaired",
+      "minutes": 41,
+      "streams": 10,
+      "uri": "spotify:track:19XpFsce28aByvCC4g89tJ",
+      "url": "https://open.spotify.com/track/19XpFsce28aByvCC4g89tJ"
+    },
+    {
+      "rank": 13,
+      "name": "World Hold On (Children of the Sky) - Radio Edit",
+      "artist": "Bob Sinclar",
+      "album": "World Hold On (Children of the Sky)",
+      "minutes": 31,
+      "streams": 10,
+      "uri": "spotify:track:3HGwI9qwq5XqBDeZBV3zti",
+      "url": "https://open.spotify.com/track/3HGwI9qwq5XqBDeZBV3zti"
+    },
+    {
+      "rank": 14,
+      "name": "Otherside",
+      "artist": "Red Hot Chili Peppers",
+      "album": "Californication",
+      "minutes": 34,
+      "streams": 9,
+      "uri": "spotify:track:64BbK9SFKH2jk86U3dGj2P",
+      "url": "https://open.spotify.com/track/64BbK9SFKH2jk86U3dGj2P"
+    },
+    {
+      "rank": 15,
+      "name": "Lion - Stimming Remix",
+      "artist": "HVOB",
+      "album": "Lion",
+      "minutes": 42,
+      "streams": 9,
+      "uri": "spotify:track:3p6JnYmogd4a1QM0w2npZc",
+      "url": "https://open.spotify.com/track/3p6JnYmogd4a1QM0w2npZc"
+    },
+    {
+      "rank": 16,
+      "name": "The Spins",
+      "artist": "Mac Miller",
+      "album": "K.I.D.S.",
+      "minutes": 28,
+      "streams": 9,
+      "uri": "spotify:track:2QGVKiAGTa1YcDqPMhAzF7",
+      "url": "https://open.spotify.com/track/2QGVKiAGTa1YcDqPMhAzF7"
+    },
+    {
+      "rank": 17,
+      "name": "Lost",
+      "artist": "Frank Ocean",
+      "album": "channel ORANGE",
+      "minutes": 35,
+      "streams": 9,
+      "uri": "spotify:track:3GZD6HmiNUhxXYf8Gch723",
+      "url": "https://open.spotify.com/track/3GZD6HmiNUhxXYf8Gch723"
+    },
+    {
+      "rank": 18,
+      "name": "By the Way",
+      "artist": "Red Hot Chili Peppers",
+      "album": "By the Way",
+      "minutes": 29,
+      "streams": 9,
+      "uri": "spotify:track:1f2V8U1BiWaC9aJWmpOARe",
+      "url": "https://open.spotify.com/track/1f2V8U1BiWaC9aJWmpOARe"
+    },
+    {
+      "rank": 19,
+      "name": "Howling - Âme Remix",
+      "artist": "Howling",
+      "album": "Howling (Âme Remix)",
+      "minutes": 45,
+      "streams": 8,
+      "uri": "spotify:track:78jIj6Ph2364zg1ZVIvbIN",
+      "url": "https://open.spotify.com/track/78jIj6Ph2364zg1ZVIvbIN"
+    },
+    {
+      "rank": 20,
+      "name": "Maneater",
+      "artist": "Daryl Hall & John Oates",
+      "album": "H2O",
+      "minutes": 26,
+      "streams": 8,
+      "uri": "spotify:track:7j74lucZ59vqN67Ipe2ZcY",
+      "url": "https://open.spotify.com/track/7j74lucZ59vqN67Ipe2ZcY"
+    },
+    {
+      "rank": 21,
+      "name": "Crucify Your Mind",
+      "artist": "Rodríguez",
+      "album": "Cold Fact",
+      "minutes": 20,
+      "streams": 8,
+      "uri": "spotify:track:2Xn7NadvZ56D0B2D7x2CSL",
+      "url": "https://open.spotify.com/track/2Xn7NadvZ56D0B2D7x2CSL"
+    },
+    {
+      "rank": 22,
+      "name": "Start Me Up - Remastered 2009",
+      "artist": "The Rolling Stones",
+      "album": "Tattoo You",
+      "minutes": 28,
+      "streams": 8,
+      "uri": "spotify:track:7HKez549fwJQDzx3zLjHKC",
+      "url": "https://open.spotify.com/track/7HKez549fwJQDzx3zLjHKC"
+    },
+    {
+      "rank": 23,
+      "name": "Hold the Line",
+      "artist": "TOTO",
+      "album": "Toto",
+      "minutes": 28,
+      "streams": 8,
+      "uri": "spotify:track:4aVuWgvD0X63hcOCnZtNFA",
+      "url": "https://open.spotify.com/track/4aVuWgvD0X63hcOCnZtNFA"
+    },
+    {
+      "rank": 24,
+      "name": "A Horse with No Name",
+      "artist": "America",
+      "album": "America",
+      "minutes": 31,
+      "streams": 8,
+      "uri": "spotify:track:54eZmuggBFJbV7k248bTTt",
+      "url": "https://open.spotify.com/track/54eZmuggBFJbV7k248bTTt"
+    },
+    {
+      "rank": 25,
+      "name": "Under the Bridge",
+      "artist": "Red Hot Chili Peppers",
+      "album": "Blood Sugar Sex Magik",
+      "minutes": 30,
+      "streams": 8,
+      "uri": "spotify:track:3d9DChrdc6BOeFsbrZ3Is0",
+      "url": "https://open.spotify.com/track/3d9DChrdc6BOeFsbrZ3Is0"
+    },
+    {
+      "rank": 26,
+      "name": "Californication",
+      "artist": "Red Hot Chili Peppers",
+      "album": "Californication",
+      "minutes": 37,
+      "streams": 8,
+      "uri": "spotify:track:48UPSzbZjgc449aqz8bxox",
+      "url": "https://open.spotify.com/track/48UPSzbZjgc449aqz8bxox"
+    },
+    {
+      "rank": 27,
+      "name": "Walking On A Dream",
+      "artist": "Empire Of The Sun",
+      "album": "Walking On A Dream",
+      "minutes": 24,
+      "streams": 8,
+      "uri": "spotify:track:5r5cp9IpziiIsR6b93vcnQ",
+      "url": "https://open.spotify.com/track/5r5cp9IpziiIsR6b93vcnQ"
+    },
+    {
+      "rank": 28,
+      "name": "Deceptacon",
+      "artist": "Le Tigre",
+      "album": "Le Tigre",
+      "minutes": 22,
+      "streams": 8,
+      "uri": "spotify:track:3pYbQSgggwsaFXDW0u79Yj",
+      "url": "https://open.spotify.com/track/3pYbQSgggwsaFXDW0u79Yj"
+    },
+    {
+      "rank": 29,
+      "name": "Nothing",
+      "artist": "HNNY",
+      "album": "Nothing",
+      "minutes": 31,
+      "streams": 8,
+      "uri": "spotify:track:6qwPK5WhplqNcyy1CtnpLT",
+      "url": "https://open.spotify.com/track/6qwPK5WhplqNcyy1CtnpLT"
+    },
+    {
+      "rank": 30,
+      "name": "Hate It Or Love It",
+      "artist": "The Game",
+      "album": "The Documentary",
+      "minutes": 25,
+      "streams": 8,
+      "uri": "spotify:track:2wGSgTmgSF3xjRrHkTc25R",
+      "url": "https://open.spotify.com/track/2wGSgTmgSF3xjRrHkTc25R"
+    },
+    {
+      "rank": 31,
+      "name": "Feel Good Inc.",
+      "artist": "Gorillaz",
+      "album": "Demon Days",
+      "minutes": 26,
+      "streams": 8,
+      "uri": "spotify:track:0d28khcov6AiegSCpG5TuT",
+      "url": "https://open.spotify.com/track/0d28khcov6AiegSCpG5TuT"
+    },
+    {
+      "rank": 32,
+      "name": "Go Your Own Way - 2004 Remaster",
+      "artist": "Fleetwood Mac",
+      "album": "Rumours",
+      "minutes": 26,
+      "streams": 7,
+      "uri": "spotify:track:07GvNcU1WdyZJq3XxP0kZa",
+      "url": "https://open.spotify.com/track/07GvNcU1WdyZJq3XxP0kZa"
+    },
+    {
+      "rank": 33,
+      "name": "Long Cool Woman (In a Black Dress) - 1999 Remaster",
+      "artist": "The Hollies",
+      "album": "Distant Light",
+      "minutes": 23,
+      "streams": 7,
+      "uri": "spotify:track:1J5XEPamp7iQaCU0aFuMnd",
+      "url": "https://open.spotify.com/track/1J5XEPamp7iQaCU0aFuMnd"
+    },
+    {
+      "rank": 34,
+      "name": "Ritmo",
+      "artist": "Raffa Fl",
+      "album": "Ritmo",
+      "minutes": 20,
+      "streams": 7,
+      "uri": "spotify:track:4FHXsehfIbyPCJLP7fCnIF",
+      "url": "https://open.spotify.com/track/4FHXsehfIbyPCJLP7fCnIF"
+    },
+    {
+      "rank": 35,
+      "name": "Simple Man",
+      "artist": "Lynyrd Skynyrd",
+      "album": "Pronounced' Leh-'Nerd 'Skin-'Nerd",
+      "minutes": 41,
+      "streams": 7,
+      "uri": "spotify:track:1ju7EsSGvRybSNEsRvc7qY",
+      "url": "https://open.spotify.com/track/1ju7EsSGvRybSNEsRvc7qY"
+    },
+    {
+      "rank": 36,
+      "name": "Mariella",
+      "artist": "Khruangbin",
+      "album": "Texas Moon",
+      "minutes": 18,
+      "streams": 7,
+      "uri": "spotify:track:3dvXRk7TZ929m21p49RR5P",
+      "url": "https://open.spotify.com/track/3dvXRk7TZ929m21p49RR5P"
+    },
+    {
+      "rank": 37,
+      "name": "Beast Of Burden - Remastered 1994",
+      "artist": "The Rolling Stones",
+      "album": "Some Girls",
+      "minutes": 27,
+      "streams": 7,
+      "uri": "spotify:track:77oU2rjC5XbjQfNe3bD6so",
+      "url": "https://open.spotify.com/track/77oU2rjC5XbjQfNe3bD6so"
+    },
+    {
+      "rank": 38,
+      "name": "Scar Tissue",
+      "artist": "Red Hot Chili Peppers",
+      "album": "Californication",
+      "minutes": 21,
+      "streams": 7,
+      "uri": "spotify:track:1G391cbiT3v3Cywg8T7DM1",
+      "url": "https://open.spotify.com/track/1G391cbiT3v3Cywg8T7DM1"
+    },
+    {
+      "rank": 39,
+      "name": "Could You Be Loved",
+      "artist": "Bob Marley & The Wailers",
+      "album": "Uprising",
+      "minutes": 26,
+      "streams": 7,
+      "uri": "spotify:track:5O4erNlJ74PIF6kGol1ZrC",
+      "url": "https://open.spotify.com/track/5O4erNlJ74PIF6kGol1ZrC"
+    },
+    {
+      "rank": 40,
+      "name": "I Remember Everything (feat. Kacey Musgraves)",
+      "artist": "Zach Bryan",
+      "album": "Zach Bryan",
+      "minutes": 18,
+      "streams": 7,
+      "uri": "spotify:track:4KULAymBBJcPRpk1yO4dOG",
+      "url": "https://open.spotify.com/track/4KULAymBBJcPRpk1yO4dOG"
+    },
+    {
+      "rank": 41,
+      "name": "Wine & Chocolates - andhim Remix Radio Version",
+      "artist": "Theophilus London",
+      "album": "Wine & Chocolates",
+      "minutes": 24,
+      "streams": 7,
+      "uri": "spotify:track:0qsQZDAZIGsbGmYEMfhTSC",
+      "url": "https://open.spotify.com/track/0qsQZDAZIGsbGmYEMfhTSC"
+    },
+    {
+      "rank": 42,
+      "name": "Today",
+      "artist": "Zero 7",
+      "album": "The Garden",
+      "minutes": 22,
+      "streams": 7,
+      "uri": "spotify:track:4lK8Vtfw9SOpL1WCoaccnK",
+      "url": "https://open.spotify.com/track/4lK8Vtfw9SOpL1WCoaccnK"
+    },
+    {
+      "rank": 43,
+      "name": "Hot Blooded",
+      "artist": "New Constellations",
+      "album": "Hot Blooded",
+      "minutes": 26,
+      "streams": 7,
+      "uri": "spotify:track:1ElySIlHwm1HX7sUjAZZnp",
+      "url": "https://open.spotify.com/track/1ElySIlHwm1HX7sUjAZZnp"
+    },
+    {
+      "rank": 44,
+      "name": "Outrun",
+      "artist": "De Hofnar",
+      "album": "Kings And Queens",
+      "minutes": 20,
+      "streams": 7,
+      "uri": "spotify:track:6krMxNzBc7ryjqTGrI8Cv0",
+      "url": "https://open.spotify.com/track/6krMxNzBc7ryjqTGrI8Cv0"
+    },
+    {
+      "rank": 45,
+      "name": "For What It's Worth",
+      "artist": "Buffalo Springfield",
+      "album": "Buffalo Springfield",
+      "minutes": 16,
+      "streams": 7,
+      "uri": "spotify:track:1qRA5BS78u3gME0loMl9AA",
+      "url": "https://open.spotify.com/track/1qRA5BS78u3gME0loMl9AA"
+    },
+    {
+      "rank": 46,
+      "name": "Miss You - Remastered",
+      "artist": "The Rolling Stones",
+      "album": "Some Girls",
+      "minutes": 32,
+      "streams": 7,
+      "uri": "spotify:track:3hJLKtTpgct9Y9wKww0BiR",
+      "url": "https://open.spotify.com/track/3hJLKtTpgct9Y9wKww0BiR"
+    },
+    {
+      "rank": 47,
+      "name": "For Whom The Bell Tolls - Remastered",
+      "artist": "Metallica",
+      "album": "Ride The Lightning",
+      "minutes": 26,
+      "streams": 6,
+      "uri": "spotify:track:2dXsILW8gzkosqleHAvl0v",
+      "url": "https://open.spotify.com/track/2dXsILW8gzkosqleHAvl0v"
+    },
+    {
+      "rank": 48,
+      "name": "More Than a Feeling",
+      "artist": "Boston",
+      "album": "Boston",
+      "minutes": 28,
+      "streams": 6,
+      "uri": "spotify:track:1QEEqeFIZktqIpPI4jSVSF",
+      "url": "https://open.spotify.com/track/1QEEqeFIZktqIpPI4jSVSF"
+    },
+    {
+      "rank": 49,
+      "name": "Stairway to Heaven - Remaster",
+      "artist": "Led Zeppelin",
+      "album": "Mothership",
+      "minutes": 48,
+      "streams": 6,
+      "uri": "spotify:track:12wlYeErSUNGg1B5d64077",
+      "url": "https://open.spotify.com/track/12wlYeErSUNGg1B5d64077"
+    },
+    {
+      "rank": 50,
+      "name": "Something Good",
+      "artist": "alt-J",
+      "album": "An Awesome Wave",
+      "minutes": 19,
+      "streams": 6,
+      "uri": "spotify:track:5UqHgJxYCMQraYuqeEOvtr",
+      "url": "https://open.spotify.com/track/5UqHgJxYCMQraYuqeEOvtr"
+    }
+  ],
+  "topAlbums": [
+    {
+      "rank": 1,
+      "name": "Californication",
+      "artist": "Red Hot Chili Peppers",
+      "minutes": 100,
+      "streams": 26,
+      "uniqueTracks": 5,
+      "url": "https://open.spotify.com/search/Californication%20Red%20Hot%20Chili%20Peppers"
+    },
+    {
+      "rank": 2,
+      "name": "I Barely Know Her",
+      "artist": "sombr",
+      "minutes": 81,
+      "streams": 22,
+      "uniqueTracks": 2,
+      "url": "https://open.spotify.com/search/I%20Barely%20Know%20Her%20sombr"
+    },
+    {
+      "rank": 3,
+      "name": "Oracular Spectacular",
+      "artist": "MGMT",
+      "minutes": 76,
+      "streams": 21,
+      "uniqueTracks": 3,
+      "url": "https://open.spotify.com/search/Oracular%20Spectacular%20MGMT"
+    },
+    {
+      "rank": 4,
+      "name": "By the Way",
+      "artist": "Red Hot Chili Peppers",
+      "minutes": 74,
+      "streams": 20,
+      "uniqueTracks": 6,
+      "url": "https://open.spotify.com/search/By%20the%20Way%20Red%20Hot%20Chili%20Peppers"
+    },
+    {
+      "rank": 5,
+      "name": "Some Girls",
+      "artist": "The Rolling Stones",
+      "minutes": 59,
+      "streams": 14,
+      "uniqueTracks": 2,
+      "url": "https://open.spotify.com/search/Some%20Girls%20The%20Rolling%20Stones"
+    },
+    {
+      "rank": 6,
+      "name": "Pronounced' Leh-'Nerd 'Skin-'Nerd",
+      "artist": "Lynyrd Skynyrd",
+      "minutes": 54,
+      "streams": 9,
+      "uniqueTracks": 2,
+      "url": "https://open.spotify.com/search/Pronounced'%20Leh-'Nerd%20'Skin-'Nerd%20Lynyrd%20Skynyrd"
+    },
+    {
+      "rank": 7,
+      "name": "Dire Straits",
+      "artist": "Dire Straits",
+      "minutes": 54,
+      "streams": 11,
+      "uniqueTracks": 2,
+      "url": "https://open.spotify.com/search/Dire%20Straits%20Dire%20Straits"
+    },
+    {
+      "rank": 8,
+      "name": "Dreams",
+      "artist": "The Whitest Boy Alive",
+      "minutes": 53,
+      "streams": 17,
+      "uniqueTracks": 2,
+      "url": "https://open.spotify.com/search/Dreams%20The%20Whitest%20Boy%20Alive"
+    },
+    {
+      "rank": 9,
+      "name": "Paranoid",
+      "artist": "Black Sabbath",
+      "minutes": 51,
+      "streams": 16,
+      "uniqueTracks": 4,
+      "url": "https://open.spotify.com/search/Paranoid%20Black%20Sabbath"
+    },
+    {
+      "rank": 10,
+      "name": "Brothers In Arms",
+      "artist": "Dire Straits",
+      "minutes": 48,
+      "streams": 7,
+      "uniqueTracks": 2,
+      "url": "https://open.spotify.com/search/Brothers%20In%20Arms%20Dire%20Straits"
+    },
+    {
+      "rank": 11,
+      "name": "Lion",
+      "artist": "HVOB",
+      "minutes": 48,
+      "streams": 10,
+      "uniqueTracks": 2,
+      "url": "https://open.spotify.com/search/Lion%20HVOB"
+    },
+    {
+      "rank": 12,
+      "name": "Cold Fact",
+      "artist": "Rodríguez",
+      "minutes": 45,
+      "streams": 18,
+      "uniqueTracks": 7,
+      "url": "https://open.spotify.com/search/Cold%20Fact%20Rodr%C3%ADguez"
+    },
+    {
+      "rank": 13,
+      "name": "Always Like This",
+      "artist": "HVOB",
+      "minutes": 45,
+      "streams": 11,
+      "uniqueTracks": 1,
+      "url": "https://open.spotify.com/search/Always%20Like%20This%20HVOB"
+    },
+    {
+      "rank": 14,
+      "name": "Howling (Âme Remix)",
+      "artist": "Howling",
+      "minutes": 45,
+      "streams": 8,
+      "uniqueTracks": 1,
+      "url": "https://open.spotify.com/search/Howling%20(%C3%82me%20Remix)%20Howling"
+    },
+    {
+      "rank": 15,
+      "name": "Better",
+      "artist": "nimino",
+      "minutes": 45,
+      "streams": 13,
+      "uniqueTracks": 1,
+      "url": "https://open.spotify.com/search/Better%20nimino"
+    },
+    {
+      "rank": 16,
+      "name": "USB",
+      "artist": "Fred again..",
+      "minutes": 45,
+      "streams": 16,
+      "uniqueTracks": 1,
+      "url": "https://open.spotify.com/search/USB%20Fred%20again.."
+    },
+    {
+      "rank": 17,
+      "name": "Led Zeppelin IV",
+      "artist": "Led Zeppelin",
+      "minutes": 44,
+      "streams": 6,
+      "uniqueTracks": 2,
+      "url": "https://open.spotify.com/search/Led%20Zeppelin%20IV%20Led%20Zeppelin"
+    },
+    {
+      "rank": 18,
+      "name": "Portraits",
+      "artist": "Maribou State",
+      "minutes": 43,
+      "streams": 12,
+      "uniqueTracks": 4,
+      "url": "https://open.spotify.com/search/Portraits%20Maribou%20State"
+    },
+    {
+      "rank": 19,
+      "name": "Let It Bleed",
+      "artist": "The Rolling Stones",
+      "minutes": 41,
+      "streams": 8,
+      "uniqueTracks": 2,
+      "url": "https://open.spotify.com/search/Let%20It%20Bleed%20The%20Rolling%20Stones"
+    },
+    {
+      "rank": 20,
+      "name": "Graduation",
+      "artist": "Kanye West",
+      "minutes": 39,
+      "streams": 10,
+      "uniqueTracks": 6,
+      "url": "https://open.spotify.com/search/Graduation%20Kanye%20West"
+    }
+  ],
+  "temporal": {
+    "monthly": [
+      {
+        "month": 1,
+        "label": "Jan",
+        "minutes": 2652,
+        "streams": 709
+      },
+      {
+        "month": 2,
+        "label": "Feb",
+        "minutes": 3932,
+        "streams": 1067
+      },
+      {
+        "month": 3,
+        "label": "Mar",
+        "minutes": 2571,
+        "streams": 642
+      },
+      {
+        "month": 4,
+        "label": "Apr",
+        "minutes": 0,
+        "streams": 0
+      },
+      {
+        "month": 5,
+        "label": "May",
+        "minutes": 0,
+        "streams": 0
+      },
+      {
+        "month": 6,
+        "label": "Jun",
+        "minutes": 0,
+        "streams": 0
+      },
+      {
+        "month": 7,
+        "label": "Jul",
+        "minutes": 0,
+        "streams": 0
+      },
+      {
+        "month": 8,
+        "label": "Aug",
+        "minutes": 0,
+        "streams": 0
+      },
+      {
+        "month": 9,
+        "label": "Sep",
+        "minutes": 0,
+        "streams": 0
+      },
+      {
+        "month": 10,
+        "label": "Oct",
+        "minutes": 0,
+        "streams": 0
+      },
+      {
+        "month": 11,
+        "label": "Nov",
+        "minutes": 0,
+        "streams": 0
+      },
+      {
+        "month": 12,
+        "label": "Dec",
+        "minutes": 0,
+        "streams": 0
+      }
+    ],
+    "weekly": [
+      {
+        "day": 0,
+        "label": "Sun",
+        "minutes": 1072,
+        "streams": 281
+      },
+      {
+        "day": 1,
+        "label": "Mon",
+        "minutes": 1425,
+        "streams": 381
+      },
+      {
+        "day": 2,
+        "label": "Tue",
+        "minutes": 1428,
+        "streams": 365
+      },
+      {
+        "day": 3,
+        "label": "Wed",
+        "minutes": 1665,
+        "streams": 441
+      },
+      {
+        "day": 4,
+        "label": "Thu",
+        "minutes": 945,
+        "streams": 240
+      },
+      {
+        "day": 5,
+        "label": "Fri",
+        "minutes": 1832,
+        "streams": 505
+      },
+      {
+        "day": 6,
+        "label": "Sat",
+        "minutes": 788,
+        "streams": 205
+      }
+    ],
+    "hourly": [
+      {
+        "hour": 0,
+        "minutes": 14,
+        "streams": 3
+      },
+      {
+        "hour": 1,
+        "minutes": 39,
+        "streams": 11
+      },
+      {
+        "hour": 2,
+        "minutes": 40,
+        "streams": 12
+      },
+      {
+        "hour": 3,
+        "minutes": 0,
+        "streams": 0
+      },
+      {
+        "hour": 4,
+        "minutes": 4,
+        "streams": 1
+      },
+      {
+        "hour": 5,
+        "minutes": 1,
+        "streams": 1
+      },
+      {
+        "hour": 6,
+        "minutes": 261,
+        "streams": 75
+      },
+      {
+        "hour": 7,
+        "minutes": 336,
+        "streams": 91
+      },
+      {
+        "hour": 8,
+        "minutes": 569,
+        "streams": 143
+      },
+      {
+        "hour": 9,
+        "minutes": 659,
+        "streams": 163
+      },
+      {
+        "hour": 10,
+        "minutes": 549,
+        "streams": 143
+      },
+      {
+        "hour": 11,
+        "minutes": 682,
+        "streams": 179
+      },
+      {
+        "hour": 12,
+        "minutes": 734,
+        "streams": 195
+      },
+      {
+        "hour": 13,
+        "minutes": 765,
+        "streams": 195
+      },
+      {
+        "hour": 14,
+        "minutes": 988,
+        "streams": 241
+      },
+      {
+        "hour": 15,
+        "minutes": 1083,
+        "streams": 295
+      },
+      {
+        "hour": 16,
+        "minutes": 513,
+        "streams": 149
+      },
+      {
+        "hour": 17,
+        "minutes": 608,
+        "streams": 168
+      },
+      {
+        "hour": 18,
+        "minutes": 369,
+        "streams": 99
+      },
+      {
+        "hour": 19,
+        "minutes": 319,
+        "streams": 82
+      },
+      {
+        "hour": 20,
+        "minutes": 255,
+        "streams": 67
+      },
+      {
+        "hour": 21,
+        "minutes": 155,
+        "streams": 41
+      },
+      {
+        "hour": 22,
+        "minutes": 81,
+        "streams": 24
+      },
+      {
+        "hour": 23,
+        "minutes": 130,
+        "streams": 40
+      }
+    ],
+    "heatmap": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        54,
+        80,
+        102,
+        75,
+        83,
+        90,
+        105,
+        132,
+        91,
+        135,
+        57,
+        63,
+        6,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        48,
+        23,
+        113,
+        106,
+        120,
+        122,
+        56,
+        182,
+        172,
+        213,
+        41,
+        121,
+        84,
+        15,
+        1,
+        0,
+        0,
+        10
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        104,
+        33,
+        62,
+        155,
+        6,
+        116,
+        15,
+        166,
+        170,
+        228,
+        60,
+        79,
+        39,
+        94,
+        83,
+        15,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        73,
+        75,
+        194,
+        140,
+        144,
+        165,
+        187,
+        155,
+        178,
+        149,
+        58,
+        56,
+        24,
+        11,
+        4,
+        0,
+        36,
+        14
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        10,
+        69,
+        120,
+        136,
+        36,
+        24,
+        62,
+        23,
+        101,
+        85,
+        53,
+        58,
+        76,
+        12,
+        12,
+        17,
+        4,
+        48
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        26,
+        136,
+        80,
+        65,
+        159,
+        130,
+        207,
+        105,
+        174,
+        154,
+        142,
+        125,
+        31,
+        52,
+        98,
+        61,
+        28,
+        57
+      ],
+      [
+        14,
+        39,
+        40,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        57,
+        31,
+        45,
+        105,
+        60,
+        109,
+        166,
+        55,
+        37,
+        25,
+        0,
+        0,
+        0,
+        5,
+        0
+      ]
+    ]
+  },
+  "behavior": {
+    "shuffleRate": 0.459,
+    "offlineRate": 0.028,
+    "skipRate": 0.089,
+    "reasonStart": [
+      {
+        "reason": "trackdone",
+        "count": 2049
+      },
+      {
+        "reason": "fwdbtn",
+        "count": 227
+      },
+      {
+        "reason": "clickrow",
+        "count": 64
+      },
+      {
+        "reason": "appload",
+        "count": 36
+      },
+      {
+        "reason": "playbtn",
+        "count": 33
+      },
+      {
+        "reason": "remote",
+        "count": 4
+      },
+      {
+        "reason": "backbtn",
+        "count": 3
+      },
+      {
+        "reason": "trackerror",
+        "count": 2
+      }
+    ],
+    "reasonEnd": [
+      {
+        "reason": "trackdone",
+        "count": 2082
+      },
+      {
+        "reason": "fwdbtn",
+        "count": 151
+      },
+      {
+        "reason": "unexpected-exit-while-paused",
+        "count": 97
+      },
+      {
+        "reason": "endplay",
+        "count": 62
+      },
+      {
+        "reason": "logout",
+        "count": 12
+      },
+      {
+        "reason": "remote",
+        "count": 10
+      },
+      {
+        "reason": "trackerror",
+        "count": 2
+      },
+      {
+        "reason": "backbtn",
+        "count": 1
+      },
+      {
+        "reason": "unexpected-exit",
+        "count": 1
+      }
+    ]
+  },
+  "streaks": {
+    "longestDailyStreak": {
+      "days": 29,
+      "start": "2026-02-10",
+      "end": "2026-03-10"
+    },
+    "longestBreak": {
+      "days": 3,
+      "start": "2026-01-07",
+      "end": "2026-01-11"
+    },
+    "biggestDay": {
+      "date": "2026-01-28",
+      "minutes": 465
+    },
+    "mostRepeatedTrack": {
+      "name": "Scared To Start",
+      "artist": "Michael Marcagi",
+      "count": 3,
+      "date": "2026-02-20"
+    }
+  },
+  "discovery": {
+    "newArtists": 83,
+    "newTracks": 236,
+    "discoveryRate": 0.125,
+    "topNewArtists": [
+      {
+        "name": "JAŸ-Z",
+        "minutes": 32
+      },
+      {
+        "name": "Lazywax",
+        "minutes": 22
+      },
+      {
+        "name": "gardenstate",
+        "minutes": 16
+      },
+      {
+        "name": "Jonathan Wilson",
+        "minutes": 16
+      },
+      {
+        "name": "Joutro Mundo",
+        "minutes": 15
+      },
+      {
+        "name": "NFC",
+        "minutes": 13
+      },
+      {
+        "name": "Izzy Wise",
+        "minutes": 11
+      },
+      {
+        "name": "The Cactus Channel",
+        "minutes": 9
+      },
+      {
+        "name": "Connan Mockasin",
+        "minutes": 9
+      },
+      {
+        "name": "Octave One",
+        "minutes": 9
+      }
+    ],
+    "topNewTracks": [
+      {
+        "name": "Mariella",
+        "artist": "Khruangbin",
+        "streams": 7
+      },
+      {
+        "name": "Today",
+        "artist": "Zero 7",
+        "streams": 7
+      },
+      {
+        "name": "The Best Part",
+        "artist": "gardenstate",
+        "streams": 5
+      },
+      {
+        "name": "Santa Catarina",
+        "artist": "Lazywax",
+        "streams": 4
+      },
+      {
+        "name": "Long Cool Woman",
+        "artist": "MOONLGHT",
+        "streams": 4
+      },
+      {
+        "name": "Like a Stone",
+        "artist": "Audioslave",
+        "streams": 4
+      },
+      {
+        "name": "Faint",
+        "artist": "Linkin Park",
+        "streams": 4
+      },
+      {
+        "name": "Rico Coco",
+        "artist": "NFC",
+        "streams": 3
+      },
+      {
+        "name": "Keep It Movin' - feat. Smashish",
+        "artist": "Izzy Wise",
+        "streams": 3
+      },
+      {
+        "name": "August 10",
+        "artist": "Khruangbin",
+        "streams": 3
+      }
+    ]
+  },
+  "extremes": {
+    "longestListen": {
+      "name": "Time",
+      "artist": "Pachanga Boys",
+      "duration": "13:53"
+    },
+    "shortestListen": {
+      "name": "She Remembers",
+      "artist": "Max Richter",
+      "duration": "0:30"
+    }
+  },
+  "loyalty": {
+    "returning": [
+      {
+        "name": "Red Hot Chili Peppers",
+        "yearsActive": 9,
+        "totalYears": 9,
+        "firstYear": 2018,
+        "currentYearRank": 1,
+        "currentYearMinutes": 295,
+        "tier": "ride-or-die"
+      },
+      {
+        "name": "Mac Miller",
+        "yearsActive": 9,
+        "totalYears": 9,
+        "firstYear": 2018,
+        "currentYearRank": 6,
+        "currentYearMinutes": 104,
+        "tier": "ride-or-die"
+      },
+      {
+        "name": "Led Zeppelin",
+        "yearsActive": 8,
+        "totalYears": 9,
+        "firstYear": 2019,
+        "currentYearRank": 3,
+        "currentYearMinutes": 126,
+        "tier": "ride-or-die"
+      },
+      {
+        "name": "Kanye West",
+        "yearsActive": 8,
+        "totalYears": 9,
+        "firstYear": 2019,
+        "currentYearRank": 17,
+        "currentYearMinutes": 70,
+        "tier": "ride-or-die"
+      },
+      {
+        "name": "andhim",
+        "yearsActive": 7,
+        "totalYears": 9,
+        "firstYear": 2018,
+        "currentYearRank": 13,
+        "currentYearMinutes": 83,
+        "tier": "ride-or-die"
+      },
+      {
+        "name": "MGMT",
+        "yearsActive": 7,
+        "totalYears": 9,
+        "firstYear": 2020,
+        "currentYearRank": 14,
+        "currentYearMinutes": 76,
+        "tier": "ride-or-die"
+      },
+      {
+        "name": "Creedence Clearwater Revival",
+        "yearsActive": 7,
+        "totalYears": 9,
+        "firstYear": 2019,
+        "currentYearRank": 19,
+        "currentYearMinutes": 66,
+        "tier": "ride-or-die"
+      },
+      {
+        "name": "Queen",
+        "yearsActive": 7,
+        "totalYears": 9,
+        "firstYear": 2018,
+        "currentYearRank": 20,
+        "currentYearMinutes": 66,
+        "tier": "ride-or-die"
+      },
+      {
+        "name": "The Rolling Stones",
+        "yearsActive": 6,
+        "totalYears": 9,
+        "firstYear": 2020,
+        "currentYearRank": 2,
+        "currentYearMinutes": 165,
+        "tier": "ride-or-die"
+      },
+      {
+        "name": "Dire Straits",
+        "yearsActive": 6,
+        "totalYears": 9,
+        "firstYear": 2018,
+        "currentYearRank": 4,
+        "currentYearMinutes": 118,
+        "tier": "ride-or-die"
+      },
+      {
+        "name": "HVOB",
+        "yearsActive": 5,
+        "totalYears": 9,
+        "firstYear": 2018,
+        "currentYearRank": 5,
+        "currentYearMinutes": 106,
+        "tier": "regular"
+      },
+      {
+        "name": "Fleetwood Mac",
+        "yearsActive": 5,
+        "totalYears": 9,
+        "firstYear": 2021,
+        "currentYearRank": 7,
+        "currentYearMinutes": 99,
+        "tier": "regular"
+      },
+      {
+        "name": "Lynyrd Skynyrd",
+        "yearsActive": 5,
+        "totalYears": 9,
+        "firstYear": 2022,
+        "currentYearRank": 15,
+        "currentYearMinutes": 73,
+        "tier": "regular"
+      },
+      {
+        "name": "Pink Floyd",
+        "yearsActive": 4,
+        "totalYears": 9,
+        "firstYear": 2019,
+        "currentYearRank": 12,
+        "currentYearMinutes": 83,
+        "tier": "regular"
+      },
+      {
+        "name": "Maribou State",
+        "yearsActive": 3,
+        "totalYears": 9,
+        "firstYear": 2024,
+        "currentYearRank": 8,
+        "currentYearMinutes": 87,
+        "tier": "familiar"
+      },
+      {
+        "name": "nimino",
+        "yearsActive": 2,
+        "totalYears": 9,
+        "firstYear": 2025,
+        "currentYearRank": 16,
+        "currentYearMinutes": 72,
+        "tier": "familiar"
+      }
+    ],
+    "new": [
+      {
+        "name": "Bosq",
+        "currentYearRank": 9,
+        "currentYearMinutes": 86
+      },
+      {
+        "name": "Fred again..",
+        "currentYearRank": 10,
+        "currentYearMinutes": 84
+      },
+      {
+        "name": "sombr",
+        "currentYearRank": 11,
+        "currentYearMinutes": 84
+      },
+      {
+        "name": "Khruangbin",
+        "currentYearRank": 18,
+        "currentYearMinutes": 70
+      }
+    ],
+    "returningCount": 16,
+    "newCount": 4,
+    "returningPct": 80
+  }
+}

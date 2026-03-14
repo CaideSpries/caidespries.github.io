@@ -57,32 +57,5 @@ const reasonLabels: Record<string, string> = {
       ))}
     </div>
 
-    {behavior.reasonEnd && behavior.reasonEnd.length > 0 && (
-      <div class="retro-card p-6 md:p-8" data-animate>
-        <p class="text-xs font-mono uppercase tracking-[0.2em] mb-6 text-center" style="color: var(--text-muted);">
-          How tracks ended
-        </p>
-        <div class="max-w-lg mx-auto space-y-2">
-          {behavior.reasonEnd.slice(0, 6).map((r, i) => {
-            const maxCount = behavior.reasonEnd![0].count;
-            const widthPct = (r.count / maxCount) * 100;
-            return (
-              <div class="flex items-center gap-3">
-                <span class="text-xs w-28 text-right truncate" style="color: var(--text-secondary);">
-                  {reasonLabels[r.reason] || r.reason}
-                </span>
-                <div class="flex-1 h-5 rounded overflow-hidden" style="background: rgba(232, 213, 192, 0.05);">
-                  <div class="h-full rounded"
-                    style={`width: ${widthPct}%; background: rgba(232, 93, 58, ${0.15 + (1 - i / 6) * 0.4});`}></div>
-                </div>
-                <span class="text-[10px] font-mono w-14 text-right" style="color: var(--text-faint);">
-                  {r.count.toLocaleString()}
-                </span>
-              </div>
-            );
-          })}
-        </div>
-      </div>
-    )}
   </div>
 </section>

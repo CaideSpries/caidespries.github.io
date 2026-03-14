@@ -1,0 +1,227 @@
+---
+interface Props {
+  loyalty: {
+    returning: Array<{
+      name: string;
+      yearsActive: number;
+      totalYears: number;
+      firstYear: number;
+      currentYearRank: number;
+      currentYearMinutes: number;
+      tier: "ride-or-die" | "regular" | "familiar";
+    }>;
+    new: Array<{
+      name: string;
+      currentYearRank: number;
+      currentYearMinutes: number;
+    }>;
+    returningCount: number;
+    newCount: number;
+    returningPct: number;
+  } | null;
+}
+
+const { loyalty } = Astro.props;
+if (!loyalty) return;
+
+const rideOrDie = loyalty.returning.filter((a) => a.tier === "ride-or-die");
+const regulars = loyalty.returning.filter((a) => a.tier === "regular");
+const familiar = loyalty.returning.filter((a) => a.tier === "familiar");
+
+const tierLabel: Record<string, string> = {
+  "ride-or-die": "Ride or Die",
+  regular: "Regular",
+  familiar: "Familiar",
+};
+---
+
+<section class="py-24 px-4">
+  <div class="max-w-5xl mx-auto">
+    <div class="text-center mb-16" data-animate>
+      <p class="text-sm font-mono uppercase tracking-[0.3em] mb-3" style="color: var(--text-muted);">Your</p>
+      <h2 class="text-5xl md:text-6xl font-black tracking-tight" style="font-family: var(--font-display);">
+        <span class="neon-text">Loyalty</span>
+      </h2>
+    </div>
+
+    <!-- Summary stats -->
+    <div class="grid sm:grid-cols-3 gap-4 mb-12" data-animate>
+      <div class="retro-card p-6 text-center">
+        <p class="text-4xl font-black neon-text" style="font-family: var(--font-display);">
+          {loyalty.returningCount}
+        </p>
+        <p class="text-xs font-mono uppercase tracking-wider mt-2" style="color: var(--text-muted);">Returning</p>
+      </div>
+      <div class="retro-card p-6 text-center">
+        <p class="text-4xl font-black neon-text" style="font-family: var(--font-display);">
+          {loyalty.newCount}
+        </p>
+        <p class="text-xs font-mono uppercase tracking-wider mt-2" style="color: var(--text-muted);">New Artists</p>
+      </div>
+      <div class="retro-card p-6 text-center">
+        <p class="text-4xl font-black neon-text" style="font-family: var(--font-display);">
+          {loyalty.returningPct}%
+        </p>
+        <p class="text-xs font-mono uppercase tracking-wider mt-2" style="color: var(--text-muted);">Returning Rate</p>
+      </div>
+    </div>
+
+    <!-- Ride or Die tier -->
+    {rideOrDie.length > 0 && (
+      <div class="mb-10" data-animate>
+        <p class="text-xs font-mono uppercase tracking-[0.2em] mb-4" style="color: #e85d3a;">
+          Ride or Die
+        </p>
+        <div class="grid sm:grid-cols-2 gap-4">
+          {rideOrDie.map((artist) => (
+            <div class="retro-card p-6">
+              <div class="flex items-start justify-between gap-3">
+                <div class="min-w-0">
+                  <div class="flex items-center gap-2 mb-2">
+                    <h3 class="text-lg font-bold truncate" style="font-family: var(--font-display);">
+                      {artist.name}
+                    </h3>
+                    <span
+                      class="shrink-0 text-[10px] font-mono uppercase tracking-wider px-2 py-0.5 rounded-full"
+                      style="background: rgba(232, 93, 58, 0.15); color: #e85d3a;"
+                    >
+                      {tierLabel[artist.tier]}
+                    </span>
+                  </div>
+                  <p class="text-2xl font-black" style="font-family: var(--font-display);">
+                    <span class="neon-text">{artist.yearsActive}</span>
+                    <span class="text-base font-normal" style="color: var(--text-muted);">/{artist.totalYears} years</span>
+                  </p>
+                  <p class="text-xs mt-2" style="color: var(--text-muted);">
+                    Since {artist.firstYear}
+                  </p>
+                </div>
+                <div class="text-right shrink-0">
+                  <span class="text-lg font-black" style="font-family: var(--font-mono); color: var(--text-faint);">
+                    #{artist.currentYearRank}
+                  </span>
+                  <p class="text-xs mt-1" style="color: var(--text-muted);">
+                    {artist.currentYearMinutes.toLocaleString()} min
+                  </p>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    )}
+
+    <!-- Regulars tier -->
+    {regulars.length > 0 && (
+      <div class="mb-10" data-animate>
+        <p class="text-xs font-mono uppercase tracking-[0.2em] mb-4" style="color: #e85d3a;">
+          Regulars
+        </p>
+        <div class="grid sm:grid-cols-2 gap-4">
+          {regulars.map((artist) => (
+            <div class="retro-card p-5">
+              <div class="flex items-start justify-between gap-3">
+                <div class="min-w-0">
+                  <div class="flex items-center gap-2 mb-2">
+                    <h3 class="text-base font-bold truncate" style="font-family: var(--font-display);">
+                      {artist.name}
+                    </h3>
+                    <span
+                      class="shrink-0 text-[10px] font-mono uppercase tracking-wider px-2 py-0.5 rounded-full"
+                      style="background: rgba(232, 93, 58, 0.08); color: rgba(232, 93, 58, 0.7);"
+                    >
+                      {tierLabel[artist.tier]}
+                    </span>
+                  </div>
+                  <p class="text-xl font-black" style="font-family: var(--font-display);">
+                    <span class="neon-text">{artist.yearsActive}</span>
+                    <span class="text-sm font-normal" style="color: var(--text-muted);">/{artist.totalYears} years</span>
+                  </p>
+                  <p class="text-xs mt-1" style="color: var(--text-muted);">
+                    Since {artist.firstYear}
+                  </p>
+                </div>
+                <div class="text-right shrink-0">
+                  <span class="text-lg font-black" style="font-family: var(--font-mono); color: var(--text-faint);">
+                    #{artist.currentYearRank}
+                  </span>
+                  <p class="text-xs mt-1" style="color: var(--text-muted);">
+                    {artist.currentYearMinutes.toLocaleString()} min
+                  </p>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    )}
+
+    <!-- Familiar tier -->
+    {familiar.length > 0 && (
+      <div class="mb-10" data-animate>
+        <p class="text-xs font-mono uppercase tracking-[0.2em] mb-4" style="color: #e85d3a;">
+          Familiar
+        </p>
+        <div class="grid sm:grid-cols-3 gap-3">
+          {familiar.map((artist) => (
+            <div class="retro-card p-4">
+              <div class="flex items-center justify-between gap-2">
+                <div class="min-w-0">
+                  <div class="flex items-center gap-2 mb-1">
+                    <p class="text-sm font-bold truncate" style="font-family: var(--font-display);">
+                      {artist.name}
+                    </p>
+                    <span
+                      class="shrink-0 text-[9px] font-mono uppercase tracking-wider px-1.5 py-0.5 rounded-full"
+                      style="background: rgba(232, 93, 58, 0.05); color: rgba(232, 93, 58, 0.5);"
+                    >
+                      {tierLabel[artist.tier]}
+                    </span>
+                  </div>
+                  <p class="text-sm font-black" style="font-family: var(--font-display);">
+                    <span class="neon-text">{artist.yearsActive}</span>
+                    <span class="text-xs font-normal" style="color: var(--text-muted);">/{artist.totalYears} yrs</span>
+                  </p>
+                </div>
+                <div class="text-right shrink-0">
+                  <span class="text-sm font-black" style="font-family: var(--font-mono); color: var(--text-faint);">
+                    #{artist.currentYearRank}
+                  </span>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    )}
+
+    <!-- New Arrivals -->
+    {loyalty.new.length > 0 && (
+      <div data-animate>
+        <p class="text-xs font-mono uppercase tracking-[0.2em] mb-4" style="color: #e85d3a;">
+          New Arrivals
+        </p>
+        <div class="retro-card p-6">
+          <div class="space-y-3">
+            {loyalty.new.map((artist, i) => (
+              <div class="flex items-center gap-3">
+                <span class="text-lg font-black w-6 text-right" style={`font-family: var(--font-mono); color: ${i < 3 ? "#e85d3a" : "var(--text-faint)"};`}>
+                  {i + 1}
+                </span>
+                <div class="flex-1 min-w-0">
+                  <p class="text-sm font-bold truncate" style="font-family: var(--font-display);">{artist.name}</p>
+                </div>
+                <span class="text-sm font-black" style="font-family: var(--font-mono); color: var(--text-faint);">
+                  #{artist.currentYearRank}
+                </span>
+                <span class="text-xs font-mono shrink-0" style="color: var(--text-muted);">
+                  {artist.currentYearMinutes.toLocaleString()} min
+                </span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    )}
+  </div>
+</section>

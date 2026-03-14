@@ -1,0 +1,1673 @@
+{
+  "year": 2020,
+  "source": "extended_history",
+  "lastUpdated": "2026-03-14T16:39:45.668Z",
+  "headline": {
+    "totalMinutes": 47800,
+    "totalStreams": 14508,
+    "uniqueArtists": 1143,
+    "uniqueTracks": 2728,
+    "uniqueAlbums": 1946,
+    "daysActive": 348,
+    "avgMinutesPerDay": 137
+  },
+  "topArtists": [
+    {
+      "rank": 1,
+      "name": "Red Hot Chili Peppers",
+      "minutes": 1678,
+      "streams": 437,
+      "uniqueTracks": 55,
+      "peakMonth": "Sep"
+    },
+    {
+      "rank": 2,
+      "name": "Mac Miller",
+      "minutes": 1424,
+      "streams": 422,
+      "uniqueTracks": 40,
+      "peakMonth": "Aug"
+    },
+    {
+      "rank": 3,
+      "name": "Jack Johnson",
+      "minutes": 800,
+      "streams": 304,
+      "uniqueTracks": 46,
+      "peakMonth": "Jul"
+    },
+    {
+      "rank": 4,
+      "name": "Milky Chance",
+      "minutes": 648,
+      "streams": 168,
+      "uniqueTracks": 28,
+      "peakMonth": "May"
+    },
+    {
+      "rank": 5,
+      "name": "Bob Marley & The Wailers",
+      "minutes": 594,
+      "streams": 176,
+      "uniqueTracks": 33,
+      "peakMonth": "Oct"
+    },
+    {
+      "rank": 6,
+      "name": "Skegss",
+      "minutes": 583,
+      "streams": 223,
+      "uniqueTracks": 18,
+      "peakMonth": "Oct"
+    },
+    {
+      "rank": 7,
+      "name": "Twenty One Pilots",
+      "minutes": 545,
+      "streams": 181,
+      "uniqueTracks": 18,
+      "peakMonth": "Aug"
+    },
+    {
+      "rank": 8,
+      "name": "Etta James",
+      "minutes": 532,
+      "streams": 175,
+      "uniqueTracks": 35,
+      "peakMonth": "Jul"
+    },
+    {
+      "rank": 9,
+      "name": "Kendrick Lamar",
+      "minutes": 530,
+      "streams": 165,
+      "uniqueTracks": 28,
+      "peakMonth": "Nov"
+    },
+    {
+      "rank": 10,
+      "name": "Kanye West",
+      "minutes": 516,
+      "streams": 169,
+      "uniqueTracks": 32,
+      "peakMonth": "Nov"
+    },
+    {
+      "rank": 11,
+      "name": "Chance the Rapper",
+      "minutes": 506,
+      "streams": 163,
+      "uniqueTracks": 29,
+      "peakMonth": "Sep"
+    },
+    {
+      "rank": 12,
+      "name": "Rodríguez",
+      "minutes": 473,
+      "streams": 166,
+      "uniqueTracks": 22,
+      "peakMonth": "Sep"
+    },
+    {
+      "rank": 13,
+      "name": "Led Zeppelin",
+      "minutes": 464,
+      "streams": 115,
+      "uniqueTracks": 12,
+      "peakMonth": "Sep"
+    },
+    {
+      "rank": 14,
+      "name": "Eminem",
+      "minutes": 443,
+      "streams": 115,
+      "uniqueTracks": 24,
+      "peakMonth": "Aug"
+    },
+    {
+      "rank": 15,
+      "name": "Queen",
+      "minutes": 425,
+      "streams": 126,
+      "uniqueTracks": 18,
+      "peakMonth": "Aug"
+    },
+    {
+      "rank": 16,
+      "name": "AC/DC",
+      "minutes": 407,
+      "streams": 118,
+      "uniqueTracks": 11,
+      "peakMonth": "Dec"
+    },
+    {
+      "rank": 17,
+      "name": "Black Sabbath",
+      "minutes": 390,
+      "streams": 112,
+      "uniqueTracks": 10,
+      "peakMonth": "Aug"
+    },
+    {
+      "rank": 18,
+      "name": "Desmond and the Tutus",
+      "minutes": 371,
+      "streams": 118,
+      "uniqueTracks": 13,
+      "peakMonth": "Jul"
+    },
+    {
+      "rank": 19,
+      "name": "Yo Grapes",
+      "minutes": 348,
+      "streams": 126,
+      "uniqueTracks": 21,
+      "peakMonth": "Aug"
+    },
+    {
+      "rank": 20,
+      "name": "Sam Lachow",
+      "minutes": 331,
+      "streams": 116,
+      "uniqueTracks": 21,
+      "peakMonth": "Aug"
+    }
+  ],
+  "topTracks": [
+    {
+      "rank": 1,
+      "name": "Gooey - Gilligan Moss Remix",
+      "artist": "Glass Animals",
+      "album": "Gooey",
+      "minutes": 303,
+      "streams": 64,
+      "uri": "spotify:track:4Bkdb7cuuTrgiM4ddtm2or",
+      "url": "https://open.spotify.com/track/4Bkdb7cuuTrgiM4ddtm2or"
+    },
+    {
+      "rank": 2,
+      "name": "Good News",
+      "artist": "Mac Miller",
+      "album": "Good News",
+      "minutes": 261,
+      "streams": 55,
+      "uri": "spotify:track:3ClBKQkKoaUQ6UOhe2xlJK",
+      "url": "https://open.spotify.com/track/3ClBKQkKoaUQ6UOhe2xlJK"
+    },
+    {
+      "rank": 3,
+      "name": "Sundress",
+      "artist": "A$AP Rocky",
+      "album": "Sundress",
+      "minutes": 128,
+      "streams": 54,
+      "uri": "spotify:track:2aPTvyE09vUCRwVvj0I8WK",
+      "url": "https://open.spotify.com/track/2aPTvyE09vUCRwVvj0I8WK"
+    },
+    {
+      "rank": 4,
+      "name": "Snow (Hey Oh)",
+      "artist": "Red Hot Chili Peppers",
+      "album": "Stadium Arcadium",
+      "minutes": 237,
+      "streams": 51,
+      "uri": "spotify:track:2aibwv5hGXSgw7Yru8IYTO",
+      "url": "https://open.spotify.com/track/2aibwv5hGXSgw7Yru8IYTO"
+    },
+    {
+      "rank": 5,
+      "name": "The Spins",
+      "artist": "Mac Miller",
+      "album": "K.I.D.S.",
+      "minutes": 154,
+      "streams": 50,
+      "uri": "spotify:track:51pshtuYkgUQnt5huMPbKL",
+      "url": "https://open.spotify.com/track/51pshtuYkgUQnt5huMPbKL"
+    },
+    {
+      "rank": 6,
+      "name": "Whole Lotta Love - 1990 Remaster",
+      "artist": "Led Zeppelin",
+      "album": "Led Zeppelin II",
+      "minutes": 195,
+      "streams": 44,
+      "uri": "spotify:track:0hCB0YR03f6AmQaHbwWDe8",
+      "url": "https://open.spotify.com/track/0hCB0YR03f6AmQaHbwWDe8"
+    },
+    {
+      "rank": 7,
+      "name": "Good Morning Children",
+      "artist": "Alec Troniq",
+      "album": "Ipoly Mate 003",
+      "minutes": 253,
+      "streams": 43,
+      "uri": "spotify:track:7b6gAh0OyzcKsg2i7Tte6u",
+      "url": "https://open.spotify.com/track/7b6gAh0OyzcKsg2i7Tte6u"
+    },
+    {
+      "rank": 8,
+      "name": "Dark Necessities",
+      "artist": "Red Hot Chili Peppers",
+      "album": "The Getaway",
+      "minutes": 178,
+      "streams": 42,
+      "uri": "spotify:track:2oaK4JLVnmRGIO9ytBE1bt",
+      "url": "https://open.spotify.com/track/2oaK4JLVnmRGIO9ytBE1bt"
+    },
+    {
+      "rank": 9,
+      "name": "My Blood",
+      "artist": "Twenty One Pilots",
+      "album": "Trench",
+      "minutes": 126,
+      "streams": 41,
+      "uri": "spotify:track:5HeKOKc4phmLn8e4I7EkzD",
+      "url": "https://open.spotify.com/track/5HeKOKc4phmLn8e4I7EkzD"
+    },
+    {
+      "rank": 10,
+      "name": "My Number",
+      "artist": "Foals",
+      "album": "Holy Fire",
+      "minutes": 138,
+      "streams": 41,
+      "uri": "spotify:track:4c9WmjVlQMr0s1IjbYO52Z",
+      "url": "https://open.spotify.com/track/4c9WmjVlQMr0s1IjbYO52Z"
+    },
+    {
+      "rank": 11,
+      "name": "Up In The Clouds",
+      "artist": "Skegss",
+      "album": "My Own Mess",
+      "minutes": 92,
+      "streams": 40,
+      "uri": "spotify:track:440m8MPuMzg5PkipV7Sh45",
+      "url": "https://open.spotify.com/track/440m8MPuMzg5PkipV7Sh45"
+    },
+    {
+      "rank": 12,
+      "name": "Smells Like Teen Spirit",
+      "artist": "Nirvana",
+      "album": "Nevermind",
+      "minutes": 164,
+      "streams": 40,
+      "uri": "spotify:track:1f3yAtsJtY87CTmM8RLnxf",
+      "url": "https://open.spotify.com/track/1f3yAtsJtY87CTmM8RLnxf"
+    },
+    {
+      "rank": 13,
+      "name": "Let's Stare at the Sun",
+      "artist": "We Are Charlie",
+      "album": "Let's Stare at the Sun",
+      "minutes": 104,
+      "streams": 40,
+      "uri": "spotify:track:6u8Rn5PtaxUwAG0rFaectP",
+      "url": "https://open.spotify.com/track/6u8Rn5PtaxUwAG0rFaectP"
+    },
+    {
+      "rank": 14,
+      "name": "Nikes On My Feet",
+      "artist": "Mac Miller",
+      "album": "K.I.D.S.",
+      "minutes": 101,
+      "streams": 39,
+      "uri": "spotify:track:29GefKRTSVW3ag4Xegm8jP",
+      "url": "https://open.spotify.com/track/29GefKRTSVW3ag4Xegm8jP"
+    },
+    {
+      "rank": 15,
+      "name": "The Getaway",
+      "artist": "Red Hot Chili Peppers",
+      "album": "The Getaway",
+      "minutes": 110,
+      "streams": 37,
+      "uri": "spotify:track:3bIQIx7hveYPQDdhjZ1kcq",
+      "url": "https://open.spotify.com/track/3bIQIx7hveYPQDdhjZ1kcq"
+    },
+    {
+      "rank": 16,
+      "name": "Sunflower Seeds",
+      "artist": "Bryce Vine",
+      "album": "Sunflower Seeds",
+      "minutes": 129,
+      "streams": 37,
+      "uri": "spotify:track:4MJfCOcc2PpWOrUqOpvy1S",
+      "url": "https://open.spotify.com/track/4MJfCOcc2PpWOrUqOpvy1S"
+    },
+    {
+      "rank": 17,
+      "name": "Electric Feel",
+      "artist": "MGMT",
+      "album": "Oracular Spectacular",
+      "minutes": 130,
+      "streams": 36,
+      "uri": "spotify:track:3FtYbEfBqAlGO46NUDQSAt",
+      "url": "https://open.spotify.com/track/3FtYbEfBqAlGO46NUDQSAt"
+    },
+    {
+      "rank": 18,
+      "name": "Hold On",
+      "artist": "SBTRKT",
+      "album": "SBTRKT",
+      "minutes": 105,
+      "streams": 35,
+      "uri": "spotify:track:3vlVbJmvSm3x5Hqmnzh8HI",
+      "url": "https://open.spotify.com/track/3vlVbJmvSm3x5Hqmnzh8HI"
+    },
+    {
+      "rank": 19,
+      "name": "Could You Be Loved",
+      "artist": "Bob Marley & The Wailers",
+      "album": "Uprising",
+      "minutes": 122,
+      "streams": 35,
+      "uri": "spotify:track:5O4erNlJ74PIF6kGol1ZrC",
+      "url": "https://open.spotify.com/track/5O4erNlJ74PIF6kGol1ZrC"
+    },
+    {
+      "rank": 20,
+      "name": "Ode to You (feat. Nonku)",
+      "artist": "Jack Parow",
+      "album": "Nag Van Die Lang Pette (Double Album)",
+      "minutes": 94,
+      "streams": 34,
+      "uri": "spotify:track:5VcT69lQkH6LUJLHQpaPzJ",
+      "url": "https://open.spotify.com/track/5VcT69lQkH6LUJLHQpaPzJ"
+    },
+    {
+      "rank": 21,
+      "name": "Roll The Bones (Audiotree Live Version)",
+      "artist": "Shakey Graves",
+      "album": "Shakey Graves on Audiotree Live (2013)",
+      "minutes": 125,
+      "streams": 34,
+      "uri": "spotify:track:1Yxbxg5R6dQcYmOdjvlXP0",
+      "url": "https://open.spotify.com/track/1Yxbxg5R6dQcYmOdjvlXP0"
+    },
+    {
+      "rank": 22,
+      "name": "All My Problems",
+      "artist": "Surf Trash",
+      "album": "All My Problems",
+      "minutes": 83,
+      "streams": 34,
+      "uri": "spotify:track:7jKoIq3fEmFEftlj6h1L7I",
+      "url": "https://open.spotify.com/track/7jKoIq3fEmFEftlj6h1L7I"
+    },
+    {
+      "rank": 23,
+      "name": "Good Morning",
+      "artist": "Kanye West",
+      "album": "Graduation",
+      "minutes": 93,
+      "streams": 34,
+      "uri": "spotify:track:5CaXxLM568tBh1PwhXdciZ",
+      "url": "https://open.spotify.com/track/5CaXxLM568tBh1PwhXdciZ"
+    },
+    {
+      "rank": 24,
+      "name": "Come As You Are",
+      "artist": "Nirvana",
+      "album": "Nevermind",
+      "minutes": 100,
+      "streams": 33,
+      "uri": "spotify:track:0MKGH8UMfCnq5w7nG06oM5",
+      "url": "https://open.spotify.com/track/0MKGH8UMfCnq5w7nG06oM5"
+    },
+    {
+      "rank": 25,
+      "name": "Crazy Train",
+      "artist": "Ozzy Osbourne",
+      "album": "Blizzard of Ozz (Expanded Edition)",
+      "minutes": 134,
+      "streams": 32,
+      "uri": "spotify:track:2b9lp5A6CqSzwOrBfAFhof",
+      "url": "https://open.spotify.com/track/2b9lp5A6CqSzwOrBfAFhof"
+    },
+    {
+      "rank": 26,
+      "name": "Close These Curtains - Stimming Remix",
+      "artist": "Yoko Duo",
+      "album": "Remixes",
+      "minutes": 196,
+      "streams": 32,
+      "uri": "spotify:track:0ZYQ8J5CmB7EBnFCWwZfaG",
+      "url": "https://open.spotify.com/track/0ZYQ8J5CmB7EBnFCWwZfaG"
+    },
+    {
+      "rank": 27,
+      "name": "The Passenger",
+      "artist": "Iggy Pop",
+      "album": "Lust For Life",
+      "minutes": 102,
+      "streams": 32,
+      "uri": "spotify:track:15BQ7vEDv2LJuh8TxWIhtd",
+      "url": "https://open.spotify.com/track/15BQ7vEDv2LJuh8TxWIhtd"
+    },
+    {
+      "rank": 28,
+      "name": "All Along the Watchtower",
+      "artist": "Jimi Hendrix",
+      "album": "Electric Ladyland",
+      "minutes": 103,
+      "streams": 31,
+      "uri": "spotify:track:2aoo2jlRnM3A0NyLQqMN2f",
+      "url": "https://open.spotify.com/track/2aoo2jlRnM3A0NyLQqMN2f"
+    },
+    {
+      "rank": 29,
+      "name": "Weekend (feat. Miguel)",
+      "artist": "Mac Miller",
+      "album": "GO:OD AM",
+      "minutes": 96,
+      "streams": 31,
+      "uri": "spotify:track:6GnhWMhgJb7uyiiPEiEkDA",
+      "url": "https://open.spotify.com/track/6GnhWMhgJb7uyiiPEiEkDA"
+    },
+    {
+      "rank": 30,
+      "name": "Kool Aid & Frozen Pizza",
+      "artist": "Mac Miller",
+      "album": "K.I.D.S.",
+      "minutes": 74,
+      "streams": 31,
+      "uri": "spotify:track:2TyjVO7KBdGHBvQxAnFFsa",
+      "url": "https://open.spotify.com/track/2TyjVO7KBdGHBvQxAnFFsa"
+    },
+    {
+      "rank": 31,
+      "name": "Walking On A Dream",
+      "artist": "Empire Of The Sun",
+      "album": "Walking On A Dream",
+      "minutes": 90,
+      "streams": 30,
+      "uri": "spotify:track:0mBkoM8r7KAQzZij5swTUL",
+      "url": "https://open.spotify.com/track/0mBkoM8r7KAQzZij5swTUL"
+    },
+    {
+      "rank": 32,
+      "name": "O Pa Mi Titi Deabe - Armonica Remix",
+      "artist": "Mowgan",
+      "album": "O Pa Mi Titi Deabe",
+      "minutes": 139,
+      "streams": 30,
+      "uri": "spotify:track:4WVPihbt1LPe28IfkGfYux",
+      "url": "https://open.spotify.com/track/4WVPihbt1LPe28IfkGfYux"
+    },
+    {
+      "rank": 33,
+      "name": "Two High",
+      "artist": "Moon Taxi",
+      "album": "Two High",
+      "minutes": 95,
+      "streams": 30,
+      "uri": "spotify:track:0Z9HQ8YvHqdeOjTwsR3cS7",
+      "url": "https://open.spotify.com/track/0Z9HQ8YvHqdeOjTwsR3cS7"
+    },
+    {
+      "rank": 34,
+      "name": "Seasick Dream",
+      "artist": "Jack Johnson",
+      "album": "Seasick Dream",
+      "minutes": 92,
+      "streams": 29,
+      "uri": "spotify:track:1vL5bZNsFWVYED96IgWEIM",
+      "url": "https://open.spotify.com/track/1vL5bZNsFWVYED96IgWEIM"
+    },
+    {
+      "rank": 35,
+      "name": "Still Young",
+      "artist": "The Cat Empire",
+      "album": "Steal the Light",
+      "minutes": 125,
+      "streams": 29,
+      "uri": "spotify:track:4q7klA9ggWknZDhHhz9XYp",
+      "url": "https://open.spotify.com/track/4q7klA9ggWknZDhHhz9XYp"
+    },
+    {
+      "rank": 36,
+      "name": "A Dream of You and Me",
+      "artist": "Future Islands",
+      "album": "Singles",
+      "minutes": 107,
+      "streams": 28,
+      "uri": "spotify:track:75dPA4e9zmNGZCMnTxHj6P",
+      "url": "https://open.spotify.com/track/75dPA4e9zmNGZCMnTxHj6P"
+    },
+    {
+      "rank": 37,
+      "name": "Coming Along",
+      "artist": "Sunset Sweatshop",
+      "album": "Chasing Gold",
+      "minutes": 72,
+      "streams": 28,
+      "uri": "spotify:track:5ELSImeRtNkpBTm1jnQ0tD",
+      "url": "https://open.spotify.com/track/5ELSImeRtNkpBTm1jnQ0tD"
+    },
+    {
+      "rank": 38,
+      "name": "Painting (Masterpiece)",
+      "artist": "Lewis Del Mar",
+      "album": "Lewis Del Mar",
+      "minutes": 98,
+      "streams": 28,
+      "uri": "spotify:track:4kK14radw0XfwxJDPt9tnP",
+      "url": "https://open.spotify.com/track/4kK14radw0XfwxJDPt9tnP"
+    },
+    {
+      "rank": 39,
+      "name": "Under the Bridge",
+      "artist": "Red Hot Chili Peppers",
+      "album": "Blood Sugar Sex Magik",
+      "minutes": 112,
+      "streams": 27,
+      "uri": "spotify:track:3d9DChrdc6BOeFsbrZ3Is0",
+      "url": "https://open.spotify.com/track/3d9DChrdc6BOeFsbrZ3Is0"
+    },
+    {
+      "rank": 40,
+      "name": "Chateau",
+      "artist": "Angus & Julia Stone",
+      "album": "Snow",
+      "minutes": 111,
+      "streams": 27,
+      "uri": "spotify:track:1CxoHCwwmaXHimhV2cyTBx",
+      "url": "https://open.spotify.com/track/1CxoHCwwmaXHimhV2cyTBx"
+    },
+    {
+      "rank": 41,
+      "name": "Off The Ground",
+      "artist": "Anderson .Paak",
+      "album": "Venice",
+      "minutes": 97,
+      "streams": 27,
+      "uri": "spotify:track:2HsadrpAUp28eDIOhR2hPC",
+      "url": "https://open.spotify.com/track/2HsadrpAUp28eDIOhR2hPC"
+    },
+    {
+      "rank": 42,
+      "name": "Come Together - Remastered 2009",
+      "artist": "The Beatles",
+      "album": "Abbey Road",
+      "minutes": 108,
+      "streams": 27,
+      "uri": "spotify:track:2EqlS6tkEnglzr7tkKAAYD",
+      "url": "https://open.spotify.com/track/2EqlS6tkEnglzr7tkKAAYD"
+    },
+    {
+      "rank": 43,
+      "name": "Scar Tissue",
+      "artist": "Red Hot Chili Peppers",
+      "album": "Californication",
+      "minutes": 89,
+      "streams": 27,
+      "uri": "spotify:track:1G391cbiT3v3Cywg8T7DM1",
+      "url": "https://open.spotify.com/track/1G391cbiT3v3Cywg8T7DM1"
+    },
+    {
+      "rank": 44,
+      "name": "Closer",
+      "artist": "Kaum",
+      "album": "Closer",
+      "minutes": 73,
+      "streams": 27,
+      "uri": "spotify:track:7Cc5noWM8d1QbnjzmQw3mK",
+      "url": "https://open.spotify.com/track/7Cc5noWM8d1QbnjzmQw3mK"
+    },
+    {
+      "rank": 45,
+      "name": "Ladders",
+      "artist": "Mac Miller",
+      "album": "Swimming",
+      "minutes": 108,
+      "streams": 27,
+      "uri": "spotify:track:39NDBdU5Xkm5pCFGa5kZtI",
+      "url": "https://open.spotify.com/track/39NDBdU5Xkm5pCFGa5kZtI"
+    },
+    {
+      "rank": 46,
+      "name": "(Don't Fear) The Reaper",
+      "artist": "Blue Öyster Cult",
+      "album": "Agents Of Fortune",
+      "minutes": 98,
+      "streams": 26,
+      "uri": "spotify:track:5QTxFnGygVM4jFQiBovmRo",
+      "url": "https://open.spotify.com/track/5QTxFnGygVM4jFQiBovmRo"
+    },
+    {
+      "rank": 47,
+      "name": "Flow",
+      "artist": "Crooked Colours",
+      "album": "Vera",
+      "minutes": 114,
+      "streams": 26,
+      "uri": "spotify:track:7mE57yFVWevAttx4HvLZKi",
+      "url": "https://open.spotify.com/track/7mE57yFVWevAttx4HvLZKi"
+    },
+    {
+      "rank": 48,
+      "name": "You & I",
+      "artist": "Crystal Fighters",
+      "album": "Cave Rave",
+      "minutes": 84,
+      "streams": 26,
+      "uri": "spotify:track:4N1RyWimWA7ePV4pNx5bFA",
+      "url": "https://open.spotify.com/track/4N1RyWimWA7ePV4pNx5bFA"
+    },
+    {
+      "rank": 49,
+      "name": "Cool Around You",
+      "artist": "Yo Grapes",
+      "album": "Hit the House Without a Bounce",
+      "minutes": 79,
+      "streams": 26,
+      "uri": "spotify:track:3GIhqbypBDGF8ys1TkzbGr",
+      "url": "https://open.spotify.com/track/3GIhqbypBDGF8ys1TkzbGr"
+    },
+    {
+      "rank": 50,
+      "name": "Go Rilla",
+      "artist": "FIL BO RIVA",
+      "album": "Go Rilla",
+      "minutes": 90,
+      "streams": 26,
+      "uri": "spotify:track:3K874ORmFuV9Ari5TmOqfY",
+      "url": "https://open.spotify.com/track/3K874ORmFuV9Ari5TmOqfY"
+    }
+  ],
+  "topAlbums": [
+    {
+      "rank": 1,
+      "name": "Sadnecessary",
+      "artist": "Milky Chance",
+      "minutes": 498,
+      "streams": 130,
+      "uniqueTracks": 14,
+      "url": "https://open.spotify.com/search/Sadnecessary%20Milky%20Chance"
+    },
+    {
+      "rank": 2,
+      "name": "Californication",
+      "artist": "Red Hot Chili Peppers",
+      "minutes": 371,
+      "streams": 104,
+      "uniqueTracks": 9,
+      "url": "https://open.spotify.com/search/Californication%20Red%20Hot%20Chili%20Peppers"
+    },
+    {
+      "rank": 3,
+      "name": "Acid Rap",
+      "artist": "Chance the Rapper",
+      "minutes": 354,
+      "streams": 113,
+      "uniqueTracks": 14,
+      "url": "https://open.spotify.com/search/Acid%20Rap%20Chance%20the%20Rapper"
+    },
+    {
+      "rank": 4,
+      "name": "Paranoid",
+      "artist": "Black Sabbath",
+      "minutes": 351,
+      "streams": 101,
+      "uniqueTracks": 7,
+      "url": "https://open.spotify.com/search/Paranoid%20Black%20Sabbath"
+    },
+    {
+      "rank": 5,
+      "name": "K.I.D.S.",
+      "artist": "Mac Miller",
+      "minutes": 346,
+      "streams": 126,
+      "uniqueTracks": 4,
+      "url": "https://open.spotify.com/search/K.I.D.S.%20Mac%20Miller"
+    },
+    {
+      "rank": 6,
+      "name": "Stadium Arcadium",
+      "artist": "Red Hot Chili Peppers",
+      "minutes": 333,
+      "streams": 75,
+      "uniqueTracks": 8,
+      "url": "https://open.spotify.com/search/Stadium%20Arcadium%20Red%20Hot%20Chili%20Peppers"
+    },
+    {
+      "rank": 7,
+      "name": "Blurryface",
+      "artist": "Twenty One Pilots",
+      "minutes": 327,
+      "streams": 114,
+      "uniqueTracks": 10,
+      "url": "https://open.spotify.com/search/Blurryface%20Twenty%20One%20Pilots"
+    },
+    {
+      "rank": 8,
+      "name": "In Between Dreams",
+      "artist": "Jack Johnson",
+      "minutes": 312,
+      "streams": 124,
+      "uniqueTracks": 14,
+      "url": "https://open.spotify.com/search/In%20Between%20Dreams%20Jack%20Johnson"
+    },
+    {
+      "rank": 9,
+      "name": "Cold Fact",
+      "artist": "Rodríguez",
+      "minutes": 308,
+      "streams": 123,
+      "uniqueTracks": 12,
+      "url": "https://open.spotify.com/search/Cold%20Fact%20Rodr%C3%ADguez"
+    },
+    {
+      "rank": 10,
+      "name": "Gooey",
+      "artist": "Glass Animals",
+      "minutes": 303,
+      "streams": 64,
+      "uniqueTracks": 1,
+      "url": "https://open.spotify.com/search/Gooey%20Glass%20Animals"
+    },
+    {
+      "rank": 11,
+      "name": "The Getaway",
+      "artist": "Red Hot Chili Peppers",
+      "minutes": 293,
+      "streams": 85,
+      "uniqueTracks": 13,
+      "url": "https://open.spotify.com/search/The%20Getaway%20Red%20Hot%20Chili%20Peppers"
+    },
+    {
+      "rank": 12,
+      "name": "Ipoly Mate 003",
+      "artist": "Alec Troniq",
+      "minutes": 285,
+      "streams": 50,
+      "uniqueTracks": 2,
+      "url": "https://open.spotify.com/search/Ipoly%20Mate%20003%20Alec%20Troniq"
+    },
+    {
+      "rank": 13,
+      "name": "Graduation",
+      "artist": "Kanye West",
+      "minutes": 279,
+      "streams": 84,
+      "uniqueTracks": 9,
+      "url": "https://open.spotify.com/search/Graduation%20Kanye%20West"
+    },
+    {
+      "rank": 14,
+      "name": "Nevermind",
+      "artist": "Nirvana",
+      "minutes": 276,
+      "streams": 77,
+      "uniqueTracks": 6,
+      "url": "https://open.spotify.com/search/Nevermind%20Nirvana"
+    },
+    {
+      "rank": 15,
+      "name": "GO:OD AM",
+      "artist": "Mac Miller",
+      "minutes": 266,
+      "streams": 84,
+      "uniqueTracks": 16,
+      "url": "https://open.spotify.com/search/GO%3AOD%20AM%20Mac%20Miller"
+    },
+    {
+      "rank": 16,
+      "name": "My Own Mess",
+      "artist": "Skegss",
+      "minutes": 255,
+      "streams": 106,
+      "uniqueTracks": 7,
+      "url": "https://open.spotify.com/search/My%20Own%20Mess%20Skegss"
+    },
+    {
+      "rank": 17,
+      "name": "Led Zeppelin II",
+      "artist": "Led Zeppelin",
+      "minutes": 250,
+      "streams": 59,
+      "uniqueTracks": 3,
+      "url": "https://open.spotify.com/search/Led%20Zeppelin%20II%20Led%20Zeppelin"
+    },
+    {
+      "rank": 18,
+      "name": "good kid, m.A.A.d city",
+      "artist": "Kendrick Lamar",
+      "minutes": 244,
+      "streams": 68,
+      "uniqueTracks": 17,
+      "url": "https://open.spotify.com/search/good%20kid%2C%20m.A.A.d%20city%20Kendrick%20Lamar"
+    },
+    {
+      "rank": 19,
+      "name": "Honey Bones",
+      "artist": "DOPE LEMON",
+      "minutes": 240,
+      "streams": 76,
+      "uniqueTracks": 10,
+      "url": "https://open.spotify.com/search/Honey%20Bones%20DOPE%20LEMON"
+    },
+    {
+      "rank": 20,
+      "name": "Good News",
+      "artist": "Mac Miller",
+      "minutes": 240,
+      "streams": 47,
+      "uniqueTracks": 1,
+      "url": "https://open.spotify.com/search/Good%20News%20Mac%20Miller"
+    }
+  ],
+  "temporal": {
+    "monthly": [
+      {
+        "month": 1,
+        "label": "Jan",
+        "minutes": 2079,
+        "streams": 652
+      },
+      {
+        "month": 2,
+        "label": "Feb",
+        "minutes": 2328,
+        "streams": 704
+      },
+      {
+        "month": 3,
+        "label": "Mar",
+        "minutes": 1465,
+        "streams": 451
+      },
+      {
+        "month": 4,
+        "label": "Apr",
+        "minutes": 3060,
+        "streams": 890
+      },
+      {
+        "month": 5,
+        "label": "May",
+        "minutes": 4176,
+        "streams": 1226
+      },
+      {
+        "month": 6,
+        "label": "Jun",
+        "minutes": 3279,
+        "streams": 1008
+      },
+      {
+        "month": 7,
+        "label": "Jul",
+        "minutes": 7230,
+        "streams": 2340
+      },
+      {
+        "month": 8,
+        "label": "Aug",
+        "minutes": 6450,
+        "streams": 2045
+      },
+      {
+        "month": 9,
+        "label": "Sep",
+        "minutes": 5134,
+        "streams": 1488
+      },
+      {
+        "month": 10,
+        "label": "Oct",
+        "minutes": 4807,
+        "streams": 1411
+      },
+      {
+        "month": 11,
+        "label": "Nov",
+        "minutes": 4342,
+        "streams": 1294
+      },
+      {
+        "month": 12,
+        "label": "Dec",
+        "minutes": 3450,
+        "streams": 999
+      }
+    ],
+    "weekly": [
+      {
+        "day": 0,
+        "label": "Sun",
+        "minutes": 6724,
+        "streams": 1942
+      },
+      {
+        "day": 1,
+        "label": "Mon",
+        "minutes": 4967,
+        "streams": 1494
+      },
+      {
+        "day": 2,
+        "label": "Tue",
+        "minutes": 5711,
+        "streams": 1729
+      },
+      {
+        "day": 3,
+        "label": "Wed",
+        "minutes": 7082,
+        "streams": 2177
+      },
+      {
+        "day": 4,
+        "label": "Thu",
+        "minutes": 8186,
+        "streams": 2452
+      },
+      {
+        "day": 5,
+        "label": "Fri",
+        "minutes": 7617,
+        "streams": 2412
+      },
+      {
+        "day": 6,
+        "label": "Sat",
+        "minutes": 7512,
+        "streams": 2302
+      }
+    ],
+    "hourly": [
+      {
+        "hour": 0,
+        "minutes": 1141,
+        "streams": 373
+      },
+      {
+        "hour": 1,
+        "minutes": 710,
+        "streams": 242
+      },
+      {
+        "hour": 2,
+        "minutes": 335,
+        "streams": 99
+      },
+      {
+        "hour": 3,
+        "minutes": 117,
+        "streams": 28
+      },
+      {
+        "hour": 4,
+        "minutes": 13,
+        "streams": 4
+      },
+      {
+        "hour": 5,
+        "minutes": 28,
+        "streams": 9
+      },
+      {
+        "hour": 6,
+        "minutes": 90,
+        "streams": 32
+      },
+      {
+        "hour": 7,
+        "minutes": 670,
+        "streams": 210
+      },
+      {
+        "hour": 8,
+        "minutes": 948,
+        "streams": 277
+      },
+      {
+        "hour": 9,
+        "minutes": 1962,
+        "streams": 599
+      },
+      {
+        "hour": 10,
+        "minutes": 2628,
+        "streams": 790
+      },
+      {
+        "hour": 11,
+        "minutes": 2745,
+        "streams": 847
+      },
+      {
+        "hour": 12,
+        "minutes": 3081,
+        "streams": 918
+      },
+      {
+        "hour": 13,
+        "minutes": 3187,
+        "streams": 967
+      },
+      {
+        "hour": 14,
+        "minutes": 3138,
+        "streams": 953
+      },
+      {
+        "hour": 15,
+        "minutes": 3417,
+        "streams": 1039
+      },
+      {
+        "hour": 16,
+        "minutes": 3180,
+        "streams": 886
+      },
+      {
+        "hour": 17,
+        "minutes": 3816,
+        "streams": 1129
+      },
+      {
+        "hour": 18,
+        "minutes": 3875,
+        "streams": 1159
+      },
+      {
+        "hour": 19,
+        "minutes": 2731,
+        "streams": 834
+      },
+      {
+        "hour": 20,
+        "minutes": 3199,
+        "streams": 975
+      },
+      {
+        "hour": 21,
+        "minutes": 2758,
+        "streams": 847
+      },
+      {
+        "hour": 22,
+        "minutes": 2235,
+        "streams": 728
+      },
+      {
+        "hour": 23,
+        "minutes": 1794,
+        "streams": 563
+      }
+    ],
+    "heatmap": [
+      [
+        141,
+        64,
+        1,
+        0,
+        0,
+        8,
+        2,
+        0,
+        44,
+        264,
+        288,
+        275,
+        280,
+        660,
+        319,
+        399,
+        350,
+        574,
+        736,
+        543,
+        629,
+        499,
+        415,
+        232
+      ],
+      [
+        137,
+        39,
+        36,
+        0,
+        13,
+        20,
+        54,
+        49,
+        165,
+        247,
+        450,
+        543,
+        376,
+        218,
+        319,
+        352,
+        223,
+        263,
+        190,
+        113,
+        252,
+        432,
+        308,
+        169
+      ],
+      [
+        66,
+        0,
+        27,
+        6,
+        0,
+        0,
+        0,
+        136,
+        172,
+        301,
+        301,
+        399,
+        461,
+        413,
+        506,
+        582,
+        509,
+        373,
+        253,
+        156,
+        266,
+        371,
+        176,
+        238
+      ],
+      [
+        125,
+        81,
+        59,
+        4,
+        0,
+        0,
+        10,
+        146,
+        57,
+        338,
+        531,
+        453,
+        259,
+        386,
+        480,
+        543,
+        488,
+        786,
+        834,
+        464,
+        302,
+        154,
+        215,
+        368
+      ],
+      [
+        145,
+        123,
+        31,
+        84,
+        0,
+        0,
+        4,
+        167,
+        242,
+        271,
+        466,
+        363,
+        622,
+        643,
+        562,
+        529,
+        654,
+        595,
+        694,
+        443,
+        489,
+        407,
+        309,
+        343
+      ],
+      [
+        237,
+        200,
+        122,
+        24,
+        0,
+        0,
+        21,
+        128,
+        166,
+        327,
+        356,
+        336,
+        645,
+        323,
+        376,
+        451,
+        546,
+        621,
+        623,
+        480,
+        534,
+        450,
+        444,
+        208
+      ],
+      [
+        291,
+        202,
+        59,
+        0,
+        0,
+        0,
+        0,
+        44,
+        103,
+        215,
+        236,
+        376,
+        438,
+        543,
+        575,
+        562,
+        411,
+        603,
+        545,
+        531,
+        728,
+        445,
+        369,
+        235
+      ]
+    ]
+  },
+  "behavior": {
+    "shuffleRate": 0.79,
+    "offlineRate": 0.043,
+    "skipRate": 0,
+    "reasonStart": [
+      {
+        "reason": "trackdone",
+        "count": 7637
+      },
+      {
+        "reason": "clickrow",
+        "count": 3335
+      },
+      {
+        "reason": "fwdbtn",
+        "count": 2540
+      },
+      {
+        "reason": "playbtn",
+        "count": 554
+      },
+      {
+        "reason": "backbtn",
+        "count": 185
+      },
+      {
+        "reason": "remote",
+        "count": 157
+      },
+      {
+        "reason": "appload",
+        "count": 88
+      },
+      {
+        "reason": "trackerror",
+        "count": 11
+      },
+      {
+        "reason": "endplay",
+        "count": 1
+      }
+    ],
+    "reasonEnd": [
+      {
+        "reason": "trackdone",
+        "count": 8736
+      },
+      {
+        "reason": "endplay",
+        "count": 2812
+      },
+      {
+        "reason": "fwdbtn",
+        "count": 1999
+      },
+      {
+        "reason": "unexpected-exit",
+        "count": 300
+      },
+      {
+        "reason": "logout",
+        "count": 239
+      },
+      {
+        "reason": "unexpected-exit-while-paused",
+        "count": 235
+      },
+      {
+        "reason": "remote",
+        "count": 144
+      },
+      {
+        "reason": "backbtn",
+        "count": 28
+      },
+      {
+        "reason": "unknown",
+        "count": 15
+      }
+    ]
+  },
+  "streaks": {
+    "longestDailyStreak": {
+      "days": 104,
+      "start": "2020-08-30",
+      "end": "2020-12-11"
+    },
+    "longestBreak": {
+      "days": 2,
+      "start": "2020-02-02",
+      "end": "2020-02-05"
+    },
+    "biggestDay": {
+      "date": "2020-07-04",
+      "minutes": 794
+    },
+    "mostRepeatedTrack": {
+      "name": "Fire and Rain - 2019 Remaster",
+      "artist": "James Taylor",
+      "count": 20,
+      "date": "2020-07-04"
+    }
+  },
+  "discovery": {
+    "newArtists": 366,
+    "newTracks": 1108,
+    "discoveryRate": 0.32,
+    "topNewArtists": [
+      {
+        "name": "Etta James",
+        "minutes": 532
+      },
+      {
+        "name": "Moon Taxi",
+        "minutes": 164
+      },
+      {
+        "name": "James Taylor",
+        "minutes": 160
+      },
+      {
+        "name": "Collective Soul",
+        "minutes": 144
+      },
+      {
+        "name": "Mowgan",
+        "minutes": 139
+      },
+      {
+        "name": "Bryce Vine",
+        "minutes": 129
+      },
+      {
+        "name": "Lewis Del Mar",
+        "minutes": 113
+      },
+      {
+        "name": "Iggy Pop",
+        "minutes": 102
+      },
+      {
+        "name": "Surf Trash",
+        "minutes": 84
+      },
+      {
+        "name": "Kaum",
+        "minutes": 73
+      }
+    ],
+    "topNewTracks": [
+      {
+        "name": "Good News",
+        "artist": "Mac Miller",
+        "streams": 55
+      },
+      {
+        "name": "Sundress",
+        "artist": "A$AP Rocky",
+        "streams": 54
+      },
+      {
+        "name": "The Spins",
+        "artist": "Mac Miller",
+        "streams": 50
+      },
+      {
+        "name": "Up In The Clouds",
+        "artist": "Skegss",
+        "streams": 40
+      },
+      {
+        "name": "Nikes On My Feet",
+        "artist": "Mac Miller",
+        "streams": 39
+      },
+      {
+        "name": "Sunflower Seeds",
+        "artist": "Bryce Vine",
+        "streams": 37
+      },
+      {
+        "name": "All My Problems",
+        "artist": "Surf Trash",
+        "streams": 34
+      },
+      {
+        "name": "Good Morning",
+        "artist": "Kanye West",
+        "streams": 34
+      },
+      {
+        "name": "The Passenger",
+        "artist": "Iggy Pop",
+        "streams": 32
+      },
+      {
+        "name": "Kool Aid & Frozen Pizza",
+        "artist": "Mac Miller",
+        "streams": 31
+      }
+    ]
+  },
+  "extremes": {
+    "longestListen": {
+      "name": "Iron Man",
+      "artist": "Black Sabbath",
+      "duration": "12:55"
+    },
+    "shortestListen": {
+      "name": "Do You Remember",
+      "artist": "Jack Johnson",
+      "duration": "0:30"
+    }
+  },
+  "loyalty": {
+    "returning": [
+      {
+        "name": "Red Hot Chili Peppers",
+        "yearsActive": 3,
+        "totalYears": 3,
+        "firstYear": 2018,
+        "currentYearRank": 1,
+        "currentYearMinutes": 1678,
+        "tier": "ride-or-die"
+      },
+      {
+        "name": "Mac Miller",
+        "yearsActive": 3,
+        "totalYears": 3,
+        "firstYear": 2018,
+        "currentYearRank": 2,
+        "currentYearMinutes": 1424,
+        "tier": "ride-or-die"
+      },
+      {
+        "name": "Jack Johnson",
+        "yearsActive": 3,
+        "totalYears": 3,
+        "firstYear": 2018,
+        "currentYearRank": 3,
+        "currentYearMinutes": 800,
+        "tier": "ride-or-die"
+      },
+      {
+        "name": "Milky Chance",
+        "yearsActive": 3,
+        "totalYears": 3,
+        "firstYear": 2018,
+        "currentYearRank": 4,
+        "currentYearMinutes": 648,
+        "tier": "ride-or-die"
+      },
+      {
+        "name": "Kendrick Lamar",
+        "yearsActive": 3,
+        "totalYears": 3,
+        "firstYear": 2018,
+        "currentYearRank": 9,
+        "currentYearMinutes": 530,
+        "tier": "ride-or-die"
+      },
+      {
+        "name": "Rodríguez",
+        "yearsActive": 3,
+        "totalYears": 3,
+        "firstYear": 2018,
+        "currentYearRank": 12,
+        "currentYearMinutes": 473,
+        "tier": "ride-or-die"
+      },
+      {
+        "name": "Eminem",
+        "yearsActive": 3,
+        "totalYears": 3,
+        "firstYear": 2018,
+        "currentYearRank": 14,
+        "currentYearMinutes": 443,
+        "tier": "ride-or-die"
+      },
+      {
+        "name": "Queen",
+        "yearsActive": 3,
+        "totalYears": 3,
+        "firstYear": 2018,
+        "currentYearRank": 15,
+        "currentYearMinutes": 425,
+        "tier": "ride-or-die"
+      },
+      {
+        "name": "Yo Grapes",
+        "yearsActive": 3,
+        "totalYears": 3,
+        "firstYear": 2018,
+        "currentYearRank": 19,
+        "currentYearMinutes": 348,
+        "tier": "ride-or-die"
+      },
+      {
+        "name": "Sam Lachow",
+        "yearsActive": 3,
+        "totalYears": 3,
+        "firstYear": 2018,
+        "currentYearRank": 20,
+        "currentYearMinutes": 331,
+        "tier": "ride-or-die"
+      },
+      {
+        "name": "Bob Marley & The Wailers",
+        "yearsActive": 2,
+        "totalYears": 3,
+        "firstYear": 2019,
+        "currentYearRank": 5,
+        "currentYearMinutes": 594,
+        "tier": "regular"
+      },
+      {
+        "name": "Kanye West",
+        "yearsActive": 2,
+        "totalYears": 3,
+        "firstYear": 2019,
+        "currentYearRank": 10,
+        "currentYearMinutes": 516,
+        "tier": "regular"
+      },
+      {
+        "name": "Led Zeppelin",
+        "yearsActive": 2,
+        "totalYears": 3,
+        "firstYear": 2019,
+        "currentYearRank": 13,
+        "currentYearMinutes": 464,
+        "tier": "regular"
+      },
+      {
+        "name": "AC/DC",
+        "yearsActive": 2,
+        "totalYears": 3,
+        "firstYear": 2019,
+        "currentYearRank": 16,
+        "currentYearMinutes": 407,
+        "tier": "regular"
+      },
+      {
+        "name": "Black Sabbath",
+        "yearsActive": 2,
+        "totalYears": 3,
+        "firstYear": 2019,
+        "currentYearRank": 17,
+        "currentYearMinutes": 390,
+        "tier": "regular"
+      },
+      {
+        "name": "Desmond and the Tutus",
+        "yearsActive": 2,
+        "totalYears": 3,
+        "firstYear": 2019,
+        "currentYearRank": 18,
+        "currentYearMinutes": 371,
+        "tier": "regular"
+      }
+    ],
+    "new": [
+      {
+        "name": "Skegss",
+        "currentYearRank": 6,
+        "currentYearMinutes": 583
+      },
+      {
+        "name": "Twenty One Pilots",
+        "currentYearRank": 7,
+        "currentYearMinutes": 545
+      },
+      {
+        "name": "Etta James",
+        "currentYearRank": 8,
+        "currentYearMinutes": 532
+      },
+      {
+        "name": "Chance the Rapper",
+        "currentYearRank": 11,
+        "currentYearMinutes": 506
+      }
+    ],
+    "returningCount": 16,
+    "newCount": 4,
+    "returningPct": 80
+  }
+}

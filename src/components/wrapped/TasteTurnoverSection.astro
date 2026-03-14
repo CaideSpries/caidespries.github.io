@@ -1,0 +1,97 @@
+---
+interface TurnoverYear {
+  year: number;
+  returningPct: number;
+  newPct: number;
+}
+
+interface Props {
+  tasteTurnover: TurnoverYear[];
+  years: number[];
+}
+
+const { tasteTurnover, years } = Astro.props;
+if (!tasteTurnover?.length) return;
+
+// Find most exploratory year (highest newPct, excluding first year which is always 100%)
+const exploratoryYears = tasteTurnover.filter((t) => t.returningPct > 0);
+const mostExploratory = exploratoryYears.reduce((a, b) => (a.newPct > b.newPct ? a : b));
+const mostSettled = exploratoryYears.reduce((a, b) => (a.returningPct > b.returningPct ? a : b));
+---
+
+<section class="py-24 px-4">
+  <div class="max-w-5xl mx-auto">
+    <div class="text-center mb-16" data-animate>
+      <p class="text-sm font-mono uppercase tracking-[0.3em] mb-3" style="color: var(--text-muted);">Your</p>
+      <h2 class="text-5xl md:text-6xl font-black tracking-tight" style="font-family: var(--font-display);">
+        <span class="neon-text">Evolution</span>
+      </h2>
+    </div>
+
+    {/* Stacked bar chart */}
+    <div class="retro-card p-6 sm:p-8 mb-8" data-animate>
+      <div class="flex items-end justify-between gap-2 sm:gap-4" style="height: 240px;">
+        {tasteTurnover.map((t) => {
+          const isFirstYear = t.returningPct === 0;
+          return (
+            <div class="flex-1 flex flex-col items-center h-full justify-end">
+              <div class="w-full flex flex-col rounded-t-md overflow-hidden" style="height: 100%;">
+                {/* Returning segment */}
+                <div class="w-full transition-all duration-300"
+                  style={`flex: ${t.returningPct}; background: rgba(232, 93, 58, 0.45);`}>
+                </div>
+                {/* New segment */}
+                <div class="w-full transition-all duration-300"
+                  style={`flex: ${t.newPct}; background: rgba(232, 213, 192, 0.12);`}>
+                </div>
+              </div>
+              <div class="mt-2 text-center">
+                <span class="text-[10px] sm:text-xs font-mono" style="color: var(--text-muted);">
+                  {String(t.year).slice(-2)}
+                </span>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+
+      {/* Legend */}
+      <div class="flex items-center justify-center gap-6 mt-6">
+        <div class="flex items-center gap-2">
+          <div class="w-4 h-3 rounded-sm" style="background: rgba(232, 93, 58, 0.45);"></div>
+          <span class="text-xs font-mono" style="color: var(--text-muted);">Returning</span>
+        </div>
+        <div class="flex items-center gap-2">
+          <div class="w-4 h-3 rounded-sm" style="background: rgba(232, 213, 192, 0.12);"></div>
+          <span class="text-xs font-mono" style="color: var(--text-muted);">New</span>
+        </div>
+      </div>
+    </div>
+
+    {/* Insight cards */}
+    <div class="grid sm:grid-cols-2 gap-4" data-animate>
+      <div class="retro-card p-6 text-center">
+        <p class="text-xs font-mono uppercase tracking-[0.2em] mb-3" style="color: #e85d3a;">
+          Most Exploratory
+        </p>
+        <p class="text-4xl font-black neon-text" style="font-family: var(--font-display);">
+          {mostExploratory.year}
+        </p>
+        <p class="text-xs font-mono mt-2" style="color: var(--text-muted);">
+          {mostExploratory.newPct}% new artists in top 20
+        </p>
+      </div>
+      <div class="retro-card p-6 text-center">
+        <p class="text-xs font-mono uppercase tracking-[0.2em] mb-3" style="color: #e85d3a;">
+          Most Settled
+        </p>
+        <p class="text-4xl font-black neon-text" style="font-family: var(--font-display);">
+          {mostSettled.year}
+        </p>
+        <p class="text-xs font-mono mt-2" style="color: var(--text-muted);">
+          {mostSettled.returningPct}% returning artists in top 20
+        </p>
+      </div>
+    </div>
+  </div>
+</section>

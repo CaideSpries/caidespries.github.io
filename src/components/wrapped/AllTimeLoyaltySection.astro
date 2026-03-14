@@ -1,0 +1,142 @@
+---
+interface LoyaltyArtist {
+  name: string;
+  yearsPresent: number;
+  totalYears: number;
+  loyaltyScore: number;
+  tier: "ride-or-die" | "regular" | "familiar";
+  firstYear: number;
+  activeYears: number[];
+  totalMinutes: number;
+  minutesByYear: number[];
+  peakYear: number;
+  peakMinutes: number;
+}
+
+interface Props {
+  artistLoyalty: LoyaltyArtist[];
+  years: number[];
+}
+
+const { artistLoyalty, years } = Astro.props;
+if (!artistLoyalty?.length) return;
+
+const display = artistLoyalty.slice(0, 20);
+
+const rideOrDie = display.filter((a) => a.tier === "ride-or-die");
+const regulars = display.filter((a) => a.tier === "regular");
+const familiar = display.filter((a) => a.tier === "familiar");
+
+const tierLabel: Record<string, string> = {
+  "ride-or-die": "Ride or Die",
+  regular: "Regular",
+  familiar: "Familiar",
+};
+
+const tierGroups = [
+  { key: "ride-or-die", label: "Ride or Die", artists: rideOrDie },
+  { key: "regular", label: "Regulars", artists: regulars },
+  { key: "familiar", label: "Familiar", artists: familiar },
+].filter((g) => g.artists.length > 0);
+---
+
+<section class="py-24 px-4">
+  <div class="max-w-5xl mx-auto">
+    <div class="text-center mb-16" data-animate>
+      <p class="text-sm font-mono uppercase tracking-[0.3em] mb-3" style="color: var(--text-muted);">Your</p>
+      <h2 class="text-5xl md:text-6xl font-black tracking-tight" style="font-family: var(--font-display);">
+        <span class="neon-text">Loyalists</span>
+      </h2>
+    </div>
+
+    {tierGroups.map((group) => (
+      <div class="mb-10" data-animate>
+        <p class="text-xs font-mono uppercase tracking-[0.2em] mb-4" style="color: #e85d3a;">
+          {group.label}
+        </p>
+        <div class="space-y-2">
+          {group.artists.map((artist) => {
+            const maxMin = Math.max(...display.map((a) => a.totalMinutes));
+            const barPct = (artist.totalMinutes / maxMin) * 100;
+            return (
+              <div class="retro-card p-4 sm:p-5">
+                <div class="flex flex-col sm:flex-row sm:items-center gap-3">
+                  {/* Name + tier badge */}
+                  <div class="flex items-center gap-2 sm:w-52 shrink-0 min-w-0">
+                    <h3 class="text-sm sm:text-base font-bold truncate" style="font-family: var(--font-display);">
+                      {artist.name}
+                    </h3>
+                  </div>
+
+                  {/* Years present + activity dots */}
+                  <div class="flex items-center gap-3 sm:w-48 shrink-0">
+                    <span class="text-sm font-black" style="font-family: var(--font-display);">
+                      <span class="neon-text">{artist.yearsPresent}</span>
+                      <span class="text-xs font-normal" style="color: var(--text-muted);">/{artist.totalYears}</span>
+                    </span>
+                    <div class="flex items-center gap-1">
+                      {years.map((yr) => {
+                        const idx = years.indexOf(yr);
+                        const mins = artist.minutesByYear[idx] || 0;
+                        const isActive = mins > 0;
+                        const isPeak = yr === artist.peakYear;
+                        return (
+                          <div
+                            class="w-3 h-3 sm:w-3.5 sm:h-3.5 rounded-sm transition-colors"
+                            title={`${yr}: ${mins.toLocaleString()} min`}
+                            style={
+                              isPeak
+                                ? "background: #e85d3a; box-shadow: 0 0 6px rgba(232, 93, 58, 0.5);"
+                                : isActive
+                                  ? "background: rgba(232, 93, 58, 0.35);"
+                                  : "background: rgba(232, 213, 192, 0.08);"
+                            }
+                          />
+                        );
+                      })}
+                    </div>
+                  </div>
+
+                  {/* Minutes bar */}
+                  <div class="flex-1 flex items-center gap-3">
+                    <div class="flex-1 relative h-5 rounded-md overflow-hidden" style="background: rgba(232, 213, 192, 0.05);">
+                      <div class="h-full rounded-md"
+                        style={`width: ${barPct}%; background: rgba(232, 93, 58, 0.2); min-width: 1rem;`}>
+                      </div>
+                    </div>
+                    <span class="text-xs font-mono shrink-0 w-16 text-right" style="color: var(--text-faint);">
+                      {artist.totalMinutes.toLocaleString()}
+                    </span>
+                  </div>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    ))}
+
+    {/* Year legend */}
+    <div class="flex items-center justify-center gap-1 mt-6" data-animate>
+      {years.map((yr) => (
+        <span class="text-[9px] font-mono w-3.5 text-center" style="color: var(--text-faint);">
+          {String(yr).slice(-2)}
+        </span>
+      ))}
+    </div>
+    <div class="flex items-center justify-center gap-4 mt-3" data-animate>
+      <div class="flex items-center gap-1.5">
+        <div class="w-3 h-3 rounded-sm" style="background: #e85d3a; box-shadow: 0 0 6px rgba(232, 93, 58, 0.5);"></div>
+        <span class="text-[10px] font-mono" style="color: var(--text-faint);">Peak</span>
+      </div>
+      <div class="flex items-center gap-1.5">
+        <div class="w-3 h-3 rounded-sm" style="background: rgba(232, 93, 58, 0.35);"></div>
+        <span class="text-[10px] font-mono" style="color: var(--text-faint);">Active</span>
+      </div>
+      <div class="flex items-center gap-1.5">
+        <div class="w-3 h-3 rounded-sm" style="background: rgba(232, 213, 192, 0.08);"></div>
+        <span class="text-[10px] font-mono" style="color: var(--text-faint);">Absent</span>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,17 +1,101 @@
 {
   "years": [
     {
+      "year": 2018,
+      "source": "extended_history",
+      "lastUpdated": "2026-03-14T16:02:28.782Z",
+      "topArtist": "Red Hot Chili Peppers",
+      "topTrack": "She Goes",
+      "totalMinutes": 12275,
+      "totalStreams": 4184,
+      "uniqueArtists": 626
+    },
+    {
+      "year": 2019,
+      "source": "extended_history",
+      "lastUpdated": "2026-03-14T16:02:28.784Z",
+      "topArtist": "Red Hot Chili Peppers",
+      "topTrack": "Gooey - Gilligan Moss Remix",
+      "totalMinutes": 40146,
+      "totalStreams": 12810,
+      "uniqueArtists": 1002
+    },
+    {
+      "year": 2020,
+      "source": "extended_history",
+      "lastUpdated": "2026-03-14T16:02:28.785Z",
+      "topArtist": "Red Hot Chili Peppers",
+      "topTrack": "Gooey - Gilligan Moss Remix",
+      "totalMinutes": 47800,
+      "totalStreams": 14508,
+      "uniqueArtists": 1143
+    },
+    {
+      "year": 2021,
+      "source": "extended_history",
+      "lastUpdated": "2026-03-14T16:02:28.785Z",
+      "topArtist": "Red Hot Chili Peppers",
+      "topTrack": "The Spins",
+      "totalMinutes": 33144,
+      "totalStreams": 9472,
+      "uniqueArtists": 1250
+    },
+    {
+      "year": 2022,
+      "source": "extended_history",
+      "lastUpdated": "2026-03-14T16:02:28.786Z",
+      "topArtist": "Red Hot Chili Peppers",
+      "topTrack": "Snow (Hey Oh)",
+      "totalMinutes": 40470,
+      "totalStreams": 11230,
+      "uniqueArtists": 1446
+    },
+    {
+      "year": 2023,
+      "source": "extended_history",
+      "lastUpdated": "2026-03-14T16:02:28.787Z",
+      "topArtist": "Red Hot Chili Peppers",
+      "topTrack": "The Ship",
+      "totalMinutes": 39693,
+      "totalStreams": 11421,
+      "uniqueArtists": 1688
+    },
+    {
+      "year": 2024,
+      "source": "extended_history",
+      "lastUpdated": "2026-03-14T16:02:28.790Z",
+      "topArtist": "Red Hot Chili Peppers",
+      "topTrack": "Steal",
+      "totalMinutes": 57982,
+      "totalStreams": 15506,
+      "uniqueArtists": 1881
+    },
+    {
       "year": 2025,
-      "source": "api_snapshot",
+      "source": "extended_history",
+      "lastUpdated": "2026-03-14T16:02:28.793Z",
+      "topArtist": "Red Hot Chili Peppers",
+      "topTrack": "I Only Smoke When I Drink",
+      "totalMinutes": 59614,
+      "totalStreams": 15454,
+      "uniqueArtists": 1611
+    },
+    {
+      "year": 2026,
+      "source": "extended_history",
+      "lastUpdated": "2026-03-14T16:02:28.794Z",
       "topArtist": "Red Hot Chili Peppers",
       "topTrack": "12 to 12",
-      "lastUpdated": "2026-03-10T15:26:22.072Z",
-      "uniqueArtists": 59
+      "totalMinutes": 9156,
+      "totalStreams": 2418,
+      "uniqueArtists": 665
     }
   ],
   "allTime": {
-    "totalYears": 1,
-    "firstYear": 2025,
-    "latestYear": 2025
+    "totalMinutes": 340280,
+    "totalStreams": 97003,
+    "totalYears": 9,
+    "firstYear": 2018,
+    "latestYear": 2026
   }
 }

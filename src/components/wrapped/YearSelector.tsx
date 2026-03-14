@@ -36,32 +36,6 @@ export default function YearSelector({ years }: Props) {
             >
               {entry.year}
             </p>
-            {entry.topArtist && (
-              <p
-                className="text-xs mt-2 truncate"
-                style={{
-                  color: "var(--text-secondary)",
-                  fontFamily: "var(--font-display)",
-                }}
-              >
-                {entry.topArtist}
-              </p>
-            )}
-            {entry.totalMinutes ? (
-              <p
-                className="text-[10px] font-mono mt-1"
-                style={{ color: "var(--text-faint)" }}
-              >
-                {entry.totalMinutes.toLocaleString()} min
-              </p>
-            ) : (
-              <p
-                className="text-[10px] font-mono mt-1"
-                style={{ color: "var(--text-faint)" }}
-              >
-                {entry.source === "api_snapshot" ? "API snapshot" : ""}
-              </p>
-            )}
           </div>
         </a>
       ))}

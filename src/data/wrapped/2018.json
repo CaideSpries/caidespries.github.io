@@ -1,0 +1,1488 @@
+{
+  "year": 2018,
+  "source": "extended_history",
+  "lastUpdated": "2026-03-14T16:39:45.666Z",
+  "headline": {
+    "totalMinutes": 12275,
+    "totalStreams": 4184,
+    "uniqueArtists": 626,
+    "uniqueTracks": 1238,
+    "uniqueAlbums": 920,
+    "daysActive": 146,
+    "avgMinutesPerDay": 84
+  },
+  "topArtists": [
+    {
+      "rank": 1,
+      "name": "Red Hot Chili Peppers",
+      "minutes": 352,
+      "streams": 98,
+      "uniqueTracks": 12,
+      "peakMonth": "Aug"
+    },
+    {
+      "rank": 2,
+      "name": "Oliver Schories",
+      "minutes": 281,
+      "streams": 75,
+      "uniqueTracks": 11,
+      "peakMonth": "Aug"
+    },
+    {
+      "rank": 3,
+      "name": "Sam Lachow",
+      "minutes": 260,
+      "streams": 93,
+      "uniqueTracks": 23,
+      "peakMonth": "Oct"
+    },
+    {
+      "rank": 4,
+      "name": "Jack Johnson",
+      "minutes": 217,
+      "streams": 80,
+      "uniqueTracks": 29,
+      "peakMonth": "Nov"
+    },
+    {
+      "rank": 5,
+      "name": "Eminem",
+      "minutes": 216,
+      "streams": 67,
+      "uniqueTracks": 22,
+      "peakMonth": "Dec"
+    },
+    {
+      "rank": 6,
+      "name": "Mac Miller",
+      "minutes": 192,
+      "streams": 64,
+      "uniqueTracks": 17,
+      "peakMonth": "Aug"
+    },
+    {
+      "rank": 7,
+      "name": "DOPE LEMON",
+      "minutes": 183,
+      "streams": 61,
+      "uniqueTracks": 15,
+      "peakMonth": "Aug"
+    },
+    {
+      "rank": 8,
+      "name": "Milky Chance",
+      "minutes": 171,
+      "streams": 53,
+      "uniqueTracks": 16,
+      "peakMonth": "Nov"
+    },
+    {
+      "rank": 9,
+      "name": "Yo Grapes",
+      "minutes": 152,
+      "streams": 56,
+      "uniqueTracks": 13,
+      "peakMonth": "Oct"
+    },
+    {
+      "rank": 10,
+      "name": "Glass Animals",
+      "minutes": 147,
+      "streams": 44,
+      "uniqueTracks": 2,
+      "peakMonth": "Aug"
+    },
+    {
+      "rank": 11,
+      "name": "The Jungle Giants",
+      "minutes": 142,
+      "streams": 43,
+      "uniqueTracks": 5,
+      "peakMonth": "Nov"
+    },
+    {
+      "rank": 12,
+      "name": "Angus & Julia Stone",
+      "minutes": 139,
+      "streams": 39,
+      "uniqueTracks": 4,
+      "peakMonth": "Aug"
+    },
+    {
+      "rank": 13,
+      "name": "Queen",
+      "minutes": 132,
+      "streams": 44,
+      "uniqueTracks": 12,
+      "peakMonth": "Dec"
+    },
+    {
+      "rank": 14,
+      "name": "Gizmo Varillas",
+      "minutes": 131,
+      "streams": 60,
+      "uniqueTracks": 18,
+      "peakMonth": "Sep"
+    },
+    {
+      "rank": 15,
+      "name": "Rodríguez",
+      "minutes": 127,
+      "streams": 51,
+      "uniqueTracks": 15,
+      "peakMonth": "Oct"
+    },
+    {
+      "rank": 16,
+      "name": "Kishi Bashi",
+      "minutes": 125,
+      "streams": 46,
+      "uniqueTracks": 2,
+      "peakMonth": "Aug"
+    },
+    {
+      "rank": 17,
+      "name": "Boris Brejcha",
+      "minutes": 121,
+      "streams": 38,
+      "uniqueTracks": 5,
+      "peakMonth": "Dec"
+    },
+    {
+      "rank": 18,
+      "name": "HVOB",
+      "minutes": 118,
+      "streams": 29,
+      "uniqueTracks": 6,
+      "peakMonth": "Aug"
+    },
+    {
+      "rank": 19,
+      "name": "Alec Troniq",
+      "minutes": 115,
+      "streams": 23,
+      "uniqueTracks": 2,
+      "peakMonth": "Oct"
+    },
+    {
+      "rank": 20,
+      "name": "Eagles",
+      "minutes": 114,
+      "streams": 30,
+      "uniqueTracks": 7,
+      "peakMonth": "Nov"
+    }
+  ],
+  "topTracks": [
+    {
+      "rank": 1,
+      "name": "She Goes",
+      "artist": "Oliver Schories",
+      "album": "Relatively Definitely",
+      "minutes": 152,
+      "streams": 38,
+      "uri": "spotify:track:1r2qsSvd7KxpHQVYWmzLC8",
+      "url": "https://open.spotify.com/track/1r2qsSvd7KxpHQVYWmzLC8"
+    },
+    {
+      "rank": 2,
+      "name": "Gooey - Gilligan Moss Remix",
+      "artist": "Glass Animals",
+      "album": "Gooey",
+      "minutes": 123,
+      "streams": 33,
+      "uri": "spotify:track:4Bkdb7cuuTrgiM4ddtm2or",
+      "url": "https://open.spotify.com/track/4Bkdb7cuuTrgiM4ddtm2or"
+    },
+    {
+      "rank": 3,
+      "name": "Chateau",
+      "artist": "Angus & Julia Stone",
+      "album": "Snow",
+      "minutes": 118,
+      "streams": 32,
+      "uri": "spotify:track:1CxoHCwwmaXHimhV2cyTBx",
+      "url": "https://open.spotify.com/track/1CxoHCwwmaXHimhV2cyTBx"
+    },
+    {
+      "rank": 4,
+      "name": "Seasick Dream",
+      "artist": "Jack Johnson",
+      "album": "Seasick Dream",
+      "minutes": 78,
+      "streams": 26,
+      "uri": "spotify:track:1vL5bZNsFWVYED96IgWEIM",
+      "url": "https://open.spotify.com/track/1vL5bZNsFWVYED96IgWEIM"
+    },
+    {
+      "rank": 5,
+      "name": "Snow (Hey Oh)",
+      "artist": "Red Hot Chili Peppers",
+      "album": "Stadium Arcadium",
+      "minutes": 96,
+      "streams": 25,
+      "uri": "spotify:track:2aibwv5hGXSgw7Yru8IYTO",
+      "url": "https://open.spotify.com/track/2aibwv5hGXSgw7Yru8IYTO"
+    },
+    {
+      "rank": 6,
+      "name": "It All Began With a Burst",
+      "artist": "Kishi Bashi",
+      "album": "151a",
+      "minutes": 60,
+      "streams": 24,
+      "uri": "spotify:track:0F5DFgLAu53jPN8ElmZssr",
+      "url": "https://open.spotify.com/track/0F5DFgLAu53jPN8ElmZssr"
+    },
+    {
+      "rank": 7,
+      "name": "Mountain To Move",
+      "artist": "Nick Mulvey",
+      "album": "Mountain To Move",
+      "minutes": 86,
+      "streams": 24,
+      "uri": "spotify:track:3sdpasrIhFH4gWuoi0iWym",
+      "url": "https://open.spotify.com/track/3sdpasrIhFH4gWuoi0iWym"
+    },
+    {
+      "rank": 8,
+      "name": "Birthday Card",
+      "artist": "Marcus Marr",
+      "album": "Birthday Card",
+      "minutes": 88,
+      "streams": 23,
+      "uri": "spotify:track:67ezdMYTwbIO2lnTWfx3sE",
+      "url": "https://open.spotify.com/track/67ezdMYTwbIO2lnTWfx3sE"
+    },
+    {
+      "rank": 9,
+      "name": "I Am the Antichrist to You",
+      "artist": "Kishi Bashi",
+      "album": "151a",
+      "minutes": 65,
+      "streams": 22,
+      "uri": "spotify:track:4d3pqEn7wgILCKDhUbv1wx",
+      "url": "https://open.spotify.com/track/4d3pqEn7wgILCKDhUbv1wx"
+    },
+    {
+      "rank": 10,
+      "name": "Neighbors",
+      "artist": "J. Cole",
+      "album": "4 Your Eyez Only",
+      "minutes": 66,
+      "streams": 22,
+      "uri": "spotify:track:0utlOiJy2weVl9WTkcEWHy",
+      "url": "https://open.spotify.com/track/0utlOiJy2weVl9WTkcEWHy"
+    },
+    {
+      "rank": 11,
+      "name": "Yellow Mellow",
+      "artist": "Ocean Alley",
+      "album": "Yellow Mellow EP",
+      "minutes": 58,
+      "streams": 21,
+      "uri": "spotify:track:37PW5zbkDIya8arHEHEo6q",
+      "url": "https://open.spotify.com/track/37PW5zbkDIya8arHEHEo6q"
+    },
+    {
+      "rank": 12,
+      "name": "Good Morning Children",
+      "artist": "Alec Troniq",
+      "album": "Ipoly Mate 003",
+      "minutes": 106,
+      "streams": 21,
+      "uri": "spotify:track:7b6gAh0OyzcKsg2i7Tte6u",
+      "url": "https://open.spotify.com/track/7b6gAh0OyzcKsg2i7Tte6u"
+    },
+    {
+      "rank": 13,
+      "name": "Tongues",
+      "artist": "Joywave",
+      "album": "How Do You Feel Now?",
+      "minutes": 63,
+      "streams": 20,
+      "uri": "spotify:track:5mCprFWOqe0jB96v9RhLBo",
+      "url": "https://open.spotify.com/track/5mCprFWOqe0jB96v9RhLBo"
+    },
+    {
+      "rank": 14,
+      "name": "Breezeblocks",
+      "artist": "alt-J",
+      "album": "An Awesome Wave",
+      "minutes": 65,
+      "streams": 20,
+      "uri": "spotify:track:7gARZ2i5u5DHC1b1n1fML5",
+      "url": "https://open.spotify.com/track/7gARZ2i5u5DHC1b1n1fML5"
+    },
+    {
+      "rank": 15,
+      "name": "Fingerprint",
+      "artist": "Lane 8",
+      "album": "Fingerprint",
+      "minutes": 101,
+      "streams": 20,
+      "uri": "spotify:track:7ixuc4KOSHm0BsrwsRLM3i",
+      "url": "https://open.spotify.com/track/7ixuc4KOSHm0BsrwsRLM3i"
+    },
+    {
+      "rank": 16,
+      "name": "Give a Little Love",
+      "artist": "Gizmo Varillas",
+      "album": "El Dorado",
+      "minutes": 42,
+      "streams": 19,
+      "uri": "spotify:track:0CQ6cbXPUsB9NcJZ2Abuc4",
+      "url": "https://open.spotify.com/track/0CQ6cbXPUsB9NcJZ2Abuc4"
+    },
+    {
+      "rank": 17,
+      "name": "No Ceiling",
+      "artist": "Trenton and Free Radical",
+      "album": "No Ceiling",
+      "minutes": 54,
+      "streams": 19,
+      "uri": "spotify:track:442HYek8Qwtfg2AoSPr49j",
+      "url": "https://open.spotify.com/track/442HYek8Qwtfg2AoSPr49j"
+    },
+    {
+      "rank": 18,
+      "name": "Show Me The Way",
+      "artist": "Peter Frampton",
+      "album": "Frampton",
+      "minutes": 53,
+      "streams": 18,
+      "uri": "spotify:track:6BD1X1PeV5UzYUdiVaD2yL",
+      "url": "https://open.spotify.com/track/6BD1X1PeV5UzYUdiVaD2yL"
+    },
+    {
+      "rank": 19,
+      "name": "Walking On A Dream",
+      "artist": "Empire Of The Sun",
+      "album": "Walking On A Dream",
+      "minutes": 47,
+      "streams": 18,
+      "uri": "spotify:track:0mBkoM8r7KAQzZij5swTUL",
+      "url": "https://open.spotify.com/track/0mBkoM8r7KAQzZij5swTUL"
+    },
+    {
+      "rank": 20,
+      "name": "Dark Planet",
+      "artist": "Boris Brejcha",
+      "album": "Feuerfalter Special Edition",
+      "minutes": 60,
+      "streams": 18,
+      "uri": "spotify:track:6ZyEZpsnv8mwiMEeNRK2oq",
+      "url": "https://open.spotify.com/track/6ZyEZpsnv8mwiMEeNRK2oq"
+    },
+    {
+      "rank": 21,
+      "name": "This Shit",
+      "artist": "Sol",
+      "album": "Dear Friends, Vol. 3",
+      "minutes": 48,
+      "streams": 18,
+      "uri": "spotify:track:38lFbx8dsIPvPfF8CTCW8S",
+      "url": "https://open.spotify.com/track/38lFbx8dsIPvPfF8CTCW8S"
+    },
+    {
+      "rank": 22,
+      "name": "Lost Memory",
+      "artist": "Boris Brejcha",
+      "album": "Lost Memory",
+      "minutes": 57,
+      "streams": 17,
+      "uri": "spotify:track:76lT30VRv09h5MQp5snmsb",
+      "url": "https://open.spotify.com/track/76lT30VRv09h5MQp5snmsb"
+    },
+    {
+      "rank": 23,
+      "name": "Marinade",
+      "artist": "DOPE LEMON",
+      "album": "Honey Bones",
+      "minutes": 47,
+      "streams": 17,
+      "uri": "spotify:track:2N60TAtXaCbmi7zqdUoW61",
+      "url": "https://open.spotify.com/track/2N60TAtXaCbmi7zqdUoW61"
+    },
+    {
+      "rank": 24,
+      "name": "Weekend (feat. Miguel)",
+      "artist": "Mac Miller",
+      "album": "GO:OD AM",
+      "minutes": 47,
+      "streams": 17,
+      "uri": "spotify:track:6GnhWMhgJb7uyiiPEiEkDA",
+      "url": "https://open.spotify.com/track/6GnhWMhgJb7uyiiPEiEkDA"
+    },
+    {
+      "rank": 25,
+      "name": "Let's Fall in Love Some More",
+      "artist": "Al Bairre",
+      "album": "Experience the Al Bairre Show With Al Bairre Experience",
+      "minutes": 44,
+      "streams": 16,
+      "uri": "spotify:track:1SZN00cfG8T8UxDmJeqjuv",
+      "url": "https://open.spotify.com/track/1SZN00cfG8T8UxDmJeqjuv"
+    },
+    {
+      "rank": 26,
+      "name": "All Of Me",
+      "artist": "Tanlines",
+      "album": "Mixed Emotions",
+      "minutes": 50,
+      "streams": 16,
+      "uri": "spotify:track:0B4R6lMH2Fsyzcndp4RP4c",
+      "url": "https://open.spotify.com/track/0B4R6lMH2Fsyzcndp4RP4c"
+    },
+    {
+      "rank": 27,
+      "name": "House of the Rising Sun",
+      "artist": "The Animals",
+      "album": "The Singles Plus",
+      "minutes": 46,
+      "streams": 15,
+      "uri": "spotify:track:4mn2kNTqiGLwaUR8JdhJ1l",
+      "url": "https://open.spotify.com/track/4mn2kNTqiGLwaUR8JdhJ1l"
+    },
+    {
+      "rank": 28,
+      "name": "The Less I Know The Better",
+      "artist": "Tame Impala",
+      "album": "Currents",
+      "minutes": 37,
+      "streams": 15,
+      "uri": "spotify:track:6K4t31amVTZDgR3sKmwUJJ",
+      "url": "https://open.spotify.com/track/6K4t31amVTZDgR3sKmwUJJ"
+    },
+    {
+      "rank": 29,
+      "name": "ELEMENT.",
+      "artist": "Kendrick Lamar",
+      "album": "DAMN.",
+      "minutes": 45,
+      "streams": 15,
+      "uri": "spotify:track:1EaKU4dMbesXXd3BrLCtYG",
+      "url": "https://open.spotify.com/track/1EaKU4dMbesXXd3BrLCtYG"
+    },
+    {
+      "rank": 30,
+      "name": "Used to Be in Love",
+      "artist": "The Jungle Giants",
+      "album": "Quiet Ferocity",
+      "minutes": 40,
+      "streams": 15,
+      "uri": "spotify:track:290xSzR8Ee9fm82poMg4od",
+      "url": "https://open.spotify.com/track/290xSzR8Ee9fm82poMg4od"
+    },
+    {
+      "rank": 31,
+      "name": "Can't Stop",
+      "artist": "Red Hot Chili Peppers",
+      "album": "By the Way",
+      "minutes": 49,
+      "streams": 14,
+      "uri": "spotify:track:3ZOEytgrvLwQaqXreDs2Jx",
+      "url": "https://open.spotify.com/track/3ZOEytgrvLwQaqXreDs2Jx"
+    },
+    {
+      "rank": 32,
+      "name": "Bohemian Rhapsody - Remastered 2011",
+      "artist": "Queen",
+      "album": "A Night At The Opera",
+      "minutes": 61,
+      "streams": 14,
+      "uri": "spotify:track:4u7EnebtmKWzUH433cf5Qv",
+      "url": "https://open.spotify.com/track/4u7EnebtmKWzUH433cf5Qv"
+    },
+    {
+      "rank": 33,
+      "name": "Young Folks",
+      "artist": "Peter Bjorn and John",
+      "album": "Writer's Block",
+      "minutes": 50,
+      "streams": 14,
+      "uri": "spotify:track:4dyx5SzxPPaD8xQIid5Wjj",
+      "url": "https://open.spotify.com/track/4dyx5SzxPPaD8xQIid5Wjj"
+    },
+    {
+      "rank": 34,
+      "name": "These Days",
+      "artist": "mike.",
+      "album": "This Isn't The Album",
+      "minutes": 44,
+      "streams": 14,
+      "uri": "spotify:track:5tsI3xxDHDgzHhn30LTQNz",
+      "url": "https://open.spotify.com/track/5tsI3xxDHDgzHhn30LTQNz"
+    },
+    {
+      "rank": 35,
+      "name": "Wrong Man (feat. Ariana Deboo & Dave B)",
+      "artist": "Sam Lachow",
+      "album": "Friends, Funk & Liquor",
+      "minutes": 49,
+      "streams": 14,
+      "uri": "spotify:track:2iCsHWWYzSCJ6Z0MyeOv6h",
+      "url": "https://open.spotify.com/track/2iCsHWWYzSCJ6Z0MyeOv6h"
+    },
+    {
+      "rank": 36,
+      "name": "Quiet Ferocity",
+      "artist": "The Jungle Giants",
+      "album": "Quiet Ferocity",
+      "minutes": 59,
+      "streams": 14,
+      "uri": "spotify:track:2AxlcWUZNfy08e9tsSUyrT",
+      "url": "https://open.spotify.com/track/2AxlcWUZNfy08e9tsSUyrT"
+    },
+    {
+      "rank": 37,
+      "name": "Lucky You (feat. Joyner Lucas)",
+      "artist": "Eminem",
+      "album": "Kamikaze",
+      "minutes": 53,
+      "streams": 14,
+      "uri": "spotify:track:60SdxE8apGAxMiRrpbmLY0",
+      "url": "https://open.spotify.com/track/60SdxE8apGAxMiRrpbmLY0"
+    },
+    {
+      "rank": 38,
+      "name": "100 Miles and Running (ft. Wale & John Lindahl)",
+      "artist": "Logic",
+      "album": "YSIV",
+      "minutes": 53,
+      "streams": 14,
+      "uri": "spotify:track:4CstQ0SUkl0YkoeZkIZlIx",
+      "url": "https://open.spotify.com/track/4CstQ0SUkl0YkoeZkIZlIx"
+    },
+    {
+      "rank": 39,
+      "name": "Come Together - Remastered 2009",
+      "artist": "The Beatles",
+      "album": "Abbey Road",
+      "minutes": 41,
+      "streams": 13,
+      "uri": "spotify:track:2EqlS6tkEnglzr7tkKAAYD",
+      "url": "https://open.spotify.com/track/2EqlS6tkEnglzr7tkKAAYD"
+    },
+    {
+      "rank": 40,
+      "name": "All Right Now",
+      "artist": "Free",
+      "album": "Fire And Water",
+      "minutes": 41,
+      "streams": 13,
+      "uri": "spotify:track:1gcESexgftSuLuML57Y69q",
+      "url": "https://open.spotify.com/track/1gcESexgftSuLuML57Y69q"
+    },
+    {
+      "rank": 41,
+      "name": "Come As You Are",
+      "artist": "Nirvana",
+      "album": "Nevermind",
+      "minutes": 36,
+      "streams": 13,
+      "uri": "spotify:track:0MKGH8UMfCnq5w7nG06oM5",
+      "url": "https://open.spotify.com/track/0MKGH8UMfCnq5w7nG06oM5"
+    },
+    {
+      "rank": 42,
+      "name": "Radar Love",
+      "artist": "Golden Earring",
+      "album": "Moontan",
+      "minutes": 62,
+      "streams": 13,
+      "uri": "spotify:track:5tU9JM1v72X7oM808Am6Fq",
+      "url": "https://open.spotify.com/track/5tU9JM1v72X7oM808Am6Fq"
+    },
+    {
+      "rank": 43,
+      "name": "Waiting On the World to Change",
+      "artist": "John Mayer",
+      "album": "Continuum",
+      "minutes": 34,
+      "streams": 13,
+      "uri": "spotify:track:5imShWWzwqfAJ9gXFpGAQh",
+      "url": "https://open.spotify.com/track/5imShWWzwqfAJ9gXFpGAQh"
+    },
+    {
+      "rank": 44,
+      "name": "Stop It",
+      "artist": "FISHER",
+      "album": "Oi Oi",
+      "minutes": 19,
+      "streams": 13,
+      "uri": "spotify:track:4qetR2UUyBeUrJ9DbYrpVQ",
+      "url": "https://open.spotify.com/track/4qetR2UUyBeUrJ9DbYrpVQ"
+    },
+    {
+      "rank": 45,
+      "name": "Freedom For a Change",
+      "artist": "Gizmo Varillas",
+      "album": "El Dorado",
+      "minutes": 24,
+      "streams": 13,
+      "uri": "spotify:track:6IED3V6GMa9SyP8xwkeqpD",
+      "url": "https://open.spotify.com/track/6IED3V6GMa9SyP8xwkeqpD"
+    },
+    {
+      "rank": 46,
+      "name": "Born To Be Wild",
+      "artist": "Steppenwolf",
+      "album": "Steppenwolf",
+      "minutes": 36,
+      "streams": 12,
+      "uri": "spotify:track:63OFKbMaZSDZ4wtesuuq6f",
+      "url": "https://open.spotify.com/track/63OFKbMaZSDZ4wtesuuq6f"
+    },
+    {
+      "rank": 47,
+      "name": "Black Betty",
+      "artist": "Ram Jam",
+      "album": "Ram Jam",
+      "minutes": 33,
+      "streams": 12,
+      "uri": "spotify:track:6kooDsorCpWVMGc994XjWN",
+      "url": "https://open.spotify.com/track/6kooDsorCpWVMGc994XjWN"
+    },
+    {
+      "rank": 48,
+      "name": "Tiny Dancer",
+      "artist": "Elton John",
+      "album": "Madman Across The Water",
+      "minutes": 40,
+      "streams": 12,
+      "uri": "spotify:track:2TVxnKdb3tqe1nhQWwwZCO",
+      "url": "https://open.spotify.com/track/2TVxnKdb3tqe1nhQWwwZCO"
+    },
+    {
+      "rank": 49,
+      "name": "Sunset Lover",
+      "artist": "Petit Biscuit",
+      "album": "Sunset Lover",
+      "minutes": 35,
+      "streams": 12,
+      "uri": "spotify:track:0hNduWmlWmEmuwEFcYvRu1",
+      "url": "https://open.spotify.com/track/0hNduWmlWmEmuwEFcYvRu1"
+    },
+    {
+      "rank": 50,
+      "name": "Africa",
+      "artist": "TOTO",
+      "album": "Toto IV",
+      "minutes": 41,
+      "streams": 12,
+      "uri": "spotify:track:2374M0fQpWi3dLnB54qaLX",
+      "url": "https://open.spotify.com/track/2374M0fQpWi3dLnB54qaLX"
+    }
+  ],
+  "topAlbums": [
+    {
+      "rank": 1,
+      "name": "GO:OD AM",
+      "artist": "Mac Miller",
+      "minutes": 192,
+      "streams": 64,
+      "uniqueTracks": 17,
+      "url": "https://open.spotify.com/search/GO%3AOD%20AM%20Mac%20Miller"
+    },
+    {
+      "rank": 2,
+      "name": "Huckleberry",
+      "artist": "Sam Lachow",
+      "minutes": 182,
+      "streams": 66,
+      "uniqueTracks": 15,
+      "url": "https://open.spotify.com/search/Huckleberry%20Sam%20Lachow"
+    },
+    {
+      "rank": 3,
+      "name": "Relatively Definitely",
+      "artist": "Oliver Schories",
+      "minutes": 173,
+      "streams": 43,
+      "uniqueTracks": 3,
+      "url": "https://open.spotify.com/search/Relatively%20Definitely%20Oliver%20Schories"
+    },
+    {
+      "rank": 4,
+      "name": "Sadnecessary",
+      "artist": "Milky Chance",
+      "minutes": 149,
+      "streams": 47,
+      "uniqueTracks": 14,
+      "url": "https://open.spotify.com/search/Sadnecessary%20Milky%20Chance"
+    },
+    {
+      "rank": 5,
+      "name": "Honey Bones",
+      "artist": "DOPE LEMON",
+      "minutes": 141,
+      "streams": 47,
+      "uniqueTracks": 10,
+      "url": "https://open.spotify.com/search/Honey%20Bones%20DOPE%20LEMON"
+    },
+    {
+      "rank": 6,
+      "name": "Grape Juice",
+      "artist": "Yo Grapes",
+      "minutes": 141,
+      "streams": 51,
+      "uniqueTracks": 11,
+      "url": "https://open.spotify.com/search/Grape%20Juice%20Yo%20Grapes"
+    },
+    {
+      "rank": 7,
+      "name": "Quiet Ferocity",
+      "artist": "The Jungle Giants",
+      "minutes": 136,
+      "streams": 41,
+      "uniqueTracks": 4,
+      "url": "https://open.spotify.com/search/Quiet%20Ferocity%20The%20Jungle%20Giants"
+    },
+    {
+      "rank": 8,
+      "name": "151a",
+      "artist": "Kishi Bashi",
+      "minutes": 125,
+      "streams": 46,
+      "uniqueTracks": 2,
+      "url": "https://open.spotify.com/search/151a%20Kishi%20Bashi"
+    },
+    {
+      "rank": 9,
+      "name": "Gooey",
+      "artist": "Glass Animals",
+      "minutes": 123,
+      "streams": 33,
+      "uniqueTracks": 1,
+      "url": "https://open.spotify.com/search/Gooey%20Glass%20Animals"
+    },
+    {
+      "rank": 10,
+      "name": "Snow",
+      "artist": "Angus & Julia Stone",
+      "minutes": 122,
+      "streams": 33,
+      "uniqueTracks": 2,
+      "url": "https://open.spotify.com/search/Snow%20Angus%20%26%20Julia%20Stone"
+    },
+    {
+      "rank": 11,
+      "name": "Ipoly Mate 003",
+      "artist": "Alec Troniq",
+      "minutes": 115,
+      "streams": 23,
+      "uniqueTracks": 2,
+      "url": "https://open.spotify.com/search/Ipoly%20Mate%20003%20Alec%20Troniq"
+    },
+    {
+      "rank": 12,
+      "name": "Stadium Arcadium",
+      "artist": "Red Hot Chili Peppers",
+      "minutes": 112,
+      "streams": 33,
+      "uniqueTracks": 3,
+      "url": "https://open.spotify.com/search/Stadium%20Arcadium%20Red%20Hot%20Chili%20Peppers"
+    },
+    {
+      "rank": 13,
+      "name": "Cold Fact",
+      "artist": "Rodríguez",
+      "minutes": 112,
+      "streams": 44,
+      "uniqueTracks": 12,
+      "url": "https://open.spotify.com/search/Cold%20Fact%20Rodr%C3%ADguez"
+    },
+    {
+      "rank": 14,
+      "name": "Californication",
+      "artist": "Red Hot Chili Peppers",
+      "minutes": 111,
+      "streams": 31,
+      "uniqueTracks": 4,
+      "url": "https://open.spotify.com/search/Californication%20Red%20Hot%20Chili%20Peppers"
+    },
+    {
+      "rank": 15,
+      "name": "Fingerprint",
+      "artist": "Lane 8",
+      "minutes": 101,
+      "streams": 20,
+      "uniqueTracks": 1,
+      "url": "https://open.spotify.com/search/Fingerprint%20Lane%208"
+    },
+    {
+      "rank": 16,
+      "name": "An Awesome Wave",
+      "artist": "alt-J",
+      "minutes": 95,
+      "streams": 28,
+      "uniqueTracks": 2,
+      "url": "https://open.spotify.com/search/An%20Awesome%20Wave%20alt-J"
+    },
+    {
+      "rank": 17,
+      "name": "Birthday Card",
+      "artist": "Marcus Marr",
+      "minutes": 88,
+      "streams": 23,
+      "uniqueTracks": 1,
+      "url": "https://open.spotify.com/search/Birthday%20Card%20Marcus%20Marr"
+    },
+    {
+      "rank": 18,
+      "name": "Seasick Dream",
+      "artist": "Jack Johnson",
+      "minutes": 78,
+      "streams": 26,
+      "uniqueTracks": 1,
+      "url": "https://open.spotify.com/search/Seasick%20Dream%20Jack%20Johnson"
+    },
+    {
+      "rank": 19,
+      "name": "Thriller 25 Super Deluxe Edition",
+      "artist": "Michael Jackson",
+      "minutes": 77,
+      "streams": 16,
+      "uniqueTracks": 3,
+      "url": "https://open.spotify.com/search/Thriller%2025%20Super%20Deluxe%20Edition%20Michael%20Jackson"
+    },
+    {
+      "rank": 20,
+      "name": "El Dorado",
+      "artist": "Gizmo Varillas",
+      "minutes": 76,
+      "streams": 37,
+      "uniqueTracks": 7,
+      "url": "https://open.spotify.com/search/El%20Dorado%20Gizmo%20Varillas"
+    }
+  ],
+  "temporal": {
+    "monthly": [
+      {
+        "month": 1,
+        "label": "Jan",
+        "minutes": 0,
+        "streams": 0
+      },
+      {
+        "month": 2,
+        "label": "Feb",
+        "minutes": 0,
+        "streams": 0
+      },
+      {
+        "month": 3,
+        "label": "Mar",
+        "minutes": 0,
+        "streams": 0
+      },
+      {
+        "month": 4,
+        "label": "Apr",
+        "minutes": 0,
+        "streams": 0
+      },
+      {
+        "month": 5,
+        "label": "May",
+        "minutes": 0,
+        "streams": 0
+      },
+      {
+        "month": 6,
+        "label": "Jun",
+        "minutes": 0,
+        "streams": 0
+      },
+      {
+        "month": 7,
+        "label": "Jul",
+        "minutes": 587,
+        "streams": 194
+      },
+      {
+        "month": 8,
+        "label": "Aug",
+        "minutes": 2528,
+        "streams": 840
+      },
+      {
+        "month": 9,
+        "label": "Sep",
+        "minutes": 1646,
+        "streams": 628
+      },
+      {
+        "month": 10,
+        "label": "Oct",
+        "minutes": 2056,
+        "streams": 679
+      },
+      {
+        "month": 11,
+        "label": "Nov",
+        "minutes": 2889,
+        "streams": 965
+      },
+      {
+        "month": 12,
+        "label": "Dec",
+        "minutes": 2568,
+        "streams": 878
+      }
+    ],
+    "weekly": [
+      {
+        "day": 0,
+        "label": "Sun",
+        "minutes": 2415,
+        "streams": 776
+      },
+      {
+        "day": 1,
+        "label": "Mon",
+        "minutes": 1569,
+        "streams": 526
+      },
+      {
+        "day": 2,
+        "label": "Tue",
+        "minutes": 1809,
+        "streams": 643
+      },
+      {
+        "day": 3,
+        "label": "Wed",
+        "minutes": 1846,
+        "streams": 636
+      },
+      {
+        "day": 4,
+        "label": "Thu",
+        "minutes": 1565,
+        "streams": 546
+      },
+      {
+        "day": 5,
+        "label": "Fri",
+        "minutes": 1621,
+        "streams": 566
+      },
+      {
+        "day": 6,
+        "label": "Sat",
+        "minutes": 1450,
+        "streams": 491
+      }
+    ],
+    "hourly": [
+      {
+        "hour": 0,
+        "minutes": 159,
+        "streams": 52
+      },
+      {
+        "hour": 1,
+        "minutes": 129,
+        "streams": 30
+      },
+      {
+        "hour": 2,
+        "minutes": 61,
+        "streams": 19
+      },
+      {
+        "hour": 3,
+        "minutes": 40,
+        "streams": 14
+      },
+      {
+        "hour": 4,
+        "minutes": 0,
+        "streams": 0
+      },
+      {
+        "hour": 5,
+        "minutes": 0,
+        "streams": 0
+      },
+      {
+        "hour": 6,
+        "minutes": 19,
+        "streams": 6
+      },
+      {
+        "hour": 7,
+        "minutes": 172,
+        "streams": 62
+      },
+      {
+        "hour": 8,
+        "minutes": 335,
+        "streams": 118
+      },
+      {
+        "hour": 9,
+        "minutes": 560,
+        "streams": 176
+      },
+      {
+        "hour": 10,
+        "minutes": 621,
+        "streams": 205
+      },
+      {
+        "hour": 11,
+        "minutes": 1013,
+        "streams": 306
+      },
+      {
+        "hour": 12,
+        "minutes": 795,
+        "streams": 256
+      },
+      {
+        "hour": 13,
+        "minutes": 927,
+        "streams": 326
+      },
+      {
+        "hour": 14,
+        "minutes": 662,
+        "streams": 228
+      },
+      {
+        "hour": 15,
+        "minutes": 605,
+        "streams": 242
+      },
+      {
+        "hour": 16,
+        "minutes": 803,
+        "streams": 290
+      },
+      {
+        "hour": 17,
+        "minutes": 871,
+        "streams": 304
+      },
+      {
+        "hour": 18,
+        "minutes": 823,
+        "streams": 285
+      },
+      {
+        "hour": 19,
+        "minutes": 1041,
+        "streams": 324
+      },
+      {
+        "hour": 20,
+        "minutes": 979,
+        "streams": 291
+      },
+      {
+        "hour": 21,
+        "minutes": 722,
+        "streams": 263
+      },
+      {
+        "hour": 22,
+        "minutes": 637,
+        "streams": 285
+      },
+      {
+        "hour": 23,
+        "minutes": 300,
+        "streams": 102
+      }
+    ],
+    "heatmap": [
+      [
+        123,
+        68,
+        39,
+        40,
+        0,
+        0,
+        0,
+        0,
+        23,
+        5,
+        102,
+        268,
+        178,
+        214,
+        151,
+        130,
+        207,
+        186,
+        137,
+        194,
+        62,
+        123,
+        130,
+        37
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        86,
+        83,
+        69,
+        95,
+        174,
+        88,
+        152,
+        93,
+        139,
+        95,
+        237,
+        175,
+        52,
+        23,
+        4
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        19,
+        96,
+        69,
+        182,
+        163,
+        208,
+        90,
+        39,
+        107,
+        77,
+        72,
+        154,
+        203,
+        141,
+        135,
+        54
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        19,
+        12,
+        10,
+        70,
+        94,
+        230,
+        130,
+        113,
+        71,
+        65,
+        113,
+        170,
+        129,
+        147,
+        208,
+        153,
+        89,
+        24
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        71,
+        109,
+        57,
+        48,
+        28,
+        84,
+        80,
+        88,
+        56,
+        46,
+        26,
+        173,
+        178,
+        190,
+        106,
+        161,
+        63
+      ],
+      [
+        13,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        52,
+        47,
+        158,
+        90,
+        135,
+        113,
+        110,
+        38,
+        71,
+        89,
+        121,
+        171,
+        106,
+        93,
+        95,
+        89,
+        30
+      ],
+      [
+        23,
+        61,
+        22,
+        0,
+        0,
+        0,
+        0,
+        34,
+        125,
+        88,
+        137,
+        101,
+        32,
+        28,
+        136,
+        93,
+        147,
+        152,
+        46,
+        25,
+        49,
+        51,
+        11,
+        88
+      ]
+    ]
+  },
+  "behavior": {
+    "shuffleRate": 0.722,
+    "offlineRate": 0.029,
+    "skipRate": 0,
+    "reasonStart": [
+      {
+        "reason": "clickrow",
+        "count": 1614
+      },
+      {
+        "reason": "trackdone",
+        "count": 1477
+      },
+      {
+        "reason": "fwdbtn",
+        "count": 951
+      },
+      {
+        "reason": "appload",
+        "count": 86
+      },
+      {
+        "reason": "backbtn",
+        "count": 52
+      },
+      {
+        "reason": "playbtn",
+        "count": 2
+      },
+      {
+        "reason": "trackerror",
+        "count": 1
+      },
+      {
+        "reason": "remote",
+        "count": 1
+      }
+    ],
+    "reasonEnd": [
+      {
+        "reason": "trackdone",
+        "count": 1727
+      },
+      {
+        "reason": "endplay",
+        "count": 1276
+      },
+      {
+        "reason": "fwdbtn",
+        "count": 892
+      },
+      {
+        "reason": "logout",
+        "count": 175
+      },
+      {
+        "reason": "unexpected-exit-while-paused",
+        "count": 95
+      },
+      {
+        "reason": "backbtn",
+        "count": 13
+      },
+      {
+        "reason": "remote",
+        "count": 6
+      }
+    ]
+  },
+  "streaks": {
+    "longestDailyStreak": {
+      "days": 36,
+      "start": "2018-11-03",
+      "end": "2018-12-08"
+    },
+    "longestBreak": {
+      "days": 2,
+      "start": "2018-10-20",
+      "end": "2018-10-23"
+    },
+    "biggestDay": {
+      "date": "2018-11-25",
+      "minutes": 398
+    },
+    "mostRepeatedTrack": {
+      "name": "Tongues",
+      "artist": "Joywave",
+      "count": 4,
+      "date": "2018-08-11"
+    }
+  },
+  "discovery": {
+    "newArtists": 626,
+    "newTracks": 1238,
+    "discoveryRate": 1,
+    "topNewArtists": [
+      {
+        "name": "Red Hot Chili Peppers",
+        "minutes": 352
+      },
+      {
+        "name": "Oliver Schories",
+        "minutes": 281
+      },
+      {
+        "name": "Sam Lachow",
+        "minutes": 260
+      },
+      {
+        "name": "Jack Johnson",
+        "minutes": 217
+      },
+      {
+        "name": "Eminem",
+        "minutes": 216
+      },
+      {
+        "name": "Mac Miller",
+        "minutes": 192
+      },
+      {
+        "name": "DOPE LEMON",
+        "minutes": 183
+      },
+      {
+        "name": "Milky Chance",
+        "minutes": 171
+      },
+      {
+        "name": "Yo Grapes",
+        "minutes": 152
+      },
+      {
+        "name": "Glass Animals",
+        "minutes": 147
+      }
+    ],
+    "topNewTracks": [
+      {
+        "name": "She Goes",
+        "artist": "Oliver Schories",
+        "streams": 38
+      },
+      {
+        "name": "Gooey - Gilligan Moss Remix",
+        "artist": "Glass Animals",
+        "streams": 33
+      },
+      {
+        "name": "Chateau",
+        "artist": "Angus & Julia Stone",
+        "streams": 32
+      },
+      {
+        "name": "Seasick Dream",
+        "artist": "Jack Johnson",
+        "streams": 26
+      },
+      {
+        "name": "Snow (Hey Oh)",
+        "artist": "Red Hot Chili Peppers",
+        "streams": 25
+      },
+      {
+        "name": "It All Began With a Burst",
+        "artist": "Kishi Bashi",
+        "streams": 24
+      },
+      {
+        "name": "Mountain To Move",
+        "artist": "Nick Mulvey",
+        "streams": 24
+      },
+      {
+        "name": "Birthday Card",
+        "artist": "Marcus Marr",
+        "streams": 23
+      },
+      {
+        "name": "I Am the Antichrist to You",
+        "artist": "Kishi Bashi",
+        "streams": 22
+      },
+      {
+        "name": "Neighbors",
+        "artist": "J. Cole",
+        "streams": 22
+      }
+    ]
+  },
+  "extremes": {
+    "longestListen": {
+      "name": "Hi Life - Cheeky Bold Cover",
+      "artist": "Monkey Safari",
+      "duration": "11:06"
+    },
+    "shortestListen": {
+      "name": "Dreamland",
+      "artist": "Sticky Fingers",
+      "duration": "0:30"
+    }
+  }
+}

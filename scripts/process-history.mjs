@@ -3,8 +3,9 @@
 /**
  * Processes Spotify Extended Streaming History into per-year wrapped data files.
  *
- * Input:  src/data/raw/endsong_*.json (from Spotify data export)
+ * Input:  src/data/raw/endsong_*.json OR Streaming_History_Audio_*.json
  * Output: src/data/wrapped/YYYY.json for each year
+ *         src/data/wrapped/all-time.json for cumulative stats
  *
  * Usage: node scripts/process-history.mjs
  */
@@ -18,6 +19,7 @@ const RAW_DIR = resolve(__dirname, "../src/data/raw");
 const OUTPUT_DIR = resolve(__dirname, "../src/data/wrapped");
 
 const MIN_MS_PLAYED = 30000; // 30s minimum to count as a stream
+const LOYALTY_TOP_N = 50; // Artist must be in top N by minutes to count as "present"
 
 function formatDuration(ms) {
   const mins = Math.floor(ms / 60000);
@@ -27,11 +29,18 @@ function formatDuration(ms) {
 
 function loadStreams() {
   const files = readdirSync(RAW_DIR)
-    .filter((f) => f.startsWith("endsong_") && f.endsWith(".json"))
+    .filter(
+      (f) =>
+        f.endsWith(".json") &&
+        (f.startsWith("endsong_") || f.startsWith("Streaming_History_Audio_"))
+    )
     .sort();
 
   if (files.length === 0) {
-    console.error("No endsong_*.json files found in", RAW_DIR);
+    console.error("No streaming history files found in", RAW_DIR);
+    console.error(
+      "Expected endsong_*.json or Streaming_History_Audio_*.json files."
+    );
     process.exit(1);
   }
 
@@ -197,12 +206,20 @@ function computeYearStats(streams, allPriorArtists, allPriorTracks) {
       };
     });
 
+  // --- Top N artists for loyalty tracking ---
+  const topNArtists = Object.entries(artistMinutes)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, LOYALTY_TOP_N)
+    .map(([name]) => name);
+
   // --- Top Tracks (50) ---
   const topTracks = Object.entries(trackStreams)
     .sort((a, b) => b[1] - a[1])
     .slice(0, 50)
     .map(([key, count], i) => {
       const info = trackInfo[key];
+      const uri = info.uri;
+      const trackId = uri ? uri.replace("spotify:track:", "") : null;
       return {
         rank: i + 1,
         name: info.name,
@@ -210,7 +227,8 @@ function computeYearStats(streams, allPriorArtists, allPriorTracks) {
         album: info.album,
         minutes: Math.round(trackMinutes[key]),
         streams: count,
-        uri: info.uri,
+        uri,
+        url: trackId ? `https://open.spotify.com/track/${trackId}` : undefined,
       };
     });
 
@@ -227,6 +245,7 @@ function computeYearStats(streams, allPriorArtists, allPriorTracks) {
         minutes: Math.round(mins),
         streams: albumStreams[key],
         uniqueTracks: albumTracks[key].size,
+        url: `https://open.spotify.com/search/${encodeURIComponent(info.name + " " + info.artist)}`,
       };
     });
 
@@ -371,21 +390,6 @@ function computeYearStats(streams, allPriorArtists, allPriorTracks) {
     a.ms_played < b.ms_played ? a : b
   );
 
-  const skippedTracks = {};
-  for (const s of streams) {
-    if (s.skipped) {
-      const key = `${s.master_metadata_track_name}|||${s.master_metadata_album_artist_name || "Unknown"}`;
-      skippedTracks[key] = (skippedTracks[key] || 0) + 1;
-    }
-  }
-  const mostSkipped = Object.entries(skippedTracks)
-    .sort((a, b) => b[1] - a[1])
-    .slice(0, 5)
-    .map(([key, count]) => {
-      const [name, artist] = key.split("|||");
-      return { name, artist, count };
-    });
-
   const extremes = {
     longestListen: {
       name: longestListen.master_metadata_track_name,
@@ -397,7 +401,6 @@ function computeYearStats(streams, allPriorArtists, allPriorTracks) {
       artist: shortestListen.master_metadata_album_artist_name,
       duration: formatDuration(shortestListen.ms_played),
     },
-    mostSkipped,
   };
 
   return {
@@ -405,6 +408,8 @@ function computeYearStats(streams, allPriorArtists, allPriorTracks) {
     topArtists,
     topTracks,
     topAlbums,
+    topNArtists,
+    artistMinutes,
     temporal,
     behavior,
     streaks,
@@ -413,11 +418,273 @@ function computeYearStats(streams, allPriorArtists, allPriorTracks) {
   };
 }
 
+function getLoyaltyTier(yearsPresent, totalYears) {
+  const ratio = yearsPresent / totalYears;
+  if (yearsPresent >= 6 || ratio >= 0.75) return "ride-or-die";
+  if (yearsPresent >= 4 || ratio >= 0.5) return "regular";
+  if (yearsPresent >= 2) return "familiar";
+  return "new";
+}
+
+function computePerYearLoyalty(yearTopArtists, currentYear, currentTopArtists, currentArtistMinutes) {
+  // yearTopArtists: { year: [artistNames] } for all prior years
+  // Figure out which of this year's top 20 are returning
+  const priorYears = Object.keys(yearTopArtists)
+    .map(Number)
+    .filter((y) => y < currentYear)
+    .sort();
+
+  if (priorYears.length === 0) return null;
+
+  const totalYears = priorYears.length + 1; // including current year
+
+  const returning = [];
+  const brandNew = [];
+
+  for (const artist of currentTopArtists) {
+    const activeYears = priorYears.filter((y) =>
+      yearTopArtists[y].includes(artist.name)
+    );
+
+    if (activeYears.length > 0) {
+      returning.push({
+        name: artist.name,
+        yearsActive: activeYears.length + 1, // +1 for current year
+        totalYears,
+        firstYear: activeYears[0],
+        currentYearRank: artist.rank,
+        currentYearMinutes: artist.minutes,
+        tier: getLoyaltyTier(activeYears.length + 1, totalYears),
+      });
+    } else {
+      brandNew.push({
+        name: artist.name,
+        currentYearRank: artist.rank,
+        currentYearMinutes: artist.minutes,
+      });
+    }
+  }
+
+  returning.sort((a, b) => b.yearsActive - a.yearsActive);
+
+  return {
+    returning,
+    new: brandNew,
+    returningCount: returning.length,
+    newCount: brandNew.length,
+    returningPct: Math.round((returning.length / currentTopArtists.length) * 100),
+  };
+}
+
+function computeAllTime(allYearData, years) {
+  const totalYears = years.length;
+
+  // --- Overview ---
+  let totalMinutes = 0;
+  let totalStreams = 0;
+  const allArtists = new Set();
+  const allTracks = new Set();
+  const allAlbums = new Set();
+  let totalDaysActive = 0;
+
+  const yearByYear = [];
+
+  for (const year of years) {
+    const d = allYearData[year];
+    totalMinutes += d.headline.totalMinutes;
+    totalStreams += d.headline.totalStreams;
+    totalDaysActive += d.headline.daysActive;
+
+    yearByYear.push({
+      year,
+      minutes: d.headline.totalMinutes,
+      streams: d.headline.totalStreams,
+      uniqueArtists: d.headline.uniqueArtists,
+      uniqueTracks: d.headline.uniqueTracks,
+      uniqueAlbums: d.headline.uniqueAlbums,
+      daysActive: d.headline.daysActive,
+      topArtist: d.topArtists[0]?.name,
+      topTrack: d.topTracks[0]?.name,
+      discoveryRate: d.discovery?.discoveryRate,
+    });
+  }
+
+  const overview = {
+    totalMinutes,
+    totalStreams,
+    totalYears,
+    totalDaysActive,
+    firstYear: years[0],
+    latestYear: years[years.length - 1],
+  };
+
+  // --- All-time top artists ---
+  const cumulativeArtistMinutes = {};
+  const cumulativeArtistStreams = {};
+  const artistYearsPresent = {};
+  const artistMinutesByYear = {};
+  const artistFirstYear = {};
+
+  for (const year of years) {
+    const d = allYearData[year];
+    for (const artistName of d.topNArtists) {
+      if (!artistYearsPresent[artistName]) artistYearsPresent[artistName] = [];
+      artistYearsPresent[artistName].push(year);
+    }
+    // Use full artist minutes (not just top N) for cumulative stats
+    for (const [name, mins] of Object.entries(d.artistMinutes)) {
+      cumulativeArtistMinutes[name] = (cumulativeArtistMinutes[name] || 0) + mins;
+      if (!artistMinutesByYear[name]) artistMinutesByYear[name] = {};
+      artistMinutesByYear[name][year] = Math.round(mins);
+      if (!artistFirstYear[name]) artistFirstYear[name] = year;
+    }
+  }
+
+  const allTimeTopArtists = Object.entries(cumulativeArtistMinutes)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 20)
+    .map(([name, mins], i) => {
+      const minutesByYear = artistMinutesByYear[name] || {};
+      const peakYear = Object.entries(minutesByYear).sort(
+        (a, b) => b[1] - a[1]
+      )[0];
+      return {
+        rank: i + 1,
+        name,
+        totalMinutes: Math.round(mins),
+        firstYear: artistFirstYear[name],
+        yearsPresent: artistYearsPresent[name]?.length || 0,
+        peakYear: peakYear ? Number(peakYear[0]) : null,
+        peakMinutes: peakYear ? peakYear[1] : 0,
+        minutesByYear: years.map((y) => minutesByYear[y] || 0),
+      };
+    });
+
+  // --- All-time top tracks ---
+  const cumulativeTrackStreams = {};
+  const cumulativeTrackMinutes = {};
+  const trackInfoMap = {};
+
+  for (const year of years) {
+    const d = allYearData[year];
+    for (const t of d.topTracks) {
+      const key = `${t.name}|||${t.artist}`;
+      cumulativeTrackStreams[key] = (cumulativeTrackStreams[key] || 0) + t.streams;
+      cumulativeTrackMinutes[key] = (cumulativeTrackMinutes[key] || 0) + t.minutes;
+      if (!trackInfoMap[key]) trackInfoMap[key] = { name: t.name, artist: t.artist, album: t.album };
+    }
+  }
+
+  const allTimeTopTracks = Object.entries(cumulativeTrackStreams)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 20)
+    .map(([key, streams], i) => ({
+      rank: i + 1,
+      ...trackInfoMap[key],
+      totalStreams: streams,
+      totalMinutes: Math.round(cumulativeTrackMinutes[key] || 0),
+    }));
+
+  // --- All-time top albums ---
+  const cumulativeAlbumMinutes = {};
+  const cumulativeAlbumStreams = {};
+  const albumInfoMap = {};
+
+  for (const year of years) {
+    const d = allYearData[year];
+    for (const a of d.topAlbums) {
+      const key = `${a.name}|||${a.artist}`;
+      cumulativeAlbumMinutes[key] = (cumulativeAlbumMinutes[key] || 0) + a.minutes;
+      cumulativeAlbumStreams[key] = (cumulativeAlbumStreams[key] || 0) + a.streams;
+      if (!albumInfoMap[key]) albumInfoMap[key] = { name: a.name, artist: a.artist };
+    }
+  }
+
+  const allTimeTopAlbums = Object.entries(cumulativeAlbumMinutes)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 20)
+    .map(([key, mins], i) => ({
+      rank: i + 1,
+      ...albumInfoMap[key],
+      totalMinutes: Math.round(mins),
+      totalStreams: cumulativeAlbumStreams[key],
+    }));
+
+  // --- Artist loyalty ---
+  const artistLoyalty = Object.entries(artistYearsPresent)
+    .filter(([, yrs]) => yrs.length >= 2)
+    .map(([name, yrs]) => {
+      const minutesByYear = artistMinutesByYear[name] || {};
+      const peakYear = Object.entries(minutesByYear).sort(
+        (a, b) => b[1] - a[1]
+      )[0];
+      return {
+        name,
+        yearsPresent: yrs.length,
+        totalYears,
+        loyaltyScore: +(yrs.length / totalYears).toFixed(2),
+        tier: getLoyaltyTier(yrs.length, totalYears),
+        firstYear: yrs[0],
+        activeYears: yrs,
+        totalMinutes: Math.round(cumulativeArtistMinutes[name] || 0),
+        minutesByYear: years.map((y) => minutesByYear[y] || 0),
+        peakYear: peakYear ? Number(peakYear[0]) : null,
+        peakMinutes: peakYear ? peakYear[1] : 0,
+      };
+    })
+    .sort((a, b) => b.yearsPresent - a.yearsPresent || b.totalMinutes - a.totalMinutes)
+    .slice(0, 30);
+
+  // --- Taste turnover ---
+  const yearTopSets = {};
+  for (const year of years) {
+    yearTopSets[year] = new Set(allYearData[year].topNArtists);
+  }
+
+  const tasteTurnover = years.map((year, idx) => {
+    if (idx === 0) {
+      return { year, returningPct: 0, newPct: 100 };
+    }
+    const current = yearTopSets[year];
+    const priorAll = new Set();
+    for (let i = 0; i < idx; i++) {
+      for (const a of yearTopSets[years[i]]) priorAll.add(a);
+    }
+    let returningCount = 0;
+    for (const a of current) {
+      if (priorAll.has(a)) returningCount++;
+    }
+    const returningPct = Math.round((returningCount / current.size) * 100);
+    return { year, returningPct, newPct: 100 - returningPct };
+  });
+
+  // --- First discoveries for all-time top artists ---
+  const firstDiscoveries = allTimeTopArtists.map((a) => ({
+    name: a.name,
+    firstYear: a.firstYear,
+    totalMinutes: a.totalMinutes,
+  }));
+
+  return {
+    source: "extended_history",
+    lastUpdated: new Date().toISOString(),
+    overview,
+    yearByYear,
+    allTimeTopArtists,
+    allTimeTopTracks,
+    allTimeTopAlbums,
+    artistLoyalty,
+    tasteTurnover,
+    firstDiscoveries,
+    years,
+  };
+}
+
 function main() {
   if (!existsSync(RAW_DIR)) {
     console.error(`Raw data directory not found: ${RAW_DIR}`);
     console.error(
-      "Place your Spotify Extended Streaming History files (endsong_*.json) there."
+      "Place your Spotify Extended Streaming History files there."
     );
     process.exit(1);
   }
@@ -435,7 +702,10 @@ function main() {
 
   const allPriorArtists = new Set();
   const allPriorTracks = new Set();
+  const allYearData = {};
+  const yearTopArtistNames = {}; // { year: [top N artist names] }
 
+  // First pass: compute per-year stats
   for (const year of years) {
     const yearStreams = yearGroups[year];
     console.log(`\nProcessing ${year}: ${yearStreams.length} streams`);
@@ -444,6 +714,31 @@ function main() {
       yearStreams,
       allPriorArtists,
       allPriorTracks
+    );
+
+    allYearData[year] = stats;
+    yearTopArtistNames[year] = stats.topNArtists;
+
+    // Update prior sets for discovery tracking
+    for (const s of yearStreams) {
+      allPriorArtists.add(
+        s.master_metadata_album_artist_name || "Unknown"
+      );
+      allPriorTracks.add(
+        `${s.master_metadata_track_name}|||${s.master_metadata_album_artist_name || "Unknown"}`
+      );
+    }
+  }
+
+  // Second pass: compute per-year loyalty and write files
+  for (const year of years) {
+    const stats = allYearData[year];
+
+    const loyalty = computePerYearLoyalty(
+      yearTopArtistNames,
+      year,
+      stats.topArtists,
+      stats.artistMinutes
     );
 
     // Merge with existing API snapshot data if present
@@ -465,11 +760,15 @@ function main() {
       }
     }
 
+    // Remove internal-only fields before writing
+    const { topNArtists, artistMinutes, ...publicStats } = stats;
+
     const yearData = {
       year,
       source: "extended_history",
       lastUpdated: new Date().toISOString(),
-      ...stats,
+      ...publicStats,
+      ...(loyalty ? { loyalty } : {}),
       ...(apiSnapshot ? { apiSnapshot } : {}),
     };
 
@@ -478,19 +777,21 @@ function main() {
       JSON.stringify(yearData, null, 2) + "\n"
     );
     console.log(
-      `  Written ${year}.json — ${stats.headline.totalMinutes} min, ${stats.headline.totalStreams} streams, ${stats.headline.uniqueArtists} artists`
+      `  Written ${year}.json — ${stats.headline.totalMinutes} min, ${stats.headline.totalStreams} streams, ${stats.headline.uniqueArtists} artists` +
+        (loyalty ? `, ${loyalty.returningCount} returning artists` : "")
     );
-
-    // Update prior sets for discovery tracking
-    for (const s of yearStreams) {
-      allPriorArtists.add(
-        s.master_metadata_album_artist_name || "Unknown"
-      );
-      allPriorTracks.add(
-        `${s.master_metadata_track_name}|||${s.master_metadata_album_artist_name || "Unknown"}`
-      );
-    }
   }
+
+  // Generate all-time data
+  console.log("\nGenerating all-time data...");
+  const allTime = computeAllTime(allYearData, years);
+  writeFileSync(
+    resolve(OUTPUT_DIR, "all-time.json"),
+    JSON.stringify(allTime, null, 2) + "\n"
+  );
+  console.log(
+    `  Written all-time.json — ${allTime.overview.totalMinutes} total min, ${allTime.overview.totalYears} years, ${allTime.artistLoyalty.length} loyal artists`
+  );
 
   console.log(
     "\nDone! Run `node scripts/build-wrapped-index.mjs` to update the manifest."

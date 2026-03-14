@@ -51,6 +51,21 @@ const reversedYears = [...years].reverse();
       <div data-animate>
         <YearSelector client:load years={reversedYears} />
       </div>
+
+      {/* All Time link */}
+      <div class="text-center mt-12" data-animate>
+        <a href="/wrapped/all-time"
+          class="group inline-flex items-center gap-3 retro-card px-8 py-5 hover:border-ember-500/40 transition-all">
+          <span class="text-lg font-black neon-text" style="font-family: var(--font-display);">All Time</span>
+          <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" style="color: #e85d3a;"
+            fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+          </svg>
+        </a>
+        <p class="text-xs font-mono mt-3" style="color: var(--text-faint);">
+          {allTime.totalMinutes?.toLocaleString()} minutes across all years
+        </p>
+      </div>
     </div>
   </section>
 

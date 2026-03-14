@@ -1,0 +1,46 @@
+---
+interface Props {
+  overview: {
+    totalMinutes: number;
+    totalStreams: number;
+    totalYears: number;
+    totalDaysActive: number;
+    firstYear: number;
+    latestYear: number;
+  };
+}
+
+const { overview } = Astro.props;
+---
+
+<section class="min-h-screen flex flex-col items-center justify-center relative grain px-4">
+  <div class="absolute inset-0" style="background: radial-gradient(ellipse at 50% 40%, rgba(232, 93, 58, 0.08) 0%, transparent 70%);"></div>
+  <div class="relative z-10 text-center" data-animate>
+    <p class="text-sm font-mono uppercase tracking-[0.3em] mb-6" style="color: var(--text-muted);">
+      Spotify &bull; {overview.firstYear}&ndash;{overview.latestYear}
+    </p>
+    <h1 class="text-7xl sm:text-8xl md:text-9xl lg:text-[10rem] font-black tracking-tight" style="font-family: var(--font-display);">
+      <span class="neon-text">All Time</span>
+    </h1>
+    <div class="mt-8 space-y-2">
+      <p class="text-2xl md:text-3xl font-bold" style="font-family: var(--font-display);">
+        <span class="neon-text">{overview.totalMinutes.toLocaleString()}</span> minutes listened
+      </p>
+      <p class="text-lg" style="color: var(--text-secondary);">
+        {overview.totalStreams.toLocaleString()} streams &bull;
+        {overview.totalYears} years &bull;
+        {overview.totalDaysActive.toLocaleString()} days active
+      </p>
+    </div>
+    <div class="mt-4">
+      <span class="inline-block px-3 py-1 text-xs font-mono rounded-full bg-ember-500/20 text-ember-500">
+        Full History
+      </span>
+    </div>
+  </div>
+  <div class="absolute bottom-8 animate-bounce" style="color: var(--text-faint);">
+    <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3" />
+    </svg>
+  </div>
+</section>

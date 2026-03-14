@@ -21,7 +21,7 @@ const { tracks, topTrackArtists } = Astro.props;
 if (!tracks?.length) return;
 
 const hasMinutes = !!tracks[0].minutes;
-const count = Math.min(tracks.length, hasMinutes ? 50 : 20);
+const count = Math.min(tracks.length, 10);
 const displayTracks = tracks.slice(0, count);
 ---
 

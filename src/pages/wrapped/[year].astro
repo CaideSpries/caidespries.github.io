@@ -6,12 +6,7 @@ import StatsGrid from "../../components/wrapped/StatsGrid.astro";
 import TopArtistsSection from "../../components/wrapped/TopArtistsSection.astro";
 import TopTracksSection from "../../components/wrapped/TopTracksSection.astro";
 import TopAlbumsSection from "../../components/wrapped/TopAlbumsSection.astro";
-import TemporalSection from "../../components/wrapped/TemporalSection.astro";
-import BehaviorSection from "../../components/wrapped/BehaviorSection.astro";
-import StreaksSection from "../../components/wrapped/StreaksSection.astro";
-import DiscoverySection from "../../components/wrapped/DiscoverySection.astro";
-import DecadeBar from "../../components/wrapped/DecadeBar.astro";
-import ExtremesSection from "../../components/wrapped/ExtremesSection.astro";
+import LoyaltySection from "../../components/wrapped/LoyaltySection.astro";
 import ClosingSection from "../../components/wrapped/ClosingSection.astro";
 
 import indexData from "../../data/wrapped/index.json";
@@ -67,8 +62,6 @@ if (data.source === "extended_history" && data.apiSnapshot) {
     });
   }
 }
-
-const decades = data.stats?.decades || data.eras?.decades;
 ---
 
 <BaseLayout
@@ -97,39 +90,12 @@ const decades = data.stats?.decades || data.eras?.decades;
     <TopAlbumsSection albums={data.topAlbums} />
   )}
 
-  {decades && decades.length > 0 && (
-    <section class="py-24 px-4">
-      <div class="max-w-5xl mx-auto">
-        <div class="text-center mb-16" data-animate>
-          <p class="text-sm font-mono uppercase tracking-[0.3em] mb-3" style="color: var(--text-muted);">Your</p>
-          <h2 class="text-5xl md:text-6xl font-black tracking-tight" style="font-family: var(--font-display);">
-            <span class="neon-text">Decades</span>
-          </h2>
-        </div>
-        <DecadeBar decades={decades} />
-      </div>
-    </section>
-  )}
-
-  {(data.extremes || data.stats?.longestTrack) && (
-    <section class="py-12 px-4">
-      <ExtremesSection extremes={data.extremes} stats={data.stats} />
-    </section>
-  )}
-
-  {data.temporal && <TemporalSection temporal={data.temporal} />}
-
-  {data.behavior && <BehaviorSection behavior={data.behavior} />}
-
-  {data.streaks && <StreaksSection streaks={data.streaks} />}
-
-  {data.discovery && <DiscoverySection discovery={data.discovery} />}
+  {data.loyalty && data.year === new Date().getFullYear() && <LoyaltySection loyalty={data.loyalty} />}
 
   <ClosingSection
     year={data.year}
     years={years}
     lastUpdated={data.lastUpdated || data.fetchedAt}
     topArtist={displayArtists[0]?.name}
-    decades={decades}
   />
 </BaseLayout>

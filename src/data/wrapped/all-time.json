@@ -1,0 +1,1920 @@
+{
+  "source": "extended_history",
+  "lastUpdated": "2026-03-14T16:39:45.689Z",
+  "overview": {
+    "totalMinutes": 340280,
+    "totalStreams": 97003,
+    "totalYears": 9,
+    "totalDaysActive": 2621,
+    "firstYear": 2018,
+    "latestYear": 2026
+  },
+  "yearByYear": [
+    {
+      "year": 2018,
+      "minutes": 12275,
+      "streams": 4184,
+      "uniqueArtists": 626,
+      "uniqueTracks": 1238,
+      "uniqueAlbums": 920,
+      "daysActive": 146,
+      "topArtist": "Red Hot Chili Peppers",
+      "topTrack": "She Goes",
+      "discoveryRate": 1
+    },
+    {
+      "year": 2019,
+      "minutes": 40146,
+      "streams": 12810,
+      "uniqueArtists": 1002,
+      "uniqueTracks": 2316,
+      "uniqueAlbums": 1712,
+      "daysActive": 319,
+      "topArtist": "Red Hot Chili Peppers",
+      "topTrack": "Gooey - Gilligan Moss Remix",
+      "discoveryRate": 0.519
+    },
+    {
+      "year": 2020,
+      "minutes": 47800,
+      "streams": 14508,
+      "uniqueArtists": 1143,
+      "uniqueTracks": 2728,
+      "uniqueAlbums": 1946,
+      "daysActive": 348,
+      "topArtist": "Red Hot Chili Peppers",
+      "topTrack": "Gooey - Gilligan Moss Remix",
+      "discoveryRate": 0.32
+    },
+    {
+      "year": 2021,
+      "minutes": 33144,
+      "streams": 9472,
+      "uniqueArtists": 1250,
+      "uniqueTracks": 2703,
+      "uniqueAlbums": 2033,
+      "daysActive": 332,
+      "topArtist": "Red Hot Chili Peppers",
+      "topTrack": "The Spins",
+      "discoveryRate": 0.286
+    },
+    {
+      "year": 2022,
+      "minutes": 40470,
+      "streams": 11230,
+      "uniqueArtists": 1446,
+      "uniqueTracks": 3175,
+      "uniqueAlbums": 2367,
+      "daysActive": 357,
+      "topArtist": "Red Hot Chili Peppers",
+      "topTrack": "Snow (Hey Oh)",
+      "discoveryRate": 0.29
+    },
+    {
+      "year": 2023,
+      "minutes": 39693,
+      "streams": 11421,
+      "uniqueArtists": 1688,
+      "uniqueTracks": 3642,
+      "uniqueAlbums": 2782,
+      "daysActive": 344,
+      "topArtist": "Red Hot Chili Peppers",
+      "topTrack": "The Ship",
+      "discoveryRate": 0.311
+    },
+    {
+      "year": 2024,
+      "minutes": 57982,
+      "streams": 15506,
+      "uniqueArtists": 1881,
+      "uniqueTracks": 4172,
+      "uniqueAlbums": 3238,
+      "daysActive": 357,
+      "topArtist": "Red Hot Chili Peppers",
+      "topTrack": "Steal",
+      "discoveryRate": 0.307
+    },
+    {
+      "year": 2025,
+      "minutes": 59614,
+      "streams": 15454,
+      "uniqueArtists": 1611,
+      "uniqueTracks": 3654,
+      "uniqueAlbums": 2780,
+      "daysActive": 357,
+      "topArtist": "Red Hot Chili Peppers",
+      "topTrack": "I Only Smoke When I Drink",
+      "discoveryRate": 0.217
+    },
+    {
+      "year": 2026,
+      "minutes": 9156,
+      "streams": 2418,
+      "uniqueArtists": 665,
+      "uniqueTracks": 1197,
+      "uniqueAlbums": 982,
+      "daysActive": 61,
+      "topArtist": "Red Hot Chili Peppers",
+      "topTrack": "12 to 12",
+      "discoveryRate": 0.125
+    }
+  ],
+  "allTimeTopArtists": [
+    {
+      "rank": 1,
+      "name": "Red Hot Chili Peppers",
+      "totalMinutes": 10920,
+      "firstYear": 2018,
+      "yearsPresent": 9,
+      "peakYear": 2022,
+      "peakMinutes": 2392,
+      "minutesByYear": [
+        352,
+        834,
+        1678,
+        883,
+        2392,
+        1440,
+        1591,
+        1456,
+        295
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "Mac Miller",
+      "totalMinutes": 4953,
+      "firstYear": 2018,
+      "yearsPresent": 9,
+      "peakYear": 2020,
+      "peakMinutes": 1424,
+      "minutesByYear": [
+        192,
+        290,
+        1424,
+        592,
+        678,
+        562,
+        285,
+        826,
+        104
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "andhim",
+      "totalMinutes": 3472,
+      "firstYear": 2018,
+      "yearsPresent": 7,
+      "peakYear": 2024,
+      "peakMinutes": 1251,
+      "minutesByYear": [
+        71,
+        287,
+        134,
+        309,
+        226,
+        125,
+        1251,
+        986,
+        83
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "Milky Chance",
+      "totalMinutes": 3423,
+      "firstYear": 2018,
+      "yearsPresent": 9,
+      "peakYear": 2019,
+      "peakMinutes": 693,
+      "minutesByYear": [
+        171,
+        693,
+        648,
+        334,
+        344,
+        305,
+        470,
+        412,
+        45
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "Bob Marley & The Wailers",
+      "totalMinutes": 3076,
+      "firstYear": 2018,
+      "yearsPresent": 7,
+      "peakYear": 2024,
+      "peakMinutes": 659,
+      "minutesByYear": [
+        17,
+        491,
+        594,
+        248,
+        181,
+        324,
+        659,
+        536,
+        26
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "Kanye West",
+      "totalMinutes": 3053,
+      "firstYear": 2018,
+      "yearsPresent": 8,
+      "peakYear": 2022,
+      "peakMinutes": 570,
+      "minutesByYear": [
+        30,
+        218,
+        516,
+        494,
+        570,
+        384,
+        369,
+        401,
+        70
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "Led Zeppelin",
+      "totalMinutes": 2952,
+      "firstYear": 2018,
+      "yearsPresent": 8,
+      "peakYear": 2022,
+      "peakMinutes": 543,
+      "minutesByYear": [
+        41,
+        410,
+        464,
+        273,
+        543,
+        239,
+        423,
+        432,
+        126
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "Black Sabbath",
+      "totalMinutes": 2548,
+      "firstYear": 2018,
+      "yearsPresent": 8,
+      "peakYear": 2022,
+      "peakMinutes": 669,
+      "minutesByYear": [
+        43,
+        205,
+        390,
+        327,
+        669,
+        236,
+        308,
+        320,
+        51
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "Jack Johnson",
+      "totalMinutes": 2481,
+      "firstYear": 2018,
+      "yearsPresent": 4,
+      "peakYear": 2020,
+      "peakMinutes": 800,
+      "minutesByYear": [
+        217,
+        780,
+        800,
+        295,
+        106,
+        75,
+        81,
+        128,
+        0
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "Glass Animals",
+      "totalMinutes": 2328,
+      "firstYear": 2018,
+      "yearsPresent": 7,
+      "peakYear": 2023,
+      "peakMinutes": 587,
+      "minutesByYear": [
+        147,
+        258,
+        319,
+        99,
+        211,
+        587,
+        293,
+        377,
+        38
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "Kendrick Lamar",
+      "totalMinutes": 2321,
+      "firstYear": 2018,
+      "yearsPresent": 7,
+      "peakYear": 2020,
+      "peakMinutes": 530,
+      "minutesByYear": [
+        80,
+        403,
+        530,
+        239,
+        376,
+        220,
+        177,
+        277,
+        19
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "Eminem",
+      "totalMinutes": 2298,
+      "firstYear": 2018,
+      "yearsPresent": 6,
+      "peakYear": 2019,
+      "peakMinutes": 660,
+      "minutesByYear": [
+        216,
+        660,
+        443,
+        313,
+        185,
+        67,
+        154,
+        217,
+        41
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "The Rolling Stones",
+      "totalMinutes": 2298,
+      "firstYear": 2018,
+      "yearsPresent": 6,
+      "peakYear": 2024,
+      "peakMinutes": 691,
+      "minutesByYear": [
+        48,
+        149,
+        201,
+        69,
+        172,
+        184,
+        691,
+        619,
+        165
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "Queen",
+      "totalMinutes": 2246,
+      "firstYear": 2018,
+      "yearsPresent": 7,
+      "peakYear": 2019,
+      "peakMinutes": 550,
+      "minutesByYear": [
+        132,
+        550,
+        425,
+        286,
+        233,
+        221,
+        193,
+        140,
+        66
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "Kid Cudi",
+      "totalMinutes": 2194,
+      "firstYear": 2018,
+      "yearsPresent": 7,
+      "peakYear": 2023,
+      "peakMinutes": 461,
+      "minutesByYear": [
+        45,
+        214,
+        326,
+        246,
+        285,
+        461,
+        205,
+        397,
+        15
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "Super Flu",
+      "totalMinutes": 2172,
+      "firstYear": 2018,
+      "yearsPresent": 5,
+      "peakYear": 2024,
+      "peakMinutes": 869,
+      "minutesByYear": [
+        18,
+        151,
+        166,
+        128,
+        162,
+        76,
+        869,
+        557,
+        45
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "DOPE LEMON",
+      "totalMinutes": 2143,
+      "firstYear": 2018,
+      "yearsPresent": 7,
+      "peakYear": 2019,
+      "peakMinutes": 538,
+      "minutesByYear": [
+        183,
+        538,
+        329,
+        297,
+        330,
+        136,
+        136,
+        151,
+        42
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "Rodríguez",
+      "totalMinutes": 2138,
+      "firstYear": 2018,
+      "yearsPresent": 8,
+      "peakYear": 2020,
+      "peakMinutes": 473,
+      "minutesByYear": [
+        127,
+        292,
+        473,
+        266,
+        361,
+        157,
+        138,
+        263,
+        60
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "The Jungle Giants",
+      "totalMinutes": 2084,
+      "firstYear": 2018,
+      "yearsPresent": 8,
+      "peakYear": 2019,
+      "peakMinutes": 470,
+      "minutesByYear": [
+        142,
+        470,
+        269,
+        187,
+        282,
+        229,
+        207,
+        284,
+        14
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "AC/DC",
+      "totalMinutes": 2074,
+      "firstYear": 2018,
+      "yearsPresent": 6,
+      "peakYear": 2020,
+      "peakMinutes": 407,
+      "minutesByYear": [
+        52,
+        312,
+        407,
+        298,
+        230,
+        173,
+        382,
+        192,
+        27
+      ]
+    }
+  ],
+  "allTimeTopTracks": [
+    {
+      "rank": 1,
+      "name": "Snow (Hey Oh)",
+      "artist": "Red Hot Chili Peppers",
+      "album": "Stadium Arcadium",
+      "totalStreams": 297,
+      "totalMinutes": 1425
+    },
+    {
+      "rank": 2,
+      "name": "Electric Feel",
+      "artist": "MGMT",
+      "album": "Oracular Spectacular",
+      "totalStreams": 221,
+      "totalMinutes": 793
+    },
+    {
+      "rank": 3,
+      "name": "Walking On A Dream",
+      "artist": "Empire Of The Sun",
+      "album": "Walking On A Dream",
+      "totalStreams": 218,
+      "totalMinutes": 663
+    },
+    {
+      "rank": 4,
+      "name": "Under the Bridge",
+      "artist": "Red Hot Chili Peppers",
+      "album": "Blood Sugar Sex Magik",
+      "totalStreams": 184,
+      "totalMinutes": 739
+    },
+    {
+      "rank": 5,
+      "name": "Gooey - Gilligan Moss Remix",
+      "artist": "Glass Animals",
+      "album": "Gooey",
+      "totalStreams": 179,
+      "totalMinutes": 802
+    },
+    {
+      "rank": 6,
+      "name": "Scar Tissue",
+      "artist": "Red Hot Chili Peppers",
+      "album": "Californication",
+      "totalStreams": 175,
+      "totalMinutes": 576
+    },
+    {
+      "rank": 7,
+      "name": "Close These Curtains - Stimming Remix",
+      "artist": "Yoko Duo",
+      "album": "Remixes",
+      "totalStreams": 156,
+      "totalMinutes": 916
+    },
+    {
+      "rank": 8,
+      "name": "The Spins",
+      "artist": "Mac Miller",
+      "album": "K.I.D.S.",
+      "totalStreams": 138,
+      "totalMinutes": 427
+    },
+    {
+      "rank": 9,
+      "name": "Always Like This - andhim Remix",
+      "artist": "HVOB",
+      "album": "Always Like This",
+      "totalStreams": 137,
+      "totalMinutes": 671
+    },
+    {
+      "rank": 10,
+      "name": "Sundress",
+      "artist": "A$AP Rocky",
+      "album": "Sundress",
+      "totalStreams": 135,
+      "totalMinutes": 337
+    },
+    {
+      "rank": 11,
+      "name": "Birthday Card",
+      "artist": "Chet Faker",
+      "album": "Birthday Card",
+      "totalStreams": 125,
+      "totalMinutes": 763
+    },
+    {
+      "rank": 12,
+      "name": "Africa",
+      "artist": "TOTO",
+      "album": "Toto IV",
+      "totalStreams": 113,
+      "totalMinutes": 481
+    },
+    {
+      "rank": 13,
+      "name": "Lost",
+      "artist": "Frank Ocean",
+      "album": "channel ORANGE",
+      "totalStreams": 106,
+      "totalMinutes": 402
+    },
+    {
+      "rank": 14,
+      "name": "Dreams - 2004 Remaster",
+      "artist": "Fleetwood Mac",
+      "album": "Rumours",
+      "totalStreams": 103,
+      "totalMinutes": 417
+    },
+    {
+      "rank": 15,
+      "name": "Youth",
+      "artist": "Glass Animals",
+      "album": "How To Be A Human Being",
+      "totalStreams": 103,
+      "totalMinutes": 360
+    },
+    {
+      "rank": 16,
+      "name": "Wine & Chocolates - andhim Remix Radio Version",
+      "artist": "Theophilus London",
+      "album": "Wine & Chocolates",
+      "totalStreams": 103,
+      "totalMinutes": 362
+    },
+    {
+      "rank": 17,
+      "name": "Seasick Dream",
+      "artist": "Jack Johnson",
+      "album": "Seasick Dream",
+      "totalStreams": 102,
+      "totalMinutes": 302
+    },
+    {
+      "rank": 18,
+      "name": "Could You Be Loved",
+      "artist": "Bob Marley & The Wailers",
+      "album": "Uprising",
+      "totalStreams": 101,
+      "totalMinutes": 359
+    },
+    {
+      "rank": 19,
+      "name": "Fisher",
+      "artist": "Camel Power Club",
+      "album": "Sputnik II",
+      "totalStreams": 100,
+      "totalMinutes": 489
+    },
+    {
+      "rank": 20,
+      "name": "Hold On",
+      "artist": "SBTRKT",
+      "album": "SBTRKT",
+      "totalStreams": 98,
+      "totalMinutes": 304
+    }
+  ],
+  "allTimeTopAlbums": [
+    {
+      "rank": 1,
+      "name": "Stadium Arcadium",
+      "artist": "Red Hot Chili Peppers",
+      "totalMinutes": 3034,
+      "totalStreams": 691
+    },
+    {
+      "rank": 2,
+      "name": "Sadnecessary",
+      "artist": "Milky Chance",
+      "totalMinutes": 2670,
+      "totalStreams": 719
+    },
+    {
+      "rank": 3,
+      "name": "Californication",
+      "artist": "Red Hot Chili Peppers",
+      "totalMinutes": 1837,
+      "totalStreams": 512
+    },
+    {
+      "rank": 4,
+      "name": "Paranoid",
+      "artist": "Black Sabbath",
+      "totalMinutes": 1504,
+      "totalStreams": 440
+    },
+    {
+      "rank": 5,
+      "name": "By the Way",
+      "artist": "Red Hot Chili Peppers",
+      "totalMinutes": 1456,
+      "totalStreams": 385
+    },
+    {
+      "rank": 6,
+      "name": "Honey Bones",
+      "artist": "DOPE LEMON",
+      "totalMinutes": 1215,
+      "totalStreams": 359
+    },
+    {
+      "rank": 7,
+      "name": "Oracular Spectacular",
+      "artist": "MGMT",
+      "totalMinutes": 1159,
+      "totalStreams": 292
+    },
+    {
+      "rank": 8,
+      "name": "Graduation",
+      "artist": "Kanye West",
+      "totalMinutes": 1120,
+      "totalStreams": 320
+    },
+    {
+      "rank": 9,
+      "name": "Remixes",
+      "artist": "Yoko Duo",
+      "totalMinutes": 1070,
+      "totalStreams": 173
+    },
+    {
+      "rank": 10,
+      "name": "Quiet Ferocity",
+      "artist": "The Jungle Giants",
+      "totalMinutes": 1065,
+      "totalStreams": 292
+    },
+    {
+      "rank": 11,
+      "name": "Cold Fact",
+      "artist": "Rodríguez",
+      "totalMinutes": 910,
+      "totalStreams": 358
+    },
+    {
+      "rank": 12,
+      "name": "Ipoly Mate 003",
+      "artist": "Alec Troniq",
+      "totalMinutes": 875,
+      "totalStreams": 155
+    },
+    {
+      "rank": 13,
+      "name": "Rumours",
+      "artist": "Fleetwood Mac",
+      "totalMinutes": 834,
+      "totalStreams": 211
+    },
+    {
+      "rank": 14,
+      "name": "Nevermind",
+      "artist": "Nirvana",
+      "totalMinutes": 812,
+      "totalStreams": 223
+    },
+    {
+      "rank": 15,
+      "name": "Acid Rap",
+      "artist": "Chance the Rapper",
+      "totalMinutes": 805,
+      "totalStreams": 255
+    },
+    {
+      "rank": 16,
+      "name": "K.I.D.S.",
+      "artist": "Mac Miller",
+      "totalMinutes": 731,
+      "totalStreams": 261
+    },
+    {
+      "rank": 17,
+      "name": "1977",
+      "artist": "Kölsch",
+      "totalMinutes": 721,
+      "totalStreams": 127
+    },
+    {
+      "rank": 18,
+      "name": "Exodus",
+      "artist": "Bob Marley & The Wailers",
+      "totalMinutes": 693,
+      "totalStreams": 164
+    },
+    {
+      "rank": 19,
+      "name": "Always Like This",
+      "artist": "HVOB",
+      "totalMinutes": 671,
+      "totalStreams": 137
+    },
+    {
+      "rank": 20,
+      "name": "In Between Dreams",
+      "artist": "Jack Johnson",
+      "totalMinutes": 668,
+      "totalStreams": 248
+    }
+  ],
+  "artistLoyalty": [
+    {
+      "name": "Red Hot Chili Peppers",
+      "yearsPresent": 9,
+      "totalYears": 9,
+      "loyaltyScore": 1,
+      "tier": "ride-or-die",
+      "firstYear": 2018,
+      "activeYears": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "totalMinutes": 10920,
+      "minutesByYear": [
+        352,
+        834,
+        1678,
+        883,
+        2392,
+        1440,
+        1591,
+        1456,
+        295
+      ],
+      "peakYear": 2022,
+      "peakMinutes": 2392
+    },
+    {
+      "name": "Mac Miller",
+      "yearsPresent": 9,
+      "totalYears": 9,
+      "loyaltyScore": 1,
+      "tier": "ride-or-die",
+      "firstYear": 2018,
+      "activeYears": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "totalMinutes": 4953,
+      "minutesByYear": [
+        192,
+        290,
+        1424,
+        592,
+        678,
+        562,
+        285,
+        826,
+        104
+      ],
+      "peakYear": 2020,
+      "peakMinutes": 1424
+    },
+    {
+      "name": "Milky Chance",
+      "yearsPresent": 9,
+      "totalYears": 9,
+      "loyaltyScore": 1,
+      "tier": "ride-or-die",
+      "firstYear": 2018,
+      "activeYears": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "totalMinutes": 3423,
+      "minutesByYear": [
+        171,
+        693,
+        648,
+        334,
+        344,
+        305,
+        470,
+        412,
+        45
+      ],
+      "peakYear": 2019,
+      "peakMinutes": 693
+    },
+    {
+      "name": "Kanye West",
+      "yearsPresent": 8,
+      "totalYears": 9,
+      "loyaltyScore": 0.89,
+      "tier": "ride-or-die",
+      "firstYear": 2019,
+      "activeYears": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "totalMinutes": 3053,
+      "minutesByYear": [
+        30,
+        218,
+        516,
+        494,
+        570,
+        384,
+        369,
+        401,
+        70
+      ],
+      "peakYear": 2022,
+      "peakMinutes": 570
+    },
+    {
+      "name": "Led Zeppelin",
+      "yearsPresent": 8,
+      "totalYears": 9,
+      "loyaltyScore": 0.89,
+      "tier": "ride-or-die",
+      "firstYear": 2019,
+      "activeYears": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "totalMinutes": 2952,
+      "minutesByYear": [
+        41,
+        410,
+        464,
+        273,
+        543,
+        239,
+        423,
+        432,
+        126
+      ],
+      "peakYear": 2022,
+      "peakMinutes": 543
+    },
+    {
+      "name": "Black Sabbath",
+      "yearsPresent": 8,
+      "totalYears": 9,
+      "loyaltyScore": 0.89,
+      "tier": "ride-or-die",
+      "firstYear": 2019,
+      "activeYears": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "totalMinutes": 2548,
+      "minutesByYear": [
+        43,
+        205,
+        390,
+        327,
+        669,
+        236,
+        308,
+        320,
+        51
+      ],
+      "peakYear": 2022,
+      "peakMinutes": 669
+    },
+    {
+      "name": "Rodríguez",
+      "yearsPresent": 8,
+      "totalYears": 9,
+      "loyaltyScore": 0.89,
+      "tier": "ride-or-die",
+      "firstYear": 2018,
+      "activeYears": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2025,
+        2026
+      ],
+      "totalMinutes": 2138,
+      "minutesByYear": [
+        127,
+        292,
+        473,
+        266,
+        361,
+        157,
+        138,
+        263,
+        60
+      ],
+      "peakYear": 2020,
+      "peakMinutes": 473
+    },
+    {
+      "name": "The Jungle Giants",
+      "yearsPresent": 8,
+      "totalYears": 9,
+      "loyaltyScore": 0.89,
+      "tier": "ride-or-die",
+      "firstYear": 2018,
+      "activeYears": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "totalMinutes": 2084,
+      "minutesByYear": [
+        142,
+        470,
+        269,
+        187,
+        282,
+        229,
+        207,
+        284,
+        14
+      ],
+      "peakYear": 2019,
+      "peakMinutes": 470
+    },
+    {
+      "name": "TOTO",
+      "yearsPresent": 8,
+      "totalYears": 9,
+      "loyaltyScore": 0.89,
+      "tier": "ride-or-die",
+      "firstYear": 2018,
+      "activeYears": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2026
+      ],
+      "totalMinutes": 1396,
+      "minutesByYear": [
+        83,
+        201,
+        177,
+        209,
+        159,
+        168,
+        220,
+        125,
+        53
+      ],
+      "peakYear": 2024,
+      "peakMinutes": 220
+    },
+    {
+      "name": "andhim",
+      "yearsPresent": 7,
+      "totalYears": 9,
+      "loyaltyScore": 0.78,
+      "tier": "ride-or-die",
+      "firstYear": 2018,
+      "activeYears": [
+        2018,
+        2019,
+        2021,
+        2022,
+        2024,
+        2025,
+        2026
+      ],
+      "totalMinutes": 3472,
+      "minutesByYear": [
+        71,
+        287,
+        134,
+        309,
+        226,
+        125,
+        1251,
+        986,
+        83
+      ],
+      "peakYear": 2024,
+      "peakMinutes": 1251
+    },
+    {
+      "name": "Bob Marley & The Wailers",
+      "yearsPresent": 7,
+      "totalYears": 9,
+      "loyaltyScore": 0.78,
+      "tier": "ride-or-die",
+      "firstYear": 2019,
+      "activeYears": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "totalMinutes": 3076,
+      "minutesByYear": [
+        17,
+        491,
+        594,
+        248,
+        181,
+        324,
+        659,
+        536,
+        26
+      ],
+      "peakYear": 2024,
+      "peakMinutes": 659
+    },
+    {
+      "name": "Glass Animals",
+      "yearsPresent": 7,
+      "totalYears": 9,
+      "loyaltyScore": 0.78,
+      "tier": "ride-or-die",
+      "firstYear": 2018,
+      "activeYears": [
+        2018,
+        2019,
+        2020,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "totalMinutes": 2328,
+      "minutesByYear": [
+        147,
+        258,
+        319,
+        99,
+        211,
+        587,
+        293,
+        377,
+        38
+      ],
+      "peakYear": 2023,
+      "peakMinutes": 587
+    },
+    {
+      "name": "Kendrick Lamar",
+      "yearsPresent": 7,
+      "totalYears": 9,
+      "loyaltyScore": 0.78,
+      "tier": "ride-or-die",
+      "firstYear": 2018,
+      "activeYears": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2025
+      ],
+      "totalMinutes": 2321,
+      "minutesByYear": [
+        80,
+        403,
+        530,
+        239,
+        376,
+        220,
+        177,
+        277,
+        19
+      ],
+      "peakYear": 2020,
+      "peakMinutes": 530
+    },
+    {
+      "name": "Queen",
+      "yearsPresent": 7,
+      "totalYears": 9,
+      "loyaltyScore": 0.78,
+      "tier": "ride-or-die",
+      "firstYear": 2018,
+      "activeYears": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2026
+      ],
+      "totalMinutes": 2246,
+      "minutesByYear": [
+        132,
+        550,
+        425,
+        286,
+        233,
+        221,
+        193,
+        140,
+        66
+      ],
+      "peakYear": 2019,
+      "peakMinutes": 550
+    },
+    {
+      "name": "Kid Cudi",
+      "yearsPresent": 7,
+      "totalYears": 9,
+      "loyaltyScore": 0.78,
+      "tier": "ride-or-die",
+      "firstYear": 2019,
+      "activeYears": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "totalMinutes": 2194,
+      "minutesByYear": [
+        45,
+        214,
+        326,
+        246,
+        285,
+        461,
+        205,
+        397,
+        15
+      ],
+      "peakYear": 2023,
+      "peakMinutes": 461
+    },
+    {
+      "name": "DOPE LEMON",
+      "yearsPresent": 7,
+      "totalYears": 9,
+      "loyaltyScore": 0.78,
+      "tier": "ride-or-die",
+      "firstYear": 2018,
+      "activeYears": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2026
+      ],
+      "totalMinutes": 2143,
+      "minutesByYear": [
+        183,
+        538,
+        329,
+        297,
+        330,
+        136,
+        136,
+        151,
+        42
+      ],
+      "peakYear": 2019,
+      "peakMinutes": 538
+    },
+    {
+      "name": "MGMT",
+      "yearsPresent": 7,
+      "totalYears": 9,
+      "loyaltyScore": 0.78,
+      "tier": "ride-or-die",
+      "firstYear": 2020,
+      "activeYears": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "totalMinutes": 1954,
+      "minutesByYear": [
+        5,
+        102,
+        258,
+        191,
+        320,
+        439,
+        318,
+        246,
+        76
+      ],
+      "peakYear": 2023,
+      "peakMinutes": 439
+    },
+    {
+      "name": "Alec Troniq",
+      "yearsPresent": 7,
+      "totalYears": 9,
+      "loyaltyScore": 0.78,
+      "tier": "ride-or-die",
+      "firstYear": 2018,
+      "activeYears": [
+        2018,
+        2019,
+        2020,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "totalMinutes": 1765,
+      "minutesByYear": [
+        115,
+        250,
+        326,
+        92,
+        150,
+        173,
+        218,
+        409,
+        33
+      ],
+      "peakYear": 2025,
+      "peakMinutes": 409
+    },
+    {
+      "name": "Creedence Clearwater Revival",
+      "yearsPresent": 7,
+      "totalYears": 9,
+      "loyaltyScore": 0.78,
+      "tier": "ride-or-die",
+      "firstYear": 2019,
+      "activeYears": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2026
+      ],
+      "totalMinutes": 1475,
+      "minutesByYear": [
+        36,
+        224,
+        229,
+        111,
+        148,
+        132,
+        349,
+        180,
+        66
+      ],
+      "peakYear": 2024,
+      "peakMinutes": 349
+    },
+    {
+      "name": "Eminem",
+      "yearsPresent": 6,
+      "totalYears": 9,
+      "loyaltyScore": 0.67,
+      "tier": "ride-or-die",
+      "firstYear": 2018,
+      "activeYears": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2026
+      ],
+      "totalMinutes": 2298,
+      "minutesByYear": [
+        216,
+        660,
+        443,
+        313,
+        185,
+        67,
+        154,
+        217,
+        41
+      ],
+      "peakYear": 2019,
+      "peakMinutes": 660
+    },
+    {
+      "name": "The Rolling Stones",
+      "yearsPresent": 6,
+      "totalYears": 9,
+      "loyaltyScore": 0.67,
+      "tier": "ride-or-die",
+      "firstYear": 2020,
+      "activeYears": [
+        2020,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "totalMinutes": 2298,
+      "minutesByYear": [
+        48,
+        149,
+        201,
+        69,
+        172,
+        184,
+        691,
+        619,
+        165
+      ],
+      "peakYear": 2024,
+      "peakMinutes": 691
+    },
+    {
+      "name": "AC/DC",
+      "yearsPresent": 6,
+      "totalYears": 9,
+      "loyaltyScore": 0.67,
+      "tier": "ride-or-die",
+      "firstYear": 2019,
+      "activeYears": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "totalMinutes": 2074,
+      "minutesByYear": [
+        52,
+        312,
+        407,
+        298,
+        230,
+        173,
+        382,
+        192,
+        27
+      ],
+      "peakYear": 2020,
+      "peakMinutes": 407
+    },
+    {
+      "name": "Eagles",
+      "yearsPresent": 6,
+      "totalYears": 9,
+      "loyaltyScore": 0.67,
+      "tier": "ride-or-die",
+      "firstYear": 2018,
+      "activeYears": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2024
+      ],
+      "totalMinutes": 1662,
+      "minutesByYear": [
+        114,
+        380,
+        310,
+        142,
+        157,
+        106,
+        233,
+        211,
+        10
+      ],
+      "peakYear": 2019,
+      "peakMinutes": 380
+    },
+    {
+      "name": "Foals",
+      "yearsPresent": 6,
+      "totalYears": 9,
+      "loyaltyScore": 0.67,
+      "tier": "ride-or-die",
+      "firstYear": 2021,
+      "activeYears": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "totalMinutes": 1640,
+      "minutesByYear": [
+        0,
+        13,
+        159,
+        168,
+        316,
+        210,
+        305,
+        425,
+        45
+      ],
+      "peakYear": 2025,
+      "peakMinutes": 425
+    },
+    {
+      "name": "Dire Straits",
+      "yearsPresent": 6,
+      "totalYears": 9,
+      "loyaltyScore": 0.67,
+      "tier": "ride-or-die",
+      "firstYear": 2018,
+      "activeYears": [
+        2018,
+        2019,
+        2021,
+        2024,
+        2025,
+        2026
+      ],
+      "totalMinutes": 1574,
+      "minutesByYear": [
+        77,
+        184,
+        145,
+        124,
+        99,
+        93,
+        216,
+        517,
+        118
+      ],
+      "peakYear": 2025,
+      "peakMinutes": 517
+    },
+    {
+      "name": "Chet Faker",
+      "yearsPresent": 6,
+      "totalYears": 9,
+      "loyaltyScore": 0.67,
+      "tier": "ride-or-die",
+      "firstYear": 2020,
+      "activeYears": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2025,
+        2026
+      ],
+      "totalMinutes": 1562,
+      "minutesByYear": [
+        0,
+        11,
+        244,
+        203,
+        238,
+        140,
+        194,
+        492,
+        38
+      ],
+      "peakYear": 2025,
+      "peakMinutes": 492
+    },
+    {
+      "name": "Empire Of The Sun",
+      "yearsPresent": 6,
+      "totalYears": 9,
+      "loyaltyScore": 0.67,
+      "tier": "ride-or-die",
+      "firstYear": 2021,
+      "activeYears": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "totalMinutes": 1557,
+      "minutesByYear": [
+        47,
+        86,
+        109,
+        183,
+        157,
+        285,
+        227,
+        418,
+        45
+      ],
+      "peakYear": 2025,
+      "peakMinutes": 418
+    },
+    {
+      "name": "alt-J",
+      "yearsPresent": 6,
+      "totalYears": 9,
+      "loyaltyScore": 0.67,
+      "tier": "ride-or-die",
+      "firstYear": 2018,
+      "activeYears": [
+        2018,
+        2019,
+        2020,
+        2022,
+        2024,
+        2025
+      ],
+      "totalMinutes": 1455,
+      "minutesByYear": [
+        95,
+        204,
+        208,
+        98,
+        215,
+        121,
+        244,
+        238,
+        33
+      ],
+      "peakYear": 2024,
+      "peakMinutes": 244
+    },
+    {
+      "name": "GoldFish",
+      "yearsPresent": 6,
+      "totalYears": 9,
+      "loyaltyScore": 0.67,
+      "tier": "ride-or-die",
+      "firstYear": 2019,
+      "activeYears": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "totalMinutes": 1419,
+      "minutesByYear": [
+        35,
+        166,
+        207,
+        154,
+        163,
+        257,
+        213,
+        201,
+        22
+      ],
+      "peakYear": 2023,
+      "peakMinutes": 257
+    },
+    {
+      "name": "Super Flu",
+      "yearsPresent": 5,
+      "totalYears": 9,
+      "loyaltyScore": 0.56,
+      "tier": "regular",
+      "firstYear": 2021,
+      "activeYears": [
+        2021,
+        2022,
+        2024,
+        2025,
+        2026
+      ],
+      "totalMinutes": 2172,
+      "minutesByYear": [
+        18,
+        151,
+        166,
+        128,
+        162,
+        76,
+        869,
+        557,
+        45
+      ],
+      "peakYear": 2024,
+      "peakMinutes": 869
+    }
+  ],
+  "tasteTurnover": [
+    {
+      "year": 2018,
+      "returningPct": 0,
+      "newPct": 100
+    },
+    {
+      "year": 2019,
+      "returningPct": 66,
+      "newPct": 34
+    },
+    {
+      "year": 2020,
+      "returningPct": 68,
+      "newPct": 32
+    },
+    {
+      "year": 2021,
+      "returningPct": 74,
+      "newPct": 26
+    },
+    {
+      "year": 2022,
+      "returningPct": 82,
+      "newPct": 18
+    },
+    {
+      "year": 2023,
+      "returningPct": 80,
+      "newPct": 20
+    },
+    {
+      "year": 2024,
+      "returningPct": 66,
+      "newPct": 34
+    },
+    {
+      "year": 2025,
+      "returningPct": 86,
+      "newPct": 14
+    },
+    {
+      "year": 2026,
+      "returningPct": 66,
+      "newPct": 34
+    }
+  ],
+  "firstDiscoveries": [
+    {
+      "name": "Red Hot Chili Peppers",
+      "firstYear": 2018,
+      "totalMinutes": 10920
+    },
+    {
+      "name": "Mac Miller",
+      "firstYear": 2018,
+      "totalMinutes": 4953
+    },
+    {
+      "name": "andhim",
+      "firstYear": 2018,
+      "totalMinutes": 3472
+    },
+    {
+      "name": "Milky Chance",
+      "firstYear": 2018,
+      "totalMinutes": 3423
+    },
+    {
+      "name": "Bob Marley & The Wailers",
+      "firstYear": 2018,
+      "totalMinutes": 3076
+    },
+    {
+      "name": "Kanye West",
+      "firstYear": 2018,
+      "totalMinutes": 3053
+    },
+    {
+      "name": "Led Zeppelin",
+      "firstYear": 2018,
+      "totalMinutes": 2952
+    },
+    {
+      "name": "Black Sabbath",
+      "firstYear": 2018,
+      "totalMinutes": 2548
+    },
+    {
+      "name": "Jack Johnson",
+      "firstYear": 2018,
+      "totalMinutes": 2481
+    },
+    {
+      "name": "Glass Animals",
+      "firstYear": 2018,
+      "totalMinutes": 2328
+    },
+    {
+      "name": "Kendrick Lamar",
+      "firstYear": 2018,
+      "totalMinutes": 2321
+    },
+    {
+      "name": "Eminem",
+      "firstYear": 2018,
+      "totalMinutes": 2298
+    },
+    {
+      "name": "The Rolling Stones",
+      "firstYear": 2018,
+      "totalMinutes": 2298
+    },
+    {
+      "name": "Queen",
+      "firstYear": 2018,
+      "totalMinutes": 2246
+    },
+    {
+      "name": "Kid Cudi",
+      "firstYear": 2018,
+      "totalMinutes": 2194
+    },
+    {
+      "name": "Super Flu",
+      "firstYear": 2018,
+      "totalMinutes": 2172
+    },
+    {
+      "name": "DOPE LEMON",
+      "firstYear": 2018,
+      "totalMinutes": 2143
+    },
+    {
+      "name": "Rodríguez",
+      "firstYear": 2018,
+      "totalMinutes": 2138
+    },
+    {
+      "name": "The Jungle Giants",
+      "firstYear": 2018,
+      "totalMinutes": 2084
+    },
+    {
+      "name": "AC/DC",
+      "firstYear": 2018,
+      "totalMinutes": 2074
+    }
+  ],
+  "years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ]
+}

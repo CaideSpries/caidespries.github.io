@@ -1,0 +1,118 @@
+---
+interface YearData {
+  year: number;
+  minutes: number;
+  streams: number;
+  uniqueArtists: number;
+  uniqueTracks: number;
+  uniqueAlbums: number;
+  daysActive: number;
+  topArtist: string;
+  topTrack: string;
+  discoveryRate: number;
+}
+
+interface Props {
+  yearByYear: YearData[];
+  years: number[];
+}
+
+const { yearByYear, years } = Astro.props;
+if (!yearByYear?.length) return;
+
+const maxMinutes = Math.max(...yearByYear.map((y) => y.minutes));
+const peakYear = yearByYear.reduce((a, b) => (a.minutes > b.minutes ? a : b));
+---
+
+<section class="py-24 px-4">
+  <div class="max-w-5xl mx-auto">
+    <div class="text-center mb-16" data-animate>
+      <p class="text-sm font-mono uppercase tracking-[0.3em] mb-3" style="color: var(--text-muted);">Year By</p>
+      <h2 class="text-5xl md:text-6xl font-black tracking-tight" style="font-family: var(--font-display);">
+        <span class="neon-text">Year</span>
+      </h2>
+    </div>
+
+    <!-- Bar chart -->
+    <div class="retro-card p-6 sm:p-8 mb-8" data-animate>
+      <div class="flex items-end justify-between gap-2 sm:gap-4" style="height: 280px;">
+        {yearByYear.map((y) => {
+          const barHeight = Math.max(Math.round((y.minutes / maxMinutes) * 240), 8);
+          const isPeak = y.year === peakYear.year;
+          return (
+            <a href={`/wrapped/${y.year}`}
+              class="group flex-1 flex flex-col items-center justify-end"
+              style="text-decoration: none;"
+              title={`${y.year}: ${y.minutes.toLocaleString()} minutes`}>
+              <span class="text-[10px] sm:text-xs font-mono mb-2 opacity-0 group-hover:opacity-100 transition-opacity"
+                style={isPeak ? "color: #e85d3a; opacity: 1 !important;" : "color: var(--text-muted);"}>
+                {Math.round(y.minutes / 1000)}k
+              </span>
+              <div class="w-full rounded-t-md transition-all duration-300 group-hover:opacity-80"
+                style={`height: ${barHeight}px; background: ${isPeak ? "rgba(232, 93, 58, 0.7)" : "rgba(232, 93, 58, 0.3)"};`}>
+              </div>
+              <span class={`text-[10px] sm:text-xs font-mono mt-2 transition-colors ${isPeak ? "neon-text font-bold" : ""}`}
+                style={!isPeak ? "color: var(--text-muted);" : ""}>
+                {String(y.year).slice(-2)}
+              </span>
+            </a>
+          );
+        })}
+      </div>
+      <p class="text-xs font-mono text-center mt-4" style="color: var(--text-faint);">
+        Peak: <span class="neon-text font-bold">{peakYear.year}</span> with {peakYear.minutes.toLocaleString()} minutes
+      </p>
+    </div>
+
+    <!-- Per-year stats grid -->
+    <div class="space-y-3" data-animate>
+      {yearByYear.map((y) => {
+        const isPeak = y.year === peakYear.year;
+        const discoveryPct = Math.round(y.discoveryRate * 100);
+        return (
+          <a href={`/wrapped/${y.year}`}
+            class={`group retro-card p-4 sm:p-5 flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-6 ${isPeak ? "" : ""}`}>
+            <div class="flex items-center gap-3 sm:w-24 shrink-0">
+              <span class={`text-xl sm:text-2xl font-black ${isPeak ? "neon-text" : ""}`}
+                style={`font-family: var(--font-display); ${!isPeak ? "color: var(--text-secondary);" : ""}`}>
+                {y.year}
+              </span>
+            </div>
+            <div class="flex-1 min-w-0">
+              <div class="flex flex-wrap items-center gap-x-4 gap-y-1">
+                <span class="text-xs font-mono" style="color: var(--text-muted);">
+                  <span class={isPeak ? "neon-text font-bold" : ""} style={!isPeak ? "color: var(--text-secondary);" : ""}>
+                    {y.minutes.toLocaleString()}
+                  </span> min
+                </span>
+                <span class="text-xs font-mono" style="color: var(--text-muted);">
+                  {y.streams.toLocaleString()} streams
+                </span>
+                <span class="text-xs font-mono" style="color: var(--text-muted);">
+                  {y.uniqueArtists} artists
+                </span>
+                <span class="text-xs font-mono" style="color: var(--text-muted);">
+                  {discoveryPct}% new
+                </span>
+              </div>
+            </div>
+            <div class="flex items-center gap-3 sm:text-right">
+              <div class="min-w-0">
+                <p class="text-xs font-bold truncate group-hover:text-ember-500 transition-colors" style="font-family: var(--font-display);">
+                  {y.topArtist}
+                </p>
+                <p class="text-[10px] truncate" style="color: var(--text-faint);">
+                  {y.topTrack}
+                </p>
+              </div>
+              <svg class="w-4 h-4 shrink-0 opacity-0 group-hover:opacity-100 transition-opacity" style="color: var(--text-faint);"
+                fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+              </svg>
+            </div>
+          </a>
+        );
+      })}
+    </div>
+  </div>
+</section>

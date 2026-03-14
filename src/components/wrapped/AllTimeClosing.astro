@@ -1,0 +1,57 @@
+---
+interface Props {
+  lastUpdated: string;
+  overview: {
+    totalMinutes: number;
+    totalStreams: number;
+    totalYears: number;
+    totalDaysActive: number;
+    firstYear: number;
+    latestYear: number;
+  };
+}
+
+const { lastUpdated, overview } = Astro.props;
+const totalHours = Math.round(overview.totalMinutes / 60);
+const totalDays = Math.round(overview.totalMinutes / 60 / 24);
+---
+
+<section class="min-h-[60vh] flex flex-col items-center justify-center relative grain px-4">
+  <div class="absolute inset-0" style="background: radial-gradient(ellipse at 50% 60%, rgba(232, 93, 58, 0.06) 0%, transparent 60%);"></div>
+  <div class="relative z-10 text-center" data-animate>
+    <h2 class="text-5xl sm:text-6xl md:text-7xl font-black tracking-tight" style="font-family: var(--font-display);">
+      That's <span class="neon-text">{overview.totalYears} years.</span>
+    </h2>
+    <p class="mt-4 text-lg" style="color: var(--text-secondary);">
+      {totalHours.toLocaleString()} hours &bull; {totalDays} full days of music &bull; {overview.firstYear}&ndash;{overview.latestYear}
+    </p>
+
+    <div class="flex items-center justify-center gap-6 mt-10">
+      <a href="/wrapped"
+        class="inline-flex items-center gap-2 text-sm font-medium transition-colors hover:text-ember-500"
+        style="color: var(--text-secondary);">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
+        </svg>
+        All Years
+      </a>
+    </div>
+
+    <div class="mt-10">
+      <a href="/"
+        class="inline-flex items-center gap-2 text-sm font-medium transition-colors hover:text-ember-500"
+        style="color: var(--text-muted);">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
+        </svg>
+        Back to portfolio
+      </a>
+    </div>
+
+    {lastUpdated && (
+      <p class="mt-8 text-xs" style="color: var(--text-faint);">
+        Last updated: {new Date(lastUpdated).toLocaleDateString("en-ZA", { year: "numeric", month: "long", day: "numeric" })}
+      </p>
+    )}
+  </div>
+</section>
