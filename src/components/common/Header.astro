@@ -105,6 +105,10 @@ const navLinks = [
   window.addEventListener("scroll", updateHeader, { passive: true });
   updateHeader();
 
+  document.querySelectorAll(".theme-toggle").forEach((toggle) => {
+    toggle.addEventListener("click", () => requestAnimationFrame(updateHeader));
+  });
+
   const menuBtn = document.getElementById("mobile-menu-btn");
   const mobileMenu = document.getElementById("mobile-menu");
   menuBtn?.addEventListener("click", () => {
