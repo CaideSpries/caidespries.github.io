@@ -24,22 +24,10 @@
     "url": "https://open.spotify.com/album/35RAdgZ15y062MlUZ5feIX"
   },
   {
-    "title": "Jar Of Flies",
-    "artist": "Alice In Chains",
-    "cover": "https://i.scdn.co/image/ab67616d0000b27325b42be683b8d3c6500db726",
-    "url": "https://open.spotify.com/album/4FCoFSNIFhK36holxHWCnc"
-  },
-  {
     "title": "Abbey Road (Remastered)",
     "artist": "The Beatles",
     "cover": "https://i.scdn.co/image/ab67616d0000b273dc30583ba717007b00cceb25",
     "url": "https://open.spotify.com/album/0ETFjACtuP2ADo6LFhL6HN"
-  },
-  {
-    "title": "Cold Fact",
-    "artist": "Rodríguez",
-    "cover": "https://i.scdn.co/image/ab67616d0000b273e7e1b574a9e6b9f26c7c3f49",
-    "url": "https://open.spotify.com/album/3q90UAYeHLvAtnowiQlmgp"
   },
   {
     "title": "Tattoo You (2009 Re-Mastered)",
@@ -60,15 +48,27 @@
     "url": "https://open.spotify.com/album/62U7xIHcID94o20Of5ea4D"
   },
   {
-    "title": "Leftoverture (Expanded Edition)",
-    "artist": "Kansas",
-    "cover": "https://i.scdn.co/image/ab67616d0000b2731be40e44db112e123e5e8b51",
-    "url": "https://open.spotify.com/album/7MejfRSNnrpcLZIxkeZDqR"
+    "title": "Night Moves",
+    "artist": "Bob Seger",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273676a8230a422123e8012557e",
+    "url": "https://open.spotify.com/album/5QkOpsZupEPLq186YOrBNe"
   },
   {
     "title": "Cornflake Boy (Remix EP)",
     "artist": "Marbert Rocel",
     "cover": "https://i.scdn.co/image/ab67616d0000b273d1346f27909dc928716870ba",
     "url": "https://open.spotify.com/album/1MwqIOGkhpA5GDL4blE5fR"
+  },
+  {
+    "title": "Cold Fact",
+    "artist": "Rodríguez",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273e7e1b574a9e6b9f26c7c3f49",
+    "url": "https://open.spotify.com/album/3q90UAYeHLvAtnowiQlmgp"
+  },
+  {
+    "title": "Californication (2014 Remaster)",
+    "artist": "Red Hot Chili Peppers",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2738c454553437148983891dd6d",
+    "url": "https://open.spotify.com/album/6gK1K8nSgypIvAihhoXccQ"
   }
 ]
