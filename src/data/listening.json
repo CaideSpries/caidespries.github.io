@@ -1,9 +1,9 @@
 [
   {
-    "title": "I Barely Know Her",
-    "artist": "sombr",
-    "cover": "https://i.scdn.co/image/ab67616d0000b2734229702de91cb3d3a4383302",
-    "url": "https://open.spotify.com/album/7mvXPtV4jvA1hp5Wx2FAJA"
+    "title": "Rust Never Sleeps",
+    "artist": "Neil Young, Crazy Horse",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273db0caaa2b01471d6068053a8",
+    "url": "https://open.spotify.com/album/2QqocFdpBkxOBLcIRo6UuJ"
   },
   {
     "title": "The Singer and the Song",
@@ -12,22 +12,16 @@
     "url": "https://open.spotify.com/album/5vVrfTlAZqwpdCs52MjdZH"
   },
   {
-    "title": "Rust Never Sleeps",
-    "artist": "Neil Young, Crazy Horse",
-    "cover": "https://i.scdn.co/image/ab67616d0000b273db0caaa2b01471d6068053a8",
-    "url": "https://open.spotify.com/album/2QqocFdpBkxOBLcIRo6UuJ"
-  },
-  {
     "title": "USB",
     "artist": "Fred again..",
     "cover": "https://i.scdn.co/image/ab67616d0000b2734018b70099d433d9c8aabb12",
     "url": "https://open.spotify.com/album/2ClZ9xWAYg1BH8zkR96dJo"
   },
   {
-    "title": "Abbey Road (Remastered)",
-    "artist": "The Beatles",
-    "cover": "https://i.scdn.co/image/ab67616d0000b273dc30583ba717007b00cceb25",
-    "url": "https://open.spotify.com/album/0ETFjACtuP2ADo6LFhL6HN"
+    "title": "I Barely Know Her",
+    "artist": "sombr",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2734229702de91cb3d3a4383302",
+    "url": "https://open.spotify.com/album/7mvXPtV4jvA1hp5Wx2FAJA"
   },
   {
     "title": "Sete",
@@ -36,28 +30,22 @@
     "url": "https://open.spotify.com/album/4dSQCPJVskYNaCwTUJZCT7"
   },
   {
-    "title": "Inspirations",
-    "artist": "gardenstate, Marcus Schössow",
-    "cover": "https://i.scdn.co/image/ab67616d0000b27303e8d733196eb6ead8ba74ea",
-    "url": "https://open.spotify.com/album/0i73CBJl788pVN1OendqgI"
-  },
-  {
-    "title": "Tattoo You (2009 Re-Mastered)",
-    "artist": "The Rolling Stones",
-    "cover": "https://i.scdn.co/image/ab67616d0000b27308fc42e575043a753f60d675",
-    "url": "https://open.spotify.com/album/15XNBzVWARPMlu0sEbfBjJ"
-  },
-  {
-    "title": "Gan Se Jou Mense",
-    "artist": "Loufi",
-    "cover": "https://i.scdn.co/image/ab67616d0000b273e1548c7163575611e44d34d3",
-    "url": "https://open.spotify.com/album/3RyjFxsU9hcmg14vqzUUMy"
-  },
-  {
     "title": "Goodbye Country (Hello Nightclub)",
     "artist": "Groove Armada",
     "cover": "https://i.scdn.co/image/ab67616d0000b2730d6e6cc2e426ab9f3b33fbcc",
     "url": "https://open.spotify.com/album/1bS1J4OVGrpu6e2U2pHge6"
+  },
+  {
+    "title": "Abbey Road (Remastered)",
+    "artist": "The Beatles",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273dc30583ba717007b00cceb25",
+    "url": "https://open.spotify.com/album/0ETFjACtuP2ADo6LFhL6HN"
+  },
+  {
+    "title": "Inspirations",
+    "artist": "gardenstate, Marcus Schössow",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27303e8d733196eb6ead8ba74ea",
+    "url": "https://open.spotify.com/album/0i73CBJl788pVN1OendqgI"
   },
   {
     "title": "Night Moves",
@@ -66,9 +54,21 @@
     "url": "https://open.spotify.com/album/5QkOpsZupEPLq186YOrBNe"
   },
   {
-    "title": "Californication (2014 Remaster)",
-    "artist": "Red Hot Chili Peppers",
-    "cover": "https://i.scdn.co/image/ab67616d0000b2738c454553437148983891dd6d",
-    "url": "https://open.spotify.com/album/6gK1K8nSgypIvAihhoXccQ"
+    "title": "Tattoo You (2009 Re-Mastered)",
+    "artist": "The Rolling Stones",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27308fc42e575043a753f60d675",
+    "url": "https://open.spotify.com/album/15XNBzVWARPMlu0sEbfBjJ"
+  },
+  {
+    "title": "Jar Of Flies",
+    "artist": "Alice In Chains",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27325b42be683b8d3c6500db726",
+    "url": "https://open.spotify.com/album/4FCoFSNIFhK36holxHWCnc"
+  },
+  {
+    "title": "Gan Se Jou Mense",
+    "artist": "Loufi",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273e1548c7163575611e44d34d3",
+    "url": "https://open.spotify.com/album/3RyjFxsU9hcmg14vqzUUMy"
   }
 ]
