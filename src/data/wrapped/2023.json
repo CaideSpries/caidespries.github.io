@@ -1681,5 +1681,411 @@
     "returningCount": 19,
     "newCount": 1,
     "returningPct": 95
+  },
+  "apiSnapshot": {
+    "topArtists": [
+      {
+        "name": "Red Hot Chili Peppers",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "Glass Animals",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "Mac Miller",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "Kid Cudi",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "MGMT",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "Kanye West",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "Johnny Clegg & Juluka",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "Bob Marley & The Wailers",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "Milky Chance",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "Fleetwood Mac",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "Empire Of The Sun",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "Frank Ocean",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "GoldFish",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "Desmond and the Tutus",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "J. Cole",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "Led Zeppelin",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "Black Sabbath",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "The Jungle Giants",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "Queen",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "Kendrick Lamar",
+        "image": "",
+        "url": ""
+      }
+    ],
+    "topTracks": [
+      {
+        "name": "The Ship",
+        "artist": "Incredible Polo",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/1WpCorgdzT5RzNfjbudcms"
+      },
+      {
+        "name": "Lost",
+        "artist": "Frank Ocean",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/3GZD6HmiNUhxXYf8Gch723"
+      },
+      {
+        "name": "Walking On A Dream",
+        "artist": "Empire Of The Sun",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/0mBkoM8r7KAQzZij5swTUL"
+      },
+      {
+        "name": "Love Lost",
+        "artist": "Mac Miller",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/0N9C80kcgL0xXGduKnYKWi"
+      },
+      {
+        "name": "Electric Feel",
+        "artist": "MGMT",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/3FtYbEfBqAlGO46NUDQSAt"
+      },
+      {
+        "name": "Pursuit Of Happiness (Nightmare)",
+        "artist": "Kid Cudi",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/4kTLpAbhuEGHAAdDjOIWaa"
+      },
+      {
+        "name": "The Spins",
+        "artist": "Mac Miller",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/51pshtuYkgUQnt5huMPbKL"
+      },
+      {
+        "name": "Youth",
+        "artist": "Glass Animals",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/1LPGwuFgIzbJoShfDdw7MY"
+      },
+      {
+        "name": "The Thrill",
+        "artist": "Wiz Khalifa",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/56oGoEjA9eTZYgsttEFKY3"
+      },
+      {
+        "name": "Pools",
+        "artist": "Glass Animals",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/7jO2B8Xgfu7D9vj60XiG7Y"
+      },
+      {
+        "name": "Heat Waves",
+        "artist": "Glass Animals",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/6CDzDgIUqeDY5g8ujExx2f"
+      },
+      {
+        "name": "Sundress",
+        "artist": "A$AP Rocky",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/2aPTvyE09vUCRwVvj0I8WK"
+      },
+      {
+        "name": "Hold On",
+        "artist": "SBTRKT",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/47GsUibP7RiUL7SQ7YFfhu"
+      },
+      {
+        "name": "Snow (Hey Oh)",
+        "artist": "Red Hot Chili Peppers",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/2aibwv5hGXSgw7Yru8IYTO"
+      },
+      {
+        "name": "Sweet Disposition",
+        "artist": "The Temper Trap",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/4t40FO2bd8WoJ3VN0h95fj"
+      },
+      {
+        "name": "Magic In The Hamptons (feat. Lil Yachty)",
+        "artist": "Social House",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/2Yer0p7uB2lVBUAtANuuQp"
+      },
+      {
+        "name": "3 Nights",
+        "artist": "Dominic Fike",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/1tNJrcVe6gwLEiZCtprs1u"
+      },
+      {
+        "name": "Warm Blindness & A Cool Breeze",
+        "artist": "Calvin Love",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/4IWc2mRSxudrK5BPjHl8AQ"
+      },
+      {
+        "name": "Tongues",
+        "artist": "Joywave",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/5mCprFWOqe0jB96v9RhLBo"
+      },
+      {
+        "name": "Kids",
+        "artist": "MGMT",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/1jJci4qxiYcOHhQR247rEU"
+      },
+      {
+        "name": "Under the Bridge",
+        "artist": "Red Hot Chili Peppers",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/3d9DChrdc6BOeFsbrZ3Is0"
+      },
+      {
+        "name": "The Sun",
+        "artist": "Myd",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/5UEZzRsrB4FKw1SIMoMD2y"
+      },
+      {
+        "name": "Walima 'Mabele",
+        "artist": "Johnny Clegg & Juluka",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/1QxHsUiOaSuhKbbjt6OQaj"
+      },
+      {
+        "name": "Give a Little Love",
+        "artist": "Gizmo Varillas",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/0CQ6cbXPUsB9NcJZ2Abuc4"
+      },
+      {
+        "name": "Miracle Mile",
+        "artist": "Cold War Kids",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/7lMQmn9eXfnUwkrYcpHwvr"
+      },
+      {
+        "name": "Mr. Rager",
+        "artist": "Kid Cudi",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/393MDhe62s8hbH8ETrlxe5"
+      },
+      {
+        "name": "8TEEN",
+        "artist": "Khalid",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/5bgwqaRSS3M8WHWruHgSL5"
+      },
+      {
+        "name": "Close These Curtains - Stimming Remix",
+        "artist": "Yoko Duo",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/0ZYQ8J5CmB7EBnFCWwZfaG"
+      },
+      {
+        "name": "Africa",
+        "artist": "TOTO",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/2374M0fQpWi3dLnB54qaLX"
+      },
+      {
+        "name": "Franzis",
+        "artist": "FIL BO RIVA",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/5veNqlivxPp7aHILe5d05a"
+      },
+      {
+        "name": "Young Folks",
+        "artist": "Peter Bjorn and John",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/4dyx5SzxPPaD8xQIid5Wjj"
+      },
+      {
+        "name": "Scar Tissue",
+        "artist": "Red Hot Chili Peppers",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/1G391cbiT3v3Cywg8T7DM1"
+      },
+      {
+        "name": "This Must Be the Place (Naive Melody) - 2005 Remaster",
+        "artist": "Talking Heads",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/6aBUnkXuCEQQHAlTokv9or"
+      },
+      {
+        "name": "Fisher",
+        "artist": "Camel Power Club",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/3cY2nHVVX2ZER1ttxGzLav"
+      },
+      {
+        "name": "World Hold On - FISHER Rework",
+        "artist": "Bob Sinclar",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/2YDOjCfkGciEXxSutB6LJR"
+      },
+      {
+        "name": "Laps Around The Sun",
+        "artist": "Ziggy Alberts",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/3U0UzEdzd45T81FHdPPbfC"
+      },
+      {
+        "name": "Punky Reggae Party - 12\" Version",
+        "artist": "Bob Marley & The Wailers",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/6L4g3GDDQnbwo9fqPyv0AZ"
+      },
+      {
+        "name": "The Forgotten People",
+        "artist": "BehrEllips",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/0fpKHYhMTq4bSZQ5aukuAl"
+      },
+      {
+        "name": "Dreams - 2004 Remaster",
+        "artist": "Fleetwood Mac",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/0ofHAoxe9vBkTCp2UQIavz"
+      },
+      {
+        "name": "Scatterlings Of Africa",
+        "artist": "Johnny Clegg & Juluka",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/7susV8wUCiADZTz21j4QXU"
+      },
+      {
+        "name": "Everywhere",
+        "artist": "Fleetwood Mac",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/1prZ0pr6XoRCxcrC3MCL0M"
+      },
+      {
+        "name": "Spiderhead",
+        "artist": "Cage The Elephant",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/4FN395EYfdCGrBthUfJzug"
+      },
+      {
+        "name": "mr. sunshine",
+        "artist": "Arden Jones",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/6x984mI891z1E2sVwYumUx"
+      },
+      {
+        "name": "B.O.T.A. (Baddest Of Them All) - Edit",
+        "artist": "Eliza Rose",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/39JofJHEtg8I4fSyo7Imft"
+      },
+      {
+        "name": "No Lie",
+        "artist": "Sean Paul",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/48QmG1dfvMuYLxMPt7KSRA"
+      },
+      {
+        "name": "Distant Past",
+        "artist": "Everything Everything",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/4L2F0LcDVtNrFc1K4lmx3m"
+      },
+      {
+        "name": "Younger - Kygo Remix",
+        "artist": "Seinabo Sey",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/7vHshinTU8161w69EPbabY"
+      },
+      {
+        "name": "Give Me Sunshine - Niklas Ibach Remix",
+        "artist": "Santa Maradona F.C.",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/5DLhx2Jp41TycsjTxcwrv2"
+      },
+      {
+        "name": "Call Me In The Afternoon",
+        "artist": "Half Moon Run",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/5vVHhJr6OpVuHMt1TuHT35"
+      },
+      {
+        "name": "Relax My Eyes",
+        "artist": "ANOTR",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/5u4hhtZ7f4rWkMZEZcTKrH"
+      }
+    ]
   }
 }

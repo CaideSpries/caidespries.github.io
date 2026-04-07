@@ -1677,5 +1677,411 @@
     "returningCount": 19,
     "newCount": 1,
     "returningPct": 95
+  },
+  "apiSnapshot": {
+    "topArtists": [
+      {
+        "name": "Red Hot Chili Peppers",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebc33cc15260b767ddec982ce8",
+        "url": "https://open.spotify.com/artist/0L8ExT028jH3ddEcZwqJJ5"
+      },
+      {
+        "name": "Mac Miller",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebed3b89aa602145fde71a163a",
+        "url": "https://open.spotify.com/artist/4LLpKhyESsyAXpc4laK94U"
+      },
+      {
+        "name": "Kanye West",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb6e835a500e791bf9c27a422a",
+        "url": "https://open.spotify.com/artist/5K4W6rqBFWDnAN6FQUkS6x"
+      },
+      {
+        "name": "Twenty One Pilots",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb61a7ea26d33ded218cd1e59d",
+        "url": "https://open.spotify.com/artist/3YQKmKGau1PzlVlkL1iodx"
+      },
+      {
+        "name": "Skegss",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb41154a8547723f1170893b47",
+        "url": "https://open.spotify.com/artist/3SGLeWc7J5Ve0CinAOrb3a"
+      },
+      {
+        "name": "Milky Chance",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb23eb1af2ef13c5db234ff824",
+        "url": "https://open.spotify.com/artist/1hzfo8twXdOegF3xireCYs"
+      },
+      {
+        "name": "Black Sabbath",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb4870cd833ebe1092601820c3",
+        "url": "https://open.spotify.com/artist/5M52tdBnJaKSvOpJGz8mfZ"
+      },
+      {
+        "name": "Eminem",
+        "image": "https://i.scdn.co/image/ab6761610000e5eba00b11c129b27a88fc72f36b",
+        "url": "https://open.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR"
+      },
+      {
+        "name": "andhim",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebd7d74c48f97de722a7871d9f",
+        "url": "https://open.spotify.com/artist/6XJeFzmI6vrWyHcdB7EImP"
+      },
+      {
+        "name": "AC/DC",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebc4c77549095c86acb4e77b37",
+        "url": "https://open.spotify.com/artist/711MCceyCBcFnzjGY4Q7Un"
+      },
+      {
+        "name": "DOPE LEMON",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb08d96270687870e07c667bdd",
+        "url": "https://open.spotify.com/artist/7oZLKL1GjYiaAgssXsLmW8"
+      },
+      {
+        "name": "Jack Johnson",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb0bf3ff1eaa4c0d6d664ccc3f",
+        "url": "https://open.spotify.com/artist/3GBPw9NK25X1Wt2OUvOwY3"
+      },
+      {
+        "name": "Chance the Rapper",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebd4d18d62a36a26fe36b70e2a",
+        "url": "https://open.spotify.com/artist/1anyVhU62p31KFi8MEzkbf"
+      },
+      {
+        "name": "Queen",
+        "image": "https://i.scdn.co/image/ab6772690000dd2247488c35a509d42072c23976",
+        "url": "https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d"
+      },
+      {
+        "name": "Led Zeppelin",
+        "image": "https://i.scdn.co/image/207803ce008388d3427a685254f9de6a8f61dc2e",
+        "url": "https://open.spotify.com/artist/36QJpDe2go2KgaRleHCDTp"
+      },
+      {
+        "name": "Rodríguez",
+        "image": "https://i.scdn.co/image/d1d0f4b212e16eb6bf079e8e7bae11828378a2bc",
+        "url": "https://open.spotify.com/artist/5PrHzxc3kFm4hIrGNmelpX"
+      },
+      {
+        "name": "Bob Marley & The Wailers",
+        "image": "https://i.scdn.co/image/4cd57e5e12ea2c24644c40886d65a9b22eca9802",
+        "url": "https://open.spotify.com/artist/2QsynagSdAqZj3U9HgDzjD"
+      },
+      {
+        "name": "Robbie Williams",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebec4b5ff594ae3d7c5622cf23",
+        "url": "https://open.spotify.com/artist/2HcwFjNelS49kFbfvMxQYw"
+      },
+      {
+        "name": "Kid Cudi",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb5f00bb6dd7a7008d14156630",
+        "url": "https://open.spotify.com/artist/0fA0VVWsXO9YnASrzqfmYu"
+      },
+      {
+        "name": "Kendrick Lamar",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb39ba6dcd4355c03de0b50918",
+        "url": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg"
+      }
+    ],
+    "topTracks": [
+      {
+        "name": "The Spins",
+        "artist": "Mac Miller",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273bd510ebd3fc410e97e80b892",
+        "url": "https://open.spotify.com/track/3iEUDvanZwQhLCIqUmCR7N"
+      },
+      {
+        "name": "Ni**as In Paris",
+        "artist": "JAY-Z",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b27352e61456aa4995ba48d94e30",
+        "url": "https://open.spotify.com/track/1auxYwYrFRqZP7t3s7w4um"
+      },
+      {
+        "name": "Stuck In The Middle With You",
+        "artist": "Stealers Wheel",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273a5ce236c22035a02cf87d4de",
+        "url": "https://open.spotify.com/track/3Vby4nGmtbDo7HDJamOWkT"
+      },
+      {
+        "name": "Good Morning",
+        "artist": "Kanye West",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b27326f7f19c7f0381e56156c94a",
+        "url": "https://open.spotify.com/track/6MXXY2eiWkpDCezVCc0cMH"
+      },
+      {
+        "name": "Tough As Nails",
+        "artist": "Mindchatter",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b2738063dbd61cf1a5110822e3b6",
+        "url": "https://open.spotify.com/track/2BEDsNidFZnq0Rcnj6WoPO"
+      },
+      {
+        "name": "Africa",
+        "artist": "TOTO",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273ebd6d20c0082524244ef83df",
+        "url": "https://open.spotify.com/track/2374M0fQpWi3dLnB54qaLX"
+      },
+      {
+        "name": "Sundress",
+        "artist": "A$AP Rocky",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b2731ae967e4a02c7a39eb3c189b",
+        "url": "https://open.spotify.com/track/2aPTvyE09vUCRwVvj0I8WK"
+      },
+      {
+        "name": "Tongues",
+        "artist": "Joywave",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273f3a8d3033666a6bbafdfa845",
+        "url": "https://open.spotify.com/track/5mCprFWOqe0jB96v9RhLBo"
+      },
+      {
+        "name": "Covered in Chrome",
+        "artist": "Violent Soho",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b27329a1fe689fac4f3535541c84",
+        "url": "https://open.spotify.com/track/79y39naVOPTUt8clHsdjBp"
+      },
+      {
+        "name": "Walking On A Dream",
+        "artist": "Empire Of The Sun",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273147fd9fbc3cfd8dd10002f41",
+        "url": "https://open.spotify.com/track/3xVaJfd27n4S6ZZoyGYX4H"
+      },
+      {
+        "name": "Electric Feel",
+        "artist": "MGMT",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b2738b32b139981e79f2ebe005eb",
+        "url": "https://open.spotify.com/track/3FtYbEfBqAlGO46NUDQSAt"
+      },
+      {
+        "name": "Snow (Hey Oh)",
+        "artist": "Red Hot Chili Peppers",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b27309fd83d32aee93dceba78517",
+        "url": "https://open.spotify.com/track/2aibwv5hGXSgw7Yru8IYTO"
+      },
+      {
+        "name": "Scott Green",
+        "artist": "Dune Rats",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273ab1565ab117cea8d53aee35c",
+        "url": "https://open.spotify.com/track/73F6UcA1ajjLKNlYoPw7TX"
+      },
+      {
+        "name": "Under the Bridge",
+        "artist": "Red Hot Chili Peppers",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b2735590b4ee88187cb06a5b102d",
+        "url": "https://open.spotify.com/track/23NPGXlSaIqWzvxIRhM2oG"
+      },
+      {
+        "name": "Birthday Card",
+        "artist": "Chet Faker",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b27359afb3151616a570d357911d",
+        "url": "https://open.spotify.com/track/3Prt3S5X7nsEKv2VARtKrv"
+      },
+      {
+        "name": "By the Way",
+        "artist": "Red Hot Chili Peppers",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273de1af2785a83cc660155a0c4",
+        "url": "https://open.spotify.com/track/1f2V8U1BiWaC9aJWmpOARe"
+      },
+      {
+        "name": "Ladders",
+        "artist": "Mac Miller",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273f4101b35799d5966d49025e4",
+        "url": "https://open.spotify.com/track/4HxNX0GQCkdZEDSj6MZZTu"
+      },
+      {
+        "name": "Lovely Day",
+        "artist": "Bill Withers",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273f8560af696925c50080dcc35",
+        "url": "https://open.spotify.com/track/0ACACkoHUwgfgY5CxVIL4N"
+      },
+      {
+        "name": "Chlorine",
+        "artist": "Twenty One Pilots",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273d1d301e737da4324479c6660",
+        "url": "https://open.spotify.com/track/23OXdR7YuUBVWh5hSnYJau"
+      },
+      {
+        "name": "Gimme Gimme - Club Mix",
+        "artist": "Kevin McKay",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b27395fdb9b2f3151fe7cecd6147",
+        "url": "https://open.spotify.com/track/7GjZZf77XJYaa5W4S2NbpB"
+      },
+      {
+        "name": "Love$ick (feat. A$AP Rocky)",
+        "artist": "Mura Masa",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b2736818aa231aa543cf87e1374a",
+        "url": "https://open.spotify.com/track/3sTN90bIP2cJ1783ctHykO"
+      },
+      {
+        "name": "Acceptable in the 80's",
+        "artist": "Calvin Harris",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273d0b33add0e39952e5e721226",
+        "url": "https://open.spotify.com/track/00cxhG668jV6gU6VK2FUVI"
+      },
+      {
+        "name": "Numbers On The Boards",
+        "artist": "Pusha T",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273861ecd2783b33bde98760364",
+        "url": "https://open.spotify.com/track/4XkXgUNDVBMj3oJoE8yspZ"
+      },
+      {
+        "name": "Pursuit Of Happiness (Nightmare)",
+        "artist": "Kid Cudi",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273713f297a7bdc1d48971062b2",
+        "url": "https://open.spotify.com/track/4kTLpAbhuEGHAAdDjOIWaa"
+      },
+      {
+        "name": "Down Under",
+        "artist": "Men At Work",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273aa5e4c9da271951ac0b31fa2",
+        "url": "https://open.spotify.com/track/3ZZq9396zv8pcn5GYVhxUi"
+      },
+      {
+        "name": "Can't Tell Me Nothing",
+        "artist": "Kanye West",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b27326f7f19c7f0381e56156c94a",
+        "url": "https://open.spotify.com/track/0mEdbdeRFQwBhN4xfyIeUM"
+      },
+      {
+        "name": "Paranoid",
+        "artist": "Black Sabbath",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273174f71bdda81ecb2eddba01b",
+        "url": "https://open.spotify.com/track/3hwuHzRicnu6Ji9i1JLzor"
+      },
+      {
+        "name": "Dani California",
+        "artist": "Red Hot Chili Peppers",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b2739eece7a1b7140aaf4056b9b4",
+        "url": "https://open.spotify.com/track/6vODhpvfWwdsO0i9MBWnEq"
+      },
+      {
+        "name": "Find A Way",
+        "artist": "The Kiffness",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273640ed6e4a044f2454a97a1a8",
+        "url": "https://open.spotify.com/track/4RkUA9vPMRHb3kE3N4Hh8h"
+      },
+      {
+        "name": "Pretoria Girls",
+        "artist": "Desmond and the Tutus",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b2733bc7729b472abea095fd16ac",
+        "url": "https://open.spotify.com/track/6zkVSIgcGnqromeMTYmXv4"
+      },
+      {
+        "name": "Halcyon Birds",
+        "artist": "Broken Back",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b27301e7dc8bb82d8d990a1f0f37",
+        "url": "https://open.spotify.com/track/1WC2ctyzNjpgkhF0dplias"
+      },
+      {
+        "name": "Yellow Mellow",
+        "artist": "Ocean Alley",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b27339aae9fd82532542b19c8e60",
+        "url": "https://open.spotify.com/track/6ehgCYEjaYWAYRBVAUEILF"
+      },
+      {
+        "name": "Hey Maria - Elderbrook Remix",
+        "artist": "Klangkarussell",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b2738f83152c6b30d0e8514df2bc",
+        "url": "https://open.spotify.com/track/7v7teR4FtyiZzkc1tX2a4V"
+      },
+      {
+        "name": "Come As You Are",
+        "artist": "Nirvana",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273fbc71c99f9c1296c56dd51b6",
+        "url": "https://open.spotify.com/track/2RsAajgo0g7bMCHxwH3Sk0"
+      },
+      {
+        "name": "Changes - 2015 Remaster",
+        "artist": "David Bowie",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273e464904cc3fed2b40fc55120",
+        "url": "https://open.spotify.com/track/0LrwgdLsFaWh9VXIjBRe8t"
+      },
+      {
+        "name": "Seasick Dream",
+        "artist": "Jack Johnson",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273d7e40baf75ddce4864c5bc75",
+        "url": "https://open.spotify.com/track/1vL5bZNsFWVYED96IgWEIM"
+      },
+      {
+        "name": "Could You Be Loved",
+        "artist": "Bob Marley & The Wailers",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b2731c40418d1c37d727e8e91b04",
+        "url": "https://open.spotify.com/track/5O4erNlJ74PIF6kGol1ZrC"
+      },
+      {
+        "name": "Seve - Radio Edit",
+        "artist": "Tez Cadey",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273da0751d4a35b6af93fb3e01d",
+        "url": "https://open.spotify.com/track/6UqRGwjwYL0stXbaodTxwo"
+      },
+      {
+        "name": "My Number",
+        "artist": "Foals",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b2738b04dacf186124a62bc667a7",
+        "url": "https://open.spotify.com/track/04caEZhAsQKnWqKsMwk9ud"
+      },
+      {
+        "name": "Because You Move Me",
+        "artist": "Tinlicker",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b2730812acbf32441f49383dd27c",
+        "url": "https://open.spotify.com/track/05GvwwTLLID738BbKN1ze0"
+      },
+      {
+        "name": "Are You What You Want to Be?",
+        "artist": "Foster The People",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b2737a24cc2f17550f5257409689",
+        "url": "https://open.spotify.com/track/3CVPyuuD6HxWXgPbbGqbg6"
+      },
+      {
+        "name": "THE JUNGLE VIP",
+        "artist": "TREASURE SERIES",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273dde7d7ba131c85bb811dc609",
+        "url": "https://open.spotify.com/track/6Vw61rGpC1JQpBhlxaFbYC"
+      },
+      {
+        "name": "This Song Is Not About A Girl",
+        "artist": "Flume",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273de8b653acb692b4ce30b49a5",
+        "url": "https://open.spotify.com/track/0Z7GNrvgEj3iiIxxPtRwIe"
+      },
+      {
+        "name": "What If I Go? (feat. Bonzai)",
+        "artist": "Mura Masa",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b2736818aa231aa543cf87e1374a",
+        "url": "https://open.spotify.com/track/2tHfNQnj50VoMZga2rpfdA"
+      },
+      {
+        "name": "Feels Like a Sunday",
+        "artist": "Elderbrook",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273f59d093dc04239c30e32cf49",
+        "url": "https://open.spotify.com/track/2LY14NSmNatgOhdnpdGK8W"
+      },
+      {
+        "name": "Bulletproof",
+        "artist": "La Roux",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b27387a7b0bb506cb4416d8f8256",
+        "url": "https://open.spotify.com/track/3kMrazSvILsgcwtidZd1Qd"
+      },
+      {
+        "name": "Sultans Of Swing",
+        "artist": "Dire Straits",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273b49d49cc95564aede7998bb8",
+        "url": "https://open.spotify.com/track/37Tmv4NnfQeb0ZgUC4fOJj"
+      },
+      {
+        "name": "Dreams - 2004 Remaster",
+        "artist": "Fleetwood Mac",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273e52a59a28efa4773dd2bfe1b",
+        "url": "https://open.spotify.com/track/0ofHAoxe9vBkTCp2UQIavz"
+      },
+      {
+        "name": "I Am the Antichrist to You",
+        "artist": "Kishi Bashi",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273c3f7f5abcc43a90cb884fff0",
+        "url": "https://open.spotify.com/track/3tnfHy341CDlAtcSmUtuOG"
+      },
+      {
+        "name": "Stronger",
+        "artist": "Kanye West",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b27326f7f19c7f0381e56156c94a",
+        "url": "https://open.spotify.com/track/0j2T0R9dR9qdJYsB7ciXhf"
+      }
+    ]
   }
 }

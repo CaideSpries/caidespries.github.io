@@ -1689,5 +1689,410 @@
     "newCount": 0,
     "returningPct": 100
   },
-  "apiSnapshot": {}
+  "apiSnapshot": {
+    "topArtists": [
+      {
+        "name": "Red Hot Chili Peppers",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "andhim",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "Mac Miller",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "The Rolling Stones",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "HVOB",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "Super Flu",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "Bob Marley & The Wailers",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "Fleetwood Mac",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "Dire Straits",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "Kölsch",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "Chet Faker",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "Avicii",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "Calvin Harris",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "Led Zeppelin",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "Foals",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "Empire Of The Sun",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "Milky Chance",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "Yoko Duo",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "Alec Troniq",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "Kanye West",
+        "image": "",
+        "url": ""
+      }
+    ],
+    "topTracks": [
+      {
+        "name": "I Only Smoke When I Drink",
+        "artist": "nimino",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/39glDGcpBhLVMSsQhvtqHR"
+      },
+      {
+        "name": "Always Like This - andhim Remix",
+        "artist": "HVOB",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/2Gzl0HAOGySuLysalinVP4"
+      },
+      {
+        "name": "Birthday Card",
+        "artist": "Chet Faker",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/3Prt3S5X7nsEKv2VARtKrv"
+      },
+      {
+        "name": "BDE Bonus",
+        "artist": "Mac Miller",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/4Pafh2Ndd9O4NgO53rqJxI"
+      },
+      {
+        "name": "Paris - Andhim Remix",
+        "artist": "Groove Armada",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/21RySuiEbDdwCYpcOdqlgn"
+      },
+      {
+        "name": "Close These Curtains - Stimming Remix",
+        "artist": "Yoko Duo",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/0ZYQ8J5CmB7EBnFCWwZfaG"
+      },
+      {
+        "name": "Wine & Chocolates - andhim Remix Radio Version",
+        "artist": "Theophilus London",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/0qsQZDAZIGsbGmYEMfhTSC"
+      },
+      {
+        "name": "Howling - Âme Remix",
+        "artist": "Howling",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/78jIj6Ph2364zg1ZVIvbIN"
+      },
+      {
+        "name": "Fisher",
+        "artist": "Camel Power Club",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/3cY2nHVVX2ZER1ttxGzLav"
+      },
+      {
+        "name": "For A Better Day",
+        "artist": "Avicii",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/7kbTZWt7DnzIzbkyzFE1PW"
+      },
+      {
+        "name": "Poppin' Pockets - Remix",
+        "artist": "Grip Grand",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/7Gx7T0dusJlzGH2UI3Y4bZ"
+      },
+      {
+        "name": "Beast Of Burden - Remastered 1994",
+        "artist": "The Rolling Stones",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/77oU2rjC5XbjQfNe3bD6so"
+      },
+      {
+        "name": "Could You Be Loved",
+        "artist": "Bob Marley & The Wailers",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/5O4erNlJ74PIF6kGol1ZrC"
+      },
+      {
+        "name": "Come Together - Remastered 2009",
+        "artist": "The Beatles",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/2EqlS6tkEnglzr7tkKAAYD"
+      },
+      {
+        "name": "Simple Man",
+        "artist": "Lynyrd Skynyrd",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/1ju7EsSGvRybSNEsRvc7qY"
+      },
+      {
+        "name": "Gooey - Gilligan Moss Remix",
+        "artist": "Glass Animals",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/1yshfaUkaAletecfWFVgtS"
+      },
+      {
+        "name": "No Rest for the Wicked - Joris Voorn Remix",
+        "artist": "Lykke Li",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/4F9FCeqh9sqCxb6y14yc6h"
+      },
+      {
+        "name": "Oysters In My Pocket",
+        "artist": "Royel Otis",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/2B664ulJSVBd6B8SAY3Wux"
+      },
+      {
+        "name": "Feel It Still",
+        "artist": "Portugal. The Man",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/6QgjcU0zLnzq5OrUoSZ3OK"
+      },
+      {
+        "name": "Pick Up",
+        "artist": "DJ Koze",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/7dFvYtokT2xQH1HvaQgbgY"
+      },
+      {
+        "name": "Electric Feel",
+        "artist": "MGMT",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/3FtYbEfBqAlGO46NUDQSAt"
+      },
+      {
+        "name": "Black Friday (pretty like the sun)",
+        "artist": "Lost Frequencies",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/4MSj19TwYBLgDFj3ddEeco"
+      },
+      {
+        "name": "Tough As Nails",
+        "artist": "Mindchatter",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/2BEDsNidFZnq0Rcnj6WoPO"
+      },
+      {
+        "name": "A Horse with No Name",
+        "artist": "America",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/54eZmuggBFJbV7k248bTTt"
+      },
+      {
+        "name": "Youth",
+        "artist": "Glass Animals",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/1LPGwuFgIzbJoShfDdw7MY"
+      },
+      {
+        "name": "Half Mast",
+        "artist": "Empire Of The Sun",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/49Hkgl03InFFqBklOQxunt"
+      },
+      {
+        "name": "The Chain - 2004 Remaster",
+        "artist": "Fleetwood Mac",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/5e9TFTbltYBg2xThimr0rU"
+      },
+      {
+        "name": "Pluto - Live",
+        "artist": "Beatenberg",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/59oBTOQ2aidtB5RRbfLdRz"
+      },
+      {
+        "name": "Scar Tissue",
+        "artist": "Red Hot Chili Peppers",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/1G391cbiT3v3Cywg8T7DM1"
+      },
+      {
+        "name": "Awake - Agoria Remix",
+        "artist": "Santé",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/3oBTlRetzuXuE6mUGnX0Z1"
+      },
+      {
+        "name": "Waste A Moment",
+        "artist": "Kings of Leon",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/5LlsD7LdSMkGV4Iu0a2Zq0"
+      },
+      {
+        "name": "Cyclone (The Village Sessions)",
+        "artist": "Sticky Fingers",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/53XM8O6sQ4YzCq2jYgXuC6"
+      },
+      {
+        "name": "Birch Tree",
+        "artist": "Foals",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/0BPKqNWOKQam19tKWoZQwu"
+      },
+      {
+        "name": "Don't Look Back in Anger - Remastered",
+        "artist": "Oasis",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/0UvCh63URrLFcPkKt99hHd"
+      },
+      {
+        "name": "Baba O'Riley",
+        "artist": "The Who",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/3qiyyUfYe7CRYLucrPmulD"
+      },
+      {
+        "name": "Sweet Nothing (feat. Florence Welch)",
+        "artist": "Calvin Harris",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/24LS4lQShWyixJ0ZrJXfJ5"
+      },
+      {
+        "name": "Can't Do Without You",
+        "artist": "Caribou",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/35p0Z5yZDogaXoWXhMVEv4"
+      },
+      {
+        "name": "Dancing Again",
+        "artist": "TiMO ODV",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/2L0Oi0w0pS3HwltG0pwjUl"
+      },
+      {
+        "name": "My Bed",
+        "artist": "Marbert Rocel",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/1N2e9UsOsExRGDVq9IpH24"
+      },
+      {
+        "name": "Shooting Stars",
+        "artist": "Bag Raiders",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/0UeYCHOETPfai02uskjJ3x"
+      },
+      {
+        "name": "Good Morning Children",
+        "artist": "Alec Troniq",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/7b6gAh0OyzcKsg2i7Tte6u"
+      },
+      {
+        "name": "Can't Tell Me Nothing",
+        "artist": "Kanye West",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/0mEdbdeRFQwBhN4xfyIeUM"
+      },
+      {
+        "name": "Franzis",
+        "artist": "FIL BO RIVA",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/3w40PaTTE7Ezz2cEXVFLc6"
+      },
+      {
+        "name": "So Good",
+        "artist": "Nosi",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/2S9jqUEI9fiDNtSH707KR4"
+      },
+      {
+        "name": "Hate It Or Love It",
+        "artist": "The Game",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/2wGSgTmgSF3xjRrHkTc25R"
+      },
+      {
+        "name": "On Melancholy Hill",
+        "artist": "Gorillaz",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/0q6LuUqGLUiCPP1cbdwFs3"
+      },
+      {
+        "name": "Snow (Hey Oh)",
+        "artist": "Red Hot Chili Peppers",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/2aibwv5hGXSgw7Yru8IYTO"
+      },
+      {
+        "name": "Dreams - 2004 Remaster",
+        "artist": "Fleetwood Mac",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/0ofHAoxe9vBkTCp2UQIavz"
+      },
+      {
+        "name": "Boy Boy Boy",
+        "artist": "andhim",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/6NFbXVo5s7A4Gq4YPrmHXv"
+      },
+      {
+        "name": "Lady Writer",
+        "artist": "Dire Straits",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/2RBcYkonAofm0rYycVrCGt"
+      }
+    ]
+  }
 }
