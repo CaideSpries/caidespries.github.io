@@ -110,32 +110,42 @@ function pickImage(images) {
   return images.find((img) => img.width === 640)?.url || images[0]?.url || "";
 }
 
+const MAX_RETRIES = 3;
+
 async function spotifyGet(url, accessToken) {
-  const res = await fetch(url, {
-    headers: { Authorization: `Bearer ${accessToken}` },
-  });
+  for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
+    const res = await fetch(url, {
+      headers: { Authorization: `Bearer ${accessToken}` },
+    });
 
-  if (res.status === 429) {
-    const retryAfter = parseInt(res.headers.get("Retry-After") ?? "30", 10);
-    if (retryAfter > 300) {
-      // Daily quota exhausted — not worth waiting. Throw so the caller records
-      // an empty result and we move on rather than blocking for hours.
-      throw new Error(
-        `Spotify API error (429): daily quota exhausted (Retry-After: ${retryAfter}s). ` +
-          `Re-run this script tomorrow to fill in remaining images.`
-      );
+    if (res.status === 429) {
+      const retryAfter = parseInt(res.headers.get("Retry-After") ?? "30", 10);
+      if (retryAfter > 300) {
+        // Daily quota exhausted — not worth waiting. Throw so the caller records
+        // an empty result and we move on rather than blocking for hours.
+        throw new Error(
+          `Spotify API error (429): daily quota exhausted (Retry-After: ${retryAfter}s). ` +
+            `Re-run this script tomorrow to fill in remaining images.`
+        );
+      }
+      if (attempt === MAX_RETRIES) {
+        throw new Error(
+          `Spotify API error (429): rate limited after ${MAX_RETRIES} attempts. ` +
+            `Re-run this script to resume.`
+        );
+      }
+      // Short-term rate limit — wait and retry.
+      console.log(`\n  Rate limited — waiting ${retryAfter}s before retry (attempt ${attempt}/${MAX_RETRIES})...`);
+      await new Promise((r) => setTimeout(r, retryAfter * 1000));
+      continue;
     }
-    // Short-term rate limit — wait and retry once.
-    console.log(`\n  Rate limited — waiting ${retryAfter}s before retry...`);
-    await new Promise((r) => setTimeout(r, retryAfter * 1000));
-    return spotifyGet(url, accessToken);
-  }
 
-  if (!res.ok) {
-    const text = await res.text();
-    throw new Error(`Spotify API error (${res.status}): ${text}`);
+    if (!res.ok) {
+      const text = await res.text();
+      throw new Error(`Spotify API error (${res.status}): ${text}`);
+    }
+    return res.json();
   }
-  return res.json();
 }
 
 /** Search for an artist by exact name, return the best-match image URL. */
