@@ -1661,5 +1661,411 @@
     "returningCount": 15,
     "newCount": 5,
     "returningPct": 75
+  },
+  "apiSnapshot": {
+    "topArtists": [
+      {
+        "name": "Red Hot Chili Peppers",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebc33cc15260b767ddec982ce8",
+        "url": "https://open.spotify.com/artist/0L8ExT028jH3ddEcZwqJJ5"
+      },
+      {
+        "name": "andhim",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebd7d74c48f97de722a7871d9f",
+        "url": "https://open.spotify.com/artist/6XJeFzmI6vrWyHcdB7EImP"
+      },
+      {
+        "name": "Super Flu",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb61cbdc6dea665ca3c3142c98",
+        "url": "https://open.spotify.com/artist/1iZiG82D4w7FLHvOUUj4zW"
+      },
+      {
+        "name": "The Rolling Stones",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebe4cea917b68726aadb4854b8",
+        "url": "https://open.spotify.com/artist/22bE4uQ6baNwSHPVcDxLCe"
+      },
+      {
+        "name": "Bob Marley & The Wailers",
+        "image": "https://i.scdn.co/image/4cd57e5e12ea2c24644c40886d65a9b22eca9802",
+        "url": "https://open.spotify.com/artist/2QsynagSdAqZj3U9HgDzjD"
+      },
+      {
+        "name": "Kölsch",
+        "image": "https://i.scdn.co/image/ab6761610000e5eba50059967122d0f2609b2e82",
+        "url": "https://open.spotify.com/artist/2D9Oe8R9UhbMvFAsMJpXj0"
+      },
+      {
+        "name": "HVOB",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb4432398038a3f585dd92165b",
+        "url": "https://open.spotify.com/artist/6RAx8RRxoHeJIqD2d0EjOa"
+      },
+      {
+        "name": "Yoko Duo",
+        "image": "https://i.scdn.co/image/8f0509e6196ee2d1f64e05ae5fafc6f424749998",
+        "url": "https://open.spotify.com/artist/3qS9rCN3k1e6uBRYzuxqAf"
+      },
+      {
+        "name": "Metallica",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb69ca98dd3083f1082d740e44",
+        "url": "https://open.spotify.com/artist/2ye2Wgw4gimLv2eAKyk1NB"
+      },
+      {
+        "name": "Milky Chance",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb23eb1af2ef13c5db234ff824",
+        "url": "https://open.spotify.com/artist/1hzfo8twXdOegF3xireCYs"
+      },
+      {
+        "name": "Fleetwood Mac",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebc8752dd511cda8c31e9daee8",
+        "url": "https://open.spotify.com/artist/08GQAI4eElDnROBrJRGE0X"
+      },
+      {
+        "name": "Led Zeppelin",
+        "image": "https://i.scdn.co/image/207803ce008388d3427a685254f9de6a8f61dc2e",
+        "url": "https://open.spotify.com/artist/36QJpDe2go2KgaRleHCDTp"
+      },
+      {
+        "name": "AC/DC",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebc4c77549095c86acb4e77b37",
+        "url": "https://open.spotify.com/artist/711MCceyCBcFnzjGY4Q7Un"
+      },
+      {
+        "name": "Kanye West",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb6e835a500e791bf9c27a422a",
+        "url": "https://open.spotify.com/artist/5K4W6rqBFWDnAN6FQUkS6x"
+      },
+      {
+        "name": "Maribou State",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb8226ea46d749763f4e650015",
+        "url": "https://open.spotify.com/artist/7zrkALJ9ayRjzysp4QYoEg"
+      },
+      {
+        "name": "Zach Bryan",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebc742fbc057bdbc64834a6cdc",
+        "url": "https://open.spotify.com/artist/40ZNYROS4zLfyyBSs2PGe2"
+      },
+      {
+        "name": "Creedence Clearwater Revival",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebd2e2b04b7ba5d60b72f54506",
+        "url": "https://open.spotify.com/artist/3IYUhFvPQItj6xySrBmZkd"
+      },
+      {
+        "name": "Calvin Harris",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb8ebba5e60113b48de8c11f6b",
+        "url": "https://open.spotify.com/artist/7CajNmpbOovFoOoasH2HaY"
+      },
+      {
+        "name": "Paul Kalkbrenner",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebb72a52d500aa9e245f9ee6a1",
+        "url": "https://open.spotify.com/artist/0rasA5Z5h1ITtHelCpfu9R"
+      },
+      {
+        "name": "MGMT",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb9dccdc8f4087cbe2bdedc9d3",
+        "url": "https://open.spotify.com/artist/0SwO7SWeDHJijQ3XNS7xEE"
+      }
+    ],
+    "topTracks": [
+      {
+        "name": "Steal",
+        "artist": "Maribou State",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b2733beca4a9acadd343338a8356",
+        "url": "https://open.spotify.com/track/0pAiyIHt9DyHOjWgF41kp6"
+      },
+      {
+        "name": "Always Like This - andhim Remix",
+        "artist": "HVOB",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273bfdbe667065c009d5d2f5693",
+        "url": "https://open.spotify.com/track/2Gzl0HAOGySuLysalinVP4"
+      },
+      {
+        "name": "Evergreen",
+        "artist": "Richy Mitch & The Coal Miners",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b2731cc17bae5ee17cce117e198a",
+        "url": "https://open.spotify.com/track/6me7F0aaZjwDo6RJ5MrfBD"
+      },
+      {
+        "name": "Wine & Chocolates - andhim Remix Radio Version",
+        "artist": "Theophilus London",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b2731b9c45dad7e1a68482483cd7",
+        "url": "https://open.spotify.com/track/0qsQZDAZIGsbGmYEMfhTSC"
+      },
+      {
+        "name": "Close These Curtains - Stimming Remix",
+        "artist": "Yoko Duo",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273c55f08045aa2b4df4684b59d",
+        "url": "https://open.spotify.com/track/0ZYQ8J5CmB7EBnFCWwZfaG"
+      },
+      {
+        "name": "For Whom The Bell Tolls - Remastered",
+        "artist": "Metallica",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b2739ad3e9959f48d513886b8933",
+        "url": "https://open.spotify.com/track/2dXsILW8gzkosqleHAvl0v"
+      },
+      {
+        "name": "How Many Times",
+        "artist": "andhim",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273e8f4c6a910aa34aedbaab1d0",
+        "url": "https://open.spotify.com/track/2hA4CSHqDDANsdPFuuWVd4"
+      },
+      {
+        "name": "6 Degrees - Tale Of Us Remix",
+        "artist": "Audiofly",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273bce5cc7c484b56dd209fc164",
+        "url": "https://open.spotify.com/track/3iEEFmpTWM5iX7IPYQpcp7"
+      },
+      {
+        "name": "Goldfisch",
+        "artist": "Kölsch",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273510fe49b1a60e733c4a37a52",
+        "url": "https://open.spotify.com/track/7gwB872zS8guMxYTyQSwxY"
+      },
+      {
+        "name": "Awake - Agoria Remix",
+        "artist": "Santé",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273fcab821a72fa69b7349c5db4",
+        "url": "https://open.spotify.com/track/3oBTlRetzuXuE6mUGnX0Z1"
+      },
+      {
+        "name": "Electric Feel",
+        "artist": "MGMT",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b2738b32b139981e79f2ebe005eb",
+        "url": "https://open.spotify.com/track/3FtYbEfBqAlGO46NUDQSAt"
+      },
+      {
+        "name": "Feeling",
+        "artist": "&ME",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b27394f73cc4dea6b24931f08c61",
+        "url": "https://open.spotify.com/track/3TyPz3L5D2lWncHNYVbzSM"
+      },
+      {
+        "name": "Can't Stop",
+        "artist": "Red Hot Chili Peppers",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273fdbcee40748537ff80a7af70",
+        "url": "https://open.spotify.com/track/4BcS4LomxUnQpzx4hCaJTs"
+      },
+      {
+        "name": "All that matters - andhim Mix",
+        "artist": "Kölsch",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b27323bf0c5443dfd945a3b521dc",
+        "url": "https://open.spotify.com/track/051zqeVJo3v8Z6CP8Mrpkt"
+      },
+      {
+        "name": "Beast Of Burden - Remastered 1994",
+        "artist": "The Rolling Stones",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b27305c7aec05eabf142cc33b936",
+        "url": "https://open.spotify.com/track/77oU2rjC5XbjQfNe3bD6so"
+      },
+      {
+        "name": "Boy Boy Boy",
+        "artist": "andhim",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273f325f76b65e8cb1f3096e6d3",
+        "url": "https://open.spotify.com/track/6NFbXVo5s7A4Gq4YPrmHXv"
+      },
+      {
+        "name": "Dreams - 2004 Remaster",
+        "artist": "Fleetwood Mac",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273e52a59a28efa4773dd2bfe1b",
+        "url": "https://open.spotify.com/track/0ofHAoxe9vBkTCp2UQIavz"
+      },
+      {
+        "name": "Volkwein",
+        "artist": "Super Flu",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273b84e9566acc1bfb8c41c0eaa",
+        "url": "https://open.spotify.com/track/7vbXuqIZe5ghKwJtaYxqM8"
+      },
+      {
+        "name": "Plätscher",
+        "artist": "Paul Kalkbrenner",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273cc34c8b86f8bca9ded345b31",
+        "url": "https://open.spotify.com/track/4fBHiFOlhyuQ5yFcUIAKmP"
+      },
+      {
+        "name": "Sex on Fire",
+        "artist": "Kings of Leon",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b2732519d01c0cca06f134eeadd8",
+        "url": "https://open.spotify.com/track/0ntQJM78wzOLVeCUAW7Y45"
+      },
+      {
+        "name": "Too Sweet",
+        "artist": "Hozier",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273be392334d99f82bc410cb239",
+        "url": "https://open.spotify.com/track/3HMY0r2BAdpasXMY8rseR0"
+      },
+      {
+        "name": "Lost",
+        "artist": "Frank Ocean",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b2737aede4855f6d0d738012e2e5",
+        "url": "https://open.spotify.com/track/3GZD6HmiNUhxXYf8Gch723"
+      },
+      {
+        "name": "Snow (Hey Oh)",
+        "artist": "Red Hot Chili Peppers",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b27309fd83d32aee93dceba78517",
+        "url": "https://open.spotify.com/track/2aibwv5hGXSgw7Yru8IYTO"
+      },
+      {
+        "name": "Have You Ever Seen The Rain",
+        "artist": "Creedence Clearwater Revival",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b2739b7a4a59ac03447db7491f37",
+        "url": "https://open.spotify.com/track/5DnT9a5IM3eMjKgXTWVJvi"
+      },
+      {
+        "name": "Oysters In My Pocket",
+        "artist": "Royel Otis",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b27343e43cc5bad5dcb157ee3609",
+        "url": "https://open.spotify.com/track/2B664ulJSVBd6B8SAY3Wux"
+      },
+      {
+        "name": "Woohoo",
+        "artist": "HOSH",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b27313ac40127f73fd265b72dece",
+        "url": "https://open.spotify.com/track/1Obdj4uLPjDEULBMHpXRDX"
+      },
+      {
+        "name": "Be Good - Andhim Remix",
+        "artist": "Hanne & Lore",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273cbeb80bddff5cedd4c2d530d",
+        "url": "https://open.spotify.com/track/2Otkx7WojuKQ8uyvTVLeyP"
+      },
+      {
+        "name": "What I Might Do",
+        "artist": "Ben Pearce",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273f0a5687d62225e9315d4c713",
+        "url": "https://open.spotify.com/track/7tkqhfJlKtZvs3nf9kVJCz"
+      },
+      {
+        "name": "Scar Tissue",
+        "artist": "Red Hot Chili Peppers",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273a9249ebb15ca7a5b75f16a90",
+        "url": "https://open.spotify.com/track/2QOMGq8wVTZbLmh7McrvgF"
+      },
+      {
+        "name": "Can't Do Without You - Tale of Us & Mano Le Tough Remix",
+        "artist": "Caribou",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b2739caa3b860148d3ebcf69d5ae",
+        "url": "https://open.spotify.com/track/26JOdLAIiuUHnV3aGf2EeJ"
+      },
+      {
+        "name": "Far Away Place - Rampa Remix",
+        "artist": "Xinobi",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b2732f6c2253ef0e3ac14aec9e0d",
+        "url": "https://open.spotify.com/track/4SpESjSScmJyuMamD9MKOL"
+      },
+      {
+        "name": "Paranoid - 2009 Remaster",
+        "artist": "Black Sabbath",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273605b25c031f809d78054a13c",
+        "url": "https://open.spotify.com/track/3Jnxngdff0lVu2rza1GVx6"
+      },
+      {
+        "name": "Fortunate Son",
+        "artist": "Creedence Clearwater Revival",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273e88774c6adcd5b8cce420d0c",
+        "url": "https://open.spotify.com/track/5DSfAqZ5YjOMf4C0Elvpa0"
+      },
+      {
+        "name": "Walking On A Dream",
+        "artist": "Empire Of The Sun",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273147fd9fbc3cfd8dd10002f41",
+        "url": "https://open.spotify.com/track/3xVaJfd27n4S6ZZoyGYX4H"
+      },
+      {
+        "name": "Pumped Up Kicks",
+        "artist": "Foster The People",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273121d5f92cf90576907dfb1e5",
+        "url": "https://open.spotify.com/track/7w87IxuO7BDcJ3YUqCyMTT"
+      },
+      {
+        "name": "Mr. Bass",
+        "artist": "andhim",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273d9d82aaa49c16040729e8bf6",
+        "url": "https://open.spotify.com/track/3UiacgoMyh8LVr8C5qMKGW"
+      },
+      {
+        "name": "Brown Eyed Girl",
+        "artist": "Van Morrison",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273a145a9479143ec784e2db548",
+        "url": "https://open.spotify.com/track/4CNL4GBNTdVIU5Nk6hB4LC"
+      },
+      {
+        "name": "3 Nights",
+        "artist": "Dominic Fike",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b2737b1b6f41c1645af9757d5616",
+        "url": "https://open.spotify.com/track/0uI7yAKUf52Cn7y3sYyjiX"
+      },
+      {
+        "name": "Youth",
+        "artist": "Glass Animals",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273ec3d15eab5bd77027abc4b23",
+        "url": "https://open.spotify.com/track/1LPGwuFgIzbJoShfDdw7MY"
+      },
+      {
+        "name": "Gimme Shelter",
+        "artist": "The Rolling Stones",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b2732af30c881bb23cfb82a8cf99",
+        "url": "https://open.spotify.com/track/6H3kDe7CGoWYBabAeVWGiD"
+      },
+      {
+        "name": "Heading South",
+        "artist": "Zach Bryan",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273cbb840da8e4bf45aec4503de",
+        "url": "https://open.spotify.com/track/2Dct3GykKZ58hpWRFfe2Qd"
+      },
+      {
+        "name": "The Chain - 2004 Remaster",
+        "artist": "Fleetwood Mac",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273e52a59a28efa4773dd2bfe1b",
+        "url": "https://open.spotify.com/track/5e9TFTbltYBg2xThimr0rU"
+      },
+      {
+        "name": "Blowfish - Lake People Remix",
+        "artist": "Yoko Duo",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273c55f08045aa2b4df4684b59d",
+        "url": "https://open.spotify.com/track/2DKB5n0Nf54tewQaoSzSL3"
+      },
+      {
+        "name": "Howling - Âme Remix",
+        "artist": "Howling",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b2731b3262b9b023c904a04b425b",
+        "url": "https://open.spotify.com/track/78jIj6Ph2364zg1ZVIvbIN"
+      },
+      {
+        "name": "Under the Bridge",
+        "artist": "Red Hot Chili Peppers",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b2735590b4ee88187cb06a5b102d",
+        "url": "https://open.spotify.com/track/23NPGXlSaIqWzvxIRhM2oG"
+      },
+      {
+        "name": "All that matters",
+        "artist": "Kölsch",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273510fe49b1a60e733c4a37a52",
+        "url": "https://open.spotify.com/track/5hGBJKU8aJaZPVSV7NxoTp"
+      },
+      {
+        "name": "Nevada",
+        "artist": "Kerala Dust",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273a8683b0701eb2b1110695427",
+        "url": "https://open.spotify.com/track/4eP7VbswtkGd5Hlyj4E7Qx"
+      },
+      {
+        "name": "La Ka Rubà",
+        "artist": "NenaHalena",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273fdc570b0f94f198ade958782",
+        "url": "https://open.spotify.com/track/4ERTkjp0uNblUwr51tRyXc"
+      },
+      {
+        "name": "Stolen Dance",
+        "artist": "Milky Chance",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b2732001bc1b4dd82d06631fcb9e",
+        "url": "https://open.spotify.com/track/34xGLuxM0rkxhCVyMSqwJO"
+      },
+      {
+        "name": "Super Flu 3 < Isaac",
+        "artist": "Super Flu",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273fc055de5cc0b5d5f2ee98caa",
+        "url": "https://open.spotify.com/track/6VItPBZ0fchgQTxgJI50m8"
+      }
+    ]
   }
 }

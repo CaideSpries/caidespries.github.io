@@ -1665,5 +1665,411 @@
     "returningCount": 16,
     "newCount": 4,
     "returningPct": 80
+  },
+  "apiSnapshot": {
+    "topArtists": [
+      {
+        "name": "Red Hot Chili Peppers",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "The Rolling Stones",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "Led Zeppelin",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "Dire Straits",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "HVOB",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "Mac Miller",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "Fleetwood Mac",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "Maribou State",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "Bosq",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "Fred again..",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "sombr",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "Pink Floyd",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "andhim",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "MGMT",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "Lynyrd Skynyrd",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "nimino",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "Kanye West",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "Khruangbin",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "Creedence Clearwater Revival",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "Queen",
+        "image": "",
+        "url": ""
+      }
+    ],
+    "topTracks": [
+      {
+        "name": "12 to 12",
+        "artist": "sombr",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/05od2qm2MTSKCHxy1GBp5W"
+      },
+      {
+        "name": "Talk of the Town",
+        "artist": "Fred again..",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/26vIeRYFA2Nh56W4jfkjp5"
+      },
+      {
+        "name": "Burning",
+        "artist": "The Whitest Boy Alive",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/0QgR03vMDoBoLgcu08EtKl"
+      },
+      {
+        "name": "The Ship",
+        "artist": "Incredible Polo",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/1WpCorgdzT5RzNfjbudcms"
+      },
+      {
+        "name": "Oysters In My Pocket",
+        "artist": "Royel Otis",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/2B664ulJSVBd6B8SAY3Wux"
+      },
+      {
+        "name": "Electric Feel",
+        "artist": "MGMT",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/3FtYbEfBqAlGO46NUDQSAt"
+      },
+      {
+        "name": "No Broke Boys",
+        "artist": "Disco Lines",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/3cZajhyr8LmtPfHZ9296tj"
+      },
+      {
+        "name": "Better",
+        "artist": "nimino",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/6oUgmZK0McW4706SLJlfDh"
+      },
+      {
+        "name": "Always Like This - andhim Remix",
+        "artist": "HVOB",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/2Gzl0HAOGySuLysalinVP4"
+      },
+      {
+        "name": "Paranoid - 2009 Remaster",
+        "artist": "Black Sabbath",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/3Jnxngdff0lVu2rza1GVx6"
+      },
+      {
+        "name": "Down Under (feat. Colin Hay)",
+        "artist": "Luude",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/7AVyve7cFYTd51ha5i9kE2"
+      },
+      {
+        "name": "Too Sweet",
+        "artist": "Hozier",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/19XpFsce28aByvCC4g89tJ"
+      },
+      {
+        "name": "World Hold On (Children of the Sky) - Radio Edit",
+        "artist": "Bob Sinclar",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/3HGwI9qwq5XqBDeZBV3zti"
+      },
+      {
+        "name": "Otherside",
+        "artist": "Red Hot Chili Peppers",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/64BbK9SFKH2jk86U3dGj2P"
+      },
+      {
+        "name": "Lion - Stimming Remix",
+        "artist": "HVOB",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/3p6JnYmogd4a1QM0w2npZc"
+      },
+      {
+        "name": "The Spins",
+        "artist": "Mac Miller",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/2QGVKiAGTa1YcDqPMhAzF7"
+      },
+      {
+        "name": "Lost",
+        "artist": "Frank Ocean",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/3GZD6HmiNUhxXYf8Gch723"
+      },
+      {
+        "name": "By the Way",
+        "artist": "Red Hot Chili Peppers",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/1f2V8U1BiWaC9aJWmpOARe"
+      },
+      {
+        "name": "Howling - Âme Remix",
+        "artist": "Howling",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/78jIj6Ph2364zg1ZVIvbIN"
+      },
+      {
+        "name": "Maneater",
+        "artist": "Daryl Hall & John Oates",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/7j74lucZ59vqN67Ipe2ZcY"
+      },
+      {
+        "name": "Crucify Your Mind",
+        "artist": "Rodríguez",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/2Xn7NadvZ56D0B2D7x2CSL"
+      },
+      {
+        "name": "Start Me Up - Remastered 2009",
+        "artist": "The Rolling Stones",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/7HKez549fwJQDzx3zLjHKC"
+      },
+      {
+        "name": "Hold the Line",
+        "artist": "TOTO",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/4aVuWgvD0X63hcOCnZtNFA"
+      },
+      {
+        "name": "A Horse with No Name",
+        "artist": "America",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/54eZmuggBFJbV7k248bTTt"
+      },
+      {
+        "name": "Under the Bridge",
+        "artist": "Red Hot Chili Peppers",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/3d9DChrdc6BOeFsbrZ3Is0"
+      },
+      {
+        "name": "Californication",
+        "artist": "Red Hot Chili Peppers",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/48UPSzbZjgc449aqz8bxox"
+      },
+      {
+        "name": "Walking On A Dream",
+        "artist": "Empire Of The Sun",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/5r5cp9IpziiIsR6b93vcnQ"
+      },
+      {
+        "name": "Deceptacon",
+        "artist": "Le Tigre",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/3pYbQSgggwsaFXDW0u79Yj"
+      },
+      {
+        "name": "Nothing",
+        "artist": "HNNY",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/6qwPK5WhplqNcyy1CtnpLT"
+      },
+      {
+        "name": "Hate It Or Love It",
+        "artist": "The Game",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/2wGSgTmgSF3xjRrHkTc25R"
+      },
+      {
+        "name": "Feel Good Inc.",
+        "artist": "Gorillaz",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/0d28khcov6AiegSCpG5TuT"
+      },
+      {
+        "name": "Go Your Own Way - 2004 Remaster",
+        "artist": "Fleetwood Mac",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/07GvNcU1WdyZJq3XxP0kZa"
+      },
+      {
+        "name": "Long Cool Woman (In a Black Dress) - 1999 Remaster",
+        "artist": "The Hollies",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/1J5XEPamp7iQaCU0aFuMnd"
+      },
+      {
+        "name": "Ritmo",
+        "artist": "Raffa Fl",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/4FHXsehfIbyPCJLP7fCnIF"
+      },
+      {
+        "name": "Simple Man",
+        "artist": "Lynyrd Skynyrd",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/1ju7EsSGvRybSNEsRvc7qY"
+      },
+      {
+        "name": "Mariella",
+        "artist": "Khruangbin",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/3dvXRk7TZ929m21p49RR5P"
+      },
+      {
+        "name": "Beast Of Burden - Remastered 1994",
+        "artist": "The Rolling Stones",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/77oU2rjC5XbjQfNe3bD6so"
+      },
+      {
+        "name": "Scar Tissue",
+        "artist": "Red Hot Chili Peppers",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/1G391cbiT3v3Cywg8T7DM1"
+      },
+      {
+        "name": "Could You Be Loved",
+        "artist": "Bob Marley & The Wailers",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/5O4erNlJ74PIF6kGol1ZrC"
+      },
+      {
+        "name": "I Remember Everything (feat. Kacey Musgraves)",
+        "artist": "Zach Bryan",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/4KULAymBBJcPRpk1yO4dOG"
+      },
+      {
+        "name": "Wine & Chocolates - andhim Remix Radio Version",
+        "artist": "Theophilus London",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/0qsQZDAZIGsbGmYEMfhTSC"
+      },
+      {
+        "name": "Today",
+        "artist": "Zero 7",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/4lK8Vtfw9SOpL1WCoaccnK"
+      },
+      {
+        "name": "Hot Blooded",
+        "artist": "New Constellations",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/1ElySIlHwm1HX7sUjAZZnp"
+      },
+      {
+        "name": "Outrun",
+        "artist": "De Hofnar",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/6krMxNzBc7ryjqTGrI8Cv0"
+      },
+      {
+        "name": "For What It's Worth",
+        "artist": "Buffalo Springfield",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/1qRA5BS78u3gME0loMl9AA"
+      },
+      {
+        "name": "Miss You - Remastered",
+        "artist": "The Rolling Stones",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/3hJLKtTpgct9Y9wKww0BiR"
+      },
+      {
+        "name": "For Whom The Bell Tolls - Remastered",
+        "artist": "Metallica",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/2dXsILW8gzkosqleHAvl0v"
+      },
+      {
+        "name": "More Than a Feeling",
+        "artist": "Boston",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/1QEEqeFIZktqIpPI4jSVSF"
+      },
+      {
+        "name": "Stairway to Heaven - Remaster",
+        "artist": "Led Zeppelin",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/12wlYeErSUNGg1B5d64077"
+      },
+      {
+        "name": "Something Good",
+        "artist": "alt-J",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/5UqHgJxYCMQraYuqeEOvtr"
+      }
+    ]
   }
 }

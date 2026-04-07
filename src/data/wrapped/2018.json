@@ -1484,5 +1484,411 @@
       "artist": "Sticky Fingers",
       "duration": "0:30"
     }
+  },
+  "apiSnapshot": {
+    "topArtists": [
+      {
+        "name": "Red Hot Chili Peppers",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebc33cc15260b767ddec982ce8",
+        "url": "https://open.spotify.com/artist/0L8ExT028jH3ddEcZwqJJ5"
+      },
+      {
+        "name": "Oliver Schories",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb2c3d308cf912a78c96fd41f3",
+        "url": "https://open.spotify.com/artist/0iTjLBepeGaLgZS18kxgRq"
+      },
+      {
+        "name": "Sam Lachow",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebb44e0d4e7879678f8e7bde3f",
+        "url": "https://open.spotify.com/artist/42UrF25gDVhovYn4Dd422d"
+      },
+      {
+        "name": "Jack Johnson",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb0bf3ff1eaa4c0d6d664ccc3f",
+        "url": "https://open.spotify.com/artist/3GBPw9NK25X1Wt2OUvOwY3"
+      },
+      {
+        "name": "Eminem",
+        "image": "https://i.scdn.co/image/ab6761610000e5eba00b11c129b27a88fc72f36b",
+        "url": "https://open.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR"
+      },
+      {
+        "name": "Mac Miller",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebed3b89aa602145fde71a163a",
+        "url": "https://open.spotify.com/artist/4LLpKhyESsyAXpc4laK94U"
+      },
+      {
+        "name": "DOPE LEMON",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb08d96270687870e07c667bdd",
+        "url": "https://open.spotify.com/artist/7oZLKL1GjYiaAgssXsLmW8"
+      },
+      {
+        "name": "Milky Chance",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb23eb1af2ef13c5db234ff824",
+        "url": "https://open.spotify.com/artist/1hzfo8twXdOegF3xireCYs"
+      },
+      {
+        "name": "Yo Grapes",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb1b169b9d3e49af512b6d590c",
+        "url": "https://open.spotify.com/artist/7rwiN8Fkuy6Pa9lGiIGyBY"
+      },
+      {
+        "name": "Glass Animals",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebeb2cc96b0ed023c5e3675b6f",
+        "url": "https://open.spotify.com/artist/4yvcSjfu4PC0CYQyLy4wSq"
+      },
+      {
+        "name": "The Jungle Giants",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb0917fdf7d54dd23b78f97a29",
+        "url": "https://open.spotify.com/artist/6wFwvxJkurQPU2UdeD4qVt"
+      },
+      {
+        "name": "Angus & Julia Stone",
+        "image": "https://i.scdn.co/image/ab6761610000e5eba6bec94f269e61676f2fe977",
+        "url": "https://open.spotify.com/artist/4tvKz56Tr39bkhcQUTO0Xr"
+      },
+      {
+        "name": "Queen",
+        "image": "https://i.scdn.co/image/ab6772690000dd2247488c35a509d42072c23976",
+        "url": "https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d"
+      },
+      {
+        "name": "Gizmo Varillas",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb0a0b7b66a348655e065452ea",
+        "url": "https://open.spotify.com/artist/47i4lPow1dIRwOb85AB6lj"
+      },
+      {
+        "name": "Rodríguez",
+        "image": "https://i.scdn.co/image/d1d0f4b212e16eb6bf079e8e7bae11828378a2bc",
+        "url": "https://open.spotify.com/artist/5PrHzxc3kFm4hIrGNmelpX"
+      },
+      {
+        "name": "Kishi Bashi",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebc016b2ad359f97b3ad3ae071",
+        "url": "https://open.spotify.com/artist/3LVPGE5jPPwtbGslx07YR0"
+      },
+      {
+        "name": "Boris Brejcha",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb2cc3d29c6605e96958abf585",
+        "url": "https://open.spotify.com/artist/6caPJFLv1wesmM7gwK1ACy"
+      },
+      {
+        "name": "HVOB",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb4432398038a3f585dd92165b",
+        "url": "https://open.spotify.com/artist/6RAx8RRxoHeJIqD2d0EjOa"
+      },
+      {
+        "name": "Alec Troniq",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb86dcf3da0702be1b23f1b04a",
+        "url": "https://open.spotify.com/artist/7gY2UGpmfLNKfezQPuG7Hx"
+      },
+      {
+        "name": "Eagles",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb0767e116a2307495e37cd7fb",
+        "url": "https://open.spotify.com/artist/0ECwFtbIWEVNwjlrfc6xoL"
+      }
+    ],
+    "topTracks": [
+      {
+        "name": "She Goes",
+        "artist": "Oliver Schories",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273a886948c7a21b6c1fa76d15f",
+        "url": "https://open.spotify.com/track/4SrRMDj3jO1yBk9pmjZHPB"
+      },
+      {
+        "name": "Gooey - Gilligan Moss Remix",
+        "artist": "Glass Animals",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273715d9919fc4188d977954795",
+        "url": "https://open.spotify.com/track/1yshfaUkaAletecfWFVgtS"
+      },
+      {
+        "name": "Chateau",
+        "artist": "Angus & Julia Stone",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273b38dd1336f399bbdbdcf4269",
+        "url": "https://open.spotify.com/track/1tQtURCQmQnY5ZxJNTgXKR"
+      },
+      {
+        "name": "Seasick Dream",
+        "artist": "Jack Johnson",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273d7e40baf75ddce4864c5bc75",
+        "url": "https://open.spotify.com/track/1vL5bZNsFWVYED96IgWEIM"
+      },
+      {
+        "name": "Snow (Hey Oh)",
+        "artist": "Red Hot Chili Peppers",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b27309fd83d32aee93dceba78517",
+        "url": "https://open.spotify.com/track/2aibwv5hGXSgw7Yru8IYTO"
+      },
+      {
+        "name": "It All Began With a Burst",
+        "artist": "Kishi Bashi",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273c3f7f5abcc43a90cb884fff0",
+        "url": "https://open.spotify.com/track/6lDH1WqbEhOtma7ETHnOaJ"
+      },
+      {
+        "name": "Mountain To Move",
+        "artist": "Nick Mulvey",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b2734c8a124d8bce6a157523a8d0",
+        "url": "https://open.spotify.com/track/7zGyIkunvMO11FByE93lzZ"
+      },
+      {
+        "name": "Birthday Card",
+        "artist": "Marcus Marr",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b27359afb3151616a570d357911d",
+        "url": "https://open.spotify.com/track/3Prt3S5X7nsEKv2VARtKrv"
+      },
+      {
+        "name": "I Am the Antichrist to You",
+        "artist": "Kishi Bashi",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273c3f7f5abcc43a90cb884fff0",
+        "url": "https://open.spotify.com/track/3tnfHy341CDlAtcSmUtuOG"
+      },
+      {
+        "name": "Neighbors",
+        "artist": "J. Cole",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273f4ca75192df162f78a24023e",
+        "url": "https://open.spotify.com/track/0utlOiJy2weVl9WTkcEWHy"
+      },
+      {
+        "name": "Yellow Mellow",
+        "artist": "Ocean Alley",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b27339aae9fd82532542b19c8e60",
+        "url": "https://open.spotify.com/track/6ehgCYEjaYWAYRBVAUEILF"
+      },
+      {
+        "name": "Good Morning Children",
+        "artist": "Alec Troniq",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b2738a60f6792262bd4c21c6e248",
+        "url": "https://open.spotify.com/track/7b6gAh0OyzcKsg2i7Tte6u"
+      },
+      {
+        "name": "Tongues",
+        "artist": "Joywave",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273f3a8d3033666a6bbafdfa845",
+        "url": "https://open.spotify.com/track/5mCprFWOqe0jB96v9RhLBo"
+      },
+      {
+        "name": "Breezeblocks",
+        "artist": "alt-J",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b2731e1ca90cd8fdbb0ac890a926",
+        "url": "https://open.spotify.com/track/1ZLroqJA8qoS5QEeCo0fA7"
+      },
+      {
+        "name": "Fingerprint",
+        "artist": "Lane 8",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273e96a7cf14f2d32c679d86e02",
+        "url": "https://open.spotify.com/track/1Hy3CoHThqF0NBSmkmeR21"
+      },
+      {
+        "name": "Give a Little Love",
+        "artist": "Gizmo Varillas",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273b363433d9507c5740d35fcb4",
+        "url": "https://open.spotify.com/track/0CQ6cbXPUsB9NcJZ2Abuc4"
+      },
+      {
+        "name": "No Ceiling",
+        "artist": "Trenton and Free Radical",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/442HYek8Qwtfg2AoSPr49j"
+      },
+      {
+        "name": "Show Me The Way",
+        "artist": "Peter Frampton",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b2732aadbe54b2c387d44f49834d",
+        "url": "https://open.spotify.com/track/6BD1X1PeV5UzYUdiVaD2yL"
+      },
+      {
+        "name": "Walking On A Dream",
+        "artist": "Empire Of The Sun",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273147fd9fbc3cfd8dd10002f41",
+        "url": "https://open.spotify.com/track/3xVaJfd27n4S6ZZoyGYX4H"
+      },
+      {
+        "name": "Dark Planet",
+        "artist": "Boris Brejcha",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273831540b40428891208984f17",
+        "url": "https://open.spotify.com/track/6ZyEZpsnv8mwiMEeNRK2oq"
+      },
+      {
+        "name": "This Shit",
+        "artist": "Sol",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273d0909806e2ed14b1acef7091",
+        "url": "https://open.spotify.com/track/38lFbx8dsIPvPfF8CTCW8S"
+      },
+      {
+        "name": "Lost Memory",
+        "artist": "Boris Brejcha",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b2734e2f6a473a082124b6c63aab",
+        "url": "https://open.spotify.com/track/76lT30VRv09h5MQp5snmsb"
+      },
+      {
+        "name": "Marinade",
+        "artist": "DOPE LEMON",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b2736e5f26c11f97c7211fe5f4fb",
+        "url": "https://open.spotify.com/track/2OFUamird9l49tMtwf8w3l"
+      },
+      {
+        "name": "Weekend (feat. Miguel)",
+        "artist": "Mac Miller",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273ee0f38410382a255e4fb15f4",
+        "url": "https://open.spotify.com/track/6GnhWMhgJb7uyiiPEiEkDA"
+      },
+      {
+        "name": "Let's Fall in Love Some More",
+        "artist": "Al Bairre",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273e82b4a558e17237190799c69",
+        "url": "https://open.spotify.com/track/1SZN00cfG8T8UxDmJeqjuv"
+      },
+      {
+        "name": "All Of Me",
+        "artist": "Tanlines",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273ed3640eef342c08b5fadf4a9",
+        "url": "https://open.spotify.com/track/20cFacW3LrKR2uBesEnW0q"
+      },
+      {
+        "name": "House of the Rising Sun",
+        "artist": "The Animals",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b27399c35f23f4edae24d409d271",
+        "url": "https://open.spotify.com/track/1D8MLfoyeJr3W7sEYsDoyv"
+      },
+      {
+        "name": "The Less I Know The Better",
+        "artist": "Tame Impala",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b2739e1cfc756886ac782e363d79",
+        "url": "https://open.spotify.com/track/6K4t31amVTZDgR3sKmwUJJ"
+      },
+      {
+        "name": "ELEMENT.",
+        "artist": "Kendrick Lamar",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b2738b52c6b9bc4e43d873869699",
+        "url": "https://open.spotify.com/track/1EaKU4dMbesXXd3BrLCtYG"
+      },
+      {
+        "name": "Used to Be in Love",
+        "artist": "The Jungle Giants",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273c3cae3816afacc9ab24a7d0c",
+        "url": "https://open.spotify.com/track/2p9p2WMCH2ctlt5mUjbykS"
+      },
+      {
+        "name": "Can't Stop",
+        "artist": "Red Hot Chili Peppers",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273fdbcee40748537ff80a7af70",
+        "url": "https://open.spotify.com/track/4BcS4LomxUnQpzx4hCaJTs"
+      },
+      {
+        "name": "Bohemian Rhapsody - Remastered 2011",
+        "artist": "Queen",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273bb19d0c22d5709c9d73c8263",
+        "url": "https://open.spotify.com/track/2OBofMJx94NryV2SK8p8Zf"
+      },
+      {
+        "name": "Young Folks",
+        "artist": "Peter Bjorn and John",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b2739cf4ac84b224a02f34d2e4f6",
+        "url": "https://open.spotify.com/track/4dyx5SzxPPaD8xQIid5Wjj"
+      },
+      {
+        "name": "These Days",
+        "artist": "mike.",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273d924029ec452abb98e7a5612",
+        "url": "https://open.spotify.com/track/5tsI3xxDHDgzHhn30LTQNz"
+      },
+      {
+        "name": "Wrong Man (feat. Ariana Deboo & Dave B)",
+        "artist": "Sam Lachow",
+        "albumArt": "",
+        "url": "https://open.spotify.com/track/2iCsHWWYzSCJ6Z0MyeOv6h"
+      },
+      {
+        "name": "Quiet Ferocity",
+        "artist": "The Jungle Giants",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273c3cae3816afacc9ab24a7d0c",
+        "url": "https://open.spotify.com/track/6Aasa0nfyOdL5DkWbWd0Z4"
+      },
+      {
+        "name": "Lucky You (feat. Joyner Lucas)",
+        "artist": "Eminem",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273e4073def0c03a91e3fceaf73",
+        "url": "https://open.spotify.com/track/60SdxE8apGAxMiRrpbmLY0"
+      },
+      {
+        "name": "100 Miles and Running (ft. Wale & John Lindahl)",
+        "artist": "Logic",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b27390228ca3b95c6e42a6e649b3",
+        "url": "https://open.spotify.com/track/4CstQ0SUkl0YkoeZkIZlIx"
+      },
+      {
+        "name": "Come Together - Remastered 2009",
+        "artist": "The Beatles",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273dc30583ba717007b00cceb25",
+        "url": "https://open.spotify.com/track/2EqlS6tkEnglzr7tkKAAYD"
+      },
+      {
+        "name": "All Right Now",
+        "artist": "Free",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273753c41c7fdc5e78ba017bbf5",
+        "url": "https://open.spotify.com/track/1gcESexgftSuLuML57Y69q"
+      },
+      {
+        "name": "Come As You Are",
+        "artist": "Nirvana",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273fbc71c99f9c1296c56dd51b6",
+        "url": "https://open.spotify.com/track/2RsAajgo0g7bMCHxwH3Sk0"
+      },
+      {
+        "name": "Radar Love",
+        "artist": "Golden Earring",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b27393b0b0bc9bc1566e23999d88",
+        "url": "https://open.spotify.com/track/4Zau4QvgyxWiWQ5KQrwL43"
+      },
+      {
+        "name": "Waiting On the World to Change",
+        "artist": "John Mayer",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273fa8e8cc9d6d0862b7033dbaa",
+        "url": "https://open.spotify.com/track/1lRmQ9D6oNYiuCXdGlKCs0"
+      },
+      {
+        "name": "Stop It",
+        "artist": "FISHER",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273c6b6244ab810f6b0b8528bfa",
+        "url": "https://open.spotify.com/track/627JZ3dVd88Xc5IoHOeNT5"
+      },
+      {
+        "name": "Freedom For a Change",
+        "artist": "Gizmo Varillas",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273b363433d9507c5740d35fcb4",
+        "url": "https://open.spotify.com/track/6IED3V6GMa9SyP8xwkeqpD"
+      },
+      {
+        "name": "Born To Be Wild",
+        "artist": "Steppenwolf",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b2732236b35e0228c0298bfbbad7",
+        "url": "https://open.spotify.com/track/39vX5jwuZ1ye6YDIGNfXog"
+      },
+      {
+        "name": "Black Betty",
+        "artist": "Ram Jam",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b2732dae35818253ccb1cd0cd87d",
+        "url": "https://open.spotify.com/track/6kooDsorCpWVMGc994XjWN"
+      },
+      {
+        "name": "Tiny Dancer",
+        "artist": "Elton John",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273d03ab2da904d8251a87bbc31",
+        "url": "https://open.spotify.com/track/2TVxnKdb3tqe1nhQWwwZCO"
+      },
+      {
+        "name": "Sunset Lover",
+        "artist": "Petit Biscuit",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273014080d39d56c94c0b285362",
+        "url": "https://open.spotify.com/track/0hNduWmlWmEmuwEFcYvRu1"
+      },
+      {
+        "name": "Africa",
+        "artist": "TOTO",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273ebd6d20c0082524244ef83df",
+        "url": "https://open.spotify.com/track/2374M0fQpWi3dLnB54qaLX"
+      }
+    ]
   }
 }

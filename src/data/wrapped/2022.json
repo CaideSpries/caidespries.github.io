@@ -1685,5 +1685,411 @@
     "returningCount": 19,
     "newCount": 1,
     "returningPct": 95
+  },
+  "apiSnapshot": {
+    "topArtists": [
+      {
+        "name": "Red Hot Chili Peppers",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebc33cc15260b767ddec982ce8",
+        "url": "https://open.spotify.com/artist/0L8ExT028jH3ddEcZwqJJ5"
+      },
+      {
+        "name": "Mac Miller",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebed3b89aa602145fde71a163a",
+        "url": "https://open.spotify.com/artist/4LLpKhyESsyAXpc4laK94U"
+      },
+      {
+        "name": "Black Sabbath",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb4870cd833ebe1092601820c3",
+        "url": "https://open.spotify.com/artist/5M52tdBnJaKSvOpJGz8mfZ"
+      },
+      {
+        "name": "Kanye West",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb6e835a500e791bf9c27a422a",
+        "url": "https://open.spotify.com/artist/5K4W6rqBFWDnAN6FQUkS6x"
+      },
+      {
+        "name": "Led Zeppelin",
+        "image": "https://i.scdn.co/image/207803ce008388d3427a685254f9de6a8f61dc2e",
+        "url": "https://open.spotify.com/artist/36QJpDe2go2KgaRleHCDTp"
+      },
+      {
+        "name": "Kendrick Lamar",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb39ba6dcd4355c03de0b50918",
+        "url": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg"
+      },
+      {
+        "name": "Rodríguez",
+        "image": "https://i.scdn.co/image/d1d0f4b212e16eb6bf079e8e7bae11828378a2bc",
+        "url": "https://open.spotify.com/artist/5PrHzxc3kFm4hIrGNmelpX"
+      },
+      {
+        "name": "Milky Chance",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb23eb1af2ef13c5db234ff824",
+        "url": "https://open.spotify.com/artist/1hzfo8twXdOegF3xireCYs"
+      },
+      {
+        "name": "DOPE LEMON",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb08d96270687870e07c667bdd",
+        "url": "https://open.spotify.com/artist/7oZLKL1GjYiaAgssXsLmW8"
+      },
+      {
+        "name": "MGMT",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb9dccdc8f4087cbe2bdedc9d3",
+        "url": "https://open.spotify.com/artist/0SwO7SWeDHJijQ3XNS7xEE"
+      },
+      {
+        "name": "Foals",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb5f0109249ffd70b2d85a9467",
+        "url": "https://open.spotify.com/artist/6FQqZYVfTNQ1pCqfkwVFEa"
+      },
+      {
+        "name": "Twenty One Pilots",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb61a7ea26d33ded218cd1e59d",
+        "url": "https://open.spotify.com/artist/3YQKmKGau1PzlVlkL1iodx"
+      },
+      {
+        "name": "Kid Cudi",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb5f00bb6dd7a7008d14156630",
+        "url": "https://open.spotify.com/artist/0fA0VVWsXO9YnASrzqfmYu"
+      },
+      {
+        "name": "The Jungle Giants",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb0917fdf7d54dd23b78f97a29",
+        "url": "https://open.spotify.com/artist/6wFwvxJkurQPU2UdeD4qVt"
+      },
+      {
+        "name": "Chance the Rapper",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebd4d18d62a36a26fe36b70e2a",
+        "url": "https://open.spotify.com/artist/1anyVhU62p31KFi8MEzkbf"
+      },
+      {
+        "name": "Lynyrd Skynyrd",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb3f02c2ff7ea1aa208e015f57",
+        "url": "https://open.spotify.com/artist/4MVyzYMgTwdP7Z49wAZHx0"
+      },
+      {
+        "name": "Calvin Harris",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb8ebba5e60113b48de8c11f6b",
+        "url": "https://open.spotify.com/artist/7CajNmpbOovFoOoasH2HaY"
+      },
+      {
+        "name": "Chet Faker",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb887f380a1d6fafe95238c86b",
+        "url": "https://open.spotify.com/artist/6UcJxoeHWWWyT5HZP064om"
+      },
+      {
+        "name": "Queen",
+        "image": "https://i.scdn.co/image/ab6772690000dd2247488c35a509d42072c23976",
+        "url": "https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d"
+      },
+      {
+        "name": "AC/DC",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebc4c77549095c86acb4e77b37",
+        "url": "https://open.spotify.com/artist/711MCceyCBcFnzjGY4Q7Un"
+      }
+    ],
+    "topTracks": [
+      {
+        "name": "Snow (Hey Oh)",
+        "artist": "Red Hot Chili Peppers",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b27309fd83d32aee93dceba78517",
+        "url": "https://open.spotify.com/track/2aibwv5hGXSgw7Yru8IYTO"
+      },
+      {
+        "name": "Under the Bridge",
+        "artist": "Red Hot Chili Peppers",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b2735590b4ee88187cb06a5b102d",
+        "url": "https://open.spotify.com/track/23NPGXlSaIqWzvxIRhM2oG"
+      },
+      {
+        "name": "Birthday Card",
+        "artist": "Chet Faker",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b27359afb3151616a570d357911d",
+        "url": "https://open.spotify.com/track/3Prt3S5X7nsEKv2VARtKrv"
+      },
+      {
+        "name": "Sabbath Bloody Sabbath",
+        "artist": "Black Sabbath",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273174f71bdda81ecb2eddba01b",
+        "url": "https://open.spotify.com/track/0EDeh0yFVKQZZQoJ1AVw3Z"
+      },
+      {
+        "name": "Burning",
+        "artist": "The Whitest Boy Alive",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b27354405f4e966b1efbebb88883",
+        "url": "https://open.spotify.com/track/0QgR03vMDoBoLgcu08EtKl"
+      },
+      {
+        "name": "Hard to Concentrate",
+        "artist": "Red Hot Chili Peppers",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b27309fd83d32aee93dceba78517",
+        "url": "https://open.spotify.com/track/37kTASujIfZZ27NV7PfIrf"
+      },
+      {
+        "name": "Electric Feel",
+        "artist": "MGMT",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b2738b32b139981e79f2ebe005eb",
+        "url": "https://open.spotify.com/track/3FtYbEfBqAlGO46NUDQSAt"
+      },
+      {
+        "name": "Walking On A Dream",
+        "artist": "Empire Of The Sun",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273147fd9fbc3cfd8dd10002f41",
+        "url": "https://open.spotify.com/track/3xVaJfd27n4S6ZZoyGYX4H"
+      },
+      {
+        "name": "All Along the Watchtower",
+        "artist": "Jimi Hendrix",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273522088789d49e216d9818292",
+        "url": "https://open.spotify.com/track/2aoo2jlRnM3A0NyLQqMN2f"
+      },
+      {
+        "name": "Giant (with Rag'n'Bone Man)",
+        "artist": "Calvin Harris",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273a9a9d8a16c0b4146fb707c02",
+        "url": "https://open.spotify.com/track/5itOtNx0WxtJmi1TQ3RuRd"
+      },
+      {
+        "name": "Don't Start Now",
+        "artist": "Dua Lipa",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273252ba339f802d9cf88122757",
+        "url": "https://open.spotify.com/track/6WrI0LAC5M1Rw2MnX2ZvEg"
+      },
+      {
+        "name": "Sweet Disposition",
+        "artist": "The Temper Trap",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273752b549c65bf5333612f554a",
+        "url": "https://open.spotify.com/track/1jUkHIMc7UaJQuzWe5Iop2"
+      },
+      {
+        "name": "Kudaushe",
+        "artist": "Afriquoi",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b27365d5ab5efb4af4e98377ddb4",
+        "url": "https://open.spotify.com/track/7hGidl99Umesys0O0CzXTS"
+      },
+      {
+        "name": "Fisher",
+        "artist": "Camel Power Club",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273ef37cdb360df67bba78f3510",
+        "url": "https://open.spotify.com/track/3cY2nHVVX2ZER1ttxGzLav"
+      },
+      {
+        "name": "By the Way",
+        "artist": "Red Hot Chili Peppers",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273de1af2785a83cc660155a0c4",
+        "url": "https://open.spotify.com/track/1f2V8U1BiWaC9aJWmpOARe"
+      },
+      {
+        "name": "Monarchy of Roses",
+        "artist": "Red Hot Chili Peppers",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b27396136a2ab5696812e9b26723",
+        "url": "https://open.spotify.com/track/16Bf9uR4PI2dCoXDIjs0cP"
+      },
+      {
+        "name": "Simple Man",
+        "artist": "Lynyrd Skynyrd",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273128450651c9f0442780d8eb8",
+        "url": "https://open.spotify.com/track/1ju7EsSGvRybSNEsRvc7qY"
+      },
+      {
+        "name": "Charlie",
+        "artist": "Red Hot Chili Peppers",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b27309fd83d32aee93dceba78517",
+        "url": "https://open.spotify.com/track/3SoDB59Y7dSZLSDBiNJ6o2"
+      },
+      {
+        "name": "Scar Tissue",
+        "artist": "Red Hot Chili Peppers",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273a9249ebb15ca7a5b75f16a90",
+        "url": "https://open.spotify.com/track/2QOMGq8wVTZbLmh7McrvgF"
+      },
+      {
+        "name": "Tuyo (Narcos Theme) [Extended Version] - A Netflix Original Series Soundtrack",
+        "artist": "Rodrigo Amarante",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b27364d924aebcb26f08aac1bf3b",
+        "url": "https://open.spotify.com/track/6g2BiiVQqY5v1S4HIrM54F"
+      },
+      {
+        "name": "Pursuit Of Happiness (Nightmare)",
+        "artist": "Kid Cudi",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273713f297a7bdc1d48971062b2",
+        "url": "https://open.spotify.com/track/4kTLpAbhuEGHAAdDjOIWaa"
+      },
+      {
+        "name": "Afro Sambroso - Rampa Version",
+        "artist": "Lokkhi Terra",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273e931b2ca5e035832ce4af5d5",
+        "url": "https://open.spotify.com/track/23IBJoNkMZNL286OoJobc9"
+      },
+      {
+        "name": "My Number",
+        "artist": "Foals",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b2738b04dacf186124a62bc667a7",
+        "url": "https://open.spotify.com/track/04caEZhAsQKnWqKsMwk9ud"
+      },
+      {
+        "name": "Africa",
+        "artist": "TOTO",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273ebd6d20c0082524244ef83df",
+        "url": "https://open.spotify.com/track/2374M0fQpWi3dLnB54qaLX"
+      },
+      {
+        "name": "Hey",
+        "artist": "Pixies",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b2730ab3c2a306c614fae36ff1d6",
+        "url": "https://open.spotify.com/track/0p5eZCY0R7uNCZS1YDtIYI"
+      },
+      {
+        "name": "Paranoid",
+        "artist": "Black Sabbath",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273174f71bdda81ecb2eddba01b",
+        "url": "https://open.spotify.com/track/3hwuHzRicnu6Ji9i1JLzor"
+      },
+      {
+        "name": "Ramble On - 1990 Remaster",
+        "artist": "Led Zeppelin",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273fc4f17340773c6c3579fea0d",
+        "url": "https://open.spotify.com/track/3MODES4TNtygekLl146Dxd"
+      },
+      {
+        "name": "Birch Tree",
+        "artist": "Foals",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273b036f68e97ce9f5372bfb350",
+        "url": "https://open.spotify.com/track/0BPKqNWOKQam19tKWoZQwu"
+      },
+      {
+        "name": "Never Fight A Man With A Perm",
+        "artist": "IDLES",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273f247f4e8334b745fc2dd080f",
+        "url": "https://open.spotify.com/track/5DrkhJaGka08ZK6QyuMK0W"
+      },
+      {
+        "name": "A National Acrobat",
+        "artist": "Black Sabbath",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273e3eaed3e5895ca02d5b6a868",
+        "url": "https://open.spotify.com/track/6iJuDBangLQkI7cc9MdjPw"
+      },
+      {
+        "name": "Slow Cheetah",
+        "artist": "Red Hot Chili Peppers",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b27309fd83d32aee93dceba78517",
+        "url": "https://open.spotify.com/track/06wTEKL2rSrSaOjFtgG8fj"
+      },
+      {
+        "name": "What Went Down",
+        "artist": "Foals",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273b036f68e97ce9f5372bfb350",
+        "url": "https://open.spotify.com/track/78tgXRq9Q6tPNP9hKCpgwB"
+      },
+      {
+        "name": "Lithium",
+        "artist": "Nirvana",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273fbc71c99f9c1296c56dd51b6",
+        "url": "https://open.spotify.com/track/5vHLwhxxlGzmClMcxRRFPr"
+      },
+      {
+        "name": "Cabron",
+        "artist": "Red Hot Chili Peppers",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273de1af2785a83cc660155a0c4",
+        "url": "https://open.spotify.com/track/5TGYo4MrNKqIvJqgx134py"
+      },
+      {
+        "name": "My Friends",
+        "artist": "Red Hot Chili Peppers",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b2737f3dcf99224570b053294ccf",
+        "url": "https://open.spotify.com/track/6HksxcBzMVdT17aq1Q79Xe"
+      },
+      {
+        "name": "Meet Me At Our Spot",
+        "artist": "THE ANXIETY",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273024ea7e883a713a3ad552a71",
+        "url": "https://open.spotify.com/track/07MDkzWARZaLEdKxo6yArG"
+      },
+      {
+        "name": "Seven Nation Army",
+        "artist": "The White Stripes",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b2737028981d09d2e5833c9c78ad",
+        "url": "https://open.spotify.com/track/3dPQuX8Gs42Y7b454ybpMR"
+      },
+      {
+        "name": "Wet Sand",
+        "artist": "Red Hot Chili Peppers",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b27309fd83d32aee93dceba78517",
+        "url": "https://open.spotify.com/track/3L2Nyi3T7XabH8EEZFLDdX"
+      },
+      {
+        "name": "DRUGS",
+        "artist": "Tai Verdes",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273c7cce3cefa0194e71a2b2cac",
+        "url": "https://open.spotify.com/track/4tVASOccgcigdCfwUamZCh"
+      },
+      {
+        "name": "Pretoria Girls",
+        "artist": "Desmond and the Tutus",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b2733bc7729b472abea095fd16ac",
+        "url": "https://open.spotify.com/track/6zkVSIgcGnqromeMTYmXv4"
+      },
+      {
+        "name": "Yellow Mellow",
+        "artist": "Ocean Alley",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b27339aae9fd82532542b19c8e60",
+        "url": "https://open.spotify.com/track/6ehgCYEjaYWAYRBVAUEILF"
+      },
+      {
+        "name": "Sundress",
+        "artist": "A$AP Rocky",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b2731ae967e4a02c7a39eb3c189b",
+        "url": "https://open.spotify.com/track/2aPTvyE09vUCRwVvj0I8WK"
+      },
+      {
+        "name": "1901 - triple j Like a Version",
+        "artist": "Petit Biscuit",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b2731e3b7405538d168e44ebd52f",
+        "url": "https://open.spotify.com/track/1veoDetf6j2l5apdLpBYYX"
+      },
+      {
+        "name": "Ladders",
+        "artist": "Mac Miller",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273f4101b35799d5966d49025e4",
+        "url": "https://open.spotify.com/track/4HxNX0GQCkdZEDSj6MZZTu"
+      },
+      {
+        "name": "Dove",
+        "artist": "Cymande",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273dac65c0288bb956396671950",
+        "url": "https://open.spotify.com/track/4xnyBIfiVgT7ZjrHGdrHtw"
+      },
+      {
+        "name": "Crucify Your Mind",
+        "artist": "Rodríguez",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273e7e1b574a9e6b9f26c7c3f49",
+        "url": "https://open.spotify.com/track/2Xn7NadvZ56D0B2D7x2CSL"
+      },
+      {
+        "name": "Lovely Day",
+        "artist": "Bill Withers",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273f8560af696925c50080dcc35",
+        "url": "https://open.spotify.com/track/0ACACkoHUwgfgY5CxVIL4N"
+      },
+      {
+        "name": "Highway Tune",
+        "artist": "Greta Van Fleet",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273d79ec58f261735f73a28f6b4",
+        "url": "https://open.spotify.com/track/1S3V5gvuLYt2Nabd3vVz1f"
+      },
+      {
+        "name": "Grizzly Bear",
+        "artist": "Angus & Julia Stone",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b2738a4409496dc76a5637e40840",
+        "url": "https://open.spotify.com/track/0IJ1ijo3uoJzy6ZE5wxJio"
+      },
+      {
+        "name": "Give a Little Love",
+        "artist": "Gizmo Varillas",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273b363433d9507c5740d35fcb4",
+        "url": "https://open.spotify.com/track/0CQ6cbXPUsB9NcJZ2Abuc4"
+      }
+    ]
   }
 }
