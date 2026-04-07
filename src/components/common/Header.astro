@@ -96,10 +96,12 @@ const navLinks = [
         ? "rgba(8, 8, 8, 0.85)"
         : "rgba(242, 232, 220, 0.85)";
       header.style.boxShadow = "0 1px 0 rgba(232, 213, 192, 0.1)";
+      header.classList.remove("header-over-hero");
     } else {
       header.style.backdropFilter = "none";
       header.style.background = "transparent";
       header.style.boxShadow = "none";
+      header.classList.add("header-over-hero");
     }
   }
   window.addEventListener("scroll", updateHeader, { passive: true });
