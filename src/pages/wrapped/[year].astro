@@ -120,7 +120,7 @@ if (data.source === "extended_history" && data.apiSnapshot?.topAlbums) {
     <TopAlbumsSection albums={displayAlbums} />
   )}
 
-  {data.loyalty && data.year === new Date().getFullYear() && <LoyaltySection loyalty={data.loyalty} />}
+  {data.loyalty && <LoyaltySection loyalty={data.loyalty} />}
 
   <ClosingSection
     year={data.year}
