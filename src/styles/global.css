@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@variant dark (&:where(.dark, .dark *));
+
 @font-face {
   font-family: 'ITC Benguiat Std';
   src: url('/fonts/ITCBenguiatStdBoldCn.OTF') format('opentype');
