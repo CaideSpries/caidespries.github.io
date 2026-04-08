@@ -18,48 +18,50 @@ const shortest = extremes?.shortestListen || stats?.shortestTrack;
 if (!longest && !shortest) return;
 ---
 
-<div class="max-w-5xl mx-auto">
-  <div class="grid sm:grid-cols-2 gap-4 mb-4" data-animate>
-    {longest && (
-      <div class="retro-card p-6">
-        <p class="text-xs font-mono uppercase tracking-[0.2em] mb-3" style="color: #e85d3a;">
-          {extremes ? "Longest single listen" : "Longest track"}
+<section class="py-24 px-4">
+  <div class="max-w-5xl mx-auto">
+    <div class="grid sm:grid-cols-2 gap-4 mb-4" data-animate>
+      {longest && (
+        <div class="retro-card p-6">
+          <p class="text-xs font-mono uppercase tracking-[0.2em] mb-3" style="color: #e85d3a;">
+            {extremes ? "Longest single listen" : "Longest track"}
+          </p>
+          <p class="text-lg font-bold" style="font-family: var(--font-display);">{longest.name}</p>
+          <p class="text-sm mt-1" style="color: var(--text-muted);">
+            {longest.artist} &bull; {longest.duration}
+          </p>
+        </div>
+      )}
+      {shortest && (
+        <div class="retro-card p-6">
+          <p class="text-xs font-mono uppercase tracking-[0.2em] mb-3" style="color: #e85d3a;">
+            {extremes ? "Shortest listen" : "Shortest track"}
+          </p>
+          <p class="text-lg font-bold" style="font-family: var(--font-display);">{shortest.name}</p>
+          <p class="text-sm mt-1" style="color: var(--text-muted);">
+            {shortest.artist} &bull; {shortest.duration}
+          </p>
+        </div>
+      )}
+    </div>
+
+    {extremes?.mostSkipped && extremes.mostSkipped.length > 0 && (
+      <div class="retro-card p-6" data-animate>
+        <p class="text-xs font-mono uppercase tracking-[0.2em] mb-4" style="color: #e85d3a;">
+          Most skipped tracks
         </p>
-        <p class="text-lg font-bold" style="font-family: var(--font-display);">{longest.name}</p>
-        <p class="text-sm mt-1" style="color: var(--text-muted);">
-          {longest.artist} &bull; {longest.duration}
-        </p>
-      </div>
-    )}
-    {shortest && (
-      <div class="retro-card p-6">
-        <p class="text-xs font-mono uppercase tracking-[0.2em] mb-3" style="color: #e85d3a;">
-          {extremes ? "Shortest listen" : "Shortest track"}
-        </p>
-        <p class="text-lg font-bold" style="font-family: var(--font-display);">{shortest.name}</p>
-        <p class="text-sm mt-1" style="color: var(--text-muted);">
-          {shortest.artist} &bull; {shortest.duration}
-        </p>
+        <div class="space-y-3">
+          {extremes.mostSkipped.map((t) => (
+            <div class="flex items-center gap-3">
+              <span class="text-sm font-bold neon-text" style="font-family: var(--font-mono);">{t.count}x</span>
+              <div class="min-w-0">
+                <p class="text-sm font-bold truncate" style="font-family: var(--font-display);">{t.name}</p>
+                <p class="text-xs truncate" style="color: var(--text-muted);">{t.artist}</p>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
     )}
   </div>
-
-  {extremes?.mostSkipped && extremes.mostSkipped.length > 0 && (
-    <div class="retro-card p-6" data-animate>
-      <p class="text-xs font-mono uppercase tracking-[0.2em] mb-4" style="color: #e85d3a;">
-        Most skipped tracks
-      </p>
-      <div class="space-y-3">
-        {extremes.mostSkipped.map((t) => (
-          <div class="flex items-center gap-3">
-            <span class="text-sm font-bold neon-text" style="font-family: var(--font-mono);">{t.count}x</span>
-            <div class="min-w-0">
-              <p class="text-sm font-bold truncate" style="font-family: var(--font-display);">{t.name}</p>
-              <p class="text-xs truncate" style="color: var(--text-muted);">{t.artist}</p>
-            </div>
-          </div>
-        ))}
-      </div>
-    </div>
-  )}
-</div>
+</section>
