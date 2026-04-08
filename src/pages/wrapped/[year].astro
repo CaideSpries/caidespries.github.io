@@ -5,6 +5,11 @@ import HeroSection from "../../components/wrapped/HeroSection.astro";
 import StatsGrid from "../../components/wrapped/StatsGrid.astro";
 import TopArtistsSection from "../../components/wrapped/TopArtistsSection.astro";
 import TopTracksSection from "../../components/wrapped/TopTracksSection.astro";
+import TemporalSection from "../../components/wrapped/TemporalSection.astro";
+import BehaviorSection from "../../components/wrapped/BehaviorSection.astro";
+import DiscoverySection from "../../components/wrapped/DiscoverySection.astro";
+import ExtremesSection from "../../components/wrapped/ExtremesSection.astro";
+import StreaksSection from "../../components/wrapped/StreaksSection.astro";
 import TopAlbumsSection from "../../components/wrapped/TopAlbumsSection.astro";
 import LoyaltySection from "../../components/wrapped/LoyaltySection.astro";
 import ClosingSection from "../../components/wrapped/ClosingSection.astro";
@@ -98,6 +103,18 @@ if (data.source === "extended_history" && data.apiSnapshot?.topAlbums) {
     tracks={displayTracks}
     topTrackArtists={data.stats?.topTrackArtists}
   />
+
+  {data.temporal && <TemporalSection temporal={data.temporal} />}
+
+  {data.behavior && <BehaviorSection behavior={data.behavior} />}
+
+  {data.discovery && <DiscoverySection discovery={data.discovery} />}
+
+  {(data.extremes || data.stats?.longestTrack || data.stats?.shortestTrack) && (
+    <ExtremesSection extremes={data.extremes} stats={data.stats} />
+  )}
+
+  {data.streaks && <StreaksSection streaks={data.streaks} />}
 
   {data.topAlbums && data.topAlbums.length > 0 && (
     <TopAlbumsSection albums={displayAlbums} />
