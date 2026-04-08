@@ -48,6 +48,7 @@ const navLinks = [
         id="mobile-menu-btn"
         type="button"
         aria-label="Toggle menu"
+        aria-expanded="false"
         class="p-2 rounded-lg transition-colors hover:text-ember-500"
       >
         <svg
@@ -68,8 +69,9 @@ const navLinks = [
 
   <div
     id="mobile-menu"
-    class="hidden md:hidden backdrop-blur-sm border-t"
-    style="background: inherit; border-color: rgba(232, 213, 192, 0.1);"
+    aria-hidden="true"
+    class="md:hidden overflow-hidden border-t transition-[max-height] duration-300 ease-in-out"
+    style="max-height: 0; border-color: var(--border-subtle);"
   >
     <div class="px-4 py-3 space-y-1">
       {
@@ -113,12 +115,55 @@ const navLinks = [
 
   const menuBtn = document.getElementById("mobile-menu-btn");
   const mobileMenu = document.getElementById("mobile-menu");
-  menuBtn?.addEventListener("click", () => {
-    mobileMenu?.classList.toggle("hidden");
+
+  function getMobileMenuBg() {
+    return document.documentElement.classList.contains("dark")
+      ? "rgba(8, 8, 8, 0.97)"
+      : "rgba(242, 232, 220, 0.97)";
+  }
+
+  function openMenu() {
+    if (!mobileMenu || !menuBtn) return;
+    mobileMenu.style.maxHeight = "500px";
+    mobileMenu.style.background = getMobileMenuBg();
+    mobileMenu.setAttribute("aria-hidden", "false");
+    menuBtn.setAttribute("aria-expanded", "true");
+  }
+
+  function closeMenu() {
+    if (!mobileMenu || !menuBtn) return;
+    mobileMenu.style.maxHeight = "0";
+    mobileMenu.setAttribute("aria-hidden", "true");
+    menuBtn.setAttribute("aria-expanded", "false");
+  }
+
+  menuBtn?.addEventListener("click", (e) => {
+    e.stopPropagation();
+    const isOpen = menuBtn.getAttribute("aria-expanded") === "true";
+    isOpen ? closeMenu() : openMenu();
   });
+
   document.querySelectorAll(".mobile-nav-link").forEach((link) => {
-    link.addEventListener("click", () => {
-      mobileMenu?.classList.add("hidden");
+    link.addEventListener("click", () => closeMenu());
+  });
+
+  document.addEventListener("click", (e) => {
+    if (
+      menuBtn &&
+      mobileMenu &&
+      !menuBtn.contains(e.target as Node) &&
+      !mobileMenu.contains(e.target as Node)
+    ) {
+      closeMenu();
+    }
+  });
+
+  // Re-apply correct background when theme changes
+  document.querySelectorAll(".theme-toggle").forEach((toggle) => {
+    toggle.addEventListener("click", () => {
+      if (menuBtn?.getAttribute("aria-expanded") === "true") {
+        mobileMenu!.style.background = getMobileMenuBg();
+      }
     });
   });
 </script>
