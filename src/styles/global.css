@@ -74,7 +74,7 @@
 
   /* Spacer ensures last section fills viewport so sticky footer only reveals on scroll past content */
   .footer-spacer {
-    height: 50vh;
+    height: 15vh;
   }
 
   ::selection {
@@ -87,6 +87,48 @@
 }
 
 @layer components {
+  /* ChatWidget — theme-aware popup */
+  .chat-widget-panel {
+    background: #0d0d0d;
+    border: 1px solid rgba(232, 213, 192, 0.12);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
+  }
+  html:not(.dark) .chat-widget-panel {
+    background: #faf6f1;
+    border: 1px solid rgba(26, 26, 26, 0.12);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+  }
+
+  .chat-widget-assistant-bubble {
+    background: rgba(232, 213, 192, 0.08);
+    color: #f2e8dc;
+  }
+  html:not(.dark) .chat-widget-assistant-bubble {
+    background: rgba(26, 26, 26, 0.06);
+    color: #1a1a1a;
+  }
+
+  .chat-widget-input {
+    background: rgba(232, 213, 192, 0.05);
+    border: 1px solid rgba(232, 213, 192, 0.12);
+    color: #f2e8dc;
+  }
+  html:not(.dark) .chat-widget-input {
+    background: rgba(26, 26, 26, 0.04);
+    border: 1px solid rgba(26, 26, 26, 0.12);
+    color: #1a1a1a;
+  }
+  html:not(.dark) .chat-widget-input::placeholder {
+    color: #6d5f52;
+  }
+
+  .chat-widget-divider {
+    border-top: 1px solid rgba(232, 213, 192, 0.1);
+  }
+  html:not(.dark) .chat-widget-divider {
+    border-top: 1px solid rgba(26, 26, 26, 0.1);
+  }
+
   .section-heading {
     @apply text-4xl md:text-5xl lg:text-6xl font-black mb-3 tracking-tight;
     font-family: var(--font-display);

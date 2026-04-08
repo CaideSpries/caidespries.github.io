@@ -104,14 +104,7 @@ export default function ChatWidget() {
       </button>
 
       {isOpen && (
-        <div
-          className="fixed bottom-24 right-6 z-50 w-80 sm:w-96 rounded-2xl flex flex-col max-h-[28rem] overflow-hidden"
-          style={{
-            background: "#0d0d0d",
-            border: "1px solid rgba(232, 213, 192, 0.12)",
-            boxShadow: "0 20px 60px rgba(0, 0, 0, 0.6)",
-          }}
-        >
+        <div className="chat-widget-panel fixed bottom-24 right-6 z-50 w-80 sm:w-96 rounded-2xl flex flex-col max-h-[28rem] overflow-hidden">
           <div className="px-4 py-3 rounded-t-2xl" style={{ background: "#e85d3a" }}>
             <p className="font-bold text-sm" style={{ color: "#080808", fontFamily: "var(--font-display)" }}>
               Chat with Caide's AI
@@ -127,30 +120,23 @@ export default function ChatWidget() {
                 key={i}
                 className={`flex ${msg.role === "user" ? "justify-end" : "justify-start"}`}
               >
-                <div
-                  className="max-w-[80%] px-3 py-2 rounded-xl text-sm"
-                  style={
-                    msg.role === "user"
-                      ? { background: "#e85d3a", color: "#080808" }
-                      : {
-                          background: "rgba(232, 213, 192, 0.08)",
-                          color: "#f2e8dc",
-                        }
-                  }
-                >
-                  {msg.content}
-                </div>
+                {msg.role === "user" ? (
+                  <div
+                    className="max-w-[80%] px-3 py-2 rounded-xl text-sm"
+                    style={{ background: "#e85d3a", color: "#080808" }}
+                  >
+                    {msg.content}
+                  </div>
+                ) : (
+                  <div className="chat-widget-assistant-bubble max-w-[80%] px-3 py-2 rounded-xl text-sm">
+                    {msg.content}
+                  </div>
+                )}
               </div>
             ))}
             {isLoading && (
               <div className="flex justify-start">
-                <div
-                  className="px-3 py-2 rounded-xl text-sm flex gap-1"
-                  style={{
-                    background: "rgba(232, 213, 192, 0.08)",
-                    color: "#f2e8dc",
-                  }}
-                >
+                <div className="chat-widget-assistant-bubble px-3 py-2 rounded-xl text-sm flex gap-1">
                   <span className="animate-bounce" style={{ animationDelay: "0ms" }}>.</span>
                   <span className="animate-bounce" style={{ animationDelay: "150ms" }}>.</span>
                   <span className="animate-bounce" style={{ animationDelay: "300ms" }}>.</span>
@@ -160,7 +146,7 @@ export default function ChatWidget() {
             <div ref={messagesEndRef} />
           </div>
 
-          <div className="p-3" style={{ borderTop: "1px solid rgba(232, 213, 192, 0.1)" }}>
+          <div className="chat-widget-divider p-3">
             <div className="flex gap-2">
               <input
                 type="text"
@@ -169,12 +155,7 @@ export default function ChatWidget() {
                 onKeyDown={(e) => e.key === "Enter" && handleSend()}
                 placeholder="Ask about Caide's work..."
                 disabled={isLoading}
-                className="flex-1 px-3 py-2 text-sm rounded-lg focus:outline-none disabled:opacity-50"
-                style={{
-                  background: "rgba(232, 213, 192, 0.05)",
-                  border: "1px solid rgba(232, 213, 192, 0.12)",
-                  color: "#f2e8dc",
-                }}
+                className="chat-widget-input flex-1 px-3 py-2 text-sm rounded-lg focus:outline-none disabled:opacity-50"
               />
               <button
                 onClick={handleSend}
