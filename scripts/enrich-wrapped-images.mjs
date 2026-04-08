@@ -212,6 +212,7 @@ async function enrichYear(filePath, accessToken) {
 
   const topArtists = raw.topArtists ?? raw.artists ?? [];
   const topTracks = raw.topTracks ?? raw.tracks ?? [];
+  const topAlbums = raw.topAlbums ?? raw.albums ?? [];
 
   if (topArtists.length === 0 && topTracks.length === 0) {
     console.log("  No artists or tracks — nothing to enrich");
@@ -220,21 +221,23 @@ async function enrichYear(filePath, accessToken) {
 
   // Check if already fully enriched. A year is considered complete when:
   // - apiSnapshot.topArtists exists with images for all top artists, AND
-  // - apiSnapshot.topTracks exists with images for most tracks (>=80%)
+  // - apiSnapshot.topTracks exists with images for most tracks (>=80%), AND
+  // - apiSnapshot.topAlbums exists with covers for all albums
   // Partially enriched years (from a rate-limited run) are re-processed.
   const snap = raw.apiSnapshot;
-  if (snap?.topArtists?.length > 0 && snap?.topTracks?.length > 0) {
+  if (snap?.topArtists?.length > 0 && snap?.topTracks?.length > 0 && snap?.topAlbums?.length > 0) {
     const artistsComplete = snap.topArtists.every((a) => a.image);
     const tracksWithArt = snap.topTracks.filter((t) => t.albumArt).length;
     const tracksComplete = tracksWithArt / snap.topTracks.length >= 0.8;
-    if (artistsComplete && tracksComplete) {
+    const albumsComplete = snap.topAlbums.every((a) => a.cover);
+    if (artistsComplete && tracksComplete && albumsComplete) {
       console.log(
-        `  Already fully enriched (${snap.topArtists.length} artists, ${tracksWithArt}/${snap.topTracks.length} tracks) — skipping`
+        `  Already fully enriched (${snap.topArtists.length} artists, ${tracksWithArt}/${snap.topTracks.length} tracks, ${snap.topAlbums.length} albums) — skipping`
       );
       return;
     }
     console.log(
-      `  Partially enriched (artists: ${snap.topArtists.filter((a) => a.image).length}/${snap.topArtists.length}, tracks: ${tracksWithArt}/${snap.topTracks.length}) — re-enriching`
+      `  Partially enriched — re-enriching`
     );
   }
 
@@ -282,12 +285,42 @@ async function enrichYear(filePath, accessToken) {
   }
   console.log(`  Got album art for ${trackFound}/${topTracks.length} tracks`);
 
+  // --- Enrich albums ---
+  console.log(`  Looking up ${Math.min(topAlbums.length, 5)} album covers...`);
+  const enrichedAlbums = [];
+  for (const album of topAlbums.slice(0, 5)) {
+    process.stdout.write(`    ${album.name}...`);
+    try {
+      const q = encodeURIComponent(`album:${album.name} artist:${album.artist}`);
+      const data = await spotifyGet(
+        `https://api.spotify.com/v1/search?q=${q}&type=album&limit=5`,
+        accessToken
+      );
+      const items = data.albums?.items ?? [];
+      const nameLower = album.name.toLowerCase();
+      const artistLower = album.artist.toLowerCase();
+      const exact = items.find(
+        (a) => a.name.toLowerCase() === nameLower &&
+          a.artists.some((ar) => ar.name.toLowerCase() === artistLower)
+      );
+      const pick = exact || items[0];
+      const cover = pick ? pickImage(pick.images ?? []) : "";
+      enrichedAlbums.push({ name: album.name, artist: album.artist, cover, url: pick?.external_urls?.spotify || album.url || "" });
+      console.log(cover ? " got cover" : " no cover");
+    } catch (err) {
+      console.log(` error: ${err.message}`);
+      enrichedAlbums.push({ name: album.name, artist: album.artist, cover: "", url: album.url || "" });
+    }
+    await new Promise((r) => setTimeout(r, 500));
+  }
+
   // Write apiSnapshot back into the file
   const updated = {
     ...raw,
     apiSnapshot: {
       topArtists: enrichedArtists,
       topTracks: enrichedTracks,
+      topAlbums: enrichedAlbums,
     },
   };
 
