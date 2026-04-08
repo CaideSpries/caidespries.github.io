@@ -246,6 +246,16 @@
     filter: saturate(0.85) brightness(0.88) contrast(1.05);
   }
 
+  /* Mobile nav menu panel — solid opaque background, theme-aware, paint-time not script-time */
+  #mobile-menu {
+    background-color: #f2e8dc;
+    box-shadow: 0 4px 12px rgba(26, 26, 26, 0.12);
+  }
+  .dark #mobile-menu {
+    background-color: #080808;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  }
+
   /* Spray-paint / rough edge effect for featured badges */
   .spray-badge {
     @apply inline-block px-4 py-1 font-black uppercase tracking-widest text-xs;
