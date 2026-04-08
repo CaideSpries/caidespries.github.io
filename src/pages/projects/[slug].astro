@@ -350,6 +350,22 @@ const description = project.overview || project.cvBullets[0] || `University proj
         return { src: img.src, alt: img.alt };
       });
       let current = 0;
+      let lastFocused: HTMLElement | null = null;
+
+      const FOCUSABLE = 'a[href], button:not([disabled]), input:not([disabled]), [tabindex]:not([tabindex="-1"])';
+
+      function trapFocus(e: KeyboardEvent) {
+        if (e.key !== 'Tab') return;
+        const focusable = Array.from(lightbox!.querySelectorAll<HTMLElement>(FOCUSABLE));
+        if (focusable.length === 0) return;
+        const first = focusable[0];
+        const last = focusable[focusable.length - 1];
+        if (e.shiftKey) {
+          if (document.activeElement === first) { e.preventDefault(); last.focus(); }
+        } else {
+          if (document.activeElement === last) { e.preventDefault(); first.focus(); }
+        }
+      }
 
       function show(index: number) {
         current = (index + images.length) % images.length;
@@ -360,12 +376,19 @@ const description = project.overview || project.cvBullets[0] || `University proj
         lightbox!.classList.remove('hidden');
         lightbox!.classList.add('flex');
         document.body.style.overflow = 'hidden';
+        lastFocused = document.activeElement as HTMLElement;
+        const closeBtn = document.getElementById('lightbox-close') as HTMLElement | null;
+        (closeBtn ?? lightbox!.querySelector<HTMLElement>(FOCUSABLE))?.focus();
+        lightbox!.addEventListener('keydown', trapFocus);
       }
 
       function hide() {
         lightbox!.classList.add('hidden');
         lightbox!.classList.remove('flex');
         document.body.style.overflow = '';
+        lightbox!.removeEventListener('keydown', trapFocus);
+        lastFocused?.focus();
+        lastFocused = null;
       }
 
       triggers.forEach(trigger => {
