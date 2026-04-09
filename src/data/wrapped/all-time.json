@@ -1916,5 +1916,263 @@
     2024,
     2025,
     2026
-  ]
+  ],
+  "apiSnapshot": {
+    "topArtists": [
+      {
+        "name": "Red Hot Chili Peppers",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebc33cc15260b767ddec982ce8",
+        "url": "https://open.spotify.com/artist/0L8ExT028jH3ddEcZwqJJ5"
+      },
+      {
+        "name": "Mac Miller",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "andhim",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebd7d74c48f97de722a7871d9f",
+        "url": "https://open.spotify.com/artist/6XJeFzmI6vrWyHcdB7EImP"
+      },
+      {
+        "name": "Milky Chance",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "Bob Marley & The Wailers",
+        "image": "https://i.scdn.co/image/4cd57e5e12ea2c24644c40886d65a9b22eca9802",
+        "url": "https://open.spotify.com/artist/2QsynagSdAqZj3U9HgDzjD"
+      },
+      {
+        "name": "Kanye West",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "Led Zeppelin",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "Black Sabbath",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb4870cd833ebe1092601820c3",
+        "url": "https://open.spotify.com/artist/5M52tdBnJaKSvOpJGz8mfZ"
+      },
+      {
+        "name": "Jack Johnson",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb0bf3ff1eaa4c0d6d664ccc3f",
+        "url": "https://open.spotify.com/artist/3GBPw9NK25X1Wt2OUvOwY3"
+      },
+      {
+        "name": "Glass Animals",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "Kendrick Lamar",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "Eminem",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "The Rolling Stones",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "Queen",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "Kid Cudi",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "Super Flu",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "DOPE LEMON",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "Rodríguez",
+        "image": "",
+        "url": ""
+      },
+      {
+        "name": "The Jungle Giants",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb0917fdf7d54dd23b78f97a29",
+        "url": "https://open.spotify.com/artist/6wFwvxJkurQPU2UdeD4qVt"
+      },
+      {
+        "name": "AC/DC",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebc4c77549095c86acb4e77b37",
+        "url": "https://open.spotify.com/artist/711MCceyCBcFnzjGY4Q7Un"
+      }
+    ],
+    "topTracks": [
+      {
+        "name": "Snow (Hey Oh)",
+        "artist": "Red Hot Chili Peppers",
+        "albumArt": "",
+        "url": ""
+      },
+      {
+        "name": "Electric Feel",
+        "artist": "MGMT",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b2738b32b139981e79f2ebe005eb",
+        "url": "https://open.spotify.com/track/3FtYbEfBqAlGO46NUDQSAt"
+      },
+      {
+        "name": "Walking On A Dream",
+        "artist": "Empire Of The Sun",
+        "albumArt": "",
+        "url": ""
+      },
+      {
+        "name": "Under the Bridge",
+        "artist": "Red Hot Chili Peppers",
+        "albumArt": "",
+        "url": ""
+      },
+      {
+        "name": "Gooey - Gilligan Moss Remix",
+        "artist": "Glass Animals",
+        "albumArt": "",
+        "url": ""
+      },
+      {
+        "name": "Scar Tissue",
+        "artist": "Red Hot Chili Peppers",
+        "albumArt": "",
+        "url": ""
+      },
+      {
+        "name": "Close These Curtains - Stimming Remix",
+        "artist": "Yoko Duo",
+        "albumArt": "",
+        "url": ""
+      },
+      {
+        "name": "The Spins",
+        "artist": "Mac Miller",
+        "albumArt": "",
+        "url": ""
+      },
+      {
+        "name": "Always Like This - andhim Remix",
+        "artist": "HVOB",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273bfdbe667065c009d5d2f5693",
+        "url": "https://open.spotify.com/track/2Gzl0HAOGySuLysalinVP4"
+      },
+      {
+        "name": "Sundress",
+        "artist": "A$AP Rocky",
+        "albumArt": "",
+        "url": ""
+      },
+      {
+        "name": "Birthday Card",
+        "artist": "Chet Faker",
+        "albumArt": "",
+        "url": ""
+      },
+      {
+        "name": "Africa",
+        "artist": "TOTO",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273ebd6d20c0082524244ef83df",
+        "url": "https://open.spotify.com/track/2374M0fQpWi3dLnB54qaLX"
+      },
+      {
+        "name": "Lost",
+        "artist": "Frank Ocean",
+        "albumArt": "",
+        "url": ""
+      },
+      {
+        "name": "Dreams - 2004 Remaster",
+        "artist": "Fleetwood Mac",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273e52a59a28efa4773dd2bfe1b",
+        "url": "https://open.spotify.com/track/0ofHAoxe9vBkTCp2UQIavz"
+      },
+      {
+        "name": "Youth",
+        "artist": "Glass Animals",
+        "albumArt": "",
+        "url": ""
+      },
+      {
+        "name": "Wine & Chocolates - andhim Remix Radio Version",
+        "artist": "Theophilus London",
+        "albumArt": "",
+        "url": ""
+      },
+      {
+        "name": "Seasick Dream",
+        "artist": "Jack Johnson",
+        "albumArt": "",
+        "url": ""
+      },
+      {
+        "name": "Could You Be Loved",
+        "artist": "Bob Marley & The Wailers",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b2731c40418d1c37d727e8e91b04",
+        "url": "https://open.spotify.com/track/5O4erNlJ74PIF6kGol1ZrC"
+      },
+      {
+        "name": "Fisher",
+        "artist": "Camel Power Club",
+        "albumArt": "https://i.scdn.co/image/ab67616d0000b273ef37cdb360df67bba78f3510",
+        "url": "https://open.spotify.com/track/3cY2nHVVX2ZER1ttxGzLav"
+      },
+      {
+        "name": "Hold On",
+        "artist": "SBTRKT",
+        "albumArt": "",
+        "url": ""
+      }
+    ],
+    "topAlbums": [
+      {
+        "name": "Stadium Arcadium",
+        "artist": "Red Hot Chili Peppers",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27309fd83d32aee93dceba78517",
+        "url": "https://open.spotify.com/album/7xl50xr9NDkd3i2kBbzsNZ"
+      },
+      {
+        "name": "Sadnecessary",
+        "artist": "Milky Chance",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2732001bc1b4dd82d06631fcb9e",
+        "url": "https://open.spotify.com/album/1iCwsK0jUzBPQx7XEpumbz"
+      },
+      {
+        "name": "Californication",
+        "artist": "Red Hot Chili Peppers",
+        "cover": "",
+        "url": ""
+      },
+      {
+        "name": "Paranoid",
+        "artist": "Black Sabbath",
+        "cover": "",
+        "url": ""
+      },
+      {
+        "name": "By the Way",
+        "artist": "Red Hot Chili Peppers",
+        "cover": "",
+        "url": ""
+      }
+    ]
+  }
 }
