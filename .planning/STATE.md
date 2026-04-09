@@ -1,14 +1,13 @@
 # Project State
 
 **Project:** Caide Spriestersbach Portfolio Website
-**Last activity:** 2026-04-08 - Completed quick tasks 260408-rcb/rcf: Fix H3/H5 — mobile nav solid background, lightbox focus trap
+**Last activity:** 2026-04-09 - Completed quick task 260409-hnr: Remove overly analytical wrapped sections, simplify TemporalSection
 
 ## Current Phase
 Phase 1: Critical Issues
 
 ## Blockers/Concerns
-- Spotify rate limit (resets ~20:30 SAST)
-- Two commits blocked from pushing (need PORTFOLIO_PAT for workflow scope)
+- None
 
 ### Quick Tasks Completed
 
@@ -20,3 +19,4 @@ Phase 1: Critical Issues
 | 260408-r64 | Fix H1/H2/M12: theme-aware ChatWidget CSS classes, py-16 md:py-24 on mobile sections, footer-spacer 50vh→15vh | 2026-04-08 | b45041b | [260408-r64-fix-h1-h2-chatwidget-light-mode-and-blan](./quick/260408-r64-fix-h1-h2-chatwidget-light-mode-and-blan/) |
 | 260408-rcb | Fix H3: solid opaque background on mobile nav menu panel (CSS + JS alpha=1) | 2026-04-08 | 8864376 | [260408-rcb-fix-h3-mobile-nav-menu-panel-needs-solid](./quick/260408-rcb-fix-h3-mobile-nav-menu-panel-needs-solid/) |
 | 260408-rcf | Fix H5: lightbox focus trap — Tab cycles within modal, focus restored to trigger on close | 2026-04-08 | 948073c | [260408-rcf-fix-h5-lightbox-modal-focus-trap-and-foc](./quick/260408-rcf-fix-h5-lightbox-modal-focus-trap-and-foc/) |
+| 260409-hnr | Remove overly analytical wrapped sections; simplify TemporalSection to monthly chart only | 2026-04-09 | e0c52ff | [260409-hnr-remove-overly-analytical-wrapped-section](./quick/260409-hnr-remove-overly-analytical-wrapped-section/) |
