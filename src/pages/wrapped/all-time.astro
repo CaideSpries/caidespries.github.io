@@ -5,8 +5,6 @@ import YearByYearSection from "../../components/wrapped/YearByYearSection.astro"
 import TopArtistsSection from "../../components/wrapped/TopArtistsSection.astro";
 import TopTracksSection from "../../components/wrapped/TopTracksSection.astro";
 import TopAlbumsSection from "../../components/wrapped/TopAlbumsSection.astro";
-import AllTimeLoyaltySection from "../../components/wrapped/AllTimeLoyaltySection.astro";
-import TasteTurnoverSection from "../../components/wrapped/TasteTurnoverSection.astro";
 import AllTimeClosing from "../../components/wrapped/AllTimeClosing.astro";
 
 import data from "../../data/wrapped/all-time.json";
@@ -78,10 +76,6 @@ const allTimeAlbums = (data.allTimeTopAlbums || []).map((a: any) => ({
   {allTimeAlbums.length > 0 && (
     <TopAlbumsSection albums={allTimeAlbums} />
   )}
-
-  <AllTimeLoyaltySection artistLoyalty={data.artistLoyalty} years={data.years} />
-
-  <TasteTurnoverSection tasteTurnover={data.tasteTurnover} years={data.years} />
 
   <AllTimeClosing lastUpdated={data.lastUpdated} overview={data.overview} />
 </BaseLayout>
