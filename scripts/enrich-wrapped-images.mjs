@@ -329,11 +329,120 @@ async function enrichYear(filePath, accessToken) {
 }
 
 // ---------------------------------------------------------------------------
+// All-time enrichment
+// ---------------------------------------------------------------------------
+
+async function enrichAllTime(filePath, accessToken) {
+  const raw = JSON.parse(readFileSync(filePath, "utf-8"));
+
+  const topArtists = raw.allTimeTopArtists ?? [];
+  const topTracks = raw.allTimeTopTracks ?? [];
+  const topAlbums = raw.allTimeTopAlbums ?? [];
+
+  if (topArtists.length === 0 && topTracks.length === 0) {
+    console.log("  No artists or tracks — nothing to enrich");
+    return;
+  }
+
+  // Skip if already fully enriched
+  const snap = raw.apiSnapshot;
+  if (snap?.topArtists?.length > 0 && snap?.topTracks?.length > 0 && snap?.topAlbums?.length > 0) {
+    const artistsComplete = snap.topArtists.every((a) => a.image);
+    const tracksWithArt = snap.topTracks.filter((t) => t.albumArt).length;
+    const tracksComplete = tracksWithArt / snap.topTracks.length >= 0.8;
+    const albumsComplete = snap.topAlbums.every((a) => a.cover);
+    if (artistsComplete && tracksComplete && albumsComplete) {
+      console.log(
+        `  Already fully enriched (${snap.topArtists.length} artists, ${tracksWithArt}/${snap.topTracks.length} tracks, ${snap.topAlbums.length} albums) — skipping`
+      );
+      return;
+    }
+    console.log("  Partially enriched — re-enriching");
+  }
+
+  // --- Enrich artists ---
+  console.log(`  Looking up ${topArtists.length} artists...`);
+  const enrichedArtists = [];
+  for (const artist of topArtists) {
+    process.stdout.write(`    ${artist.name}...`);
+    try {
+      const { image, url } = await lookupArtistImage(artist.name, accessToken);
+      enrichedArtists.push({ name: artist.name, image, url });
+      console.log(image ? " got image" : " no image");
+    } catch (err) {
+      console.log(` error: ${err.message}`);
+      enrichedArtists.push({ name: artist.name, image: "", url: "" });
+    }
+    await new Promise((r) => setTimeout(r, 500));
+  }
+
+  // --- Enrich tracks ---
+  console.log(`  Looking up ${topTracks.length} tracks via search...`);
+  const enrichedTracks = [];
+  let trackFound = 0;
+  for (const t of topTracks) {
+    process.stdout.write(`    ${t.name}...`);
+    try {
+      const { albumArt, url } = await lookupTrackImage(t.name, t.artist, accessToken);
+      enrichedTracks.push({ name: t.name, artist: t.artist, albumArt, url: url || t.url || "" });
+      if (albumArt) trackFound++;
+      console.log(albumArt ? " got image" : " no image");
+    } catch (err) {
+      console.log(` error: ${err.message}`);
+      enrichedTracks.push({ name: t.name, artist: t.artist, albumArt: "", url: t.url || "" });
+    }
+    await new Promise((r) => setTimeout(r, 500));
+  }
+  console.log(`  Got album art for ${trackFound}/${topTracks.length} tracks`);
+
+  // --- Enrich albums ---
+  console.log(`  Looking up ${Math.min(topAlbums.length, 5)} album covers...`);
+  const enrichedAlbums = [];
+  for (const album of topAlbums.slice(0, 5)) {
+    process.stdout.write(`    ${album.name}...`);
+    try {
+      const q = encodeURIComponent(`album:${album.name} artist:${album.artist}`);
+      const data = await spotifyGet(
+        `https://api.spotify.com/v1/search?q=${q}&type=album&limit=5`,
+        accessToken
+      );
+      const items = data.albums?.items ?? [];
+      const nameLower = album.name.toLowerCase();
+      const artistLower = album.artist.toLowerCase();
+      const exact = items.find(
+        (a) => a.name.toLowerCase() === nameLower &&
+          a.artists.some((ar) => ar.name.toLowerCase() === artistLower)
+      );
+      const pick = exact || items[0];
+      const cover = pick ? pickImage(pick.images ?? []) : "";
+      enrichedAlbums.push({ name: album.name, artist: album.artist, cover, url: pick?.external_urls?.spotify || album.url || "" });
+      console.log(cover ? " got cover" : " no cover");
+    } catch (err) {
+      console.log(` error: ${err.message}`);
+      enrichedAlbums.push({ name: album.name, artist: album.artist, cover: "", url: album.url || "" });
+    }
+    await new Promise((r) => setTimeout(r, 500));
+  }
+
+  const updated = {
+    ...raw,
+    apiSnapshot: {
+      topArtists: enrichedArtists,
+      topTracks: enrichedTracks,
+      topAlbums: enrichedAlbums,
+    },
+  };
+
+  writeFileSync(filePath, JSON.stringify(updated, null, 2) + "\n");
+  console.log("  Written updated file.");
+}
+
+// ---------------------------------------------------------------------------
 // Main
 // ---------------------------------------------------------------------------
 
 async function main() {
-  const targetYear = process.argv[2]; // optional: "2024"
+  const targetYear = process.argv[2]; // optional: "2024" or "all-time"
 
   // Use user token for artist search (works fine with user-top-read scope).
   // Client credentials token also works for search but is only needed if
@@ -342,13 +451,24 @@ async function main() {
   const accessToken = await getUserToken();
   console.log("Token obtained.\n");
 
+  // Enrich all-time unless a specific year was requested
+  if (!targetYear || targetYear === "all-time") {
+    console.log("Processing all-time...");
+    try {
+      await enrichAllTime(resolve(DATA_DIR, "all-time.json"), accessToken);
+    } catch (err) {
+      console.error(`  Error processing all-time: ${err.message}`);
+    }
+    console.log();
+  }
+
   const files = readdirSync(DATA_DIR)
     .filter((f) => /^\d{4}\.json$/.test(f))
     .sort();
 
   for (const file of files) {
     const year = file.replace(".json", "");
-    if (targetYear && year !== targetYear) continue;
+    if (targetYear && targetYear !== "all-time" && year !== targetYear) continue;
 
     console.log(`Processing ${year}...`);
     try {

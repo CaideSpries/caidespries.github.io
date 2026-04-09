@@ -9,11 +9,23 @@ import AllTimeClosing from "../../components/wrapped/AllTimeClosing.astro";
 
 import data from "../../data/wrapped/all-time.json";
 
+// Build lookup maps from apiSnapshot for image merging
+const snapArtists: Record<string, any> = {};
+const snapTracks: Record<string, any> = {};
+const snapAlbums: Record<string, any> = {};
+if (data.apiSnapshot) {
+  for (const a of data.apiSnapshot.topArtists ?? []) snapArtists[a.name] = a;
+  for (const t of data.apiSnapshot.topTracks ?? []) snapTracks[`${t.name}|||${t.artist}`] = t;
+  for (const a of data.apiSnapshot.topAlbums ?? []) snapAlbums[`${a.name}|||${a.artist}`] = a;
+}
+
 const allTimeArtists = (data.allTimeTopArtists || []).map((a: any) => ({
   rank: a.rank,
   name: a.name,
   minutes: a.totalMinutes,
   streams: undefined,
+  image: snapArtists[a.name]?.image,
+  url: snapArtists[a.name]?.url,
 }));
 
 const allTimeTracks = (data.allTimeTopTracks || []).map((t: any) => ({
@@ -23,6 +35,8 @@ const allTimeTracks = (data.allTimeTopTracks || []).map((t: any) => ({
   album: t.album,
   minutes: t.totalMinutes,
   streams: t.totalStreams,
+  albumArt: snapTracks[`${t.name}|||${t.artist}`]?.albumArt,
+  url: snapTracks[`${t.name}|||${t.artist}`]?.url,
 }));
 
 const allTimeAlbums = (data.allTimeTopAlbums || []).map((a: any) => ({
@@ -31,6 +45,8 @@ const allTimeAlbums = (data.allTimeTopAlbums || []).map((a: any) => ({
   artist: a.artist,
   minutes: a.totalMinutes,
   streams: a.totalStreams,
+  cover: snapAlbums[`${a.name}|||${a.artist}`]?.cover,
+  url: snapAlbums[`${a.name}|||${a.artist}`]?.url,
 }));
 ---
 
