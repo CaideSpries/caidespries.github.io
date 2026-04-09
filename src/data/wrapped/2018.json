@@ -1499,8 +1499,8 @@
       },
       {
         "name": "Sam Lachow",
-        "image": "https://i.scdn.co/image/ab6761610000e5ebb44e0d4e7879678f8e7bde3f",
-        "url": "https://open.spotify.com/artist/42UrF25gDVhovYn4Dd422d"
+        "image": "",
+        "url": ""
       },
       {
         "name": "Jack Johnson",
@@ -1888,6 +1888,38 @@
         "artist": "TOTO",
         "albumArt": "https://i.scdn.co/image/ab67616d0000b273ebd6d20c0082524244ef83df",
         "url": "https://open.spotify.com/track/2374M0fQpWi3dLnB54qaLX"
+      }
+    ],
+    "topAlbums": [
+      {
+        "name": "GO:OD AM",
+        "artist": "Mac Miller",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273ee0f38410382a255e4fb15f4",
+        "url": "https://open.spotify.com/album/2Tyx5dLhHYkx6zeAdVaTzN"
+      },
+      {
+        "name": "Huckleberry",
+        "artist": "Sam Lachow",
+        "cover": "",
+        "url": "https://open.spotify.com/search/Huckleberry%20Sam%20Lachow"
+      },
+      {
+        "name": "Relatively Definitely",
+        "artist": "Oliver Schories",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273a886948c7a21b6c1fa76d15f",
+        "url": "https://open.spotify.com/album/6a4e07HVQBzMUQTLYveufl"
+      },
+      {
+        "name": "Sadnecessary",
+        "artist": "Milky Chance",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2732001bc1b4dd82d06631fcb9e",
+        "url": "https://open.spotify.com/album/1iCwsK0jUzBPQx7XEpumbz"
+      },
+      {
+        "name": "Honey Bones",
+        "artist": "DOPE LEMON",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2736e5f26c11f97c7211fe5f4fb",
+        "url": "https://open.spotify.com/album/6Eskc9vh8wniq95JXGFZ1V"
       }
     ]
   }

@@ -2082,6 +2082,38 @@
         "albumArt": "https://i.scdn.co/image/ab67616d0000b27326f7f19c7f0381e56156c94a",
         "url": "https://open.spotify.com/track/0j2T0R9dR9qdJYsB7ciXhf"
       }
+    ],
+    "topAlbums": [
+      {
+        "name": "Graduation",
+        "artist": "Kanye West",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27326f7f19c7f0381e56156c94a",
+        "url": "https://open.spotify.com/album/4SZko61aMnmgvNhfhgTuD3"
+      },
+      {
+        "name": "Stadium Arcadium",
+        "artist": "Red Hot Chili Peppers",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27309fd83d32aee93dceba78517",
+        "url": "https://open.spotify.com/album/7xl50xr9NDkd3i2kBbzsNZ"
+      },
+      {
+        "name": "Sadnecessary",
+        "artist": "Milky Chance",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2732001bc1b4dd82d06631fcb9e",
+        "url": "https://open.spotify.com/album/1iCwsK0jUzBPQx7XEpumbz"
+      },
+      {
+        "name": "Acid Rap",
+        "artist": "Chance the Rapper",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27391d84c6bc1cda0d58859aaab",
+        "url": "https://open.spotify.com/album/7Ffm3ZluTZRYEdlE5Jjlid"
+      },
+      {
+        "name": "Paranoid",
+        "artist": "Black Sabbath",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273605b25c031f809d78054a13c",
+        "url": "https://open.spotify.com/album/4kA2o0L3tz9vFKJetiFUJI"
+      }
     ]
   }
 }

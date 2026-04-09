@@ -1761,8 +1761,8 @@
       },
       {
         "name": "MGMT",
-        "image": "https://i.scdn.co/image/ab6761610000e5eb9dccdc8f4087cbe2bdedc9d3",
-        "url": "https://open.spotify.com/artist/0SwO7SWeDHJijQ3XNS7xEE"
+        "image": "",
+        "url": ""
       }
     ],
     "topTracks": [
@@ -2065,6 +2065,38 @@
         "artist": "Super Flu",
         "albumArt": "https://i.scdn.co/image/ab67616d0000b273fc055de5cc0b5d5f2ee98caa",
         "url": "https://open.spotify.com/track/6VItPBZ0fchgQTxgJI50m8"
+      }
+    ],
+    "topAlbums": [
+      {
+        "name": "Remixes",
+        "artist": "Yoko Duo",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273c55f08045aa2b4df4684b59d",
+        "url": "https://open.spotify.com/album/6Hiux9G6VQMVVXjaetMwQv"
+      },
+      {
+        "name": "Californication",
+        "artist": "Red Hot Chili Peppers",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273a9249ebb15ca7a5b75f16a90",
+        "url": "https://open.spotify.com/album/0fLhefnjlIV3pGNF9Wo8CD"
+      },
+      {
+        "name": "1977",
+        "artist": "Kölsch",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273510fe49b1a60e733c4a37a52",
+        "url": "https://open.spotify.com/album/1kIMVFVdytbIFuBs6iMV12"
+      },
+      {
+        "name": "Stadium Arcadium",
+        "artist": "Red Hot Chili Peppers",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27309fd83d32aee93dceba78517",
+        "url": "https://open.spotify.com/album/7xl50xr9NDkd3i2kBbzsNZ"
+      },
+      {
+        "name": "Sadnecessary",
+        "artist": "Milky Chance",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2732001bc1b4dd82d06631fcb9e",
+        "url": "https://open.spotify.com/album/1iCwsK0jUzBPQx7XEpumbz"
       }
     ]
   }

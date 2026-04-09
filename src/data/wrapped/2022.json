@@ -1690,8 +1690,8 @@
     "topArtists": [
       {
         "name": "Red Hot Chili Peppers",
-        "image": "https://i.scdn.co/image/ab6761610000e5ebc33cc15260b767ddec982ce8",
-        "url": "https://open.spotify.com/artist/0L8ExT028jH3ddEcZwqJJ5"
+        "image": "",
+        "url": ""
       },
       {
         "name": "Mac Miller",
@@ -2089,6 +2089,38 @@
         "artist": "Gizmo Varillas",
         "albumArt": "https://i.scdn.co/image/ab67616d0000b273b363433d9507c5740d35fcb4",
         "url": "https://open.spotify.com/track/0CQ6cbXPUsB9NcJZ2Abuc4"
+      }
+    ],
+    "topAlbums": [
+      {
+        "name": "Stadium Arcadium",
+        "artist": "Red Hot Chili Peppers",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27309fd83d32aee93dceba78517",
+        "url": "https://open.spotify.com/album/7xl50xr9NDkd3i2kBbzsNZ"
+      },
+      {
+        "name": "By the Way",
+        "artist": "Red Hot Chili Peppers",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273fdbcee40748537ff80a7af70",
+        "url": "https://open.spotify.com/album/1jWKVgnHX8nwR551hQNx5K"
+      },
+      {
+        "name": "Sabbath Bloody Sabbath",
+        "artist": "Black Sabbath",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273e3eaed3e5895ca02d5b6a868",
+        "url": "https://open.spotify.com/album/6tjx1ACkf4cYyFuhkyqz2A"
+      },
+      {
+        "name": "Cold Fact",
+        "artist": "Rodríguez",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273e7e1b574a9e6b9f26c7c3f49",
+        "url": "https://open.spotify.com/album/3q90UAYeHLvAtnowiQlmgp"
+      },
+      {
+        "name": "Sadnecessary",
+        "artist": "Milky Chance",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2732001bc1b4dd82d06631fcb9e",
+        "url": "https://open.spotify.com/album/1iCwsK0jUzBPQx7XEpumbz"
       }
     ]
   }

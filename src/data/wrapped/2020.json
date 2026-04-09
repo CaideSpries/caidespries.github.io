@@ -2074,6 +2074,38 @@
         "albumArt": "https://i.scdn.co/image/ab67616d0000b27308c6b559cd42589cc416ff99",
         "url": "https://open.spotify.com/track/7jRQhHVvq9tnrp3HH9Sw23"
       }
+    ],
+    "topAlbums": [
+      {
+        "name": "Sadnecessary",
+        "artist": "Milky Chance",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2732001bc1b4dd82d06631fcb9e",
+        "url": "https://open.spotify.com/album/1iCwsK0jUzBPQx7XEpumbz"
+      },
+      {
+        "name": "Californication",
+        "artist": "Red Hot Chili Peppers",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273a9249ebb15ca7a5b75f16a90",
+        "url": "https://open.spotify.com/album/0fLhefnjlIV3pGNF9Wo8CD"
+      },
+      {
+        "name": "Acid Rap",
+        "artist": "Chance the Rapper",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27391d84c6bc1cda0d58859aaab",
+        "url": "https://open.spotify.com/album/7Ffm3ZluTZRYEdlE5Jjlid"
+      },
+      {
+        "name": "Paranoid",
+        "artist": "Black Sabbath",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273605b25c031f809d78054a13c",
+        "url": "https://open.spotify.com/album/4kA2o0L3tz9vFKJetiFUJI"
+      },
+      {
+        "name": "K.I.D.S.",
+        "artist": "Mac Miller",
+        "cover": "https://i.scdn.co/image/ab67616d0000b27333eae62a4bffb813fe17128f",
+        "url": "https://open.spotify.com/album/4GtuTUDyatvSHAoAr8bwsF"
+      }
     ]
   }
 }

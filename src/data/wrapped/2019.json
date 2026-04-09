@@ -1811,7 +1811,7 @@
       {
         "name": "Mathematics",
         "artist": "Mos Def",
-        "albumArt": "https://i.scdn.co/image/ab67616d0000b27389b56f56323925d57b38944d",
+        "albumArt": "",
         "url": "https://open.spotify.com/track/3gRlmtdCyNoKiyozn2pqc9"
       },
       {
@@ -2065,6 +2065,38 @@
         "artist": "TOTO",
         "albumArt": "https://i.scdn.co/image/ab67616d0000b273ebd6d20c0082524244ef83df",
         "url": "https://open.spotify.com/track/2374M0fQpWi3dLnB54qaLX"
+      }
+    ],
+    "topAlbums": [
+      {
+        "name": "Sadnecessary",
+        "artist": "Milky Chance",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2732001bc1b4dd82d06631fcb9e",
+        "url": "https://open.spotify.com/album/1iCwsK0jUzBPQx7XEpumbz"
+      },
+      {
+        "name": "Honey Bones",
+        "artist": "DOPE LEMON",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2736e5f26c11f97c7211fe5f4fb",
+        "url": "https://open.spotify.com/album/6Eskc9vh8wniq95JXGFZ1V"
+      },
+      {
+        "name": "Quiet Ferocity",
+        "artist": "The Jungle Giants",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273c3cae3816afacc9ab24a7d0c",
+        "url": "https://open.spotify.com/album/1QdirDFm50RxClgQ7YTXfR"
+      },
+      {
+        "name": "In Between Dreams",
+        "artist": "Jack Johnson",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273628dba01c669d89586967dc5",
+        "url": "https://open.spotify.com/album/2B9q4KPjOEYu885Keo9dfX"
+      },
+      {
+        "name": "Californication",
+        "artist": "Red Hot Chili Peppers",
+        "cover": "",
+        "url": "https://open.spotify.com/search/Californication%20Red%20Hot%20Chili%20Peppers"
       }
     ]
   }
