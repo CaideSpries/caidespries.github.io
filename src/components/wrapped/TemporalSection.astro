@@ -1,6 +1,4 @@
 ---
-import HeatmapChart from "./HeatmapChart.tsx";
-
 interface TemporalEntry {
   label?: string;
   minutes: number;
@@ -10,9 +8,6 @@ interface TemporalEntry {
 interface Props {
   temporal: {
     monthly: TemporalEntry[];
-    weekly: TemporalEntry[];
-    hourly: (TemporalEntry & { hour: number })[];
-    heatmap: number[][];
   };
 }
 
@@ -20,22 +15,20 @@ const { temporal } = Astro.props;
 if (!temporal) return;
 
 const maxMonthly = Math.max(...temporal.monthly.map((m) => m.minutes));
-const maxWeekly = Math.max(...temporal.weekly.map((d) => d.minutes));
-const maxHourly = Math.max(...temporal.hourly.map((h) => h.minutes));
 ---
 
 <section class="py-24 px-4 relative grain">
   <div class="absolute inset-0" style="background: radial-gradient(ellipse at 70% 30%, rgba(232, 93, 58, 0.05) 0%, transparent 60%);"></div>
   <div class="max-w-5xl mx-auto relative z-10">
     <div class="text-center mb-16" data-animate>
-      <p class="text-sm font-mono uppercase tracking-[0.3em] mb-3" style="color: var(--text-muted);">When You</p>
+      <p class="text-sm font-mono uppercase tracking-[0.3em] mb-3" style="color: var(--text-muted);">Listening</p>
       <h2 class="text-5xl md:text-6xl font-black tracking-tight" style="font-family: var(--font-display);">
-        <span class="neon-text">Listened</span>
+        <span class="neon-text">Pattern</span>
       </h2>
     </div>
 
     <!-- Monthly breakdown -->
-    <div class="retro-card p-6 md:p-8 mb-6" data-animate>
+    <div class="retro-card p-6 md:p-8" data-animate>
       <p class="text-xs font-mono uppercase tracking-[0.2em] mb-6 text-center" style="color: var(--text-muted);">
         Minutes by month
       </p>
@@ -61,59 +54,5 @@ const maxHourly = Math.max(...temporal.hourly.map((h) => h.minutes));
       </div>
     </div>
 
-    <div class="grid md:grid-cols-2 gap-6 mb-6">
-      <!-- Day of week -->
-      <div class="retro-card p-6" data-animate>
-        <p class="text-xs font-mono uppercase tracking-[0.2em] mb-6 text-center" style="color: var(--text-muted);">
-          Minutes by day
-        </p>
-        <div class="space-y-2">
-          {temporal.weekly.map((d) => {
-            const widthPct = maxWeekly > 0 ? (d.minutes / maxWeekly) * 100 : 0;
-            return (
-              <div class="flex items-center gap-3">
-                <span class="text-xs font-mono w-8 text-right" style="color: var(--text-secondary);">{d.label}</span>
-                <div class="flex-1 h-6 rounded-lg overflow-hidden" style="background: rgba(232, 213, 192, 0.05);">
-                  <div class="h-full rounded-lg" style={`width: ${widthPct}%; background: rgba(232, 93, 58, ${0.2 + (widthPct / 100) * 0.4});`}></div>
-                </div>
-                <span class="text-[10px] font-mono w-12 text-right" style="color: var(--text-faint);">{d.minutes.toLocaleString()}</span>
-              </div>
-            );
-          })}
-        </div>
-      </div>
-
-      <!-- Hourly -->
-      <div class="retro-card p-6" data-animate>
-        <p class="text-xs font-mono uppercase tracking-[0.2em] mb-6 text-center" style="color: var(--text-muted);">
-          Minutes by hour
-        </p>
-        <div class="flex items-end gap-[2px] h-32">
-          {temporal.hourly.map((h) => {
-            const heightPct = maxHourly > 0 ? (h.minutes / maxHourly) * 100 : 0;
-            return (
-              <div class="flex-1 rounded-t transition-all group relative"
-                style={`height: ${Math.max(heightPct * 1.2, 2)}px; background: rgba(232, 93, 58, ${0.1 + (heightPct / 100) * 0.5});`}>
-              </div>
-            );
-          })}
-        </div>
-        <div class="flex justify-between mt-1">
-          <span class="text-[10px] font-mono" style="color: var(--text-faint);">12am</span>
-          <span class="text-[10px] font-mono" style="color: var(--text-faint);">6am</span>
-          <span class="text-[10px] font-mono" style="color: var(--text-faint);">12pm</span>
-          <span class="text-[10px] font-mono" style="color: var(--text-faint);">6pm</span>
-          <span class="text-[10px] font-mono" style="color: var(--text-faint);">12am</span>
-        </div>
-      </div>
-    </div>
-
-    <!-- Heatmap -->
-    <div class="retro-card p-6 md:p-8" data-animate>
-      <p class="text-xs font-mono uppercase tracking-[0.2em] mb-6 text-center" style="color: var(--text-muted);">
-        Listening heatmap
-      </p>
-      <HeatmapChart client:load heatmap={temporal.heatmap} />
-    </div>
   </div>
 </section>
