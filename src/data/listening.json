@@ -6,16 +6,16 @@
     "url": "https://open.spotify.com/album/2QqocFdpBkxOBLcIRo6UuJ"
   },
   {
-    "title": "The Singer and the Song",
-    "artist": "Labi Siffre",
-    "cover": "https://i.scdn.co/image/ab67616d0000b27397be3134250560894d37de57",
-    "url": "https://open.spotify.com/album/5vVrfTlAZqwpdCs52MjdZH"
-  },
-  {
     "title": "USB",
     "artist": "Fred again..",
     "cover": "https://i.scdn.co/image/ab67616d0000b2734018b70099d433d9c8aabb12",
     "url": "https://open.spotify.com/album/2ClZ9xWAYg1BH8zkR96dJo"
+  },
+  {
+    "title": "Night Moves",
+    "artist": "Bob Seger",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273676a8230a422123e8012557e",
+    "url": "https://open.spotify.com/album/5QkOpsZupEPLq186YOrBNe"
   },
   {
     "title": "I Barely Know Her",
@@ -36,6 +36,12 @@
     "url": "https://open.spotify.com/album/1bS1J4OVGrpu6e2U2pHge6"
   },
   {
+    "title": "The Singer and the Song",
+    "artist": "Labi Siffre",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27397be3134250560894d37de57",
+    "url": "https://open.spotify.com/album/5vVrfTlAZqwpdCs52MjdZH"
+  },
+  {
     "title": "Abbey Road (Remastered)",
     "artist": "The Beatles",
     "cover": "https://i.scdn.co/image/ab67616d0000b273dc30583ba717007b00cceb25",
@@ -48,27 +54,21 @@
     "url": "https://open.spotify.com/album/0i73CBJl788pVN1OendqgI"
   },
   {
-    "title": "Night Moves",
-    "artist": "Bob Seger",
-    "cover": "https://i.scdn.co/image/ab67616d0000b273676a8230a422123e8012557e",
-    "url": "https://open.spotify.com/album/5QkOpsZupEPLq186YOrBNe"
-  },
-  {
     "title": "Tattoo You (2009 Re-Mastered)",
     "artist": "The Rolling Stones",
     "cover": "https://i.scdn.co/image/ab67616d0000b27308fc42e575043a753f60d675",
     "url": "https://open.spotify.com/album/15XNBzVWARPMlu0sEbfBjJ"
   },
   {
-    "title": "Jar Of Flies",
-    "artist": "Alice In Chains",
-    "cover": "https://i.scdn.co/image/ab67616d0000b27325b42be683b8d3c6500db726",
-    "url": "https://open.spotify.com/album/4FCoFSNIFhK36holxHWCnc"
+    "title": "Californication (2014 Remaster)",
+    "artist": "Red Hot Chili Peppers",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2738c454553437148983891dd6d",
+    "url": "https://open.spotify.com/album/6gK1K8nSgypIvAihhoXccQ"
   },
   {
-    "title": "Gan Se Jou Mense",
-    "artist": "Loufi",
-    "cover": "https://i.scdn.co/image/ab67616d0000b273e1548c7163575611e44d34d3",
-    "url": "https://open.spotify.com/album/3RyjFxsU9hcmg14vqzUUMy"
+    "title": "Cold Fact",
+    "artist": "Rodríguez",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273e7e1b574a9e6b9f26c7c3f49",
+    "url": "https://open.spotify.com/album/3q90UAYeHLvAtnowiQlmgp"
   }
 ]
