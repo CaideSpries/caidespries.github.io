@@ -18,16 +18,16 @@
     "url": "https://open.spotify.com/album/5QkOpsZupEPLq186YOrBNe"
   },
   {
-    "title": "I Barely Know Her",
-    "artist": "sombr",
-    "cover": "https://i.scdn.co/image/ab67616d0000b2734229702de91cb3d3a4383302",
-    "url": "https://open.spotify.com/album/7mvXPtV4jvA1hp5Wx2FAJA"
-  },
-  {
     "title": "Sete",
     "artist": "BLOND:ISH, Francis Mercier, Amadou & Mariam",
     "cover": "https://i.scdn.co/image/ab67616d0000b27301ef7860a70dc28f476d2680",
     "url": "https://open.spotify.com/album/4dSQCPJVskYNaCwTUJZCT7"
+  },
+  {
+    "title": "I Barely Know Her",
+    "artist": "sombr",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2734229702de91cb3d3a4383302",
+    "url": "https://open.spotify.com/album/7mvXPtV4jvA1hp5Wx2FAJA"
   },
   {
     "title": "Goodbye Country (Hello Nightclub)",
@@ -48,27 +48,27 @@
     "url": "https://open.spotify.com/album/0i73CBJl788pVN1OendqgI"
   },
   {
-    "title": "Cold Fact",
-    "artist": "Rodríguez",
-    "cover": "https://i.scdn.co/image/ab67616d0000b273e7e1b574a9e6b9f26c7c3f49",
-    "url": "https://open.spotify.com/album/3q90UAYeHLvAtnowiQlmgp"
-  },
-  {
     "title": "Jar Of Flies",
     "artist": "Alice In Chains",
     "cover": "https://i.scdn.co/image/ab67616d0000b27325b42be683b8d3c6500db726",
     "url": "https://open.spotify.com/album/4FCoFSNIFhK36holxHWCnc"
   },
   {
-    "title": "Rooty",
-    "artist": "Basement Jaxx",
-    "cover": "https://i.scdn.co/image/ab67616d0000b273bafb7763507cb58d37c774c0",
-    "url": "https://open.spotify.com/album/6CYhVDuSbAWmy9ku7E2wrP"
+    "title": "Cold Fact",
+    "artist": "Rodríguez",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273e7e1b574a9e6b9f26c7c3f49",
+    "url": "https://open.spotify.com/album/3q90UAYeHLvAtnowiQlmgp"
   },
   {
     "title": "Gan Se Jou Mense",
     "artist": "Loufi",
     "cover": "https://i.scdn.co/image/ab67616d0000b273e1548c7163575611e44d34d3",
     "url": "https://open.spotify.com/album/3RyjFxsU9hcmg14vqzUUMy"
+  },
+  {
+    "title": "Oracular Spectacular",
+    "artist": "MGMT",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2737addf1f64798c10d3bd6b27c",
+    "url": "https://open.spotify.com/album/18FRVXUyoW1QQfwzi9PRC4"
   }
 ]
