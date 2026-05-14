@@ -1,83 +1,7 @@
-import { useState, useRef, useEffect } from "react";
-
-const API_URL = "https://portfolio-chat.caidespries1.workers.dev";
-
-interface ChatMessage {
-  role: "user" | "assistant";
-  content: string;
-}
+import { useState } from "react";
 
 export default function ChatWidget() {
   const [isOpen, setIsOpen] = useState(false);
-  const [messages, setMessages] = useState<ChatMessage[]>([
-    {
-      role: "assistant",
-      content:
-        "Hey! I'm Caide's portfolio assistant. Ask me anything about his experience, projects, skills, or education.",
-    },
-  ]);
-  const [input, setInput] = useState("");
-  const [isLoading, setIsLoading] = useState(false);
-  const messagesEndRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
-  }, [messages]);
-
-  async function handleSend() {
-    if (!input.trim() || isLoading) return;
-    const userMsg = input.trim();
-    setInput("");
-
-    const updatedMessages: ChatMessage[] = [
-      ...messages,
-      { role: "user", content: userMsg },
-    ];
-    setMessages(updatedMessages);
-    setIsLoading(true);
-
-    try {
-      // Convert to Gemini format (assistant -> model)
-      const apiMessages = updatedMessages
-        .filter((m) => m.role !== "assistant" || updatedMessages.indexOf(m) !== 0) // skip initial greeting
-        .map((m) => ({
-          role: m.role === "assistant" ? ("model" as const) : ("user" as const),
-          content: m.content,
-        }));
-
-      const res = await fetch(API_URL, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ messages: apiMessages }),
-      });
-
-      if (!res.ok) {
-        const err = await res.json().catch(() => ({ error: "Request failed" }));
-        throw new Error((err as { error?: string }).error || `HTTP ${res.status}`);
-      }
-
-      const data = (await res.json()) as { response: string };
-      setMessages((prev) => [
-        ...prev,
-        { role: "assistant", content: data.response },
-      ]);
-    } catch (err) {
-      const message =
-        err instanceof Error ? err.message : "Something went wrong";
-      setMessages((prev) => [
-        ...prev,
-        {
-          role: "assistant",
-          content:
-            message.includes("Rate limit")
-              ? "You've sent too many messages. Please wait a minute and try again."
-              : "Sorry, I couldn't get a response. Please try again.",
-        },
-      ]);
-    } finally {
-      setIsLoading(false);
-    }
-  }
 
   return (
     <>
@@ -110,64 +34,18 @@ export default function ChatWidget() {
               Chat with Caide's AI
             </p>
             <p className="text-xs" style={{ color: "rgba(8, 8, 8, 0.6)" }}>
-              Powered by Gemini — ask about experience, projects, skills
+              In development
             </p>
           </div>
 
-          <div className="flex-1 overflow-y-auto p-4 space-y-3">
-            {messages.map((msg, i) => (
-              <div
-                key={i}
-                className={`flex ${msg.role === "user" ? "justify-end" : "justify-start"}`}
-              >
-                {msg.role === "user" ? (
-                  <div
-                    className="max-w-[80%] px-3 py-2 rounded-xl text-sm"
-                    style={{ background: "#e85d3a", color: "#080808" }}
-                  >
-                    {msg.content}
-                  </div>
-                ) : (
-                  <div className="chat-widget-assistant-bubble max-w-[80%] px-3 py-2 rounded-xl text-sm">
-                    {msg.content}
-                  </div>
-                )}
-              </div>
-            ))}
-            {isLoading && (
-              <div className="flex justify-start">
-                <div className="chat-widget-assistant-bubble px-3 py-2 rounded-xl text-sm flex gap-1">
-                  <span className="animate-bounce" style={{ animationDelay: "0ms" }}>.</span>
-                  <span className="animate-bounce" style={{ animationDelay: "150ms" }}>.</span>
-                  <span className="animate-bounce" style={{ animationDelay: "300ms" }}>.</span>
-                </div>
-              </div>
-            )}
-            <div ref={messagesEndRef} />
-          </div>
-
-          <div className="chat-widget-divider p-3">
-            <div className="flex gap-2">
-              <input
-                type="text"
-                value={input}
-                onChange={(e) => setInput(e.target.value)}
-                onKeyDown={(e) => e.key === "Enter" && handleSend()}
-                placeholder="Ask about Caide's work..."
-                disabled={isLoading}
-                className="chat-widget-input flex-1 px-3 py-2 text-sm rounded-lg focus:outline-none disabled:opacity-50"
-              />
-              <button
-                onClick={handleSend}
-                disabled={isLoading}
-                className="px-3 py-2 rounded-lg transition-colors disabled:opacity-50"
-                style={{ background: "#e85d3a", color: "#080808" }}
-              >
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
-                </svg>
-              </button>
-            </div>
+          <div className="flex-1 overflow-y-auto p-4 flex flex-col items-center justify-center text-center">
+            <svg className="w-10 h-10 mb-3 opacity-40" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M11.42 15.17l-5.384-3.082A1.5 1.5 0 015.25 10.8V6.75a1.5 1.5 0 011.5-1.5h10.5a1.5 1.5 0 011.5 1.5v4.05a1.5 1.5 0 01-.786 1.288l-5.384 3.082a1.5 1.5 0 01-1.66 0z" />
+            </svg>
+            <p className="text-sm font-medium opacity-70">Coming Soon</p>
+            <p className="text-xs opacity-50 mt-1 max-w-[14rem]">
+              This AI assistant is in development — currently limited by GPU availability and funding.
+            </p>
           </div>
         </div>
       )}

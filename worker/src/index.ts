@@ -143,7 +143,7 @@ async function callGemini(messages: ChatMessage[], apiKey: string): Promise<stri
 		});
 	}
 
-	const url = `https://generativelanguage.googleapis.com/v1beta/models/gemma-4-31b-it:generateContent?key=${apiKey}`;
+	const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=${apiKey}`;
 
 	const res = await fetch(url, {
 		method: "POST",
