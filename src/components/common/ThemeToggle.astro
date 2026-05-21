@@ -81,29 +81,38 @@
     });
   }
 
+  function handleClick() {
+    const current = getTheme();
+    const next = CYCLE[(CYCLE.indexOf(current) + 1) % CYCLE.length];
+    if (next === "system") {
+      localStorage.removeItem("theme");
+    } else {
+      localStorage.setItem("theme", next);
+    }
+    applyTheme(next);
+    updateIcons(next);
+  }
+
+  function handleSystemChange() {
+    if (getTheme() === "system") applyTheme("system");
+  }
+
+  let cleanups: (() => void)[] = [];
+
   function init() {
-    const theme = getTheme();
-    updateIcons(theme);
+    cleanups.forEach((fn) => fn());
+    cleanups = [];
+
+    updateIcons(getTheme());
 
     document.querySelectorAll(".theme-toggle").forEach((toggle) => {
-      toggle.addEventListener("click", () => {
-        const current = getTheme();
-        const next = CYCLE[(CYCLE.indexOf(current) + 1) % CYCLE.length];
-        if (next === "system") {
-          localStorage.removeItem("theme");
-        } else {
-          localStorage.setItem("theme", next);
-        }
-        applyTheme(next);
-        updateIcons(next);
-      });
+      toggle.addEventListener("click", handleClick);
+      cleanups.push(() => toggle.removeEventListener("click", handleClick));
     });
 
-    window
-      .matchMedia("(prefers-color-scheme: dark)")
-      .addEventListener("change", () => {
-        if (getTheme() === "system") applyTheme("system");
-      });
+    const mq = window.matchMedia("(prefers-color-scheme: dark)");
+    mq.addEventListener("change", handleSystemChange);
+    cleanups.push(() => mq.removeEventListener("change", handleSystemChange));
   }
 
   init();
