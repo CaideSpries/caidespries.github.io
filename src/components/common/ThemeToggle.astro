@@ -3,11 +3,12 @@
 
 <button
   type="button"
-  aria-label="Toggle dark mode"
+  aria-label="Toggle theme"
   class="theme-toggle p-2 rounded-lg transition-colors hover:text-ember-500"
 >
+  <!-- Sun — shown in dark mode (click to go to system) -->
   <svg
-    class="hidden dark:block w-5 h-5"
+    class="theme-icon-sun hidden w-5 h-5"
     fill="none"
     viewBox="0 0 24 24"
     stroke-width="2"
@@ -19,8 +20,9 @@
       d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"
     ></path>
   </svg>
+  <!-- Moon — shown in light mode (click to go to dark) -->
   <svg
-    class="block dark:hidden w-5 h-5"
+    class="theme-icon-moon hidden w-5 h-5"
     fill="none"
     viewBox="0 0 24 24"
     stroke-width="2"
@@ -32,13 +34,78 @@
       d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 006.002-2.998z"
     ></path>
   </svg>
+  <!-- Monitor — shown in system mode -->
+  <svg
+    class="theme-icon-system hidden w-5 h-5"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke-width="2"
+    stroke="currentColor"
+  >
+    <path
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25A2.25 2.25 0 015.25 3h13.5A2.25 2.25 0 0121 5.25z"
+    ></path>
+  </svg>
 </button>
 
 <script>
-  document.querySelectorAll(".theme-toggle").forEach((toggle) => {
-    toggle.addEventListener("click", () => {
-      const isDark = document.documentElement.classList.toggle("dark");
-      localStorage.setItem("theme", isDark ? "dark" : "light");
+  const CYCLE = ["system", "dark", "light"] as const;
+  type Theme = (typeof CYCLE)[number];
+
+  function getTheme(): Theme {
+    const stored = localStorage.getItem("theme");
+    if (stored === "dark" || stored === "light") return stored;
+    return "system";
+  }
+
+  function applyTheme(theme: Theme) {
+    const prefersDark = window.matchMedia(
+      "(prefers-color-scheme: dark)",
+    ).matches;
+    const dark = theme === "dark" || (theme === "system" && prefersDark);
+    document.documentElement.classList.toggle("dark", dark);
+    document.documentElement.dataset.theme = theme;
+  }
+
+  function updateIcons(theme: Theme) {
+    document.querySelectorAll(".theme-icon-sun").forEach((el) => {
+      (el as HTMLElement).classList.toggle("hidden", theme !== "dark");
     });
-  });
+    document.querySelectorAll(".theme-icon-moon").forEach((el) => {
+      (el as HTMLElement).classList.toggle("hidden", theme !== "light");
+    });
+    document.querySelectorAll(".theme-icon-system").forEach((el) => {
+      (el as HTMLElement).classList.toggle("hidden", theme !== "system");
+    });
+  }
+
+  function init() {
+    const theme = getTheme();
+    updateIcons(theme);
+
+    document.querySelectorAll(".theme-toggle").forEach((toggle) => {
+      toggle.addEventListener("click", () => {
+        const current = getTheme();
+        const next = CYCLE[(CYCLE.indexOf(current) + 1) % CYCLE.length];
+        if (next === "system") {
+          localStorage.removeItem("theme");
+        } else {
+          localStorage.setItem("theme", next);
+        }
+        applyTheme(next);
+        updateIcons(next);
+      });
+    });
+
+    window
+      .matchMedia("(prefers-color-scheme: dark)")
+      .addEventListener("change", () => {
+        if (getTheme() === "system") applyTheme("system");
+      });
+  }
+
+  init();
+  document.addEventListener("astro:after-swap", init);
 </script>
