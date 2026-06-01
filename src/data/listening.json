@@ -6,16 +6,16 @@
     "url": "https://open.spotify.com/album/5QkOpsZupEPLq186YOrBNe"
   },
   {
-    "title": "Rust Never Sleeps",
-    "artist": "Neil Young, Crazy Horse",
-    "cover": "https://i.scdn.co/image/ab67616d0000b273db0caaa2b01471d6068053a8",
-    "url": "https://open.spotify.com/album/2QqocFdpBkxOBLcIRo6UuJ"
-  },
-  {
     "title": "Goodbye Country (Hello Nightclub)",
     "artist": "Groove Armada",
     "cover": "https://i.scdn.co/image/ab67616d0000b2730d6e6cc2e426ab9f3b33fbcc",
     "url": "https://open.spotify.com/album/1bS1J4OVGrpu6e2U2pHge6"
+  },
+  {
+    "title": "Rust Never Sleeps",
+    "artist": "Neil Young, Crazy Horse",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273db0caaa2b01471d6068053a8",
+    "url": "https://open.spotify.com/album/2QqocFdpBkxOBLcIRo6UuJ"
   },
   {
     "title": "Sete",
@@ -31,9 +31,9 @@
   },
   {
     "title": "1995",
-    "artist": "gardenstate, Marcus Schössow, anamē",
-    "cover": "https://i.scdn.co/image/ab67616d0000b273862b9ef0266fc9d19d18adb9",
-    "url": "https://open.spotify.com/album/0j5yDcNYX0cboGsrNbwGPt"
+    "artist": "gardenstate, Marcus Schössow",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273ca9672b445f8f946609de58d",
+    "url": "https://open.spotify.com/album/30YyvaRckkdYqFifZGeZSb"
   },
   {
     "title": "I Barely Know Her",
@@ -46,12 +46,6 @@
     "artist": "Alice In Chains",
     "cover": "https://i.scdn.co/image/ab67616d0000b27325b42be683b8d3c6500db726",
     "url": "https://open.spotify.com/album/4FCoFSNIFhK36holxHWCnc"
-  },
-  {
-    "title": "Cold Fact",
-    "artist": "Rodríguez",
-    "cover": "https://i.scdn.co/image/ab67616d0000b273e7e1b574a9e6b9f26c7c3f49",
-    "url": "https://open.spotify.com/album/3q90UAYeHLvAtnowiQlmgp"
   },
   {
     "title": "Every 1's a Winner",
@@ -70,5 +64,11 @@
     "artist": "Kanye West",
     "cover": "https://i.scdn.co/image/ab67616d0000b27326f7f19c7f0381e56156c94a",
     "url": "https://open.spotify.com/album/4SZko61aMnmgvNhfhgTuD3"
+  },
+  {
+    "title": "Cold Fact",
+    "artist": "Rodríguez",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273e7e1b574a9e6b9f26c7c3f49",
+    "url": "https://open.spotify.com/album/3q90UAYeHLvAtnowiQlmgp"
   }
 ]
