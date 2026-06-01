@@ -1,8 +1,8 @@
 {
   "year": 2026,
   "source": "api_snapshot",
-  "fetchedAt": "2026-05-25T17:00:56.973Z",
-  "lastUpdated": "2026-05-25T17:00:56.973Z",
+  "fetchedAt": "2026-06-01T11:16:04.416Z",
+  "lastUpdated": "2026-06-01T11:16:04.416Z",
   "artists": [
     {
       "rank": 1,
@@ -12,57 +12,57 @@
     },
     {
       "rank": 2,
-      "name": "Rodríguez",
-      "image": "https://i.scdn.co/image/d1d0f4b212e16eb6bf079e8e7bae11828378a2bc",
-      "url": "https://open.spotify.com/artist/5PrHzxc3kFm4hIrGNmelpX"
-    },
-    {
-      "rank": 3,
       "name": "Mac Miller",
       "image": "https://i.scdn.co/image/ab6761610000e5ebed3b89aa602145fde71a163a",
       "url": "https://open.spotify.com/artist/4LLpKhyESsyAXpc4laK94U"
     },
     {
-      "rank": 4,
-      "name": "The Rolling Stones",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb2b72b000ac948eba03bb3afe",
-      "url": "https://open.spotify.com/artist/22bE4uQ6baNwSHPVcDxLCe"
-    },
-    {
-      "rank": 5,
+      "rank": 3,
       "name": "The Beatles",
       "image": "https://i.scdn.co/image/ab6761610000e5ebe9348cc01ff5d55971b22433",
       "url": "https://open.spotify.com/artist/3WrFJ7ztbogyGnTHbHJFl2"
     },
     {
-      "rank": 6,
-      "name": "Led Zeppelin",
-      "image": "https://i.scdn.co/image/207803ce008388d3427a685254f9de6a8f61dc2e",
-      "url": "https://open.spotify.com/artist/36QJpDe2go2KgaRleHCDTp"
+      "rank": 4,
+      "name": "Rodríguez",
+      "image": "https://i.scdn.co/image/d1d0f4b212e16eb6bf079e8e7bae11828378a2bc",
+      "url": "https://open.spotify.com/artist/5PrHzxc3kFm4hIrGNmelpX"
     },
     {
-      "rank": 7,
+      "rank": 5,
       "name": "Kanye West",
       "image": "https://i.scdn.co/image/ab6761610000e5eb6e835a500e791bf9c27a422a",
       "url": "https://open.spotify.com/artist/5K4W6rqBFWDnAN6FQUkS6x"
     },
     {
-      "rank": 8,
+      "rank": 6,
       "name": "andhim",
       "image": "https://i.scdn.co/image/ab6761610000e5eb1b3da90ba96e40faf9db9eb0",
       "url": "https://open.spotify.com/artist/6XJeFzmI6vrWyHcdB7EImP"
     },
     {
-      "rank": 9,
+      "rank": 7,
       "name": "Bosq",
       "image": "https://i.scdn.co/image/ab6761610000e5ebca1a62a243fc51a1f228a60c",
       "url": "https://open.spotify.com/artist/2tpbLTmBZZcGvcCHX6uw1U"
     },
     {
-      "rank": 10,
+      "rank": 8,
       "name": "GoldFish",
       "image": "https://i.scdn.co/image/ab6761610000e5eb8320cc48e712d8034fa73eb7",
       "url": "https://open.spotify.com/artist/0uRdK8gy7fXJGRywrlmPM7"
+    },
+    {
+      "rank": 9,
+      "name": "The Rolling Stones",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb2b72b000ac948eba03bb3afe",
+      "url": "https://open.spotify.com/artist/22bE4uQ6baNwSHPVcDxLCe"
+    },
+    {
+      "rank": 10,
+      "name": "Led Zeppelin",
+      "image": "https://i.scdn.co/image/207803ce008388d3427a685254f9de6a8f61dc2e",
+      "url": "https://open.spotify.com/artist/36QJpDe2go2KgaRleHCDTp"
     }
   ],
   "tracks": [
@@ -79,17 +79,6 @@
     },
     {
       "rank": 2,
-      "name": "My My, Hey Hey (Out of the Blue) - 2016 Remaster",
-      "artist": "Neil Young, Crazy Horse",
-      "album": "Rust Never Sleeps",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b273db0caaa2b01471d6068053a8",
-      "url": "https://open.spotify.com/track/6VltRkmJbCTqgKrTHk4Ulw",
-      "durationMs": 227705,
-      "duration": "3:47",
-      "explicit": false
-    },
-    {
-      "rank": 3,
       "name": "Superstylin'",
       "artist": "Groove Armada",
       "album": "Goodbye Country (Hello Nightclub)",
@@ -97,6 +86,17 @@
       "url": "https://open.spotify.com/track/2yWyFT6bW1Rd9cjVvYi4v8",
       "durationMs": 360426,
       "duration": "6:00",
+      "explicit": false
+    },
+    {
+      "rank": 3,
+      "name": "My My, Hey Hey (Out of the Blue) - 2016 Remaster",
+      "artist": "Neil Young, Crazy Horse",
+      "album": "Rust Never Sleeps",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273db0caaa2b01471d6068053a8",
+      "url": "https://open.spotify.com/track/6VltRkmJbCTqgKrTHk4Ulw",
+      "durationMs": 227705,
+      "duration": "3:47",
       "explicit": false
     },
     {
@@ -124,10 +124,10 @@
     {
       "rank": 6,
       "name": "The Best Part",
-      "artist": "anamē, gardenstate, Bien",
+      "artist": "gardenstate, Bien",
       "album": "1995",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b273862b9ef0266fc9d19d18adb9",
-      "url": "https://open.spotify.com/track/7BOhNPdxKyS9RD3aKwdXwc",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273ca9672b445f8f946609de58d",
+      "url": "https://open.spotify.com/track/2amYUbGjR7HysKynCYSY0d",
       "durationMs": 250000,
       "duration": "4:10",
       "explicit": false
@@ -156,17 +156,6 @@
     },
     {
       "rank": 9,
-      "name": "Crucify Your Mind",
-      "artist": "Rodríguez",
-      "album": "Cold Fact",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b273e7e1b574a9e6b9f26c7c3f49",
-      "url": "https://open.spotify.com/track/2Xn7NadvZ56D0B2D7x2CSL",
-      "durationMs": 152346,
-      "duration": "2:32",
-      "explicit": false
-    },
-    {
-      "rank": 10,
       "name": "Every 1's a Winner - Single Version",
       "artist": "Hot Chocolate",
       "album": "Every 1's a Winner",
@@ -177,7 +166,7 @@
       "explicit": false
     },
     {
-      "rank": 11,
+      "rank": 10,
       "name": "Where's Your Head At",
       "artist": "Basement Jaxx",
       "album": "Rooty",
@@ -188,7 +177,7 @@
       "explicit": false
     },
     {
-      "rank": 12,
+      "rank": 11,
       "name": "Good Morning",
       "artist": "Kanye West",
       "album": "Graduation",
@@ -199,18 +188,18 @@
       "explicit": true
     },
     {
-      "rank": 13,
-      "name": "Dani California",
-      "artist": "Red Hot Chili Peppers",
-      "album": "Stadium Arcadium",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b27309fd83d32aee93dceba78517",
-      "url": "https://open.spotify.com/track/10Nmj3JCNoMeBQ87uw5j8k",
-      "durationMs": 282160,
-      "duration": "4:42",
+      "rank": 12,
+      "name": "Crucify Your Mind",
+      "artist": "Rodríguez",
+      "album": "Cold Fact",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273e7e1b574a9e6b9f26c7c3f49",
+      "url": "https://open.spotify.com/track/2Xn7NadvZ56D0B2D7x2CSL",
+      "durationMs": 152346,
+      "duration": "2:32",
       "explicit": false
     },
     {
-      "rank": 14,
+      "rank": 13,
       "name": "Shake My Hand",
       "artist": "Extra Medium",
       "album": "One Size Fits All",
@@ -221,7 +210,7 @@
       "explicit": false
     },
     {
-      "rank": 15,
+      "rank": 14,
       "name": "Could You Be Loved",
       "artist": "Bob Marley & The Wailers",
       "album": "Uprising",
@@ -232,18 +221,18 @@
       "explicit": false
     },
     {
-      "rank": 16,
-      "name": "Start Me Up - Remastered 2009",
-      "artist": "The Rolling Stones",
-      "album": "Tattoo You (2009 Re-Mastered)",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b27308fc42e575043a753f60d675",
-      "url": "https://open.spotify.com/track/7HKez549fwJQDzx3zLjHKC",
-      "durationMs": 213066,
-      "duration": "3:33",
+      "rank": 15,
+      "name": "Chop Suey!",
+      "artist": "System Of A Down",
+      "album": "Toxicity",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b27307bc7d2a745636c356b4d0aa",
+      "url": "https://open.spotify.com/track/2DlHlPMa4M17kufBvI2lEN",
+      "durationMs": 210240,
+      "duration": "3:30",
       "explicit": false
     },
     {
-      "rank": 17,
+      "rank": 16,
       "name": "The Ship",
       "artist": "Incredible Polo",
       "album": "Ma Hill",
@@ -254,18 +243,7 @@
       "explicit": false
     },
     {
-      "rank": 18,
-      "name": "Hotel California - Live On MTV, 1994",
-      "artist": "Eagles",
-      "album": "Hell Freezes Over (Remaster 2018)",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b27396d28597a5ae44ab66552183",
-      "url": "https://open.spotify.com/track/2GpBrAoCwt48fxjgjlzMd4",
-      "durationMs": 432040,
-      "duration": "7:12",
-      "explicit": false
-    },
-    {
-      "rank": 19,
+      "rank": 17,
       "name": "The Spins",
       "artist": "Mac Miller, Empire Of The Sun",
       "album": "K.I.D.S. (Deluxe)",
@@ -276,7 +254,7 @@
       "explicit": true
     },
     {
-      "rank": 20,
+      "rank": 18,
       "name": "River Song",
       "artist": "Just Jack",
       "album": "What We Did Today",
@@ -284,6 +262,28 @@
       "url": "https://open.spotify.com/track/5T2195uuvSp3VWPWf857GD",
       "durationMs": 217746,
       "duration": "3:37",
+      "explicit": false
+    },
+    {
+      "rank": 19,
+      "name": "Electric Feel",
+      "artist": "MGMT",
+      "album": "Oracular Spectacular",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2737addf1f64798c10d3bd6b27c",
+      "url": "https://open.spotify.com/track/4ijZ4sCKTLsQJKTJT4psI8",
+      "durationMs": 229333,
+      "duration": "3:49",
+      "explicit": false
+    },
+    {
+      "rank": 20,
+      "name": "Simple Man",
+      "artist": "Lynyrd Skynyrd",
+      "album": "Pronounced' Leh-'Nerd 'Skin-'Nerd",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273128450651c9f0442780d8eb8",
+      "url": "https://open.spotify.com/track/1ju7EsSGvRybSNEsRvc7qY",
+      "durationMs": 356626,
+      "duration": "5:56",
       "explicit": false
     }
   ],
@@ -296,57 +296,57 @@
     },
     {
       "rank": 2,
-      "name": "Rodríguez",
-      "image": "https://i.scdn.co/image/d1d0f4b212e16eb6bf079e8e7bae11828378a2bc",
-      "url": "https://open.spotify.com/artist/5PrHzxc3kFm4hIrGNmelpX"
-    },
-    {
-      "rank": 3,
       "name": "Mac Miller",
       "image": "https://i.scdn.co/image/ab6761610000e5ebed3b89aa602145fde71a163a",
       "url": "https://open.spotify.com/artist/4LLpKhyESsyAXpc4laK94U"
     },
     {
-      "rank": 4,
-      "name": "The Rolling Stones",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb2b72b000ac948eba03bb3afe",
-      "url": "https://open.spotify.com/artist/22bE4uQ6baNwSHPVcDxLCe"
-    },
-    {
-      "rank": 5,
+      "rank": 3,
       "name": "The Beatles",
       "image": "https://i.scdn.co/image/ab6761610000e5ebe9348cc01ff5d55971b22433",
       "url": "https://open.spotify.com/artist/3WrFJ7ztbogyGnTHbHJFl2"
     },
     {
-      "rank": 6,
-      "name": "Led Zeppelin",
-      "image": "https://i.scdn.co/image/207803ce008388d3427a685254f9de6a8f61dc2e",
-      "url": "https://open.spotify.com/artist/36QJpDe2go2KgaRleHCDTp"
+      "rank": 4,
+      "name": "Rodríguez",
+      "image": "https://i.scdn.co/image/d1d0f4b212e16eb6bf079e8e7bae11828378a2bc",
+      "url": "https://open.spotify.com/artist/5PrHzxc3kFm4hIrGNmelpX"
     },
     {
-      "rank": 7,
+      "rank": 5,
       "name": "Kanye West",
       "image": "https://i.scdn.co/image/ab6761610000e5eb6e835a500e791bf9c27a422a",
       "url": "https://open.spotify.com/artist/5K4W6rqBFWDnAN6FQUkS6x"
     },
     {
-      "rank": 8,
+      "rank": 6,
       "name": "andhim",
       "image": "https://i.scdn.co/image/ab6761610000e5eb1b3da90ba96e40faf9db9eb0",
       "url": "https://open.spotify.com/artist/6XJeFzmI6vrWyHcdB7EImP"
     },
     {
-      "rank": 9,
+      "rank": 7,
       "name": "Bosq",
       "image": "https://i.scdn.co/image/ab6761610000e5ebca1a62a243fc51a1f228a60c",
       "url": "https://open.spotify.com/artist/2tpbLTmBZZcGvcCHX6uw1U"
     },
     {
-      "rank": 10,
+      "rank": 8,
       "name": "GoldFish",
       "image": "https://i.scdn.co/image/ab6761610000e5eb8320cc48e712d8034fa73eb7",
       "url": "https://open.spotify.com/artist/0uRdK8gy7fXJGRywrlmPM7"
+    },
+    {
+      "rank": 9,
+      "name": "The Rolling Stones",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb2b72b000ac948eba03bb3afe",
+      "url": "https://open.spotify.com/artist/22bE4uQ6baNwSHPVcDxLCe"
+    },
+    {
+      "rank": 10,
+      "name": "Led Zeppelin",
+      "image": "https://i.scdn.co/image/207803ce008388d3427a685254f9de6a8f61dc2e",
+      "url": "https://open.spotify.com/artist/36QJpDe2go2KgaRleHCDTp"
     }
   ],
   "topTracks": [
@@ -363,17 +363,6 @@
     },
     {
       "rank": 2,
-      "name": "My My, Hey Hey (Out of the Blue) - 2016 Remaster",
-      "artist": "Neil Young, Crazy Horse",
-      "album": "Rust Never Sleeps",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b273db0caaa2b01471d6068053a8",
-      "url": "https://open.spotify.com/track/6VltRkmJbCTqgKrTHk4Ulw",
-      "durationMs": 227705,
-      "duration": "3:47",
-      "explicit": false
-    },
-    {
-      "rank": 3,
       "name": "Superstylin'",
       "artist": "Groove Armada",
       "album": "Goodbye Country (Hello Nightclub)",
@@ -381,6 +370,17 @@
       "url": "https://open.spotify.com/track/2yWyFT6bW1Rd9cjVvYi4v8",
       "durationMs": 360426,
       "duration": "6:00",
+      "explicit": false
+    },
+    {
+      "rank": 3,
+      "name": "My My, Hey Hey (Out of the Blue) - 2016 Remaster",
+      "artist": "Neil Young, Crazy Horse",
+      "album": "Rust Never Sleeps",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273db0caaa2b01471d6068053a8",
+      "url": "https://open.spotify.com/track/6VltRkmJbCTqgKrTHk4Ulw",
+      "durationMs": 227705,
+      "duration": "3:47",
       "explicit": false
     },
     {
@@ -408,10 +408,10 @@
     {
       "rank": 6,
       "name": "The Best Part",
-      "artist": "anamē, gardenstate, Bien",
+      "artist": "gardenstate, Bien",
       "album": "1995",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b273862b9ef0266fc9d19d18adb9",
-      "url": "https://open.spotify.com/track/7BOhNPdxKyS9RD3aKwdXwc",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273ca9672b445f8f946609de58d",
+      "url": "https://open.spotify.com/track/2amYUbGjR7HysKynCYSY0d",
       "durationMs": 250000,
       "duration": "4:10",
       "explicit": false
@@ -440,17 +440,6 @@
     },
     {
       "rank": 9,
-      "name": "Crucify Your Mind",
-      "artist": "Rodríguez",
-      "album": "Cold Fact",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b273e7e1b574a9e6b9f26c7c3f49",
-      "url": "https://open.spotify.com/track/2Xn7NadvZ56D0B2D7x2CSL",
-      "durationMs": 152346,
-      "duration": "2:32",
-      "explicit": false
-    },
-    {
-      "rank": 10,
       "name": "Every 1's a Winner - Single Version",
       "artist": "Hot Chocolate",
       "album": "Every 1's a Winner",
@@ -461,7 +450,7 @@
       "explicit": false
     },
     {
-      "rank": 11,
+      "rank": 10,
       "name": "Where's Your Head At",
       "artist": "Basement Jaxx",
       "album": "Rooty",
@@ -472,7 +461,7 @@
       "explicit": false
     },
     {
-      "rank": 12,
+      "rank": 11,
       "name": "Good Morning",
       "artist": "Kanye West",
       "album": "Graduation",
@@ -483,18 +472,18 @@
       "explicit": true
     },
     {
-      "rank": 13,
-      "name": "Dani California",
-      "artist": "Red Hot Chili Peppers",
-      "album": "Stadium Arcadium",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b27309fd83d32aee93dceba78517",
-      "url": "https://open.spotify.com/track/10Nmj3JCNoMeBQ87uw5j8k",
-      "durationMs": 282160,
-      "duration": "4:42",
+      "rank": 12,
+      "name": "Crucify Your Mind",
+      "artist": "Rodríguez",
+      "album": "Cold Fact",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273e7e1b574a9e6b9f26c7c3f49",
+      "url": "https://open.spotify.com/track/2Xn7NadvZ56D0B2D7x2CSL",
+      "durationMs": 152346,
+      "duration": "2:32",
       "explicit": false
     },
     {
-      "rank": 14,
+      "rank": 13,
       "name": "Shake My Hand",
       "artist": "Extra Medium",
       "album": "One Size Fits All",
@@ -505,7 +494,7 @@
       "explicit": false
     },
     {
-      "rank": 15,
+      "rank": 14,
       "name": "Could You Be Loved",
       "artist": "Bob Marley & The Wailers",
       "album": "Uprising",
@@ -516,18 +505,18 @@
       "explicit": false
     },
     {
-      "rank": 16,
-      "name": "Start Me Up - Remastered 2009",
-      "artist": "The Rolling Stones",
-      "album": "Tattoo You (2009 Re-Mastered)",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b27308fc42e575043a753f60d675",
-      "url": "https://open.spotify.com/track/7HKez549fwJQDzx3zLjHKC",
-      "durationMs": 213066,
-      "duration": "3:33",
+      "rank": 15,
+      "name": "Chop Suey!",
+      "artist": "System Of A Down",
+      "album": "Toxicity",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b27307bc7d2a745636c356b4d0aa",
+      "url": "https://open.spotify.com/track/2DlHlPMa4M17kufBvI2lEN",
+      "durationMs": 210240,
+      "duration": "3:30",
       "explicit": false
     },
     {
-      "rank": 17,
+      "rank": 16,
       "name": "The Ship",
       "artist": "Incredible Polo",
       "album": "Ma Hill",
@@ -538,18 +527,7 @@
       "explicit": false
     },
     {
-      "rank": 18,
-      "name": "Hotel California - Live On MTV, 1994",
-      "artist": "Eagles",
-      "album": "Hell Freezes Over (Remaster 2018)",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b27396d28597a5ae44ab66552183",
-      "url": "https://open.spotify.com/track/2GpBrAoCwt48fxjgjlzMd4",
-      "durationMs": 432040,
-      "duration": "7:12",
-      "explicit": false
-    },
-    {
-      "rank": 19,
+      "rank": 17,
       "name": "The Spins",
       "artist": "Mac Miller, Empire Of The Sun",
       "album": "K.I.D.S. (Deluxe)",
@@ -560,7 +538,7 @@
       "explicit": true
     },
     {
-      "rank": 20,
+      "rank": 18,
       "name": "River Song",
       "artist": "Just Jack",
       "album": "What We Did Today",
@@ -569,14 +547,36 @@
       "durationMs": 217746,
       "duration": "3:37",
       "explicit": false
+    },
+    {
+      "rank": 19,
+      "name": "Electric Feel",
+      "artist": "MGMT",
+      "album": "Oracular Spectacular",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2737addf1f64798c10d3bd6b27c",
+      "url": "https://open.spotify.com/track/4ijZ4sCKTLsQJKTJT4psI8",
+      "durationMs": 229333,
+      "duration": "3:49",
+      "explicit": false
+    },
+    {
+      "rank": 20,
+      "name": "Simple Man",
+      "artist": "Lynyrd Skynyrd",
+      "album": "Pronounced' Leh-'Nerd 'Skin-'Nerd",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273128450651c9f0442780d8eb8",
+      "url": "https://open.spotify.com/track/1ju7EsSGvRybSNEsRvc7qY",
+      "durationMs": 356626,
+      "duration": "5:56",
+      "explicit": false
     }
   ],
   "stats": {
     "totalTracks": 50,
-    "uniqueArtists": 49,
-    "uniqueAlbums": 45,
-    "totalDurationMs": 12985898,
-    "totalDuration": "216:25",
+    "uniqueArtists": 55,
+    "uniqueAlbums": 49,
+    "totalDurationMs": 12998946,
+    "totalDuration": "216:38",
     "avgTrackDuration": "4:19",
     "longestTrack": {
       "name": "Up & Down - NYC 91 Mix",
@@ -590,14 +590,6 @@
     },
     "topTrackArtists": [
       {
-        "name": "Red Hot Chili Peppers",
-        "count": 5
-      },
-      {
-        "name": "Rodríguez",
-        "count": 3
-      },
-      {
         "name": "TOTO",
         "count": 2
       },
@@ -606,34 +598,42 @@
         "count": 2
       },
       {
-        "name": "Bob Seger",
-        "count": 1
+        "name": "Red Hot Chili Peppers",
+        "count": 2
+      },
+      {
+        "name": "Marbert Rocel",
+        "count": 2
+      },
+      {
+        "name": "Tom Odell",
+        "count": 2
       }
     ],
     "decades": [
       {
-        "decade": "1970s",
-        "count": 14
-      },
-      {
         "decade": "2000s",
-        "count": 9
+        "count": 11
       },
       {
         "decade": "2010s",
+        "count": 11
+      },
+      {
+        "decade": "2020s",
+        "count": 10
+      },
+      {
+        "decade": "1970s",
         "count": 9
       },
       {
         "decade": "1990s",
-        "count": 8
-      },
-      {
-        "decade": "2020s",
         "count": 6
       },
       {
         "decade": "1980s",
-        "count": 4
+        "count": 3
       }
     ]
   }
