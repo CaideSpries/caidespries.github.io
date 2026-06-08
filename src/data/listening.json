@@ -12,12 +12,6 @@
     "url": "https://open.spotify.com/album/1bS1J4OVGrpu6e2U2pHge6"
   },
   {
-    "title": "Rust Never Sleeps",
-    "artist": "Neil Young, Crazy Horse",
-    "cover": "https://i.scdn.co/image/ab67616d0000b273db0caaa2b01471d6068053a8",
-    "url": "https://open.spotify.com/album/2QqocFdpBkxOBLcIRo6UuJ"
-  },
-  {
     "title": "Sete",
     "artist": "BLOND:ISH, Francis Mercier, Amadou & Mariam",
     "cover": "https://i.scdn.co/image/ab67616d0000b27301ef7860a70dc28f476d2680",
@@ -42,16 +36,16 @@
     "url": "https://open.spotify.com/album/7mvXPtV4jvA1hp5Wx2FAJA"
   },
   {
+    "title": "Rust Never Sleeps",
+    "artist": "Neil Young, Crazy Horse",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273db0caaa2b01471d6068053a8",
+    "url": "https://open.spotify.com/album/2QqocFdpBkxOBLcIRo6UuJ"
+  },
+  {
     "title": "Jar Of Flies",
     "artist": "Alice In Chains",
     "cover": "https://i.scdn.co/image/ab67616d0000b27325b42be683b8d3c6500db726",
     "url": "https://open.spotify.com/album/4FCoFSNIFhK36holxHWCnc"
-  },
-  {
-    "title": "Every 1's a Winner",
-    "artist": "Hot Chocolate",
-    "cover": "https://i.scdn.co/image/ab67616d0000b273269ffd226ce76fdb762c126c",
-    "url": "https://open.spotify.com/album/2MdCe2CS9EcdJ9V20TKzxo"
   },
   {
     "title": "Rooty",
@@ -60,15 +54,21 @@
     "url": "https://open.spotify.com/album/6CYhVDuSbAWmy9ku7E2wrP"
   },
   {
-    "title": "Graduation",
-    "artist": "Kanye West",
-    "cover": "https://i.scdn.co/image/ab67616d0000b27326f7f19c7f0381e56156c94a",
-    "url": "https://open.spotify.com/album/4SZko61aMnmgvNhfhgTuD3"
+    "title": "Uprising",
+    "artist": "Bob Marley & The Wailers",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2731c40418d1c37d727e8e91b04",
+    "url": "https://open.spotify.com/album/321q9p7PELvzcFAWxml7VX"
   },
   {
     "title": "Cold Fact",
     "artist": "Rodríguez",
     "cover": "https://i.scdn.co/image/ab67616d0000b273e7e1b574a9e6b9f26c7c3f49",
     "url": "https://open.spotify.com/album/3q90UAYeHLvAtnowiQlmgp"
+  },
+  {
+    "title": "One Size Fits All",
+    "artist": "Extra Medium",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2735cedd69b78b4d3d72e8756c0",
+    "url": "https://open.spotify.com/album/28EqWImAS6WdFczsu3g8hv"
   }
 ]
