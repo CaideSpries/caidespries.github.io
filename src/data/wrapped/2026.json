@@ -1,8 +1,8 @@
 {
   "year": 2026,
   "source": "api_snapshot",
-  "fetchedAt": "2026-06-08T10:17:39.105Z",
-  "lastUpdated": "2026-06-08T10:17:39.105Z",
+  "fetchedAt": "2026-06-15T11:45:58.372Z",
+  "lastUpdated": "2026-06-15T11:45:58.372Z",
   "artists": [
     {
       "rank": 1,
@@ -18,67 +18,56 @@
     },
     {
       "rank": 3,
-      "name": "Rodríguez",
-      "image": "https://i.scdn.co/image/d1d0f4b212e16eb6bf079e8e7bae11828378a2bc",
-      "url": "https://open.spotify.com/artist/5PrHzxc3kFm4hIrGNmelpX"
-    },
-    {
-      "rank": 4,
       "name": "Kanye West",
       "image": "https://i.scdn.co/image/ab6761610000e5eb6e835a500e791bf9c27a422a",
       "url": "https://open.spotify.com/artist/5K4W6rqBFWDnAN6FQUkS6x"
     },
     {
+      "rank": 4,
+      "name": "Rodríguez",
+      "image": "https://i.scdn.co/image/d1d0f4b212e16eb6bf079e8e7bae11828378a2bc",
+      "url": "https://open.spotify.com/artist/5PrHzxc3kFm4hIrGNmelpX"
+    },
+    {
       "rank": 5,
-      "name": "andhim",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb1b3da90ba96e40faf9db9eb0",
-      "url": "https://open.spotify.com/artist/6XJeFzmI6vrWyHcdB7EImP"
-    },
-    {
-      "rank": 6,
-      "name": "Bosq",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebca1a62a243fc51a1f228a60c",
-      "url": "https://open.spotify.com/artist/2tpbLTmBZZcGvcCHX6uw1U"
-    },
-    {
-      "rank": 7,
       "name": "The Beatles",
       "image": "https://i.scdn.co/image/ab6761610000e5ebe9348cc01ff5d55971b22433",
       "url": "https://open.spotify.com/artist/3WrFJ7ztbogyGnTHbHJFl2"
     },
     {
-      "rank": 8,
+      "rank": 6,
+      "name": "andhim",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb1b3da90ba96e40faf9db9eb0",
+      "url": "https://open.spotify.com/artist/6XJeFzmI6vrWyHcdB7EImP"
+    },
+    {
+      "rank": 7,
       "name": "GoldFish",
       "image": "https://i.scdn.co/image/ab6761610000e5eb8320cc48e712d8034fa73eb7",
       "url": "https://open.spotify.com/artist/0uRdK8gy7fXJGRywrlmPM7"
     },
     {
-      "rank": 9,
+      "rank": 8,
       "name": "Led Zeppelin",
       "image": "https://i.scdn.co/image/207803ce008388d3427a685254f9de6a8f61dc2e",
       "url": "https://open.spotify.com/artist/36QJpDe2go2KgaRleHCDTp"
     },
     {
-      "rank": 10,
+      "rank": 9,
       "name": "The Rolling Stones",
       "image": "https://i.scdn.co/image/ab6761610000e5eb2b72b000ac948eba03bb3afe",
       "url": "https://open.spotify.com/artist/22bE4uQ6baNwSHPVcDxLCe"
+    },
+    {
+      "rank": 10,
+      "name": "Max Richter",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb8dee498089aaed97d680c5b7",
+      "url": "https://open.spotify.com/artist/2VZNmg4vCnew4Pavo8zDdW"
     }
   ],
   "tracks": [
     {
       "rank": 1,
-      "name": "Night Moves",
-      "artist": "Bob Seger",
-      "album": "Night Moves",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b273676a8230a422123e8012557e",
-      "url": "https://open.spotify.com/track/6UBjSnyP1O5W5ndJoO9vUk",
-      "durationMs": 324422,
-      "duration": "5:24",
-      "explicit": false
-    },
-    {
-      "rank": 2,
       "name": "Superstylin'",
       "artist": "Groove Armada",
       "album": "Goodbye Country (Hello Nightclub)",
@@ -86,6 +75,17 @@
       "url": "https://open.spotify.com/track/2yWyFT6bW1Rd9cjVvYi4v8",
       "durationMs": 360426,
       "duration": "6:00",
+      "explicit": false
+    },
+    {
+      "rank": 2,
+      "name": "Night Moves",
+      "artist": "Bob Seger",
+      "album": "Night Moves",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273676a8230a422123e8012557e",
+      "url": "https://open.spotify.com/track/6UBjSnyP1O5W5ndJoO9vUk",
+      "durationMs": 324422,
+      "duration": "5:24",
       "explicit": false
     },
     {
@@ -156,17 +156,6 @@
     },
     {
       "rank": 9,
-      "name": "Where's Your Head At",
-      "artist": "Basement Jaxx",
-      "album": "Rooty",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b273bafb7763507cb58d37c774c0",
-      "url": "https://open.spotify.com/track/3cJh89D0za2SW705fNBo3b",
-      "durationMs": 285533,
-      "duration": "4:45",
-      "explicit": false
-    },
-    {
-      "rank": 10,
       "name": "Could You Be Loved",
       "artist": "Bob Marley & The Wailers",
       "album": "Uprising",
@@ -177,7 +166,7 @@
       "explicit": false
     },
     {
-      "rank": 11,
+      "rank": 10,
       "name": "Crucify Your Mind",
       "artist": "Rodríguez",
       "album": "Cold Fact",
@@ -188,7 +177,7 @@
       "explicit": false
     },
     {
-      "rank": 12,
+      "rank": 11,
       "name": "Shake My Hand",
       "artist": "Extra Medium",
       "album": "One Size Fits All",
@@ -196,6 +185,17 @@
       "url": "https://open.spotify.com/track/4I1Oxq6GF4qy2ZomHRSuzL",
       "durationMs": 330017,
       "duration": "5:30",
+      "explicit": false
+    },
+    {
+      "rank": 12,
+      "name": "Every 1's a Winner - Single Version",
+      "artist": "Hot Chocolate",
+      "album": "Every 1's a Winner",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273269ffd226ce76fdb762c126c",
+      "url": "https://open.spotify.com/track/5MXXbGYNmRHR7ULMvZYo5R",
+      "durationMs": 289266,
+      "duration": "4:49",
       "explicit": false
     },
     {
@@ -222,13 +222,13 @@
     },
     {
       "rank": 15,
-      "name": "Every 1's a Winner - Single Version",
-      "artist": "Hot Chocolate",
-      "album": "Every 1's a Winner",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b273269ffd226ce76fdb762c126c",
-      "url": "https://open.spotify.com/track/5MXXbGYNmRHR7ULMvZYo5R",
-      "durationMs": 289266,
-      "duration": "4:49",
+      "name": "Africa",
+      "artist": "TOTO",
+      "album": "Toto IV",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273ebd6d20c0082524244ef83df",
+      "url": "https://open.spotify.com/track/2374M0fQpWi3dLnB54qaLX",
+      "durationMs": 295282,
+      "duration": "4:55",
       "explicit": false
     },
     {
@@ -244,17 +244,6 @@
     },
     {
       "rank": 17,
-      "name": "Simple Man",
-      "artist": "Lynyrd Skynyrd",
-      "album": "Pronounced' Leh-'Nerd 'Skin-'Nerd",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b273128450651c9f0442780d8eb8",
-      "url": "https://open.spotify.com/track/1ju7EsSGvRybSNEsRvc7qY",
-      "durationMs": 356626,
-      "duration": "5:56",
-      "explicit": false
-    },
-    {
-      "rank": 18,
       "name": "Good Morning",
       "artist": "Kanye West",
       "album": "Graduation",
@@ -265,18 +254,18 @@
       "explicit": true
     },
     {
-      "rank": 19,
-      "name": "Africa",
-      "artist": "TOTO",
-      "album": "Toto IV",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b273ebd6d20c0082524244ef83df",
-      "url": "https://open.spotify.com/track/2374M0fQpWi3dLnB54qaLX",
-      "durationMs": 295282,
-      "duration": "4:55",
+      "rank": 18,
+      "name": "Simple Man",
+      "artist": "Lynyrd Skynyrd",
+      "album": "Pronounced' Leh-'Nerd 'Skin-'Nerd",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273128450651c9f0442780d8eb8",
+      "url": "https://open.spotify.com/track/1ju7EsSGvRybSNEsRvc7qY",
+      "durationMs": 356626,
+      "duration": "5:56",
       "explicit": false
     },
     {
-      "rank": 20,
+      "rank": 19,
       "name": "LA Calling",
       "artist": "Crystal Fighters",
       "album": "Cave Rave",
@@ -284,6 +273,17 @@
       "url": "https://open.spotify.com/track/3Xh70BsJYf9nHnc0FtN07i",
       "durationMs": 229240,
       "duration": "3:49",
+      "explicit": false
+    },
+    {
+      "rank": 20,
+      "name": "Stay",
+      "artist": "Rihanna, Mikky Ekko",
+      "album": "Unapologetic (Edited Version)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273e24cbbd5cef05ca77ec67df6",
+      "url": "https://open.spotify.com/track/789CxjEOtO76BVD1A9yJQH",
+      "durationMs": 240706,
+      "duration": "4:00",
       "explicit": false
     }
   ],
@@ -302,67 +302,56 @@
     },
     {
       "rank": 3,
-      "name": "Rodríguez",
-      "image": "https://i.scdn.co/image/d1d0f4b212e16eb6bf079e8e7bae11828378a2bc",
-      "url": "https://open.spotify.com/artist/5PrHzxc3kFm4hIrGNmelpX"
-    },
-    {
-      "rank": 4,
       "name": "Kanye West",
       "image": "https://i.scdn.co/image/ab6761610000e5eb6e835a500e791bf9c27a422a",
       "url": "https://open.spotify.com/artist/5K4W6rqBFWDnAN6FQUkS6x"
     },
     {
+      "rank": 4,
+      "name": "Rodríguez",
+      "image": "https://i.scdn.co/image/d1d0f4b212e16eb6bf079e8e7bae11828378a2bc",
+      "url": "https://open.spotify.com/artist/5PrHzxc3kFm4hIrGNmelpX"
+    },
+    {
       "rank": 5,
-      "name": "andhim",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb1b3da90ba96e40faf9db9eb0",
-      "url": "https://open.spotify.com/artist/6XJeFzmI6vrWyHcdB7EImP"
-    },
-    {
-      "rank": 6,
-      "name": "Bosq",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebca1a62a243fc51a1f228a60c",
-      "url": "https://open.spotify.com/artist/2tpbLTmBZZcGvcCHX6uw1U"
-    },
-    {
-      "rank": 7,
       "name": "The Beatles",
       "image": "https://i.scdn.co/image/ab6761610000e5ebe9348cc01ff5d55971b22433",
       "url": "https://open.spotify.com/artist/3WrFJ7ztbogyGnTHbHJFl2"
     },
     {
-      "rank": 8,
+      "rank": 6,
+      "name": "andhim",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb1b3da90ba96e40faf9db9eb0",
+      "url": "https://open.spotify.com/artist/6XJeFzmI6vrWyHcdB7EImP"
+    },
+    {
+      "rank": 7,
       "name": "GoldFish",
       "image": "https://i.scdn.co/image/ab6761610000e5eb8320cc48e712d8034fa73eb7",
       "url": "https://open.spotify.com/artist/0uRdK8gy7fXJGRywrlmPM7"
     },
     {
-      "rank": 9,
+      "rank": 8,
       "name": "Led Zeppelin",
       "image": "https://i.scdn.co/image/207803ce008388d3427a685254f9de6a8f61dc2e",
       "url": "https://open.spotify.com/artist/36QJpDe2go2KgaRleHCDTp"
     },
     {
-      "rank": 10,
+      "rank": 9,
       "name": "The Rolling Stones",
       "image": "https://i.scdn.co/image/ab6761610000e5eb2b72b000ac948eba03bb3afe",
       "url": "https://open.spotify.com/artist/22bE4uQ6baNwSHPVcDxLCe"
+    },
+    {
+      "rank": 10,
+      "name": "Max Richter",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb8dee498089aaed97d680c5b7",
+      "url": "https://open.spotify.com/artist/2VZNmg4vCnew4Pavo8zDdW"
     }
   ],
   "topTracks": [
     {
       "rank": 1,
-      "name": "Night Moves",
-      "artist": "Bob Seger",
-      "album": "Night Moves",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b273676a8230a422123e8012557e",
-      "url": "https://open.spotify.com/track/6UBjSnyP1O5W5ndJoO9vUk",
-      "durationMs": 324422,
-      "duration": "5:24",
-      "explicit": false
-    },
-    {
-      "rank": 2,
       "name": "Superstylin'",
       "artist": "Groove Armada",
       "album": "Goodbye Country (Hello Nightclub)",
@@ -370,6 +359,17 @@
       "url": "https://open.spotify.com/track/2yWyFT6bW1Rd9cjVvYi4v8",
       "durationMs": 360426,
       "duration": "6:00",
+      "explicit": false
+    },
+    {
+      "rank": 2,
+      "name": "Night Moves",
+      "artist": "Bob Seger",
+      "album": "Night Moves",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273676a8230a422123e8012557e",
+      "url": "https://open.spotify.com/track/6UBjSnyP1O5W5ndJoO9vUk",
+      "durationMs": 324422,
+      "duration": "5:24",
       "explicit": false
     },
     {
@@ -440,17 +440,6 @@
     },
     {
       "rank": 9,
-      "name": "Where's Your Head At",
-      "artist": "Basement Jaxx",
-      "album": "Rooty",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b273bafb7763507cb58d37c774c0",
-      "url": "https://open.spotify.com/track/3cJh89D0za2SW705fNBo3b",
-      "durationMs": 285533,
-      "duration": "4:45",
-      "explicit": false
-    },
-    {
-      "rank": 10,
       "name": "Could You Be Loved",
       "artist": "Bob Marley & The Wailers",
       "album": "Uprising",
@@ -461,7 +450,7 @@
       "explicit": false
     },
     {
-      "rank": 11,
+      "rank": 10,
       "name": "Crucify Your Mind",
       "artist": "Rodríguez",
       "album": "Cold Fact",
@@ -472,7 +461,7 @@
       "explicit": false
     },
     {
-      "rank": 12,
+      "rank": 11,
       "name": "Shake My Hand",
       "artist": "Extra Medium",
       "album": "One Size Fits All",
@@ -480,6 +469,17 @@
       "url": "https://open.spotify.com/track/4I1Oxq6GF4qy2ZomHRSuzL",
       "durationMs": 330017,
       "duration": "5:30",
+      "explicit": false
+    },
+    {
+      "rank": 12,
+      "name": "Every 1's a Winner - Single Version",
+      "artist": "Hot Chocolate",
+      "album": "Every 1's a Winner",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273269ffd226ce76fdb762c126c",
+      "url": "https://open.spotify.com/track/5MXXbGYNmRHR7ULMvZYo5R",
+      "durationMs": 289266,
+      "duration": "4:49",
       "explicit": false
     },
     {
@@ -506,13 +506,13 @@
     },
     {
       "rank": 15,
-      "name": "Every 1's a Winner - Single Version",
-      "artist": "Hot Chocolate",
-      "album": "Every 1's a Winner",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b273269ffd226ce76fdb762c126c",
-      "url": "https://open.spotify.com/track/5MXXbGYNmRHR7ULMvZYo5R",
-      "durationMs": 289266,
-      "duration": "4:49",
+      "name": "Africa",
+      "artist": "TOTO",
+      "album": "Toto IV",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273ebd6d20c0082524244ef83df",
+      "url": "https://open.spotify.com/track/2374M0fQpWi3dLnB54qaLX",
+      "durationMs": 295282,
+      "duration": "4:55",
       "explicit": false
     },
     {
@@ -528,17 +528,6 @@
     },
     {
       "rank": 17,
-      "name": "Simple Man",
-      "artist": "Lynyrd Skynyrd",
-      "album": "Pronounced' Leh-'Nerd 'Skin-'Nerd",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b273128450651c9f0442780d8eb8",
-      "url": "https://open.spotify.com/track/1ju7EsSGvRybSNEsRvc7qY",
-      "durationMs": 356626,
-      "duration": "5:56",
-      "explicit": false
-    },
-    {
-      "rank": 18,
       "name": "Good Morning",
       "artist": "Kanye West",
       "album": "Graduation",
@@ -549,18 +538,18 @@
       "explicit": true
     },
     {
-      "rank": 19,
-      "name": "Africa",
-      "artist": "TOTO",
-      "album": "Toto IV",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b273ebd6d20c0082524244ef83df",
-      "url": "https://open.spotify.com/track/2374M0fQpWi3dLnB54qaLX",
-      "durationMs": 295282,
-      "duration": "4:55",
+      "rank": 18,
+      "name": "Simple Man",
+      "artist": "Lynyrd Skynyrd",
+      "album": "Pronounced' Leh-'Nerd 'Skin-'Nerd",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273128450651c9f0442780d8eb8",
+      "url": "https://open.spotify.com/track/1ju7EsSGvRybSNEsRvc7qY",
+      "durationMs": 356626,
+      "duration": "5:56",
       "explicit": false
     },
     {
-      "rank": 20,
+      "rank": 19,
       "name": "LA Calling",
       "artist": "Crystal Fighters",
       "album": "Cave Rave",
@@ -569,19 +558,30 @@
       "durationMs": 229240,
       "duration": "3:49",
       "explicit": false
+    },
+    {
+      "rank": 20,
+      "name": "Stay",
+      "artist": "Rihanna, Mikky Ekko",
+      "album": "Unapologetic (Edited Version)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273e24cbbd5cef05ca77ec67df6",
+      "url": "https://open.spotify.com/track/789CxjEOtO76BVD1A9yJQH",
+      "durationMs": 240706,
+      "duration": "4:00",
+      "explicit": false
     }
   ],
   "stats": {
     "totalTracks": 50,
-    "uniqueArtists": 64,
+    "uniqueArtists": 62,
     "uniqueAlbums": 50,
-    "totalDurationMs": 13070294,
-    "totalDuration": "217:50",
-    "avgTrackDuration": "4:21",
+    "totalDurationMs": 12701210,
+    "totalDuration": "211:41",
+    "avgTrackDuration": "4:14",
     "longestTrack": {
-      "name": "Up & Down - NYC 91 Mix",
-      "artist": "Bosq, Kaleta",
-      "duration": "7:50"
+      "name": "Good Morning Children",
+      "artist": "Alec Troniq",
+      "duration": "7:40"
     },
     "shortestTrack": {
       "name": "Bless the Telephone",
@@ -590,12 +590,8 @@
     },
     "topTrackArtists": [
       {
-        "name": "TOTO",
-        "count": 2
-      },
-      {
         "name": "Red Hot Chili Peppers",
-        "count": 2
+        "count": 3
       },
       {
         "name": "Tame Impala",
@@ -608,28 +604,32 @@
       {
         "name": "Marbert Rocel",
         "count": 2
+      },
+      {
+        "name": "Groove Armada",
+        "count": 1
       }
     ],
     "decades": [
+      {
+        "decade": "2020s",
+        "count": 13
+      },
       {
         "decade": "2010s",
         "count": 13
       },
       {
         "decade": "2000s",
-        "count": 10
-      },
-      {
-        "decade": "2020s",
-        "count": 10
-      },
-      {
-        "decade": "1970s",
         "count": 9
       },
       {
+        "decade": "1970s",
+        "count": 8
+      },
+      {
         "decade": "1990s",
-        "count": 5
+        "count": 4
       },
       {
         "decade": "1980s",
