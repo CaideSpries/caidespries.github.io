@@ -1,15 +1,15 @@
 [
   {
-    "title": "Night Moves",
-    "artist": "Bob Seger",
-    "cover": "https://i.scdn.co/image/ab67616d0000b273676a8230a422123e8012557e",
-    "url": "https://open.spotify.com/album/5QkOpsZupEPLq186YOrBNe"
-  },
-  {
     "title": "Goodbye Country (Hello Nightclub)",
     "artist": "Groove Armada",
     "cover": "https://i.scdn.co/image/ab67616d0000b2730d6e6cc2e426ab9f3b33fbcc",
     "url": "https://open.spotify.com/album/1bS1J4OVGrpu6e2U2pHge6"
+  },
+  {
+    "title": "Night Moves",
+    "artist": "Bob Seger",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273676a8230a422123e8012557e",
+    "url": "https://open.spotify.com/album/5QkOpsZupEPLq186YOrBNe"
   },
   {
     "title": "Sete",
@@ -48,12 +48,6 @@
     "url": "https://open.spotify.com/album/4FCoFSNIFhK36holxHWCnc"
   },
   {
-    "title": "Rooty",
-    "artist": "Basement Jaxx",
-    "cover": "https://i.scdn.co/image/ab67616d0000b273bafb7763507cb58d37c774c0",
-    "url": "https://open.spotify.com/album/6CYhVDuSbAWmy9ku7E2wrP"
-  },
-  {
     "title": "Uprising",
     "artist": "Bob Marley & The Wailers",
     "cover": "https://i.scdn.co/image/ab67616d0000b2731c40418d1c37d727e8e91b04",
@@ -70,5 +64,11 @@
     "artist": "Extra Medium",
     "cover": "https://i.scdn.co/image/ab67616d0000b2735cedd69b78b4d3d72e8756c0",
     "url": "https://open.spotify.com/album/28EqWImAS6WdFczsu3g8hv"
+  },
+  {
+    "title": "Every 1's a Winner",
+    "artist": "Hot Chocolate",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273269ffd226ce76fdb762c126c",
+    "url": "https://open.spotify.com/album/2MdCe2CS9EcdJ9V20TKzxo"
   }
 ]
