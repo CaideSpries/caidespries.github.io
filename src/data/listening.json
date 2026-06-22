@@ -48,16 +48,10 @@
     "url": "https://open.spotify.com/album/4FCoFSNIFhK36holxHWCnc"
   },
   {
-    "title": "Uprising",
-    "artist": "Bob Marley & The Wailers",
-    "cover": "https://i.scdn.co/image/ab67616d0000b2731c40418d1c37d727e8e91b04",
-    "url": "https://open.spotify.com/album/321q9p7PELvzcFAWxml7VX"
-  },
-  {
-    "title": "Cold Fact",
-    "artist": "Rodríguez",
-    "cover": "https://i.scdn.co/image/ab67616d0000b273e7e1b574a9e6b9f26c7c3f49",
-    "url": "https://open.spotify.com/album/3q90UAYeHLvAtnowiQlmgp"
+    "title": "Ma Hill",
+    "artist": "Incredible Polo",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273e3481144ad8dcc24e4bb774f",
+    "url": "https://open.spotify.com/album/3K0WLLwGfAoEP2TdT2ZGae"
   },
   {
     "title": "One Size Fits All",
@@ -66,9 +60,15 @@
     "url": "https://open.spotify.com/album/28EqWImAS6WdFczsu3g8hv"
   },
   {
-    "title": "Every 1's a Winner",
-    "artist": "Hot Chocolate",
-    "cover": "https://i.scdn.co/image/ab67616d0000b273269ffd226ce76fdb762c126c",
-    "url": "https://open.spotify.com/album/2MdCe2CS9EcdJ9V20TKzxo"
+    "title": "Uprising",
+    "artist": "Bob Marley & The Wailers",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2731c40418d1c37d727e8e91b04",
+    "url": "https://open.spotify.com/album/321q9p7PELvzcFAWxml7VX"
+  },
+  {
+    "title": "Ipoly Mate 003",
+    "artist": "Alec Troniq",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2738a60f6792262bd4c21c6e248",
+    "url": "https://open.spotify.com/album/12PoK2Qc6zG8wluwzV9QUq"
   }
 ]
