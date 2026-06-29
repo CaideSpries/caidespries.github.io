@@ -1,8 +1,8 @@
 {
   "year": 2026,
   "source": "api_snapshot",
-  "fetchedAt": "2026-06-22T11:35:04.170Z",
-  "lastUpdated": "2026-06-22T11:35:04.170Z",
+  "fetchedAt": "2026-06-29T10:22:19.714Z",
+  "lastUpdated": "2026-06-29T10:22:19.714Z",
   "artists": [
     {
       "rank": 1,
@@ -37,7 +37,7 @@
     {
       "rank": 6,
       "name": "The Beatles",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebe9348cc01ff5d55971b22433",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb119b61b35985e3b957c5ecb7",
       "url": "https://open.spotify.com/artist/3WrFJ7ztbogyGnTHbHJFl2"
     },
     {
@@ -101,13 +101,13 @@
     },
     {
       "rank": 4,
-      "name": "Bless the Telephone",
+      "name": "Bless The Telephone (2006 Remaster)",
       "artist": "Labi Siffre",
-      "album": "The Singer and the Song",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b27397be3134250560894d37de57",
-      "url": "https://open.spotify.com/track/0620OecAlwJQxWieRW4L9s",
-      "durationMs": 100746,
-      "duration": "1:40",
+      "album": "1970-1971 (Labi Siffre / The Singer & The Song)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273502a405a4a95bd9f6d70563d",
+      "url": "https://open.spotify.com/track/0l0K2qwcHIOH38OZYn13yi",
+      "durationMs": 99796,
+      "duration": "1:39",
       "explicit": false
     },
     {
@@ -156,6 +156,17 @@
     },
     {
       "rank": 9,
+      "name": "Good Morning Children",
+      "artist": "Alec Troniq",
+      "album": "Ipoly Mate 003",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2738a60f6792262bd4c21c6e248",
+      "url": "https://open.spotify.com/track/7b6gAh0OyzcKsg2i7Tte6u",
+      "durationMs": 460541,
+      "duration": "7:40",
+      "explicit": false
+    },
+    {
+      "rank": 10,
       "name": "The Ship",
       "artist": "Incredible Polo",
       "album": "Ma Hill",
@@ -166,7 +177,7 @@
       "explicit": false
     },
     {
-      "rank": 10,
+      "rank": 11,
       "name": "Shake My Hand",
       "artist": "Extra Medium",
       "album": "One Size Fits All",
@@ -177,7 +188,7 @@
       "explicit": false
     },
     {
-      "rank": 11,
+      "rank": 12,
       "name": "Could You Be Loved",
       "artist": "Bob Marley & The Wailers",
       "album": "Uprising",
@@ -185,17 +196,6 @@
       "url": "https://open.spotify.com/track/5O4erNlJ74PIF6kGol1ZrC",
       "durationMs": 237000,
       "duration": "3:57",
-      "explicit": false
-    },
-    {
-      "rank": 12,
-      "name": "Good Morning Children",
-      "artist": "Alec Troniq",
-      "album": "Ipoly Mate 003",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b2738a60f6792262bd4c21c6e248",
-      "url": "https://open.spotify.com/track/7b6gAh0OyzcKsg2i7Tte6u",
-      "durationMs": 460541,
-      "duration": "7:40",
       "explicit": false
     },
     {
@@ -244,6 +244,17 @@
     },
     {
       "rank": 17,
+      "name": "Simple Man",
+      "artist": "Lynyrd Skynyrd",
+      "album": "Pronounced' Leh-'Nerd 'Skin-'Nerd",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273128450651c9f0442780d8eb8",
+      "url": "https://open.spotify.com/track/1ju7EsSGvRybSNEsRvc7qY",
+      "durationMs": 356626,
+      "duration": "5:56",
+      "explicit": false
+    },
+    {
+      "rank": 18,
       "name": "Electric Feel",
       "artist": "MGMT",
       "album": "Oracular Spectacular",
@@ -254,7 +265,7 @@
       "explicit": false
     },
     {
-      "rank": 18,
+      "rank": 19,
       "name": "Good Morning",
       "artist": "Kanye West",
       "album": "Graduation",
@@ -265,7 +276,7 @@
       "explicit": true
     },
     {
-      "rank": 19,
+      "rank": 20,
       "name": "Stay",
       "artist": "Rihanna, Mikky Ekko",
       "album": "Unapologetic (Edited Version)",
@@ -273,17 +284,6 @@
       "url": "https://open.spotify.com/track/789CxjEOtO76BVD1A9yJQH",
       "durationMs": 240706,
       "duration": "4:00",
-      "explicit": false
-    },
-    {
-      "rank": 20,
-      "name": "Simple Man",
-      "artist": "Lynyrd Skynyrd",
-      "album": "Pronounced' Leh-'Nerd 'Skin-'Nerd",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b273128450651c9f0442780d8eb8",
-      "url": "https://open.spotify.com/track/1ju7EsSGvRybSNEsRvc7qY",
-      "durationMs": 356626,
-      "duration": "5:56",
       "explicit": false
     }
   ],
@@ -321,7 +321,7 @@
     {
       "rank": 6,
       "name": "The Beatles",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebe9348cc01ff5d55971b22433",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb119b61b35985e3b957c5ecb7",
       "url": "https://open.spotify.com/artist/3WrFJ7ztbogyGnTHbHJFl2"
     },
     {
@@ -385,13 +385,13 @@
     },
     {
       "rank": 4,
-      "name": "Bless the Telephone",
+      "name": "Bless The Telephone (2006 Remaster)",
       "artist": "Labi Siffre",
-      "album": "The Singer and the Song",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b27397be3134250560894d37de57",
-      "url": "https://open.spotify.com/track/0620OecAlwJQxWieRW4L9s",
-      "durationMs": 100746,
-      "duration": "1:40",
+      "album": "1970-1971 (Labi Siffre / The Singer & The Song)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273502a405a4a95bd9f6d70563d",
+      "url": "https://open.spotify.com/track/0l0K2qwcHIOH38OZYn13yi",
+      "durationMs": 99796,
+      "duration": "1:39",
       "explicit": false
     },
     {
@@ -440,6 +440,17 @@
     },
     {
       "rank": 9,
+      "name": "Good Morning Children",
+      "artist": "Alec Troniq",
+      "album": "Ipoly Mate 003",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2738a60f6792262bd4c21c6e248",
+      "url": "https://open.spotify.com/track/7b6gAh0OyzcKsg2i7Tte6u",
+      "durationMs": 460541,
+      "duration": "7:40",
+      "explicit": false
+    },
+    {
+      "rank": 10,
       "name": "The Ship",
       "artist": "Incredible Polo",
       "album": "Ma Hill",
@@ -450,7 +461,7 @@
       "explicit": false
     },
     {
-      "rank": 10,
+      "rank": 11,
       "name": "Shake My Hand",
       "artist": "Extra Medium",
       "album": "One Size Fits All",
@@ -461,7 +472,7 @@
       "explicit": false
     },
     {
-      "rank": 11,
+      "rank": 12,
       "name": "Could You Be Loved",
       "artist": "Bob Marley & The Wailers",
       "album": "Uprising",
@@ -469,17 +480,6 @@
       "url": "https://open.spotify.com/track/5O4erNlJ74PIF6kGol1ZrC",
       "durationMs": 237000,
       "duration": "3:57",
-      "explicit": false
-    },
-    {
-      "rank": 12,
-      "name": "Good Morning Children",
-      "artist": "Alec Troniq",
-      "album": "Ipoly Mate 003",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b2738a60f6792262bd4c21c6e248",
-      "url": "https://open.spotify.com/track/7b6gAh0OyzcKsg2i7Tte6u",
-      "durationMs": 460541,
-      "duration": "7:40",
       "explicit": false
     },
     {
@@ -528,6 +528,17 @@
     },
     {
       "rank": 17,
+      "name": "Simple Man",
+      "artist": "Lynyrd Skynyrd",
+      "album": "Pronounced' Leh-'Nerd 'Skin-'Nerd",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273128450651c9f0442780d8eb8",
+      "url": "https://open.spotify.com/track/1ju7EsSGvRybSNEsRvc7qY",
+      "durationMs": 356626,
+      "duration": "5:56",
+      "explicit": false
+    },
+    {
+      "rank": 18,
       "name": "Electric Feel",
       "artist": "MGMT",
       "album": "Oracular Spectacular",
@@ -538,7 +549,7 @@
       "explicit": false
     },
     {
-      "rank": 18,
+      "rank": 19,
       "name": "Good Morning",
       "artist": "Kanye West",
       "album": "Graduation",
@@ -549,7 +560,7 @@
       "explicit": true
     },
     {
-      "rank": 19,
+      "rank": 20,
       "name": "Stay",
       "artist": "Rihanna, Mikky Ekko",
       "album": "Unapologetic (Edited Version)",
@@ -558,35 +569,24 @@
       "durationMs": 240706,
       "duration": "4:00",
       "explicit": false
-    },
-    {
-      "rank": 20,
-      "name": "Simple Man",
-      "artist": "Lynyrd Skynyrd",
-      "album": "Pronounced' Leh-'Nerd 'Skin-'Nerd",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b273128450651c9f0442780d8eb8",
-      "url": "https://open.spotify.com/track/1ju7EsSGvRybSNEsRvc7qY",
-      "durationMs": 356626,
-      "duration": "5:56",
-      "explicit": false
     }
   ],
   "stats": {
     "totalTracks": 50,
     "uniqueArtists": 64,
     "uniqueAlbums": 50,
-    "totalDurationMs": 12565425,
-    "totalDuration": "209:25",
-    "avgTrackDuration": "4:11",
+    "totalDurationMs": 12503126,
+    "totalDuration": "208:23",
+    "avgTrackDuration": "4:10",
     "longestTrack": {
       "name": "Good Morning Children",
       "artist": "Alec Troniq",
       "duration": "7:40"
     },
     "shortestTrack": {
-      "name": "Bless the Telephone",
+      "name": "Bless The Telephone (2006 Remaster)",
       "artist": "Labi Siffre",
-      "duration": "1:40"
+      "duration": "1:39"
     },
     "topTrackArtists": [
       {
@@ -621,7 +621,7 @@
       },
       {
         "decade": "2000s",
-        "count": 10
+        "count": 11
       },
       {
         "decade": "1970s",
@@ -633,7 +633,7 @@
       },
       {
         "decade": "1980s",
-        "count": 2
+        "count": 1
       }
     ]
   }
