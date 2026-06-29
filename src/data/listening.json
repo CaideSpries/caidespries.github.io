@@ -18,10 +18,10 @@
     "url": "https://open.spotify.com/album/4dSQCPJVskYNaCwTUJZCT7"
   },
   {
-    "title": "The Singer and the Song",
+    "title": "1970-1971 (Labi Siffre / The Singer & The Song)",
     "artist": "Labi Siffre",
-    "cover": "https://i.scdn.co/image/ab67616d0000b27397be3134250560894d37de57",
-    "url": "https://open.spotify.com/album/5vVrfTlAZqwpdCs52MjdZH"
+    "cover": "https://i.scdn.co/image/ab67616d0000b273502a405a4a95bd9f6d70563d",
+    "url": "https://open.spotify.com/album/52CIMImeLNwtF8Ci7X1Vc4"
   },
   {
     "title": "1995",
@@ -48,6 +48,12 @@
     "url": "https://open.spotify.com/album/4FCoFSNIFhK36holxHWCnc"
   },
   {
+    "title": "Ipoly Mate 003",
+    "artist": "Alec Troniq",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2738a60f6792262bd4c21c6e248",
+    "url": "https://open.spotify.com/album/12PoK2Qc6zG8wluwzV9QUq"
+  },
+  {
     "title": "Ma Hill",
     "artist": "Incredible Polo",
     "cover": "https://i.scdn.co/image/ab67616d0000b273e3481144ad8dcc24e4bb774f",
@@ -64,11 +70,5 @@
     "artist": "Bob Marley & The Wailers",
     "cover": "https://i.scdn.co/image/ab67616d0000b2731c40418d1c37d727e8e91b04",
     "url": "https://open.spotify.com/album/321q9p7PELvzcFAWxml7VX"
-  },
-  {
-    "title": "Ipoly Mate 003",
-    "artist": "Alec Troniq",
-    "cover": "https://i.scdn.co/image/ab67616d0000b2738a60f6792262bd4c21c6e248",
-    "url": "https://open.spotify.com/album/12PoK2Qc6zG8wluwzV9QUq"
   }
 ]
