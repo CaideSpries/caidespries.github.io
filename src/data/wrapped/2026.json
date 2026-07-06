@@ -1,8 +1,8 @@
 {
   "year": 2026,
   "source": "api_snapshot",
-  "fetchedAt": "2026-06-29T10:22:19.714Z",
-  "lastUpdated": "2026-06-29T10:22:19.714Z",
+  "fetchedAt": "2026-07-06T09:55:47.819Z",
+  "lastUpdated": "2026-07-06T09:55:47.819Z",
   "artists": [
     {
       "rank": 1,
@@ -12,27 +12,27 @@
     },
     {
       "rank": 2,
-      "name": "Kanye West",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb6e835a500e791bf9c27a422a",
-      "url": "https://open.spotify.com/artist/5K4W6rqBFWDnAN6FQUkS6x"
-    },
-    {
-      "rank": 3,
       "name": "Mac Miller",
       "image": "https://i.scdn.co/image/ab6761610000e5ebed3b89aa602145fde71a163a",
       "url": "https://open.spotify.com/artist/4LLpKhyESsyAXpc4laK94U"
     },
     {
-      "rank": 4,
+      "rank": 3,
       "name": "Rodríguez",
       "image": "https://i.scdn.co/image/d1d0f4b212e16eb6bf079e8e7bae11828378a2bc",
       "url": "https://open.spotify.com/artist/5PrHzxc3kFm4hIrGNmelpX"
     },
     {
-      "rank": 5,
+      "rank": 4,
       "name": "andhim",
       "image": "https://i.scdn.co/image/ab6761610000e5eb1b3da90ba96e40faf9db9eb0",
       "url": "https://open.spotify.com/artist/6XJeFzmI6vrWyHcdB7EImP"
+    },
+    {
+      "rank": 5,
+      "name": "Kanye West",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb6e835a500e791bf9c27a422a",
+      "url": "https://open.spotify.com/artist/5K4W6rqBFWDnAN6FQUkS6x"
     },
     {
       "rank": 6,
@@ -60,25 +60,14 @@
     },
     {
       "rank": 10,
-      "name": "Max Richter",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb8dee498089aaed97d680c5b7",
-      "url": "https://open.spotify.com/artist/2VZNmg4vCnew4Pavo8zDdW"
+      "name": "Chance the Rapper",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd4d18d62a36a26fe36b70e2a",
+      "url": "https://open.spotify.com/artist/1anyVhU62p31KFi8MEzkbf"
     }
   ],
   "tracks": [
     {
       "rank": 1,
-      "name": "Superstylin'",
-      "artist": "Groove Armada",
-      "album": "Goodbye Country (Hello Nightclub)",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b2730d6e6cc2e426ab9f3b33fbcc",
-      "url": "https://open.spotify.com/track/2yWyFT6bW1Rd9cjVvYi4v8",
-      "durationMs": 360426,
-      "duration": "6:00",
-      "explicit": false
-    },
-    {
-      "rank": 2,
       "name": "Night Moves",
       "artist": "Bob Seger",
       "album": "Night Moves",
@@ -86,6 +75,17 @@
       "url": "https://open.spotify.com/track/6UBjSnyP1O5W5ndJoO9vUk",
       "durationMs": 324422,
       "duration": "5:24",
+      "explicit": false
+    },
+    {
+      "rank": 2,
+      "name": "Superstylin'",
+      "artist": "Groove Armada",
+      "album": "Goodbye Country (Hello Nightclub)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2730d6e6cc2e426ab9f3b33fbcc",
+      "url": "https://open.spotify.com/track/2yWyFT6bW1Rd9cjVvYi4v8",
+      "durationMs": 360426,
+      "duration": "6:00",
       "explicit": false
     },
     {
@@ -101,17 +101,6 @@
     },
     {
       "rank": 4,
-      "name": "Bless The Telephone (2006 Remaster)",
-      "artist": "Labi Siffre",
-      "album": "1970-1971 (Labi Siffre / The Singer & The Song)",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b273502a405a4a95bd9f6d70563d",
-      "url": "https://open.spotify.com/track/0l0K2qwcHIOH38OZYn13yi",
-      "durationMs": 99796,
-      "duration": "1:39",
-      "explicit": false
-    },
-    {
-      "rank": 5,
       "name": "The Best Part",
       "artist": "gardenstate, Bien",
       "album": "1995",
@@ -119,6 +108,17 @@
       "url": "https://open.spotify.com/track/2amYUbGjR7HysKynCYSY0d",
       "durationMs": 250000,
       "duration": "4:10",
+      "explicit": false
+    },
+    {
+      "rank": 5,
+      "name": "Nutshell",
+      "artist": "Alice In Chains",
+      "album": "Jar Of Flies",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b27325b42be683b8d3c6500db726",
+      "url": "https://open.spotify.com/track/2JuasWPUodaUxf5nwNpciQ",
+      "durationMs": 259200,
+      "duration": "4:19",
       "explicit": false
     },
     {
@@ -145,13 +145,13 @@
     },
     {
       "rank": 8,
-      "name": "Nutshell",
-      "artist": "Alice In Chains",
-      "album": "Jar Of Flies",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b27325b42be683b8d3c6500db726",
-      "url": "https://open.spotify.com/track/2JuasWPUodaUxf5nwNpciQ",
-      "durationMs": 259200,
-      "duration": "4:19",
+      "name": "Alone",
+      "artist": "Liquideep",
+      "album": "Fabrics of the Heart",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273b47a9ea845c030fd3c5b718c",
+      "url": "https://open.spotify.com/track/5Cn14RcQC8jdRbdl9osUfe",
+      "durationMs": 216360,
+      "duration": "3:36",
       "explicit": false
     },
     {
@@ -255,17 +255,6 @@
     },
     {
       "rank": 18,
-      "name": "Electric Feel",
-      "artist": "MGMT",
-      "album": "Oracular Spectacular",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b2737addf1f64798c10d3bd6b27c",
-      "url": "https://open.spotify.com/track/4ijZ4sCKTLsQJKTJT4psI8",
-      "durationMs": 229333,
-      "duration": "3:49",
-      "explicit": false
-    },
-    {
-      "rank": 19,
       "name": "Good Morning",
       "artist": "Kanye West",
       "album": "Graduation",
@@ -276,7 +265,7 @@
       "explicit": true
     },
     {
-      "rank": 20,
+      "rank": 19,
       "name": "Stay",
       "artist": "Rihanna, Mikky Ekko",
       "album": "Unapologetic (Edited Version)",
@@ -284,6 +273,17 @@
       "url": "https://open.spotify.com/track/789CxjEOtO76BVD1A9yJQH",
       "durationMs": 240706,
       "duration": "4:00",
+      "explicit": false
+    },
+    {
+      "rank": 20,
+      "name": "Bless The Telephone (2006 Remaster)",
+      "artist": "Labi Siffre",
+      "album": "1970-1971 (Labi Siffre / The Singer & The Song)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273502a405a4a95bd9f6d70563d",
+      "url": "https://open.spotify.com/track/0l0K2qwcHIOH38OZYn13yi",
+      "durationMs": 99796,
+      "duration": "1:39",
       "explicit": false
     }
   ],
@@ -296,27 +296,27 @@
     },
     {
       "rank": 2,
-      "name": "Kanye West",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb6e835a500e791bf9c27a422a",
-      "url": "https://open.spotify.com/artist/5K4W6rqBFWDnAN6FQUkS6x"
-    },
-    {
-      "rank": 3,
       "name": "Mac Miller",
       "image": "https://i.scdn.co/image/ab6761610000e5ebed3b89aa602145fde71a163a",
       "url": "https://open.spotify.com/artist/4LLpKhyESsyAXpc4laK94U"
     },
     {
-      "rank": 4,
+      "rank": 3,
       "name": "Rodríguez",
       "image": "https://i.scdn.co/image/d1d0f4b212e16eb6bf079e8e7bae11828378a2bc",
       "url": "https://open.spotify.com/artist/5PrHzxc3kFm4hIrGNmelpX"
     },
     {
-      "rank": 5,
+      "rank": 4,
       "name": "andhim",
       "image": "https://i.scdn.co/image/ab6761610000e5eb1b3da90ba96e40faf9db9eb0",
       "url": "https://open.spotify.com/artist/6XJeFzmI6vrWyHcdB7EImP"
+    },
+    {
+      "rank": 5,
+      "name": "Kanye West",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb6e835a500e791bf9c27a422a",
+      "url": "https://open.spotify.com/artist/5K4W6rqBFWDnAN6FQUkS6x"
     },
     {
       "rank": 6,
@@ -344,25 +344,14 @@
     },
     {
       "rank": 10,
-      "name": "Max Richter",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb8dee498089aaed97d680c5b7",
-      "url": "https://open.spotify.com/artist/2VZNmg4vCnew4Pavo8zDdW"
+      "name": "Chance the Rapper",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd4d18d62a36a26fe36b70e2a",
+      "url": "https://open.spotify.com/artist/1anyVhU62p31KFi8MEzkbf"
     }
   ],
   "topTracks": [
     {
       "rank": 1,
-      "name": "Superstylin'",
-      "artist": "Groove Armada",
-      "album": "Goodbye Country (Hello Nightclub)",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b2730d6e6cc2e426ab9f3b33fbcc",
-      "url": "https://open.spotify.com/track/2yWyFT6bW1Rd9cjVvYi4v8",
-      "durationMs": 360426,
-      "duration": "6:00",
-      "explicit": false
-    },
-    {
-      "rank": 2,
       "name": "Night Moves",
       "artist": "Bob Seger",
       "album": "Night Moves",
@@ -370,6 +359,17 @@
       "url": "https://open.spotify.com/track/6UBjSnyP1O5W5ndJoO9vUk",
       "durationMs": 324422,
       "duration": "5:24",
+      "explicit": false
+    },
+    {
+      "rank": 2,
+      "name": "Superstylin'",
+      "artist": "Groove Armada",
+      "album": "Goodbye Country (Hello Nightclub)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2730d6e6cc2e426ab9f3b33fbcc",
+      "url": "https://open.spotify.com/track/2yWyFT6bW1Rd9cjVvYi4v8",
+      "durationMs": 360426,
+      "duration": "6:00",
       "explicit": false
     },
     {
@@ -385,17 +385,6 @@
     },
     {
       "rank": 4,
-      "name": "Bless The Telephone (2006 Remaster)",
-      "artist": "Labi Siffre",
-      "album": "1970-1971 (Labi Siffre / The Singer & The Song)",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b273502a405a4a95bd9f6d70563d",
-      "url": "https://open.spotify.com/track/0l0K2qwcHIOH38OZYn13yi",
-      "durationMs": 99796,
-      "duration": "1:39",
-      "explicit": false
-    },
-    {
-      "rank": 5,
       "name": "The Best Part",
       "artist": "gardenstate, Bien",
       "album": "1995",
@@ -403,6 +392,17 @@
       "url": "https://open.spotify.com/track/2amYUbGjR7HysKynCYSY0d",
       "durationMs": 250000,
       "duration": "4:10",
+      "explicit": false
+    },
+    {
+      "rank": 5,
+      "name": "Nutshell",
+      "artist": "Alice In Chains",
+      "album": "Jar Of Flies",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b27325b42be683b8d3c6500db726",
+      "url": "https://open.spotify.com/track/2JuasWPUodaUxf5nwNpciQ",
+      "durationMs": 259200,
+      "duration": "4:19",
       "explicit": false
     },
     {
@@ -429,13 +429,13 @@
     },
     {
       "rank": 8,
-      "name": "Nutshell",
-      "artist": "Alice In Chains",
-      "album": "Jar Of Flies",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b27325b42be683b8d3c6500db726",
-      "url": "https://open.spotify.com/track/2JuasWPUodaUxf5nwNpciQ",
-      "durationMs": 259200,
-      "duration": "4:19",
+      "name": "Alone",
+      "artist": "Liquideep",
+      "album": "Fabrics of the Heart",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273b47a9ea845c030fd3c5b718c",
+      "url": "https://open.spotify.com/track/5Cn14RcQC8jdRbdl9osUfe",
+      "durationMs": 216360,
+      "duration": "3:36",
       "explicit": false
     },
     {
@@ -539,17 +539,6 @@
     },
     {
       "rank": 18,
-      "name": "Electric Feel",
-      "artist": "MGMT",
-      "album": "Oracular Spectacular",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b2737addf1f64798c10d3bd6b27c",
-      "url": "https://open.spotify.com/track/4ijZ4sCKTLsQJKTJT4psI8",
-      "durationMs": 229333,
-      "duration": "3:49",
-      "explicit": false
-    },
-    {
-      "rank": 19,
       "name": "Good Morning",
       "artist": "Kanye West",
       "album": "Graduation",
@@ -560,7 +549,7 @@
       "explicit": true
     },
     {
-      "rank": 20,
+      "rank": 19,
       "name": "Stay",
       "artist": "Rihanna, Mikky Ekko",
       "album": "Unapologetic (Edited Version)",
@@ -569,15 +558,26 @@
       "durationMs": 240706,
       "duration": "4:00",
       "explicit": false
+    },
+    {
+      "rank": 20,
+      "name": "Bless The Telephone (2006 Remaster)",
+      "artist": "Labi Siffre",
+      "album": "1970-1971 (Labi Siffre / The Singer & The Song)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273502a405a4a95bd9f6d70563d",
+      "url": "https://open.spotify.com/track/0l0K2qwcHIOH38OZYn13yi",
+      "durationMs": 99796,
+      "duration": "1:39",
+      "explicit": false
     }
   ],
   "stats": {
     "totalTracks": 50,
-    "uniqueArtists": 64,
+    "uniqueArtists": 62,
     "uniqueAlbums": 50,
-    "totalDurationMs": 12503126,
-    "totalDuration": "208:23",
-    "avgTrackDuration": "4:10",
+    "totalDurationMs": 12805160,
+    "totalDuration": "213:25",
+    "avgTrackDuration": "4:16",
     "longestTrack": {
       "name": "Good Morning Children",
       "artist": "Alec Troniq",
@@ -602,11 +602,11 @@
         "count": 2
       },
       {
-        "name": "Groove Armada",
+        "name": "Bob Seger",
         "count": 1
       },
       {
-        "name": "Bob Seger",
+        "name": "Groove Armada",
         "count": 1
       }
     ],
@@ -616,11 +616,11 @@
         "count": 14
       },
       {
-        "decade": "2020s",
-        "count": 12
+        "decade": "2000s",
+        "count": 11
       },
       {
-        "decade": "2000s",
+        "decade": "2020s",
         "count": 11
       },
       {
@@ -633,7 +633,7 @@
       },
       {
         "decade": "1980s",
-        "count": 1
+        "count": 2
       }
     ]
   }
