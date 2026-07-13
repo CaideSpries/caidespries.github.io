@@ -1,15 +1,15 @@
 [
   {
-    "title": "Night Moves",
-    "artist": "Bob Seger",
-    "cover": "https://i.scdn.co/image/ab67616d0000b273676a8230a422123e8012557e",
-    "url": "https://open.spotify.com/album/5QkOpsZupEPLq186YOrBNe"
-  },
-  {
     "title": "Goodbye Country (Hello Nightclub)",
     "artist": "Groove Armada",
     "cover": "https://i.scdn.co/image/ab67616d0000b2730d6e6cc2e426ab9f3b33fbcc",
     "url": "https://open.spotify.com/album/1bS1J4OVGrpu6e2U2pHge6"
+  },
+  {
+    "title": "Night Moves",
+    "artist": "Bob Seger",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273676a8230a422123e8012557e",
+    "url": "https://open.spotify.com/album/5QkOpsZupEPLq186YOrBNe"
   },
   {
     "title": "Sete",
@@ -18,16 +18,16 @@
     "url": "https://open.spotify.com/album/4dSQCPJVskYNaCwTUJZCT7"
   },
   {
-    "title": "1995",
-    "artist": "gardenstate, Marcus Schössow",
-    "cover": "https://i.scdn.co/image/ab67616d0000b273ca9672b445f8f946609de58d",
-    "url": "https://open.spotify.com/album/30YyvaRckkdYqFifZGeZSb"
-  },
-  {
     "title": "Jar Of Flies",
     "artist": "Alice In Chains",
     "cover": "https://i.scdn.co/image/ab67616d0000b27325b42be683b8d3c6500db726",
     "url": "https://open.spotify.com/album/4FCoFSNIFhK36holxHWCnc"
+  },
+  {
+    "title": "1995",
+    "artist": "gardenstate, Marcus Schössow",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273ca9672b445f8f946609de58d",
+    "url": "https://open.spotify.com/album/30YyvaRckkdYqFifZGeZSb"
   },
   {
     "title": "I Barely Know Her",
@@ -48,27 +48,27 @@
     "url": "https://open.spotify.com/album/3Bk1gC3Np3k5BLjbdvkrR1"
   },
   {
-    "title": "Ipoly Mate 003",
-    "artist": "Alec Troniq",
-    "cover": "https://i.scdn.co/image/ab67616d0000b2738a60f6792262bd4c21c6e248",
-    "url": "https://open.spotify.com/album/12PoK2Qc6zG8wluwzV9QUq"
-  },
-  {
     "title": "Ma Hill",
     "artist": "Incredible Polo",
     "cover": "https://i.scdn.co/image/ab67616d0000b273e3481144ad8dcc24e4bb774f",
     "url": "https://open.spotify.com/album/3K0WLLwGfAoEP2TdT2ZGae"
   },
   {
-    "title": "One Size Fits All",
-    "artist": "Extra Medium",
-    "cover": "https://i.scdn.co/image/ab67616d0000b2735cedd69b78b4d3d72e8756c0",
-    "url": "https://open.spotify.com/album/28EqWImAS6WdFczsu3g8hv"
-  },
-  {
     "title": "Uprising",
     "artist": "Bob Marley & The Wailers",
     "cover": "https://i.scdn.co/image/ab67616d0000b2731c40418d1c37d727e8e91b04",
     "url": "https://open.spotify.com/album/321q9p7PELvzcFAWxml7VX"
+  },
+  {
+    "title": "Ipoly Mate 003",
+    "artist": "Alec Troniq",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2738a60f6792262bd4c21c6e248",
+    "url": "https://open.spotify.com/album/12PoK2Qc6zG8wluwzV9QUq"
+  },
+  {
+    "title": "White Ladder (2020 Remaster)",
+    "artist": "David Gray",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273786a2ccbdd971e5903a09d45",
+    "url": "https://open.spotify.com/album/65dV0TVZ9BEfudSPEt1hb6"
   }
 ]
