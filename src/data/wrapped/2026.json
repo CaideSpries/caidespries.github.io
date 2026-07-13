@@ -1,8 +1,8 @@
 {
   "year": 2026,
   "source": "api_snapshot",
-  "fetchedAt": "2026-07-06T09:55:47.819Z",
-  "lastUpdated": "2026-07-06T09:55:47.819Z",
+  "fetchedAt": "2026-07-13T08:48:50.286Z",
+  "lastUpdated": "2026-07-13T08:48:50.286Z",
   "artists": [
     {
       "rank": 1,
@@ -18,21 +18,21 @@
     },
     {
       "rank": 3,
+      "name": "Maribou State",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb8226ea46d749763f4e650015",
+      "url": "https://open.spotify.com/artist/7zrkALJ9ayRjzysp4QYoEg"
+    },
+    {
+      "rank": 4,
       "name": "Rodríguez",
       "image": "https://i.scdn.co/image/d1d0f4b212e16eb6bf079e8e7bae11828378a2bc",
       "url": "https://open.spotify.com/artist/5PrHzxc3kFm4hIrGNmelpX"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "name": "andhim",
       "image": "https://i.scdn.co/image/ab6761610000e5eb1b3da90ba96e40faf9db9eb0",
       "url": "https://open.spotify.com/artist/6XJeFzmI6vrWyHcdB7EImP"
-    },
-    {
-      "rank": 5,
-      "name": "Kanye West",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb6e835a500e791bf9c27a422a",
-      "url": "https://open.spotify.com/artist/5K4W6rqBFWDnAN6FQUkS6x"
     },
     {
       "rank": 6,
@@ -42,43 +42,32 @@
     },
     {
       "rank": 7,
-      "name": "GoldFish",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb8320cc48e712d8034fa73eb7",
-      "url": "https://open.spotify.com/artist/0uRdK8gy7fXJGRywrlmPM7"
+      "name": "Kanye West",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb6e835a500e791bf9c27a422a",
+      "url": "https://open.spotify.com/artist/5K4W6rqBFWDnAN6FQUkS6x"
     },
     {
       "rank": 8,
-      "name": "Led Zeppelin",
-      "image": "https://i.scdn.co/image/207803ce008388d3427a685254f9de6a8f61dc2e",
-      "url": "https://open.spotify.com/artist/36QJpDe2go2KgaRleHCDTp"
-    },
-    {
-      "rank": 9,
       "name": "The Rolling Stones",
       "image": "https://i.scdn.co/image/ab6761610000e5eb2b72b000ac948eba03bb3afe",
       "url": "https://open.spotify.com/artist/22bE4uQ6baNwSHPVcDxLCe"
     },
     {
+      "rank": 9,
+      "name": "GoldFish",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb8320cc48e712d8034fa73eb7",
+      "url": "https://open.spotify.com/artist/0uRdK8gy7fXJGRywrlmPM7"
+    },
+    {
       "rank": 10,
-      "name": "Chance the Rapper",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebd4d18d62a36a26fe36b70e2a",
-      "url": "https://open.spotify.com/artist/1anyVhU62p31KFi8MEzkbf"
+      "name": "Led Zeppelin",
+      "image": "https://i.scdn.co/image/207803ce008388d3427a685254f9de6a8f61dc2e",
+      "url": "https://open.spotify.com/artist/36QJpDe2go2KgaRleHCDTp"
     }
   ],
   "tracks": [
     {
       "rank": 1,
-      "name": "Night Moves",
-      "artist": "Bob Seger",
-      "album": "Night Moves",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b273676a8230a422123e8012557e",
-      "url": "https://open.spotify.com/track/6UBjSnyP1O5W5ndJoO9vUk",
-      "durationMs": 324422,
-      "duration": "5:24",
-      "explicit": false
-    },
-    {
-      "rank": 2,
       "name": "Superstylin'",
       "artist": "Groove Armada",
       "album": "Goodbye Country (Hello Nightclub)",
@@ -86,6 +75,17 @@
       "url": "https://open.spotify.com/track/2yWyFT6bW1Rd9cjVvYi4v8",
       "durationMs": 360426,
       "duration": "6:00",
+      "explicit": false
+    },
+    {
+      "rank": 2,
+      "name": "Night Moves",
+      "artist": "Bob Seger",
+      "album": "Night Moves",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273676a8230a422123e8012557e",
+      "url": "https://open.spotify.com/track/6UBjSnyP1O5W5ndJoO9vUk",
+      "durationMs": 324422,
+      "duration": "5:24",
       "explicit": false
     },
     {
@@ -101,17 +101,6 @@
     },
     {
       "rank": 4,
-      "name": "The Best Part",
-      "artist": "gardenstate, Bien",
-      "album": "1995",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b273ca9672b445f8f946609de58d",
-      "url": "https://open.spotify.com/track/2amYUbGjR7HysKynCYSY0d",
-      "durationMs": 250000,
-      "duration": "4:10",
-      "explicit": false
-    },
-    {
-      "rank": 5,
       "name": "Nutshell",
       "artist": "Alice In Chains",
       "album": "Jar Of Flies",
@@ -119,6 +108,17 @@
       "url": "https://open.spotify.com/track/2JuasWPUodaUxf5nwNpciQ",
       "durationMs": 259200,
       "duration": "4:19",
+      "explicit": false
+    },
+    {
+      "rank": 5,
+      "name": "The Best Part",
+      "artist": "gardenstate, Bien",
+      "album": "1995",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273ca9672b445f8f946609de58d",
+      "url": "https://open.spotify.com/track/2amYUbGjR7HysKynCYSY0d",
+      "durationMs": 250000,
+      "duration": "4:10",
       "explicit": false
     },
     {
@@ -156,17 +156,6 @@
     },
     {
       "rank": 9,
-      "name": "Good Morning Children",
-      "artist": "Alec Troniq",
-      "album": "Ipoly Mate 003",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b2738a60f6792262bd4c21c6e248",
-      "url": "https://open.spotify.com/track/7b6gAh0OyzcKsg2i7Tte6u",
-      "durationMs": 460541,
-      "duration": "7:40",
-      "explicit": false
-    },
-    {
-      "rank": 10,
       "name": "The Ship",
       "artist": "Incredible Polo",
       "album": "Ma Hill",
@@ -177,18 +166,7 @@
       "explicit": false
     },
     {
-      "rank": 11,
-      "name": "Shake My Hand",
-      "artist": "Extra Medium",
-      "album": "One Size Fits All",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b2735cedd69b78b4d3d72e8756c0",
-      "url": "https://open.spotify.com/track/4I1Oxq6GF4qy2ZomHRSuzL",
-      "durationMs": 330017,
-      "duration": "5:30",
-      "explicit": false
-    },
-    {
-      "rank": 12,
+      "rank": 10,
       "name": "Could You Be Loved",
       "artist": "Bob Marley & The Wailers",
       "album": "Uprising",
@@ -199,29 +177,40 @@
       "explicit": false
     },
     {
+      "rank": 11,
+      "name": "Good Morning Children",
+      "artist": "Alec Troniq",
+      "album": "Ipoly Mate 003",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2738a60f6792262bd4c21c6e248",
+      "url": "https://open.spotify.com/track/7b6gAh0OyzcKsg2i7Tte6u",
+      "durationMs": 460541,
+      "duration": "7:40",
+      "explicit": false
+    },
+    {
+      "rank": 12,
+      "name": "Babylon",
+      "artist": "David Gray",
+      "album": "White Ladder (2020 Remaster)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273786a2ccbdd971e5903a09d45",
+      "url": "https://open.spotify.com/track/0hltBiPrw06vWjtadBn6oe",
+      "durationMs": 265640,
+      "duration": "4:25",
+      "explicit": false
+    },
+    {
       "rank": 13,
-      "name": "Crucify Your Mind",
-      "artist": "Rodríguez",
-      "album": "Cold Fact",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b273e7e1b574a9e6b9f26c7c3f49",
-      "url": "https://open.spotify.com/track/2Xn7NadvZ56D0B2D7x2CSL",
-      "durationMs": 152346,
-      "duration": "2:32",
+      "name": "Shake My Hand",
+      "artist": "Extra Medium",
+      "album": "One Size Fits All",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2735cedd69b78b4d3d72e8756c0",
+      "url": "https://open.spotify.com/track/4I1Oxq6GF4qy2ZomHRSuzL",
+      "durationMs": 330017,
+      "duration": "5:30",
       "explicit": false
     },
     {
       "rank": 14,
-      "name": "Chop Suey!",
-      "artist": "System Of A Down",
-      "album": "Toxicity",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b27307bc7d2a745636c356b4d0aa",
-      "url": "https://open.spotify.com/track/2DlHlPMa4M17kufBvI2lEN",
-      "durationMs": 210240,
-      "duration": "3:30",
-      "explicit": false
-    },
-    {
-      "rank": 15,
       "name": "Every 1's a Winner - Single Version",
       "artist": "Hot Chocolate",
       "album": "Every 1's a Winner",
@@ -232,29 +221,29 @@
       "explicit": false
     },
     {
+      "rank": 15,
+      "name": "Chop Suey!",
+      "artist": "System Of A Down",
+      "album": "Toxicity",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b27307bc7d2a745636c356b4d0aa",
+      "url": "https://open.spotify.com/track/2DlHlPMa4M17kufBvI2lEN",
+      "durationMs": 210240,
+      "duration": "3:30",
+      "explicit": false
+    },
+    {
       "rank": 16,
-      "name": "My Bed",
-      "artist": "Marbert Rocel",
-      "album": "Catch a Bird",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b2733f77e9c475ee88151ff2e4e7",
-      "url": "https://open.spotify.com/track/1N2e9UsOsExRGDVq9IpH24",
-      "durationMs": 183520,
-      "duration": "3:03",
+      "name": "Time in a Bottle",
+      "artist": "Jim Croce",
+      "album": "You Don't Mess Around With Jim",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2735b7a6cabbcb9fe150966563c",
+      "url": "https://open.spotify.com/track/7uWFUpGuEfmxYeymkV95jn",
+      "durationMs": 148586,
+      "duration": "2:28",
       "explicit": false
     },
     {
       "rank": 17,
-      "name": "Simple Man",
-      "artist": "Lynyrd Skynyrd",
-      "album": "Pronounced' Leh-'Nerd 'Skin-'Nerd",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b273128450651c9f0442780d8eb8",
-      "url": "https://open.spotify.com/track/1ju7EsSGvRybSNEsRvc7qY",
-      "durationMs": 356626,
-      "duration": "5:56",
-      "explicit": false
-    },
-    {
-      "rank": 18,
       "name": "Good Morning",
       "artist": "Kanye West",
       "album": "Graduation",
@@ -265,25 +254,36 @@
       "explicit": true
     },
     {
+      "rank": 18,
+      "name": "My Bed",
+      "artist": "Marbert Rocel",
+      "album": "Catch a Bird",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2733f77e9c475ee88151ff2e4e7",
+      "url": "https://open.spotify.com/track/1N2e9UsOsExRGDVq9IpH24",
+      "durationMs": 183520,
+      "duration": "3:03",
+      "explicit": false
+    },
+    {
       "rank": 19,
-      "name": "Stay",
-      "artist": "Rihanna, Mikky Ekko",
-      "album": "Unapologetic (Edited Version)",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b273e24cbbd5cef05ca77ec67df6",
-      "url": "https://open.spotify.com/track/789CxjEOtO76BVD1A9yJQH",
-      "durationMs": 240706,
-      "duration": "4:00",
+      "name": "Simple Man",
+      "artist": "Lynyrd Skynyrd",
+      "album": "Pronounced' Leh-'Nerd 'Skin-'Nerd",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273128450651c9f0442780d8eb8",
+      "url": "https://open.spotify.com/track/1ju7EsSGvRybSNEsRvc7qY",
+      "durationMs": 356626,
+      "duration": "5:56",
       "explicit": false
     },
     {
       "rank": 20,
-      "name": "Bless The Telephone (2006 Remaster)",
-      "artist": "Labi Siffre",
-      "album": "1970-1971 (Labi Siffre / The Singer & The Song)",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b273502a405a4a95bd9f6d70563d",
-      "url": "https://open.spotify.com/track/0l0K2qwcHIOH38OZYn13yi",
-      "durationMs": 99796,
-      "duration": "1:39",
+      "name": "Electric Feel",
+      "artist": "MGMT",
+      "album": "Oracular Spectacular",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2737addf1f64798c10d3bd6b27c",
+      "url": "https://open.spotify.com/track/4ijZ4sCKTLsQJKTJT4psI8",
+      "durationMs": 229333,
+      "duration": "3:49",
       "explicit": false
     }
   ],
@@ -302,21 +302,21 @@
     },
     {
       "rank": 3,
+      "name": "Maribou State",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb8226ea46d749763f4e650015",
+      "url": "https://open.spotify.com/artist/7zrkALJ9ayRjzysp4QYoEg"
+    },
+    {
+      "rank": 4,
       "name": "Rodríguez",
       "image": "https://i.scdn.co/image/d1d0f4b212e16eb6bf079e8e7bae11828378a2bc",
       "url": "https://open.spotify.com/artist/5PrHzxc3kFm4hIrGNmelpX"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "name": "andhim",
       "image": "https://i.scdn.co/image/ab6761610000e5eb1b3da90ba96e40faf9db9eb0",
       "url": "https://open.spotify.com/artist/6XJeFzmI6vrWyHcdB7EImP"
-    },
-    {
-      "rank": 5,
-      "name": "Kanye West",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb6e835a500e791bf9c27a422a",
-      "url": "https://open.spotify.com/artist/5K4W6rqBFWDnAN6FQUkS6x"
     },
     {
       "rank": 6,
@@ -326,43 +326,32 @@
     },
     {
       "rank": 7,
-      "name": "GoldFish",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb8320cc48e712d8034fa73eb7",
-      "url": "https://open.spotify.com/artist/0uRdK8gy7fXJGRywrlmPM7"
+      "name": "Kanye West",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb6e835a500e791bf9c27a422a",
+      "url": "https://open.spotify.com/artist/5K4W6rqBFWDnAN6FQUkS6x"
     },
     {
       "rank": 8,
-      "name": "Led Zeppelin",
-      "image": "https://i.scdn.co/image/207803ce008388d3427a685254f9de6a8f61dc2e",
-      "url": "https://open.spotify.com/artist/36QJpDe2go2KgaRleHCDTp"
-    },
-    {
-      "rank": 9,
       "name": "The Rolling Stones",
       "image": "https://i.scdn.co/image/ab6761610000e5eb2b72b000ac948eba03bb3afe",
       "url": "https://open.spotify.com/artist/22bE4uQ6baNwSHPVcDxLCe"
     },
     {
+      "rank": 9,
+      "name": "GoldFish",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb8320cc48e712d8034fa73eb7",
+      "url": "https://open.spotify.com/artist/0uRdK8gy7fXJGRywrlmPM7"
+    },
+    {
       "rank": 10,
-      "name": "Chance the Rapper",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebd4d18d62a36a26fe36b70e2a",
-      "url": "https://open.spotify.com/artist/1anyVhU62p31KFi8MEzkbf"
+      "name": "Led Zeppelin",
+      "image": "https://i.scdn.co/image/207803ce008388d3427a685254f9de6a8f61dc2e",
+      "url": "https://open.spotify.com/artist/36QJpDe2go2KgaRleHCDTp"
     }
   ],
   "topTracks": [
     {
       "rank": 1,
-      "name": "Night Moves",
-      "artist": "Bob Seger",
-      "album": "Night Moves",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b273676a8230a422123e8012557e",
-      "url": "https://open.spotify.com/track/6UBjSnyP1O5W5ndJoO9vUk",
-      "durationMs": 324422,
-      "duration": "5:24",
-      "explicit": false
-    },
-    {
-      "rank": 2,
       "name": "Superstylin'",
       "artist": "Groove Armada",
       "album": "Goodbye Country (Hello Nightclub)",
@@ -370,6 +359,17 @@
       "url": "https://open.spotify.com/track/2yWyFT6bW1Rd9cjVvYi4v8",
       "durationMs": 360426,
       "duration": "6:00",
+      "explicit": false
+    },
+    {
+      "rank": 2,
+      "name": "Night Moves",
+      "artist": "Bob Seger",
+      "album": "Night Moves",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273676a8230a422123e8012557e",
+      "url": "https://open.spotify.com/track/6UBjSnyP1O5W5ndJoO9vUk",
+      "durationMs": 324422,
+      "duration": "5:24",
       "explicit": false
     },
     {
@@ -385,17 +385,6 @@
     },
     {
       "rank": 4,
-      "name": "The Best Part",
-      "artist": "gardenstate, Bien",
-      "album": "1995",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b273ca9672b445f8f946609de58d",
-      "url": "https://open.spotify.com/track/2amYUbGjR7HysKynCYSY0d",
-      "durationMs": 250000,
-      "duration": "4:10",
-      "explicit": false
-    },
-    {
-      "rank": 5,
       "name": "Nutshell",
       "artist": "Alice In Chains",
       "album": "Jar Of Flies",
@@ -403,6 +392,17 @@
       "url": "https://open.spotify.com/track/2JuasWPUodaUxf5nwNpciQ",
       "durationMs": 259200,
       "duration": "4:19",
+      "explicit": false
+    },
+    {
+      "rank": 5,
+      "name": "The Best Part",
+      "artist": "gardenstate, Bien",
+      "album": "1995",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273ca9672b445f8f946609de58d",
+      "url": "https://open.spotify.com/track/2amYUbGjR7HysKynCYSY0d",
+      "durationMs": 250000,
+      "duration": "4:10",
       "explicit": false
     },
     {
@@ -440,17 +440,6 @@
     },
     {
       "rank": 9,
-      "name": "Good Morning Children",
-      "artist": "Alec Troniq",
-      "album": "Ipoly Mate 003",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b2738a60f6792262bd4c21c6e248",
-      "url": "https://open.spotify.com/track/7b6gAh0OyzcKsg2i7Tte6u",
-      "durationMs": 460541,
-      "duration": "7:40",
-      "explicit": false
-    },
-    {
-      "rank": 10,
       "name": "The Ship",
       "artist": "Incredible Polo",
       "album": "Ma Hill",
@@ -461,18 +450,7 @@
       "explicit": false
     },
     {
-      "rank": 11,
-      "name": "Shake My Hand",
-      "artist": "Extra Medium",
-      "album": "One Size Fits All",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b2735cedd69b78b4d3d72e8756c0",
-      "url": "https://open.spotify.com/track/4I1Oxq6GF4qy2ZomHRSuzL",
-      "durationMs": 330017,
-      "duration": "5:30",
-      "explicit": false
-    },
-    {
-      "rank": 12,
+      "rank": 10,
       "name": "Could You Be Loved",
       "artist": "Bob Marley & The Wailers",
       "album": "Uprising",
@@ -483,29 +461,40 @@
       "explicit": false
     },
     {
+      "rank": 11,
+      "name": "Good Morning Children",
+      "artist": "Alec Troniq",
+      "album": "Ipoly Mate 003",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2738a60f6792262bd4c21c6e248",
+      "url": "https://open.spotify.com/track/7b6gAh0OyzcKsg2i7Tte6u",
+      "durationMs": 460541,
+      "duration": "7:40",
+      "explicit": false
+    },
+    {
+      "rank": 12,
+      "name": "Babylon",
+      "artist": "David Gray",
+      "album": "White Ladder (2020 Remaster)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273786a2ccbdd971e5903a09d45",
+      "url": "https://open.spotify.com/track/0hltBiPrw06vWjtadBn6oe",
+      "durationMs": 265640,
+      "duration": "4:25",
+      "explicit": false
+    },
+    {
       "rank": 13,
-      "name": "Crucify Your Mind",
-      "artist": "Rodríguez",
-      "album": "Cold Fact",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b273e7e1b574a9e6b9f26c7c3f49",
-      "url": "https://open.spotify.com/track/2Xn7NadvZ56D0B2D7x2CSL",
-      "durationMs": 152346,
-      "duration": "2:32",
+      "name": "Shake My Hand",
+      "artist": "Extra Medium",
+      "album": "One Size Fits All",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2735cedd69b78b4d3d72e8756c0",
+      "url": "https://open.spotify.com/track/4I1Oxq6GF4qy2ZomHRSuzL",
+      "durationMs": 330017,
+      "duration": "5:30",
       "explicit": false
     },
     {
       "rank": 14,
-      "name": "Chop Suey!",
-      "artist": "System Of A Down",
-      "album": "Toxicity",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b27307bc7d2a745636c356b4d0aa",
-      "url": "https://open.spotify.com/track/2DlHlPMa4M17kufBvI2lEN",
-      "durationMs": 210240,
-      "duration": "3:30",
-      "explicit": false
-    },
-    {
-      "rank": 15,
       "name": "Every 1's a Winner - Single Version",
       "artist": "Hot Chocolate",
       "album": "Every 1's a Winner",
@@ -516,29 +505,29 @@
       "explicit": false
     },
     {
+      "rank": 15,
+      "name": "Chop Suey!",
+      "artist": "System Of A Down",
+      "album": "Toxicity",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b27307bc7d2a745636c356b4d0aa",
+      "url": "https://open.spotify.com/track/2DlHlPMa4M17kufBvI2lEN",
+      "durationMs": 210240,
+      "duration": "3:30",
+      "explicit": false
+    },
+    {
       "rank": 16,
-      "name": "My Bed",
-      "artist": "Marbert Rocel",
-      "album": "Catch a Bird",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b2733f77e9c475ee88151ff2e4e7",
-      "url": "https://open.spotify.com/track/1N2e9UsOsExRGDVq9IpH24",
-      "durationMs": 183520,
-      "duration": "3:03",
+      "name": "Time in a Bottle",
+      "artist": "Jim Croce",
+      "album": "You Don't Mess Around With Jim",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2735b7a6cabbcb9fe150966563c",
+      "url": "https://open.spotify.com/track/7uWFUpGuEfmxYeymkV95jn",
+      "durationMs": 148586,
+      "duration": "2:28",
       "explicit": false
     },
     {
       "rank": 17,
-      "name": "Simple Man",
-      "artist": "Lynyrd Skynyrd",
-      "album": "Pronounced' Leh-'Nerd 'Skin-'Nerd",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b273128450651c9f0442780d8eb8",
-      "url": "https://open.spotify.com/track/1ju7EsSGvRybSNEsRvc7qY",
-      "durationMs": 356626,
-      "duration": "5:56",
-      "explicit": false
-    },
-    {
-      "rank": 18,
       "name": "Good Morning",
       "artist": "Kanye West",
       "album": "Graduation",
@@ -549,34 +538,45 @@
       "explicit": true
     },
     {
+      "rank": 18,
+      "name": "My Bed",
+      "artist": "Marbert Rocel",
+      "album": "Catch a Bird",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2733f77e9c475ee88151ff2e4e7",
+      "url": "https://open.spotify.com/track/1N2e9UsOsExRGDVq9IpH24",
+      "durationMs": 183520,
+      "duration": "3:03",
+      "explicit": false
+    },
+    {
       "rank": 19,
-      "name": "Stay",
-      "artist": "Rihanna, Mikky Ekko",
-      "album": "Unapologetic (Edited Version)",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b273e24cbbd5cef05ca77ec67df6",
-      "url": "https://open.spotify.com/track/789CxjEOtO76BVD1A9yJQH",
-      "durationMs": 240706,
-      "duration": "4:00",
+      "name": "Simple Man",
+      "artist": "Lynyrd Skynyrd",
+      "album": "Pronounced' Leh-'Nerd 'Skin-'Nerd",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273128450651c9f0442780d8eb8",
+      "url": "https://open.spotify.com/track/1ju7EsSGvRybSNEsRvc7qY",
+      "durationMs": 356626,
+      "duration": "5:56",
       "explicit": false
     },
     {
       "rank": 20,
-      "name": "Bless The Telephone (2006 Remaster)",
-      "artist": "Labi Siffre",
-      "album": "1970-1971 (Labi Siffre / The Singer & The Song)",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b273502a405a4a95bd9f6d70563d",
-      "url": "https://open.spotify.com/track/0l0K2qwcHIOH38OZYn13yi",
-      "durationMs": 99796,
-      "duration": "1:39",
+      "name": "Electric Feel",
+      "artist": "MGMT",
+      "album": "Oracular Spectacular",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2737addf1f64798c10d3bd6b27c",
+      "url": "https://open.spotify.com/track/4ijZ4sCKTLsQJKTJT4psI8",
+      "durationMs": 229333,
+      "duration": "3:49",
       "explicit": false
     }
   ],
   "stats": {
     "totalTracks": 50,
-    "uniqueArtists": 62,
+    "uniqueArtists": 61,
     "uniqueAlbums": 50,
-    "totalDurationMs": 12805160,
-    "totalDuration": "213:25",
+    "totalDurationMs": 12814896,
+    "totalDuration": "213:34",
     "avgTrackDuration": "4:16",
     "longestTrack": {
       "name": "Good Morning Children",
@@ -590,30 +590,30 @@
     },
     "topTrackArtists": [
       {
-        "name": "Red Hot Chili Peppers",
+        "name": "Marbert Rocel",
         "count": 3
       },
       {
-        "name": "Marbert Rocel",
-        "count": 2
+        "name": "Red Hot Chili Peppers",
+        "count": 3
       },
       {
         "name": "Tom Odell",
         "count": 2
       },
       {
-        "name": "Bob Seger",
+        "name": "Groove Armada",
         "count": 1
       },
       {
-        "name": "Groove Armada",
+        "name": "Bob Seger",
         "count": 1
       }
     ],
     "decades": [
       {
         "decade": "2010s",
-        "count": 14
+        "count": 16
       },
       {
         "decade": "2000s",
@@ -621,7 +621,7 @@
       },
       {
         "decade": "2020s",
-        "count": 11
+        "count": 10
       },
       {
         "decade": "1970s",
@@ -633,7 +633,7 @@
       },
       {
         "decade": "1980s",
-        "count": 2
+        "count": 1
       }
     ]
   }
