@@ -30,12 +30,6 @@
     "url": "https://open.spotify.com/album/30YyvaRckkdYqFifZGeZSb"
   },
   {
-    "title": "I Barely Know Her",
-    "artist": "sombr",
-    "cover": "https://i.scdn.co/image/ab67616d0000b2734229702de91cb3d3a4383302",
-    "url": "https://open.spotify.com/album/7mvXPtV4jvA1hp5Wx2FAJA"
-  },
-  {
     "title": "Rust Never Sleeps",
     "artist": "Neil Young, Crazy Horse",
     "cover": "https://i.scdn.co/image/ab67616d0000b273db0caaa2b01471d6068053a8",
@@ -48,18 +42,6 @@
     "url": "https://open.spotify.com/album/3Bk1gC3Np3k5BLjbdvkrR1"
   },
   {
-    "title": "Ma Hill",
-    "artist": "Incredible Polo",
-    "cover": "https://i.scdn.co/image/ab67616d0000b273e3481144ad8dcc24e4bb774f",
-    "url": "https://open.spotify.com/album/3K0WLLwGfAoEP2TdT2ZGae"
-  },
-  {
-    "title": "Uprising",
-    "artist": "Bob Marley & The Wailers",
-    "cover": "https://i.scdn.co/image/ab67616d0000b2731c40418d1c37d727e8e91b04",
-    "url": "https://open.spotify.com/album/321q9p7PELvzcFAWxml7VX"
-  },
-  {
     "title": "Ipoly Mate 003",
     "artist": "Alec Troniq",
     "cover": "https://i.scdn.co/image/ab67616d0000b2738a60f6792262bd4c21c6e248",
@@ -70,5 +52,23 @@
     "artist": "David Gray",
     "cover": "https://i.scdn.co/image/ab67616d0000b273786a2ccbdd971e5903a09d45",
     "url": "https://open.spotify.com/album/65dV0TVZ9BEfudSPEt1hb6"
+  },
+  {
+    "title": "I Barely Know Her",
+    "artist": "sombr",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2734229702de91cb3d3a4383302",
+    "url": "https://open.spotify.com/album/7mvXPtV4jvA1hp5Wx2FAJA"
+  },
+  {
+    "title": "One Size Fits All",
+    "artist": "Extra Medium",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2735cedd69b78b4d3d72e8756c0",
+    "url": "https://open.spotify.com/album/28EqWImAS6WdFczsu3g8hv"
+  },
+  {
+    "title": "Every 1's a Winner",
+    "artist": "Hot Chocolate",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273269ffd226ce76fdb762c126c",
+    "url": "https://open.spotify.com/album/2MdCe2CS9EcdJ9V20TKzxo"
   }
 ]
