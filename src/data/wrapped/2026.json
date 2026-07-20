@@ -1,8 +1,8 @@
 {
   "year": 2026,
   "source": "api_snapshot",
-  "fetchedAt": "2026-07-13T08:48:50.286Z",
-  "lastUpdated": "2026-07-13T08:48:50.286Z",
+  "fetchedAt": "2026-07-20T08:40:18.642Z",
+  "lastUpdated": "2026-07-20T08:40:18.642Z",
   "artists": [
     {
       "rank": 1,
@@ -123,17 +123,6 @@
     },
     {
       "rank": 6,
-      "name": "12 to 12",
-      "artist": "sombr",
-      "album": "I Barely Know Her",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b2734229702de91cb3d3a4383302",
-      "url": "https://open.spotify.com/track/05od2qm2MTSKCHxy1GBp5W",
-      "durationMs": 242903,
-      "duration": "4:02",
-      "explicit": false
-    },
-    {
-      "rank": 7,
       "name": "My My, Hey Hey (Out of the Blue) - 2016 Remaster",
       "artist": "Neil Young, Crazy Horse",
       "album": "Rust Never Sleeps",
@@ -144,7 +133,7 @@
       "explicit": false
     },
     {
-      "rank": 8,
+      "rank": 7,
       "name": "Alone",
       "artist": "Liquideep",
       "album": "Fabrics of the Heart",
@@ -155,29 +144,7 @@
       "explicit": false
     },
     {
-      "rank": 9,
-      "name": "The Ship",
-      "artist": "Incredible Polo",
-      "album": "Ma Hill",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b273e3481144ad8dcc24e4bb774f",
-      "url": "https://open.spotify.com/track/40fwaugzAHr4fDJsxyNK0Z",
-      "durationMs": 162546,
-      "duration": "2:42",
-      "explicit": false
-    },
-    {
-      "rank": 10,
-      "name": "Could You Be Loved",
-      "artist": "Bob Marley & The Wailers",
-      "album": "Uprising",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b2731c40418d1c37d727e8e91b04",
-      "url": "https://open.spotify.com/track/5O4erNlJ74PIF6kGol1ZrC",
-      "durationMs": 237000,
-      "duration": "3:57",
-      "explicit": false
-    },
-    {
-      "rank": 11,
+      "rank": 8,
       "name": "Good Morning Children",
       "artist": "Alec Troniq",
       "album": "Ipoly Mate 003",
@@ -188,7 +155,7 @@
       "explicit": false
     },
     {
-      "rank": 12,
+      "rank": 9,
       "name": "Babylon",
       "artist": "David Gray",
       "album": "White Ladder (2020 Remaster)",
@@ -199,7 +166,18 @@
       "explicit": false
     },
     {
-      "rank": 13,
+      "rank": 10,
+      "name": "12 to 12",
+      "artist": "sombr",
+      "album": "I Barely Know Her",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2734229702de91cb3d3a4383302",
+      "url": "https://open.spotify.com/track/05od2qm2MTSKCHxy1GBp5W",
+      "durationMs": 242903,
+      "duration": "4:02",
+      "explicit": false
+    },
+    {
+      "rank": 11,
       "name": "Shake My Hand",
       "artist": "Extra Medium",
       "album": "One Size Fits All",
@@ -210,7 +188,7 @@
       "explicit": false
     },
     {
-      "rank": 14,
+      "rank": 12,
       "name": "Every 1's a Winner - Single Version",
       "artist": "Hot Chocolate",
       "album": "Every 1's a Winner",
@@ -221,7 +199,7 @@
       "explicit": false
     },
     {
-      "rank": 15,
+      "rank": 13,
       "name": "Chop Suey!",
       "artist": "System Of A Down",
       "album": "Toxicity",
@@ -232,7 +210,7 @@
       "explicit": false
     },
     {
-      "rank": 16,
+      "rank": 14,
       "name": "Time in a Bottle",
       "artist": "Jim Croce",
       "album": "You Don't Mess Around With Jim",
@@ -243,7 +221,7 @@
       "explicit": false
     },
     {
-      "rank": 17,
+      "rank": 15,
       "name": "Good Morning",
       "artist": "Kanye West",
       "album": "Graduation",
@@ -252,6 +230,28 @@
       "durationMs": 195093,
       "duration": "3:15",
       "explicit": true
+    },
+    {
+      "rank": 16,
+      "name": "Simple Man",
+      "artist": "Lynyrd Skynyrd",
+      "album": "Pronounced' Leh-'Nerd 'Skin-'Nerd",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273128450651c9f0442780d8eb8",
+      "url": "https://open.spotify.com/track/1ju7EsSGvRybSNEsRvc7qY",
+      "durationMs": 356626,
+      "duration": "5:56",
+      "explicit": false
+    },
+    {
+      "rank": 17,
+      "name": "Time",
+      "artist": "Pink Floyd",
+      "album": "The Dark Side of the Moon",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273db216ca805faf5fe35df4ee6",
+      "url": "https://open.spotify.com/track/3TO7bbrUKrOSPGRTB5MeCz",
+      "durationMs": 422853,
+      "duration": "7:02",
+      "explicit": false
     },
     {
       "rank": 18,
@@ -266,17 +266,6 @@
     },
     {
       "rank": 19,
-      "name": "Simple Man",
-      "artist": "Lynyrd Skynyrd",
-      "album": "Pronounced' Leh-'Nerd 'Skin-'Nerd",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b273128450651c9f0442780d8eb8",
-      "url": "https://open.spotify.com/track/1ju7EsSGvRybSNEsRvc7qY",
-      "durationMs": 356626,
-      "duration": "5:56",
-      "explicit": false
-    },
-    {
-      "rank": 20,
       "name": "Electric Feel",
       "artist": "MGMT",
       "album": "Oracular Spectacular",
@@ -284,6 +273,17 @@
       "url": "https://open.spotify.com/track/4ijZ4sCKTLsQJKTJT4psI8",
       "durationMs": 229333,
       "duration": "3:49",
+      "explicit": false
+    },
+    {
+      "rank": 20,
+      "name": "Mr. Jones",
+      "artist": "Counting Crows",
+      "album": "August And Everything After",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2737e09670f90cd47b3fb9a23e0",
+      "url": "https://open.spotify.com/track/5DiXcVovI0FcY2s0icWWUu",
+      "durationMs": 272293,
+      "duration": "4:32",
       "explicit": false
     }
   ],
@@ -407,17 +407,6 @@
     },
     {
       "rank": 6,
-      "name": "12 to 12",
-      "artist": "sombr",
-      "album": "I Barely Know Her",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b2734229702de91cb3d3a4383302",
-      "url": "https://open.spotify.com/track/05od2qm2MTSKCHxy1GBp5W",
-      "durationMs": 242903,
-      "duration": "4:02",
-      "explicit": false
-    },
-    {
-      "rank": 7,
       "name": "My My, Hey Hey (Out of the Blue) - 2016 Remaster",
       "artist": "Neil Young, Crazy Horse",
       "album": "Rust Never Sleeps",
@@ -428,7 +417,7 @@
       "explicit": false
     },
     {
-      "rank": 8,
+      "rank": 7,
       "name": "Alone",
       "artist": "Liquideep",
       "album": "Fabrics of the Heart",
@@ -439,29 +428,7 @@
       "explicit": false
     },
     {
-      "rank": 9,
-      "name": "The Ship",
-      "artist": "Incredible Polo",
-      "album": "Ma Hill",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b273e3481144ad8dcc24e4bb774f",
-      "url": "https://open.spotify.com/track/40fwaugzAHr4fDJsxyNK0Z",
-      "durationMs": 162546,
-      "duration": "2:42",
-      "explicit": false
-    },
-    {
-      "rank": 10,
-      "name": "Could You Be Loved",
-      "artist": "Bob Marley & The Wailers",
-      "album": "Uprising",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b2731c40418d1c37d727e8e91b04",
-      "url": "https://open.spotify.com/track/5O4erNlJ74PIF6kGol1ZrC",
-      "durationMs": 237000,
-      "duration": "3:57",
-      "explicit": false
-    },
-    {
-      "rank": 11,
+      "rank": 8,
       "name": "Good Morning Children",
       "artist": "Alec Troniq",
       "album": "Ipoly Mate 003",
@@ -472,7 +439,7 @@
       "explicit": false
     },
     {
-      "rank": 12,
+      "rank": 9,
       "name": "Babylon",
       "artist": "David Gray",
       "album": "White Ladder (2020 Remaster)",
@@ -483,7 +450,18 @@
       "explicit": false
     },
     {
-      "rank": 13,
+      "rank": 10,
+      "name": "12 to 12",
+      "artist": "sombr",
+      "album": "I Barely Know Her",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2734229702de91cb3d3a4383302",
+      "url": "https://open.spotify.com/track/05od2qm2MTSKCHxy1GBp5W",
+      "durationMs": 242903,
+      "duration": "4:02",
+      "explicit": false
+    },
+    {
+      "rank": 11,
       "name": "Shake My Hand",
       "artist": "Extra Medium",
       "album": "One Size Fits All",
@@ -494,7 +472,7 @@
       "explicit": false
     },
     {
-      "rank": 14,
+      "rank": 12,
       "name": "Every 1's a Winner - Single Version",
       "artist": "Hot Chocolate",
       "album": "Every 1's a Winner",
@@ -505,7 +483,7 @@
       "explicit": false
     },
     {
-      "rank": 15,
+      "rank": 13,
       "name": "Chop Suey!",
       "artist": "System Of A Down",
       "album": "Toxicity",
@@ -516,7 +494,7 @@
       "explicit": false
     },
     {
-      "rank": 16,
+      "rank": 14,
       "name": "Time in a Bottle",
       "artist": "Jim Croce",
       "album": "You Don't Mess Around With Jim",
@@ -527,7 +505,7 @@
       "explicit": false
     },
     {
-      "rank": 17,
+      "rank": 15,
       "name": "Good Morning",
       "artist": "Kanye West",
       "album": "Graduation",
@@ -536,6 +514,28 @@
       "durationMs": 195093,
       "duration": "3:15",
       "explicit": true
+    },
+    {
+      "rank": 16,
+      "name": "Simple Man",
+      "artist": "Lynyrd Skynyrd",
+      "album": "Pronounced' Leh-'Nerd 'Skin-'Nerd",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273128450651c9f0442780d8eb8",
+      "url": "https://open.spotify.com/track/1ju7EsSGvRybSNEsRvc7qY",
+      "durationMs": 356626,
+      "duration": "5:56",
+      "explicit": false
+    },
+    {
+      "rank": 17,
+      "name": "Time",
+      "artist": "Pink Floyd",
+      "album": "The Dark Side of the Moon",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273db216ca805faf5fe35df4ee6",
+      "url": "https://open.spotify.com/track/3TO7bbrUKrOSPGRTB5MeCz",
+      "durationMs": 422853,
+      "duration": "7:02",
+      "explicit": false
     },
     {
       "rank": 18,
@@ -550,17 +550,6 @@
     },
     {
       "rank": 19,
-      "name": "Simple Man",
-      "artist": "Lynyrd Skynyrd",
-      "album": "Pronounced' Leh-'Nerd 'Skin-'Nerd",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b273128450651c9f0442780d8eb8",
-      "url": "https://open.spotify.com/track/1ju7EsSGvRybSNEsRvc7qY",
-      "durationMs": 356626,
-      "duration": "5:56",
-      "explicit": false
-    },
-    {
-      "rank": 20,
       "name": "Electric Feel",
       "artist": "MGMT",
       "album": "Oracular Spectacular",
@@ -569,15 +558,26 @@
       "durationMs": 229333,
       "duration": "3:49",
       "explicit": false
+    },
+    {
+      "rank": 20,
+      "name": "Mr. Jones",
+      "artist": "Counting Crows",
+      "album": "August And Everything After",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2737e09670f90cd47b3fb9a23e0",
+      "url": "https://open.spotify.com/track/5DiXcVovI0FcY2s0icWWUu",
+      "durationMs": 272293,
+      "duration": "4:32",
+      "explicit": false
     }
   ],
   "stats": {
     "totalTracks": 50,
-    "uniqueArtists": 61,
+    "uniqueArtists": 59,
     "uniqueAlbums": 50,
-    "totalDurationMs": 12814896,
-    "totalDuration": "213:34",
-    "avgTrackDuration": "4:16",
+    "totalDurationMs": 12765973,
+    "totalDuration": "212:45",
+    "avgTrackDuration": "4:15",
     "longestTrack": {
       "name": "Good Morning Children",
       "artist": "Alec Troniq",
@@ -613,7 +613,7 @@
     "decades": [
       {
         "decade": "2010s",
-        "count": 16
+        "count": 15
       },
       {
         "decade": "2000s",
@@ -625,7 +625,7 @@
       },
       {
         "decade": "1970s",
-        "count": 8
+        "count": 9
       },
       {
         "decade": "1990s",
