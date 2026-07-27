@@ -1,8 +1,8 @@
 {
   "year": 2026,
   "source": "api_snapshot",
-  "fetchedAt": "2026-07-20T08:40:18.642Z",
-  "lastUpdated": "2026-07-20T08:40:18.642Z",
+  "fetchedAt": "2026-07-27T09:31:19.355Z",
+  "lastUpdated": "2026-07-27T09:31:19.355Z",
   "artists": [
     {
       "rank": 1,
@@ -30,27 +30,27 @@
     },
     {
       "rank": 5,
-      "name": "andhim",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb1b3da90ba96e40faf9db9eb0",
-      "url": "https://open.spotify.com/artist/6XJeFzmI6vrWyHcdB7EImP"
-    },
-    {
-      "rank": 6,
       "name": "The Beatles",
       "image": "https://i.scdn.co/image/ab6761610000e5eb119b61b35985e3b957c5ecb7",
       "url": "https://open.spotify.com/artist/3WrFJ7ztbogyGnTHbHJFl2"
     },
     {
-      "rank": 7,
-      "name": "Kanye West",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb6e835a500e791bf9c27a422a",
-      "url": "https://open.spotify.com/artist/5K4W6rqBFWDnAN6FQUkS6x"
+      "rank": 6,
+      "name": "andhim",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb1b3da90ba96e40faf9db9eb0",
+      "url": "https://open.spotify.com/artist/6XJeFzmI6vrWyHcdB7EImP"
     },
     {
-      "rank": 8,
+      "rank": 7,
       "name": "The Rolling Stones",
       "image": "https://i.scdn.co/image/ab6761610000e5eb2b72b000ac948eba03bb3afe",
       "url": "https://open.spotify.com/artist/22bE4uQ6baNwSHPVcDxLCe"
+    },
+    {
+      "rank": 8,
+      "name": "Kanye West",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb6e835a500e791bf9c27a422a",
+      "url": "https://open.spotify.com/artist/5K4W6rqBFWDnAN6FQUkS6x"
     },
     {
       "rank": 9,
@@ -60,9 +60,9 @@
     },
     {
       "rank": 10,
-      "name": "Led Zeppelin",
-      "image": "https://i.scdn.co/image/207803ce008388d3427a685254f9de6a8f61dc2e",
-      "url": "https://open.spotify.com/artist/36QJpDe2go2KgaRleHCDTp"
+      "name": "Chance the Rapper",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd4d18d62a36a26fe36b70e2a",
+      "url": "https://open.spotify.com/artist/1anyVhU62p31KFi8MEzkbf"
     }
   ],
   "tracks": [
@@ -145,13 +145,13 @@
     },
     {
       "rank": 8,
-      "name": "Good Morning Children",
-      "artist": "Alec Troniq",
-      "album": "Ipoly Mate 003",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b2738a60f6792262bd4c21c6e248",
-      "url": "https://open.spotify.com/track/7b6gAh0OyzcKsg2i7Tte6u",
-      "durationMs": 460541,
-      "duration": "7:40",
+      "name": "My Bed",
+      "artist": "Marbert Rocel",
+      "album": "Catch a Bird",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2733f77e9c475ee88151ff2e4e7",
+      "url": "https://open.spotify.com/track/1N2e9UsOsExRGDVq9IpH24",
+      "durationMs": 183520,
+      "duration": "3:03",
       "explicit": false
     },
     {
@@ -167,13 +167,13 @@
     },
     {
       "rank": 10,
-      "name": "12 to 12",
-      "artist": "sombr",
-      "album": "I Barely Know Her",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b2734229702de91cb3d3a4383302",
-      "url": "https://open.spotify.com/track/05od2qm2MTSKCHxy1GBp5W",
-      "durationMs": 242903,
-      "duration": "4:02",
+      "name": "Good Morning Children",
+      "artist": "Alec Troniq",
+      "album": "Ipoly Mate 003",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2738a60f6792262bd4c21c6e248",
+      "url": "https://open.spotify.com/track/7b6gAh0OyzcKsg2i7Tte6u",
+      "durationMs": 460541,
+      "duration": "7:40",
       "explicit": false
     },
     {
@@ -255,28 +255,6 @@
     },
     {
       "rank": 18,
-      "name": "My Bed",
-      "artist": "Marbert Rocel",
-      "album": "Catch a Bird",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b2733f77e9c475ee88151ff2e4e7",
-      "url": "https://open.spotify.com/track/1N2e9UsOsExRGDVq9IpH24",
-      "durationMs": 183520,
-      "duration": "3:03",
-      "explicit": false
-    },
-    {
-      "rank": 19,
-      "name": "Electric Feel",
-      "artist": "MGMT",
-      "album": "Oracular Spectacular",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b2737addf1f64798c10d3bd6b27c",
-      "url": "https://open.spotify.com/track/4ijZ4sCKTLsQJKTJT4psI8",
-      "durationMs": 229333,
-      "duration": "3:49",
-      "explicit": false
-    },
-    {
-      "rank": 20,
       "name": "Mr. Jones",
       "artist": "Counting Crows",
       "album": "August And Everything After",
@@ -284,6 +262,28 @@
       "url": "https://open.spotify.com/track/5DiXcVovI0FcY2s0icWWUu",
       "durationMs": 272293,
       "duration": "4:32",
+      "explicit": false
+    },
+    {
+      "rank": 19,
+      "name": "Goodnight Moon",
+      "artist": "Boogie Belgique",
+      "album": "Volta",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273791630b09247ce55cd250d70",
+      "url": "https://open.spotify.com/track/2rvo9Ddv18aRV0OJldhWTf",
+      "durationMs": 264735,
+      "duration": "4:24",
+      "explicit": false
+    },
+    {
+      "rank": 20,
+      "name": "LA Calling",
+      "artist": "Crystal Fighters",
+      "album": "Cave Rave",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2736a3ec63ec957c595ce7c135f",
+      "url": "https://open.spotify.com/track/3Xh70BsJYf9nHnc0FtN07i",
+      "durationMs": 229240,
+      "duration": "3:49",
       "explicit": false
     }
   ],
@@ -314,27 +314,27 @@
     },
     {
       "rank": 5,
-      "name": "andhim",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb1b3da90ba96e40faf9db9eb0",
-      "url": "https://open.spotify.com/artist/6XJeFzmI6vrWyHcdB7EImP"
-    },
-    {
-      "rank": 6,
       "name": "The Beatles",
       "image": "https://i.scdn.co/image/ab6761610000e5eb119b61b35985e3b957c5ecb7",
       "url": "https://open.spotify.com/artist/3WrFJ7ztbogyGnTHbHJFl2"
     },
     {
-      "rank": 7,
-      "name": "Kanye West",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb6e835a500e791bf9c27a422a",
-      "url": "https://open.spotify.com/artist/5K4W6rqBFWDnAN6FQUkS6x"
+      "rank": 6,
+      "name": "andhim",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb1b3da90ba96e40faf9db9eb0",
+      "url": "https://open.spotify.com/artist/6XJeFzmI6vrWyHcdB7EImP"
     },
     {
-      "rank": 8,
+      "rank": 7,
       "name": "The Rolling Stones",
       "image": "https://i.scdn.co/image/ab6761610000e5eb2b72b000ac948eba03bb3afe",
       "url": "https://open.spotify.com/artist/22bE4uQ6baNwSHPVcDxLCe"
+    },
+    {
+      "rank": 8,
+      "name": "Kanye West",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb6e835a500e791bf9c27a422a",
+      "url": "https://open.spotify.com/artist/5K4W6rqBFWDnAN6FQUkS6x"
     },
     {
       "rank": 9,
@@ -344,9 +344,9 @@
     },
     {
       "rank": 10,
-      "name": "Led Zeppelin",
-      "image": "https://i.scdn.co/image/207803ce008388d3427a685254f9de6a8f61dc2e",
-      "url": "https://open.spotify.com/artist/36QJpDe2go2KgaRleHCDTp"
+      "name": "Chance the Rapper",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd4d18d62a36a26fe36b70e2a",
+      "url": "https://open.spotify.com/artist/1anyVhU62p31KFi8MEzkbf"
     }
   ],
   "topTracks": [
@@ -429,13 +429,13 @@
     },
     {
       "rank": 8,
-      "name": "Good Morning Children",
-      "artist": "Alec Troniq",
-      "album": "Ipoly Mate 003",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b2738a60f6792262bd4c21c6e248",
-      "url": "https://open.spotify.com/track/7b6gAh0OyzcKsg2i7Tte6u",
-      "durationMs": 460541,
-      "duration": "7:40",
+      "name": "My Bed",
+      "artist": "Marbert Rocel",
+      "album": "Catch a Bird",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2733f77e9c475ee88151ff2e4e7",
+      "url": "https://open.spotify.com/track/1N2e9UsOsExRGDVq9IpH24",
+      "durationMs": 183520,
+      "duration": "3:03",
       "explicit": false
     },
     {
@@ -451,13 +451,13 @@
     },
     {
       "rank": 10,
-      "name": "12 to 12",
-      "artist": "sombr",
-      "album": "I Barely Know Her",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b2734229702de91cb3d3a4383302",
-      "url": "https://open.spotify.com/track/05od2qm2MTSKCHxy1GBp5W",
-      "durationMs": 242903,
-      "duration": "4:02",
+      "name": "Good Morning Children",
+      "artist": "Alec Troniq",
+      "album": "Ipoly Mate 003",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2738a60f6792262bd4c21c6e248",
+      "url": "https://open.spotify.com/track/7b6gAh0OyzcKsg2i7Tte6u",
+      "durationMs": 460541,
+      "duration": "7:40",
       "explicit": false
     },
     {
@@ -539,28 +539,6 @@
     },
     {
       "rank": 18,
-      "name": "My Bed",
-      "artist": "Marbert Rocel",
-      "album": "Catch a Bird",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b2733f77e9c475ee88151ff2e4e7",
-      "url": "https://open.spotify.com/track/1N2e9UsOsExRGDVq9IpH24",
-      "durationMs": 183520,
-      "duration": "3:03",
-      "explicit": false
-    },
-    {
-      "rank": 19,
-      "name": "Electric Feel",
-      "artist": "MGMT",
-      "album": "Oracular Spectacular",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b2737addf1f64798c10d3bd6b27c",
-      "url": "https://open.spotify.com/track/4ijZ4sCKTLsQJKTJT4psI8",
-      "durationMs": 229333,
-      "duration": "3:49",
-      "explicit": false
-    },
-    {
-      "rank": 20,
       "name": "Mr. Jones",
       "artist": "Counting Crows",
       "album": "August And Everything After",
@@ -569,41 +547,63 @@
       "durationMs": 272293,
       "duration": "4:32",
       "explicit": false
+    },
+    {
+      "rank": 19,
+      "name": "Goodnight Moon",
+      "artist": "Boogie Belgique",
+      "album": "Volta",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273791630b09247ce55cd250d70",
+      "url": "https://open.spotify.com/track/2rvo9Ddv18aRV0OJldhWTf",
+      "durationMs": 264735,
+      "duration": "4:24",
+      "explicit": false
+    },
+    {
+      "rank": 20,
+      "name": "LA Calling",
+      "artist": "Crystal Fighters",
+      "album": "Cave Rave",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2736a3ec63ec957c595ce7c135f",
+      "url": "https://open.spotify.com/track/3Xh70BsJYf9nHnc0FtN07i",
+      "durationMs": 229240,
+      "duration": "3:49",
+      "explicit": false
     }
   ],
   "stats": {
     "totalTracks": 50,
-    "uniqueArtists": 59,
+    "uniqueArtists": 58,
     "uniqueAlbums": 50,
-    "totalDurationMs": 12765973,
-    "totalDuration": "212:45",
-    "avgTrackDuration": "4:15",
+    "totalDurationMs": 13159908,
+    "totalDuration": "219:19",
+    "avgTrackDuration": "4:23",
     "longestTrack": {
       "name": "Good Morning Children",
       "artist": "Alec Troniq",
       "duration": "7:40"
     },
     "shortestTrack": {
-      "name": "Bless The Telephone (2006 Remaster)",
+      "name": "Bless the Telephone",
       "artist": "Labi Siffre",
-      "duration": "1:39"
+      "duration": "1:40"
     },
     "topTrackArtists": [
       {
         "name": "Marbert Rocel",
-        "count": 3
+        "count": 4
       },
       {
         "name": "Red Hot Chili Peppers",
         "count": 3
       },
       {
-        "name": "Tom Odell",
+        "name": "Groove Armada",
         "count": 2
       },
       {
-        "name": "Groove Armada",
-        "count": 1
+        "name": "Tom Odell",
+        "count": 2
       },
       {
         "name": "Bob Seger",
@@ -613,26 +613,30 @@
     "decades": [
       {
         "decade": "2010s",
-        "count": 15
+        "count": 16
       },
       {
         "decade": "2000s",
-        "count": 11
-      },
-      {
-        "decade": "2020s",
-        "count": 10
+        "count": 9
       },
       {
         "decade": "1970s",
         "count": 9
       },
       {
+        "decade": "2020s",
+        "count": 9
+      },
+      {
         "decade": "1990s",
-        "count": 4
+        "count": 5
       },
       {
         "decade": "1980s",
+        "count": 1
+      },
+      {
+        "decade": "1960s",
         "count": 1
       }
     ]
