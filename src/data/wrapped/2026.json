@@ -1,8 +1,8 @@
 {
   "year": 2026,
   "source": "api_snapshot",
-  "fetchedAt": "2026-08-03T09:22:41.126Z",
-  "lastUpdated": "2026-08-03T09:22:41.126Z",
+  "fetchedAt": "2026-08-10T07:10:40.060Z",
+  "lastUpdated": "2026-08-10T07:10:40.060Z",
   "artists": [
     {
       "rank": 1,
@@ -18,15 +18,15 @@
     },
     {
       "rank": 3,
-      "name": "Rodríguez",
-      "image": "https://i.scdn.co/image/d1d0f4b212e16eb6bf079e8e7bae11828378a2bc",
-      "url": "https://open.spotify.com/artist/5PrHzxc3kFm4hIrGNmelpX"
-    },
-    {
-      "rank": 4,
       "name": "The Beatles",
       "image": "https://i.scdn.co/image/ab6761610000e5eb119b61b35985e3b957c5ecb7",
       "url": "https://open.spotify.com/artist/3WrFJ7ztbogyGnTHbHJFl2"
+    },
+    {
+      "rank": 4,
+      "name": "Rodríguez",
+      "image": "https://i.scdn.co/image/d1d0f4b212e16eb6bf079e8e7bae11828378a2bc",
+      "url": "https://open.spotify.com/artist/5PrHzxc3kFm4hIrGNmelpX"
     },
     {
       "rank": 5,
@@ -42,27 +42,27 @@
     },
     {
       "rank": 7,
-      "name": "Kanye West",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb6e835a500e791bf9c27a422a",
-      "url": "https://open.spotify.com/artist/5K4W6rqBFWDnAN6FQUkS6x"
-    },
-    {
-      "rank": 8,
       "name": "Maribou State",
       "image": "https://i.scdn.co/image/ab6761610000e5eb68398569d96f20bb6ba6ac0d",
       "url": "https://open.spotify.com/artist/7zrkALJ9ayRjzysp4QYoEg"
     },
     {
-      "rank": 9,
-      "name": "GoldFish",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb8320cc48e712d8034fa73eb7",
-      "url": "https://open.spotify.com/artist/0uRdK8gy7fXJGRywrlmPM7"
+      "rank": 8,
+      "name": "Kanye West",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb6e835a500e791bf9c27a422a",
+      "url": "https://open.spotify.com/artist/5K4W6rqBFWDnAN6FQUkS6x"
     },
     {
-      "rank": 10,
+      "rank": 9,
       "name": "Chance the Rapper",
       "image": "https://i.scdn.co/image/ab6761610000e5ebd4d18d62a36a26fe36b70e2a",
       "url": "https://open.spotify.com/artist/1anyVhU62p31KFi8MEzkbf"
+    },
+    {
+      "rank": 10,
+      "name": "Marbert Rocel",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb263673022352513435da64ba",
+      "url": "https://open.spotify.com/artist/0VEzhZrWBCaoufAiZkjX3G"
     }
   ],
   "tracks": [
@@ -112,17 +112,6 @@
     },
     {
       "rank": 5,
-      "name": "The Best Part",
-      "artist": "anamē, gardenstate, Bien",
-      "album": "Inspirations",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b27303e8d733196eb6ead8ba74ea",
-      "url": "https://open.spotify.com/track/2OBaoP7DfWvlm4gc0QPkgg",
-      "durationMs": 250000,
-      "duration": "4:10",
-      "explicit": false
-    },
-    {
-      "rank": 6,
       "name": "Alone",
       "artist": "Liquideep",
       "album": "Fabrics of the Heart",
@@ -133,29 +122,18 @@
       "explicit": false
     },
     {
+      "rank": 6,
+      "name": "The Best Part",
+      "artist": "anamē, gardenstate, Bien",
+      "album": "Inspirations",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b27303e8d733196eb6ead8ba74ea",
+      "url": "https://open.spotify.com/track/2OBaoP7DfWvlm4gc0QPkgg",
+      "durationMs": 250000,
+      "duration": "4:10",
+      "explicit": false
+    },
+    {
       "rank": 7,
-      "name": "My My, Hey Hey (Out of the Blue) - 2016 Remaster",
-      "artist": "Neil Young, Crazy Horse",
-      "album": "Rust Never Sleeps",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b273db0caaa2b01471d6068053a8",
-      "url": "https://open.spotify.com/track/6VltRkmJbCTqgKrTHk4Ulw",
-      "durationMs": 227705,
-      "duration": "3:47",
-      "explicit": false
-    },
-    {
-      "rank": 8,
-      "name": "My Bed",
-      "artist": "Marbert Rocel",
-      "album": "Catch a Bird",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b2733f77e9c475ee88151ff2e4e7",
-      "url": "https://open.spotify.com/track/1N2e9UsOsExRGDVq9IpH24",
-      "durationMs": 183520,
-      "duration": "3:03",
-      "explicit": false
-    },
-    {
-      "rank": 9,
       "name": "Babylon",
       "artist": "David Gray",
       "album": "White Ladder (2020 Remaster)",
@@ -166,18 +144,29 @@
       "explicit": false
     },
     {
-      "rank": 10,
-      "name": "Shake My Hand",
-      "artist": "Extra Medium",
-      "album": "One Size Fits All",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b2735cedd69b78b4d3d72e8756c0",
-      "url": "https://open.spotify.com/track/4I1Oxq6GF4qy2ZomHRSuzL",
-      "durationMs": 330017,
-      "duration": "5:30",
+      "rank": 8,
+      "name": "My My, Hey Hey (Out of the Blue) - 2016 Remaster",
+      "artist": "Neil Young, Crazy Horse",
+      "album": "Rust Never Sleeps",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273db0caaa2b01471d6068053a8",
+      "url": "https://open.spotify.com/track/6VltRkmJbCTqgKrTHk4Ulw",
+      "durationMs": 227705,
+      "duration": "3:47",
       "explicit": false
     },
     {
-      "rank": 11,
+      "rank": 9,
+      "name": "My Bed",
+      "artist": "Marbert Rocel",
+      "album": "Catch a Bird",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2733f77e9c475ee88151ff2e4e7",
+      "url": "https://open.spotify.com/track/1N2e9UsOsExRGDVq9IpH24",
+      "durationMs": 183520,
+      "duration": "3:03",
+      "explicit": false
+    },
+    {
+      "rank": 10,
       "name": "Good Morning Children",
       "artist": "Alec Troniq",
       "album": "Ipoly Mate 003",
@@ -185,6 +174,17 @@
       "url": "https://open.spotify.com/track/7b6gAh0OyzcKsg2i7Tte6u",
       "durationMs": 460541,
       "duration": "7:40",
+      "explicit": false
+    },
+    {
+      "rank": 11,
+      "name": "Shake My Hand",
+      "artist": "Extra Medium",
+      "album": "One Size Fits All",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2735cedd69b78b4d3d72e8756c0",
+      "url": "https://open.spotify.com/track/4I1Oxq6GF4qy2ZomHRSuzL",
+      "durationMs": 330017,
+      "duration": "5:30",
       "explicit": false
     },
     {
@@ -222,17 +222,6 @@
     },
     {
       "rank": 15,
-      "name": "Simple Man",
-      "artist": "Lynyrd Skynyrd",
-      "album": "Pronounced' Leh-'Nerd 'Skin-'Nerd",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b273128450651c9f0442780d8eb8",
-      "url": "https://open.spotify.com/track/1ju7EsSGvRybSNEsRvc7qY",
-      "durationMs": 356626,
-      "duration": "5:56",
-      "explicit": false
-    },
-    {
-      "rank": 16,
       "name": "Time",
       "artist": "Pink Floyd",
       "album": "The Dark Side of the Moon",
@@ -240,6 +229,17 @@
       "url": "https://open.spotify.com/track/3TO7bbrUKrOSPGRTB5MeCz",
       "durationMs": 422853,
       "duration": "7:02",
+      "explicit": false
+    },
+    {
+      "rank": 16,
+      "name": "Simple Man",
+      "artist": "Lynyrd Skynyrd",
+      "album": "Pronounced' Leh-'Nerd 'Skin-'Nerd",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273128450651c9f0442780d8eb8",
+      "url": "https://open.spotify.com/track/1ju7EsSGvRybSNEsRvc7qY",
+      "durationMs": 356626,
+      "duration": "5:56",
       "explicit": false
     },
     {
@@ -255,17 +255,6 @@
     },
     {
       "rank": 18,
-      "name": "Electric Feel",
-      "artist": "MGMT",
-      "album": "Oracular Spectacular",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b2737addf1f64798c10d3bd6b27c",
-      "url": "https://open.spotify.com/track/4ijZ4sCKTLsQJKTJT4psI8",
-      "durationMs": 229333,
-      "duration": "3:49",
-      "explicit": false
-    },
-    {
-      "rank": 19,
       "name": "Mr. Jones",
       "artist": "Counting Crows",
       "album": "August And Everything After",
@@ -276,14 +265,25 @@
       "explicit": false
     },
     {
+      "rank": 19,
+      "name": "Electric Feel",
+      "artist": "MGMT",
+      "album": "Oracular Spectacular",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2737addf1f64798c10d3bd6b27c",
+      "url": "https://open.spotify.com/track/4ijZ4sCKTLsQJKTJT4psI8",
+      "durationMs": 229333,
+      "duration": "3:49",
+      "explicit": false
+    },
+    {
       "rank": 20,
-      "name": "Goodnight Moon",
-      "artist": "Boogie Belgique",
-      "album": "Volta",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b273791630b09247ce55cd250d70",
-      "url": "https://open.spotify.com/track/2rvo9Ddv18aRV0OJldhWTf",
-      "durationMs": 264735,
-      "duration": "4:24",
+      "name": "LA Calling",
+      "artist": "Crystal Fighters",
+      "album": "Cave Rave",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2736a3ec63ec957c595ce7c135f",
+      "url": "https://open.spotify.com/track/3Xh70BsJYf9nHnc0FtN07i",
+      "durationMs": 229240,
+      "duration": "3:49",
       "explicit": false
     }
   ],
@@ -302,15 +302,15 @@
     },
     {
       "rank": 3,
-      "name": "Rodríguez",
-      "image": "https://i.scdn.co/image/d1d0f4b212e16eb6bf079e8e7bae11828378a2bc",
-      "url": "https://open.spotify.com/artist/5PrHzxc3kFm4hIrGNmelpX"
-    },
-    {
-      "rank": 4,
       "name": "The Beatles",
       "image": "https://i.scdn.co/image/ab6761610000e5eb119b61b35985e3b957c5ecb7",
       "url": "https://open.spotify.com/artist/3WrFJ7ztbogyGnTHbHJFl2"
+    },
+    {
+      "rank": 4,
+      "name": "Rodríguez",
+      "image": "https://i.scdn.co/image/d1d0f4b212e16eb6bf079e8e7bae11828378a2bc",
+      "url": "https://open.spotify.com/artist/5PrHzxc3kFm4hIrGNmelpX"
     },
     {
       "rank": 5,
@@ -326,27 +326,27 @@
     },
     {
       "rank": 7,
-      "name": "Kanye West",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb6e835a500e791bf9c27a422a",
-      "url": "https://open.spotify.com/artist/5K4W6rqBFWDnAN6FQUkS6x"
-    },
-    {
-      "rank": 8,
       "name": "Maribou State",
       "image": "https://i.scdn.co/image/ab6761610000e5eb68398569d96f20bb6ba6ac0d",
       "url": "https://open.spotify.com/artist/7zrkALJ9ayRjzysp4QYoEg"
     },
     {
-      "rank": 9,
-      "name": "GoldFish",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb8320cc48e712d8034fa73eb7",
-      "url": "https://open.spotify.com/artist/0uRdK8gy7fXJGRywrlmPM7"
+      "rank": 8,
+      "name": "Kanye West",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb6e835a500e791bf9c27a422a",
+      "url": "https://open.spotify.com/artist/5K4W6rqBFWDnAN6FQUkS6x"
     },
     {
-      "rank": 10,
+      "rank": 9,
       "name": "Chance the Rapper",
       "image": "https://i.scdn.co/image/ab6761610000e5ebd4d18d62a36a26fe36b70e2a",
       "url": "https://open.spotify.com/artist/1anyVhU62p31KFi8MEzkbf"
+    },
+    {
+      "rank": 10,
+      "name": "Marbert Rocel",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb263673022352513435da64ba",
+      "url": "https://open.spotify.com/artist/0VEzhZrWBCaoufAiZkjX3G"
     }
   ],
   "topTracks": [
@@ -396,17 +396,6 @@
     },
     {
       "rank": 5,
-      "name": "The Best Part",
-      "artist": "anamē, gardenstate, Bien",
-      "album": "Inspirations",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b27303e8d733196eb6ead8ba74ea",
-      "url": "https://open.spotify.com/track/2OBaoP7DfWvlm4gc0QPkgg",
-      "durationMs": 250000,
-      "duration": "4:10",
-      "explicit": false
-    },
-    {
-      "rank": 6,
       "name": "Alone",
       "artist": "Liquideep",
       "album": "Fabrics of the Heart",
@@ -417,29 +406,18 @@
       "explicit": false
     },
     {
+      "rank": 6,
+      "name": "The Best Part",
+      "artist": "anamē, gardenstate, Bien",
+      "album": "Inspirations",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b27303e8d733196eb6ead8ba74ea",
+      "url": "https://open.spotify.com/track/2OBaoP7DfWvlm4gc0QPkgg",
+      "durationMs": 250000,
+      "duration": "4:10",
+      "explicit": false
+    },
+    {
       "rank": 7,
-      "name": "My My, Hey Hey (Out of the Blue) - 2016 Remaster",
-      "artist": "Neil Young, Crazy Horse",
-      "album": "Rust Never Sleeps",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b273db0caaa2b01471d6068053a8",
-      "url": "https://open.spotify.com/track/6VltRkmJbCTqgKrTHk4Ulw",
-      "durationMs": 227705,
-      "duration": "3:47",
-      "explicit": false
-    },
-    {
-      "rank": 8,
-      "name": "My Bed",
-      "artist": "Marbert Rocel",
-      "album": "Catch a Bird",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b2733f77e9c475ee88151ff2e4e7",
-      "url": "https://open.spotify.com/track/1N2e9UsOsExRGDVq9IpH24",
-      "durationMs": 183520,
-      "duration": "3:03",
-      "explicit": false
-    },
-    {
-      "rank": 9,
       "name": "Babylon",
       "artist": "David Gray",
       "album": "White Ladder (2020 Remaster)",
@@ -450,18 +428,29 @@
       "explicit": false
     },
     {
-      "rank": 10,
-      "name": "Shake My Hand",
-      "artist": "Extra Medium",
-      "album": "One Size Fits All",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b2735cedd69b78b4d3d72e8756c0",
-      "url": "https://open.spotify.com/track/4I1Oxq6GF4qy2ZomHRSuzL",
-      "durationMs": 330017,
-      "duration": "5:30",
+      "rank": 8,
+      "name": "My My, Hey Hey (Out of the Blue) - 2016 Remaster",
+      "artist": "Neil Young, Crazy Horse",
+      "album": "Rust Never Sleeps",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273db0caaa2b01471d6068053a8",
+      "url": "https://open.spotify.com/track/6VltRkmJbCTqgKrTHk4Ulw",
+      "durationMs": 227705,
+      "duration": "3:47",
       "explicit": false
     },
     {
-      "rank": 11,
+      "rank": 9,
+      "name": "My Bed",
+      "artist": "Marbert Rocel",
+      "album": "Catch a Bird",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2733f77e9c475ee88151ff2e4e7",
+      "url": "https://open.spotify.com/track/1N2e9UsOsExRGDVq9IpH24",
+      "durationMs": 183520,
+      "duration": "3:03",
+      "explicit": false
+    },
+    {
+      "rank": 10,
       "name": "Good Morning Children",
       "artist": "Alec Troniq",
       "album": "Ipoly Mate 003",
@@ -469,6 +458,17 @@
       "url": "https://open.spotify.com/track/7b6gAh0OyzcKsg2i7Tte6u",
       "durationMs": 460541,
       "duration": "7:40",
+      "explicit": false
+    },
+    {
+      "rank": 11,
+      "name": "Shake My Hand",
+      "artist": "Extra Medium",
+      "album": "One Size Fits All",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2735cedd69b78b4d3d72e8756c0",
+      "url": "https://open.spotify.com/track/4I1Oxq6GF4qy2ZomHRSuzL",
+      "durationMs": 330017,
+      "duration": "5:30",
       "explicit": false
     },
     {
@@ -506,17 +506,6 @@
     },
     {
       "rank": 15,
-      "name": "Simple Man",
-      "artist": "Lynyrd Skynyrd",
-      "album": "Pronounced' Leh-'Nerd 'Skin-'Nerd",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b273128450651c9f0442780d8eb8",
-      "url": "https://open.spotify.com/track/1ju7EsSGvRybSNEsRvc7qY",
-      "durationMs": 356626,
-      "duration": "5:56",
-      "explicit": false
-    },
-    {
-      "rank": 16,
       "name": "Time",
       "artist": "Pink Floyd",
       "album": "The Dark Side of the Moon",
@@ -524,6 +513,17 @@
       "url": "https://open.spotify.com/track/3TO7bbrUKrOSPGRTB5MeCz",
       "durationMs": 422853,
       "duration": "7:02",
+      "explicit": false
+    },
+    {
+      "rank": 16,
+      "name": "Simple Man",
+      "artist": "Lynyrd Skynyrd",
+      "album": "Pronounced' Leh-'Nerd 'Skin-'Nerd",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273128450651c9f0442780d8eb8",
+      "url": "https://open.spotify.com/track/1ju7EsSGvRybSNEsRvc7qY",
+      "durationMs": 356626,
+      "duration": "5:56",
       "explicit": false
     },
     {
@@ -539,17 +539,6 @@
     },
     {
       "rank": 18,
-      "name": "Electric Feel",
-      "artist": "MGMT",
-      "album": "Oracular Spectacular",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b2737addf1f64798c10d3bd6b27c",
-      "url": "https://open.spotify.com/track/4ijZ4sCKTLsQJKTJT4psI8",
-      "durationMs": 229333,
-      "duration": "3:49",
-      "explicit": false
-    },
-    {
-      "rank": 19,
       "name": "Mr. Jones",
       "artist": "Counting Crows",
       "album": "August And Everything After",
@@ -560,28 +549,39 @@
       "explicit": false
     },
     {
+      "rank": 19,
+      "name": "Electric Feel",
+      "artist": "MGMT",
+      "album": "Oracular Spectacular",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2737addf1f64798c10d3bd6b27c",
+      "url": "https://open.spotify.com/track/4ijZ4sCKTLsQJKTJT4psI8",
+      "durationMs": 229333,
+      "duration": "3:49",
+      "explicit": false
+    },
+    {
       "rank": 20,
-      "name": "Goodnight Moon",
-      "artist": "Boogie Belgique",
-      "album": "Volta",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b273791630b09247ce55cd250d70",
-      "url": "https://open.spotify.com/track/2rvo9Ddv18aRV0OJldhWTf",
-      "durationMs": 264735,
-      "duration": "4:24",
+      "name": "LA Calling",
+      "artist": "Crystal Fighters",
+      "album": "Cave Rave",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2736a3ec63ec957c595ce7c135f",
+      "url": "https://open.spotify.com/track/3Xh70BsJYf9nHnc0FtN07i",
+      "durationMs": 229240,
+      "duration": "3:49",
       "explicit": false
     }
   ],
   "stats": {
     "totalTracks": 50,
-    "uniqueArtists": 61,
+    "uniqueArtists": 60,
     "uniqueAlbums": 50,
-    "totalDurationMs": 13142327,
-    "totalDuration": "219:02",
-    "avgTrackDuration": "4:22",
+    "totalDurationMs": 13359191,
+    "totalDuration": "222:39",
+    "avgTrackDuration": "4:27",
     "longestTrack": {
-      "name": "Good Morning Children",
-      "artist": "Alec Troniq",
-      "duration": "7:40"
+      "name": "La Ka Rubà",
+      "artist": "NenaHalena, Akil",
+      "duration": "7:59"
     },
     "shortestTrack": {
       "name": "Bless the Telephone",
@@ -598,12 +598,12 @@
         "count": 3
       },
       {
-        "name": "Groove Armada",
+        "name": "Tom Odell",
         "count": 2
       },
       {
-        "name": "Tom Odell",
-        "count": 2
+        "name": "Groove Armada",
+        "count": 1
       },
       {
         "name": "Bob Seger",
@@ -613,19 +613,19 @@
     "decades": [
       {
         "decade": "2010s",
-        "count": 18
-      },
-      {
-        "decade": "2000s",
-        "count": 9
-      },
-      {
-        "decade": "1970s",
-        "count": 8
+        "count": 19
       },
       {
         "decade": "2020s",
+        "count": 9
+      },
+      {
+        "decade": "2000s",
         "count": 8
+      },
+      {
+        "decade": "1970s",
+        "count": 7
       },
       {
         "decade": "1990s",
