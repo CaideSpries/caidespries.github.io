@@ -1,8 +1,8 @@
 {
   "year": 2026,
   "source": "api_snapshot",
-  "fetchedAt": "2026-08-10T07:10:40.060Z",
-  "lastUpdated": "2026-08-10T07:10:40.060Z",
+  "fetchedAt": "2026-08-17T06:33:46.685Z",
+  "lastUpdated": "2026-08-17T06:33:46.685Z",
   "artists": [
     {
       "rank": 1,
@@ -24,33 +24,33 @@
     },
     {
       "rank": 4,
+      "name": "Kanye West",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb6e835a500e791bf9c27a422a",
+      "url": "https://open.spotify.com/artist/5K4W6rqBFWDnAN6FQUkS6x"
+    },
+    {
+      "rank": 5,
       "name": "Rodríguez",
       "image": "https://i.scdn.co/image/d1d0f4b212e16eb6bf079e8e7bae11828378a2bc",
       "url": "https://open.spotify.com/artist/5PrHzxc3kFm4hIrGNmelpX"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "name": "andhim",
       "image": "https://i.scdn.co/image/ab6761610000e5eb1b3da90ba96e40faf9db9eb0",
       "url": "https://open.spotify.com/artist/6XJeFzmI6vrWyHcdB7EImP"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "name": "The Rolling Stones",
       "image": "https://i.scdn.co/image/ab6761610000e5eb2b72b000ac948eba03bb3afe",
       "url": "https://open.spotify.com/artist/22bE4uQ6baNwSHPVcDxLCe"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "name": "Maribou State",
       "image": "https://i.scdn.co/image/ab6761610000e5eb68398569d96f20bb6ba6ac0d",
       "url": "https://open.spotify.com/artist/7zrkALJ9ayRjzysp4QYoEg"
-    },
-    {
-      "rank": 8,
-      "name": "Kanye West",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb6e835a500e791bf9c27a422a",
-      "url": "https://open.spotify.com/artist/5K4W6rqBFWDnAN6FQUkS6x"
     },
     {
       "rank": 9,
@@ -101,17 +101,6 @@
     },
     {
       "rank": 4,
-      "name": "Nutshell",
-      "artist": "Alice In Chains",
-      "album": "Jar Of Flies",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b27325b42be683b8d3c6500db726",
-      "url": "https://open.spotify.com/track/2JuasWPUodaUxf5nwNpciQ",
-      "durationMs": 259200,
-      "duration": "4:19",
-      "explicit": false
-    },
-    {
-      "rank": 5,
       "name": "Alone",
       "artist": "Liquideep",
       "album": "Fabrics of the Heart",
@@ -122,7 +111,7 @@
       "explicit": false
     },
     {
-      "rank": 6,
+      "rank": 5,
       "name": "The Best Part",
       "artist": "anamē, gardenstate, Bien",
       "album": "Inspirations",
@@ -133,7 +122,7 @@
       "explicit": false
     },
     {
-      "rank": 7,
+      "rank": 6,
       "name": "Babylon",
       "artist": "David Gray",
       "album": "White Ladder (2020 Remaster)",
@@ -141,6 +130,17 @@
       "url": "https://open.spotify.com/track/0hltBiPrw06vWjtadBn6oe",
       "durationMs": 265640,
       "duration": "4:25",
+      "explicit": false
+    },
+    {
+      "rank": 7,
+      "name": "Nutshell",
+      "artist": "Alice In Chains",
+      "album": "Jar Of Flies",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b27325b42be683b8d3c6500db726",
+      "url": "https://open.spotify.com/track/2JuasWPUodaUxf5nwNpciQ",
+      "durationMs": 259200,
+      "duration": "4:19",
       "explicit": false
     },
     {
@@ -211,17 +211,6 @@
     },
     {
       "rank": 14,
-      "name": "Good Morning",
-      "artist": "Kanye West",
-      "album": "Graduation",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b27326f7f19c7f0381e56156c94a",
-      "url": "https://open.spotify.com/track/6MXXY2eiWkpDCezVCc0cMH",
-      "durationMs": 195093,
-      "duration": "3:15",
-      "explicit": true
-    },
-    {
-      "rank": 15,
       "name": "Time",
       "artist": "Pink Floyd",
       "album": "The Dark Side of the Moon",
@@ -230,6 +219,17 @@
       "durationMs": 422853,
       "duration": "7:02",
       "explicit": false
+    },
+    {
+      "rank": 15,
+      "name": "Good Morning",
+      "artist": "Kanye West",
+      "album": "Graduation",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b27326f7f19c7f0381e56156c94a",
+      "url": "https://open.spotify.com/track/6MXXY2eiWkpDCezVCc0cMH",
+      "durationMs": 195093,
+      "duration": "3:15",
+      "explicit": true
     },
     {
       "rank": 16,
@@ -244,17 +244,6 @@
     },
     {
       "rank": 17,
-      "name": "The Ship",
-      "artist": "Incredible Polo",
-      "album": "Ma Hill",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b273e3481144ad8dcc24e4bb774f",
-      "url": "https://open.spotify.com/track/40fwaugzAHr4fDJsxyNK0Z",
-      "durationMs": 162546,
-      "duration": "2:42",
-      "explicit": false
-    },
-    {
-      "rank": 18,
       "name": "Mr. Jones",
       "artist": "Counting Crows",
       "album": "August And Everything After",
@@ -265,24 +254,35 @@
       "explicit": false
     },
     {
-      "rank": 19,
-      "name": "Electric Feel",
-      "artist": "MGMT",
-      "album": "Oracular Spectacular",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b2737addf1f64798c10d3bd6b27c",
-      "url": "https://open.spotify.com/track/4ijZ4sCKTLsQJKTJT4psI8",
-      "durationMs": 229333,
-      "duration": "3:49",
-      "explicit": false
-    },
-    {
-      "rank": 20,
+      "rank": 18,
       "name": "LA Calling",
       "artist": "Crystal Fighters",
       "album": "Cave Rave",
       "albumArt": "https://i.scdn.co/image/ab67616d0000b2736a3ec63ec957c595ce7c135f",
       "url": "https://open.spotify.com/track/3Xh70BsJYf9nHnc0FtN07i",
       "durationMs": 229240,
+      "duration": "3:49",
+      "explicit": false
+    },
+    {
+      "rank": 19,
+      "name": "The Ship",
+      "artist": "Incredible Polo",
+      "album": "Ma Hill",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273e3481144ad8dcc24e4bb774f",
+      "url": "https://open.spotify.com/track/40fwaugzAHr4fDJsxyNK0Z",
+      "durationMs": 162546,
+      "duration": "2:42",
+      "explicit": false
+    },
+    {
+      "rank": 20,
+      "name": "Electric Feel",
+      "artist": "MGMT",
+      "album": "Oracular Spectacular",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2737addf1f64798c10d3bd6b27c",
+      "url": "https://open.spotify.com/track/4ijZ4sCKTLsQJKTJT4psI8",
+      "durationMs": 229333,
       "duration": "3:49",
       "explicit": false
     }
@@ -308,33 +308,33 @@
     },
     {
       "rank": 4,
+      "name": "Kanye West",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb6e835a500e791bf9c27a422a",
+      "url": "https://open.spotify.com/artist/5K4W6rqBFWDnAN6FQUkS6x"
+    },
+    {
+      "rank": 5,
       "name": "Rodríguez",
       "image": "https://i.scdn.co/image/d1d0f4b212e16eb6bf079e8e7bae11828378a2bc",
       "url": "https://open.spotify.com/artist/5PrHzxc3kFm4hIrGNmelpX"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "name": "andhim",
       "image": "https://i.scdn.co/image/ab6761610000e5eb1b3da90ba96e40faf9db9eb0",
       "url": "https://open.spotify.com/artist/6XJeFzmI6vrWyHcdB7EImP"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "name": "The Rolling Stones",
       "image": "https://i.scdn.co/image/ab6761610000e5eb2b72b000ac948eba03bb3afe",
       "url": "https://open.spotify.com/artist/22bE4uQ6baNwSHPVcDxLCe"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "name": "Maribou State",
       "image": "https://i.scdn.co/image/ab6761610000e5eb68398569d96f20bb6ba6ac0d",
       "url": "https://open.spotify.com/artist/7zrkALJ9ayRjzysp4QYoEg"
-    },
-    {
-      "rank": 8,
-      "name": "Kanye West",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb6e835a500e791bf9c27a422a",
-      "url": "https://open.spotify.com/artist/5K4W6rqBFWDnAN6FQUkS6x"
     },
     {
       "rank": 9,
@@ -385,17 +385,6 @@
     },
     {
       "rank": 4,
-      "name": "Nutshell",
-      "artist": "Alice In Chains",
-      "album": "Jar Of Flies",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b27325b42be683b8d3c6500db726",
-      "url": "https://open.spotify.com/track/2JuasWPUodaUxf5nwNpciQ",
-      "durationMs": 259200,
-      "duration": "4:19",
-      "explicit": false
-    },
-    {
-      "rank": 5,
       "name": "Alone",
       "artist": "Liquideep",
       "album": "Fabrics of the Heart",
@@ -406,7 +395,7 @@
       "explicit": false
     },
     {
-      "rank": 6,
+      "rank": 5,
       "name": "The Best Part",
       "artist": "anamē, gardenstate, Bien",
       "album": "Inspirations",
@@ -417,7 +406,7 @@
       "explicit": false
     },
     {
-      "rank": 7,
+      "rank": 6,
       "name": "Babylon",
       "artist": "David Gray",
       "album": "White Ladder (2020 Remaster)",
@@ -425,6 +414,17 @@
       "url": "https://open.spotify.com/track/0hltBiPrw06vWjtadBn6oe",
       "durationMs": 265640,
       "duration": "4:25",
+      "explicit": false
+    },
+    {
+      "rank": 7,
+      "name": "Nutshell",
+      "artist": "Alice In Chains",
+      "album": "Jar Of Flies",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b27325b42be683b8d3c6500db726",
+      "url": "https://open.spotify.com/track/2JuasWPUodaUxf5nwNpciQ",
+      "durationMs": 259200,
+      "duration": "4:19",
       "explicit": false
     },
     {
@@ -495,17 +495,6 @@
     },
     {
       "rank": 14,
-      "name": "Good Morning",
-      "artist": "Kanye West",
-      "album": "Graduation",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b27326f7f19c7f0381e56156c94a",
-      "url": "https://open.spotify.com/track/6MXXY2eiWkpDCezVCc0cMH",
-      "durationMs": 195093,
-      "duration": "3:15",
-      "explicit": true
-    },
-    {
-      "rank": 15,
       "name": "Time",
       "artist": "Pink Floyd",
       "album": "The Dark Side of the Moon",
@@ -514,6 +503,17 @@
       "durationMs": 422853,
       "duration": "7:02",
       "explicit": false
+    },
+    {
+      "rank": 15,
+      "name": "Good Morning",
+      "artist": "Kanye West",
+      "album": "Graduation",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b27326f7f19c7f0381e56156c94a",
+      "url": "https://open.spotify.com/track/6MXXY2eiWkpDCezVCc0cMH",
+      "durationMs": 195093,
+      "duration": "3:15",
+      "explicit": true
     },
     {
       "rank": 16,
@@ -528,17 +528,6 @@
     },
     {
       "rank": 17,
-      "name": "The Ship",
-      "artist": "Incredible Polo",
-      "album": "Ma Hill",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b273e3481144ad8dcc24e4bb774f",
-      "url": "https://open.spotify.com/track/40fwaugzAHr4fDJsxyNK0Z",
-      "durationMs": 162546,
-      "duration": "2:42",
-      "explicit": false
-    },
-    {
-      "rank": 18,
       "name": "Mr. Jones",
       "artist": "Counting Crows",
       "album": "August And Everything After",
@@ -549,18 +538,7 @@
       "explicit": false
     },
     {
-      "rank": 19,
-      "name": "Electric Feel",
-      "artist": "MGMT",
-      "album": "Oracular Spectacular",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b2737addf1f64798c10d3bd6b27c",
-      "url": "https://open.spotify.com/track/4ijZ4sCKTLsQJKTJT4psI8",
-      "durationMs": 229333,
-      "duration": "3:49",
-      "explicit": false
-    },
-    {
-      "rank": 20,
+      "rank": 18,
       "name": "LA Calling",
       "artist": "Crystal Fighters",
       "album": "Cave Rave",
@@ -569,24 +547,46 @@
       "durationMs": 229240,
       "duration": "3:49",
       "explicit": false
+    },
+    {
+      "rank": 19,
+      "name": "The Ship",
+      "artist": "Incredible Polo",
+      "album": "Ma Hill",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273e3481144ad8dcc24e4bb774f",
+      "url": "https://open.spotify.com/track/40fwaugzAHr4fDJsxyNK0Z",
+      "durationMs": 162546,
+      "duration": "2:42",
+      "explicit": false
+    },
+    {
+      "rank": 20,
+      "name": "Electric Feel",
+      "artist": "MGMT",
+      "album": "Oracular Spectacular",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2737addf1f64798c10d3bd6b27c",
+      "url": "https://open.spotify.com/track/4ijZ4sCKTLsQJKTJT4psI8",
+      "durationMs": 229333,
+      "duration": "3:49",
+      "explicit": false
     }
   ],
   "stats": {
     "totalTracks": 50,
-    "uniqueArtists": 60,
+    "uniqueArtists": 62,
     "uniqueAlbums": 50,
-    "totalDurationMs": 13359191,
-    "totalDuration": "222:39",
-    "avgTrackDuration": "4:27",
+    "totalDurationMs": 13852200,
+    "totalDuration": "230:52",
+    "avgTrackDuration": "4:37",
     "longestTrack": {
       "name": "La Ka Rubà",
       "artist": "NenaHalena, Akil",
       "duration": "7:59"
     },
     "shortestTrack": {
-      "name": "Bless the Telephone",
-      "artist": "Labi Siffre",
-      "duration": "1:40"
+      "name": "Black Friday (pretty like the sun)",
+      "artist": "Lost Frequencies, Tom Odell",
+      "duration": "2:25"
     },
     "topTrackArtists": [
       {
@@ -598,12 +598,12 @@
         "count": 3
       },
       {
-        "name": "Tom Odell",
+        "name": "Groove Armada",
         "count": 2
       },
       {
-        "name": "Groove Armada",
-        "count": 1
+        "name": "Tom Odell",
+        "count": 2
       },
       {
         "name": "Bob Seger",
@@ -613,7 +613,7 @@
     "decades": [
       {
         "decade": "2010s",
-        "count": 19
+        "count": 21
       },
       {
         "decade": "2020s",
@@ -625,7 +625,7 @@
       },
       {
         "decade": "1970s",
-        "count": 7
+        "count": 5
       },
       {
         "decade": "1990s",
