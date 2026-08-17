@@ -18,12 +18,6 @@
     "url": "https://open.spotify.com/album/4dSQCPJVskYNaCwTUJZCT7"
   },
   {
-    "title": "Jar Of Flies",
-    "artist": "Alice In Chains",
-    "cover": "https://i.scdn.co/image/ab67616d0000b27325b42be683b8d3c6500db726",
-    "url": "https://open.spotify.com/album/4FCoFSNIFhK36holxHWCnc"
-  },
-  {
     "title": "Fabrics of the Heart",
     "artist": "Liquideep",
     "cover": "https://i.scdn.co/image/ab67616d0000b273b47a9ea845c030fd3c5b718c",
@@ -40,6 +34,12 @@
     "artist": "David Gray",
     "cover": "https://i.scdn.co/image/ab67616d0000b273786a2ccbdd971e5903a09d45",
     "url": "https://open.spotify.com/album/65dV0TVZ9BEfudSPEt1hb6"
+  },
+  {
+    "title": "Jar Of Flies",
+    "artist": "Alice In Chains",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27325b42be683b8d3c6500db726",
+    "url": "https://open.spotify.com/album/4FCoFSNIFhK36holxHWCnc"
   },
   {
     "title": "Rust Never Sleeps",
