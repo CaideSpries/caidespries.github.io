@@ -1,8 +1,8 @@
 {
   "year": 2026,
   "source": "api_snapshot",
-  "fetchedAt": "2026-08-24T06:36:18.111Z",
-  "lastUpdated": "2026-08-24T06:36:18.111Z",
+  "fetchedAt": "2026-08-31T12:09:35.314Z",
+  "lastUpdated": "2026-08-31T12:09:35.314Z",
   "artists": [
     {
       "rank": 1,
@@ -48,21 +48,21 @@
     },
     {
       "rank": 8,
+      "name": "Marbert Rocel",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb263673022352513435da64ba",
+      "url": "https://open.spotify.com/artist/0VEzhZrWBCaoufAiZkjX3G"
+    },
+    {
+      "rank": 9,
       "name": "Chance the Rapper",
       "image": "https://i.scdn.co/image/ab6761610000e5ebd4d18d62a36a26fe36b70e2a",
       "url": "https://open.spotify.com/artist/1anyVhU62p31KFi8MEzkbf"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "name": "The Rolling Stones",
       "image": "https://i.scdn.co/image/ab6761610000e5eb2b72b000ac948eba03bb3afe",
       "url": "https://open.spotify.com/artist/22bE4uQ6baNwSHPVcDxLCe"
-    },
-    {
-      "rank": 10,
-      "name": "Marbert Rocel",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb263673022352513435da64ba",
-      "url": "https://open.spotify.com/artist/0VEzhZrWBCaoufAiZkjX3G"
     }
   ],
   "tracks": [
@@ -112,17 +112,6 @@
     },
     {
       "rank": 5,
-      "name": "The Best Part",
-      "artist": "anamē, gardenstate, Bien",
-      "album": "Inspirations",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b27303e8d733196eb6ead8ba74ea",
-      "url": "https://open.spotify.com/track/2OBaoP7DfWvlm4gc0QPkgg",
-      "durationMs": 250000,
-      "duration": "4:10",
-      "explicit": false
-    },
-    {
-      "rank": 6,
       "name": "Babylon",
       "artist": "David Gray",
       "album": "White Ladder (2020 Remaster)",
@@ -130,6 +119,17 @@
       "url": "https://open.spotify.com/track/0hltBiPrw06vWjtadBn6oe",
       "durationMs": 265640,
       "duration": "4:25",
+      "explicit": false
+    },
+    {
+      "rank": 6,
+      "name": "The Best Part",
+      "artist": "anamē, gardenstate, Bien",
+      "album": "Inspirations",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b27303e8d733196eb6ead8ba74ea",
+      "url": "https://open.spotify.com/track/2OBaoP7DfWvlm4gc0QPkgg",
+      "durationMs": 250000,
+      "duration": "4:10",
       "explicit": false
     },
     {
@@ -156,6 +156,17 @@
     },
     {
       "rank": 9,
+      "name": "So Good to Me",
+      "artist": "Chris Malinchak",
+      "album": "So Good to Me",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273b6e6c7300ae6ff614c936318",
+      "url": "https://open.spotify.com/track/1mGGVB5nDxGObTP26RhjyT",
+      "durationMs": 211373,
+      "duration": "3:31",
+      "explicit": false
+    },
+    {
+      "rank": 10,
       "name": "My My, Hey Hey (Out of the Blue) - 2016 Remaster",
       "artist": "Neil Young, Crazy Horse",
       "album": "Rust Never Sleeps",
@@ -166,7 +177,7 @@
       "explicit": false
     },
     {
-      "rank": 10,
+      "rank": 11,
       "name": "Always on My Mind",
       "artist": "Marbert Rocel",
       "album": "In the Beginning",
@@ -177,7 +188,7 @@
       "explicit": false
     },
     {
-      "rank": 11,
+      "rank": 12,
       "name": "My Bed",
       "artist": "Marbert Rocel",
       "album": "Catch a Bird",
@@ -188,7 +199,7 @@
       "explicit": false
     },
     {
-      "rank": 12,
+      "rank": 13,
       "name": "Lost",
       "artist": "Frank Ocean",
       "album": "channel ORANGE",
@@ -199,7 +210,7 @@
       "explicit": true
     },
     {
-      "rank": 13,
+      "rank": 14,
       "name": "Shake My Hand",
       "artist": "Extra Medium",
       "album": "One Size Fits All",
@@ -210,7 +221,18 @@
       "explicit": false
     },
     {
-      "rank": 14,
+      "rank": 15,
+      "name": "TOO COOL TO BE CARELESS",
+      "artist": "PAWSA",
+      "album": "TOO COOL TO BE CARELESS",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2732ae2ed5bc30ffd941d29d4ac",
+      "url": "https://open.spotify.com/track/6KqM3xmPIDonsTjCSGrrr5",
+      "durationMs": 220046,
+      "duration": "3:40",
+      "explicit": false
+    },
+    {
+      "rank": 16,
       "name": "Chop Suey!",
       "artist": "System Of A Down",
       "album": "Toxicity",
@@ -221,7 +243,18 @@
       "explicit": false
     },
     {
-      "rank": 15,
+      "rank": 17,
+      "name": "Cornflake Boy - Solomun Remix - Vocal",
+      "artist": "Marbert Rocel, Solomun",
+      "album": "Cornflake Boy (Remix EP)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273d1346f27909dc928716870ba",
+      "url": "https://open.spotify.com/track/7bd3Afb3wFvfAyiAm4Yjnu",
+      "durationMs": 393586,
+      "duration": "6:33",
+      "explicit": false
+    },
+    {
+      "rank": 18,
       "name": "Every 1's a Winner - Single Version",
       "artist": "Hot Chocolate",
       "album": "Every 1's a Winner",
@@ -232,7 +265,7 @@
       "explicit": false
     },
     {
-      "rank": 16,
+      "rank": 19,
       "name": "Get Down - Camel Power Club Edit",
       "artist": "Camel Power Club, Pedro Blue",
       "album": "Get Down (Camel Power Club Edit)",
@@ -243,18 +276,7 @@
       "explicit": false
     },
     {
-      "rank": 17,
-      "name": "Good Morning",
-      "artist": "Kanye West",
-      "album": "Graduation",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b27326f7f19c7f0381e56156c94a",
-      "url": "https://open.spotify.com/track/6MXXY2eiWkpDCezVCc0cMH",
-      "durationMs": 195093,
-      "duration": "3:15",
-      "explicit": true
-    },
-    {
-      "rank": 18,
+      "rank": 20,
       "name": "Goodnight Moon",
       "artist": "Boogie Belgique",
       "album": "Volta",
@@ -262,28 +284,6 @@
       "url": "https://open.spotify.com/track/2rvo9Ddv18aRV0OJldhWTf",
       "durationMs": 264735,
       "duration": "4:24",
-      "explicit": false
-    },
-    {
-      "rank": 19,
-      "name": "Time",
-      "artist": "Pink Floyd",
-      "album": "The Dark Side of the Moon",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b273db216ca805faf5fe35df4ee6",
-      "url": "https://open.spotify.com/track/3TO7bbrUKrOSPGRTB5MeCz",
-      "durationMs": 422853,
-      "duration": "7:02",
-      "explicit": false
-    },
-    {
-      "rank": 20,
-      "name": "Simple Man",
-      "artist": "Lynyrd Skynyrd",
-      "album": "Pronounced' Leh-'Nerd 'Skin-'Nerd",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b273128450651c9f0442780d8eb8",
-      "url": "https://open.spotify.com/track/1ju7EsSGvRybSNEsRvc7qY",
-      "durationMs": 356626,
-      "duration": "5:56",
       "explicit": false
     }
   ],
@@ -332,21 +332,21 @@
     },
     {
       "rank": 8,
+      "name": "Marbert Rocel",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb263673022352513435da64ba",
+      "url": "https://open.spotify.com/artist/0VEzhZrWBCaoufAiZkjX3G"
+    },
+    {
+      "rank": 9,
       "name": "Chance the Rapper",
       "image": "https://i.scdn.co/image/ab6761610000e5ebd4d18d62a36a26fe36b70e2a",
       "url": "https://open.spotify.com/artist/1anyVhU62p31KFi8MEzkbf"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "name": "The Rolling Stones",
       "image": "https://i.scdn.co/image/ab6761610000e5eb2b72b000ac948eba03bb3afe",
       "url": "https://open.spotify.com/artist/22bE4uQ6baNwSHPVcDxLCe"
-    },
-    {
-      "rank": 10,
-      "name": "Marbert Rocel",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb263673022352513435da64ba",
-      "url": "https://open.spotify.com/artist/0VEzhZrWBCaoufAiZkjX3G"
     }
   ],
   "topTracks": [
@@ -396,17 +396,6 @@
     },
     {
       "rank": 5,
-      "name": "The Best Part",
-      "artist": "anamē, gardenstate, Bien",
-      "album": "Inspirations",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b27303e8d733196eb6ead8ba74ea",
-      "url": "https://open.spotify.com/track/2OBaoP7DfWvlm4gc0QPkgg",
-      "durationMs": 250000,
-      "duration": "4:10",
-      "explicit": false
-    },
-    {
-      "rank": 6,
       "name": "Babylon",
       "artist": "David Gray",
       "album": "White Ladder (2020 Remaster)",
@@ -414,6 +403,17 @@
       "url": "https://open.spotify.com/track/0hltBiPrw06vWjtadBn6oe",
       "durationMs": 265640,
       "duration": "4:25",
+      "explicit": false
+    },
+    {
+      "rank": 6,
+      "name": "The Best Part",
+      "artist": "anamē, gardenstate, Bien",
+      "album": "Inspirations",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b27303e8d733196eb6ead8ba74ea",
+      "url": "https://open.spotify.com/track/2OBaoP7DfWvlm4gc0QPkgg",
+      "durationMs": 250000,
+      "duration": "4:10",
       "explicit": false
     },
     {
@@ -440,6 +440,17 @@
     },
     {
       "rank": 9,
+      "name": "So Good to Me",
+      "artist": "Chris Malinchak",
+      "album": "So Good to Me",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273b6e6c7300ae6ff614c936318",
+      "url": "https://open.spotify.com/track/1mGGVB5nDxGObTP26RhjyT",
+      "durationMs": 211373,
+      "duration": "3:31",
+      "explicit": false
+    },
+    {
+      "rank": 10,
       "name": "My My, Hey Hey (Out of the Blue) - 2016 Remaster",
       "artist": "Neil Young, Crazy Horse",
       "album": "Rust Never Sleeps",
@@ -450,7 +461,7 @@
       "explicit": false
     },
     {
-      "rank": 10,
+      "rank": 11,
       "name": "Always on My Mind",
       "artist": "Marbert Rocel",
       "album": "In the Beginning",
@@ -461,7 +472,7 @@
       "explicit": false
     },
     {
-      "rank": 11,
+      "rank": 12,
       "name": "My Bed",
       "artist": "Marbert Rocel",
       "album": "Catch a Bird",
@@ -472,7 +483,7 @@
       "explicit": false
     },
     {
-      "rank": 12,
+      "rank": 13,
       "name": "Lost",
       "artist": "Frank Ocean",
       "album": "channel ORANGE",
@@ -483,7 +494,7 @@
       "explicit": true
     },
     {
-      "rank": 13,
+      "rank": 14,
       "name": "Shake My Hand",
       "artist": "Extra Medium",
       "album": "One Size Fits All",
@@ -494,7 +505,18 @@
       "explicit": false
     },
     {
-      "rank": 14,
+      "rank": 15,
+      "name": "TOO COOL TO BE CARELESS",
+      "artist": "PAWSA",
+      "album": "TOO COOL TO BE CARELESS",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2732ae2ed5bc30ffd941d29d4ac",
+      "url": "https://open.spotify.com/track/6KqM3xmPIDonsTjCSGrrr5",
+      "durationMs": 220046,
+      "duration": "3:40",
+      "explicit": false
+    },
+    {
+      "rank": 16,
       "name": "Chop Suey!",
       "artist": "System Of A Down",
       "album": "Toxicity",
@@ -505,7 +527,18 @@
       "explicit": false
     },
     {
-      "rank": 15,
+      "rank": 17,
+      "name": "Cornflake Boy - Solomun Remix - Vocal",
+      "artist": "Marbert Rocel, Solomun",
+      "album": "Cornflake Boy (Remix EP)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273d1346f27909dc928716870ba",
+      "url": "https://open.spotify.com/track/7bd3Afb3wFvfAyiAm4Yjnu",
+      "durationMs": 393586,
+      "duration": "6:33",
+      "explicit": false
+    },
+    {
+      "rank": 18,
       "name": "Every 1's a Winner - Single Version",
       "artist": "Hot Chocolate",
       "album": "Every 1's a Winner",
@@ -516,7 +549,7 @@
       "explicit": false
     },
     {
-      "rank": 16,
+      "rank": 19,
       "name": "Get Down - Camel Power Club Edit",
       "artist": "Camel Power Club, Pedro Blue",
       "album": "Get Down (Camel Power Club Edit)",
@@ -527,18 +560,7 @@
       "explicit": false
     },
     {
-      "rank": 17,
-      "name": "Good Morning",
-      "artist": "Kanye West",
-      "album": "Graduation",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b27326f7f19c7f0381e56156c94a",
-      "url": "https://open.spotify.com/track/6MXXY2eiWkpDCezVCc0cMH",
-      "durationMs": 195093,
-      "duration": "3:15",
-      "explicit": true
-    },
-    {
-      "rank": 18,
+      "rank": 20,
       "name": "Goodnight Moon",
       "artist": "Boogie Belgique",
       "album": "Volta",
@@ -547,44 +569,22 @@
       "durationMs": 264735,
       "duration": "4:24",
       "explicit": false
-    },
-    {
-      "rank": 19,
-      "name": "Time",
-      "artist": "Pink Floyd",
-      "album": "The Dark Side of the Moon",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b273db216ca805faf5fe35df4ee6",
-      "url": "https://open.spotify.com/track/3TO7bbrUKrOSPGRTB5MeCz",
-      "durationMs": 422853,
-      "duration": "7:02",
-      "explicit": false
-    },
-    {
-      "rank": 20,
-      "name": "Simple Man",
-      "artist": "Lynyrd Skynyrd",
-      "album": "Pronounced' Leh-'Nerd 'Skin-'Nerd",
-      "albumArt": "https://i.scdn.co/image/ab67616d0000b273128450651c9f0442780d8eb8",
-      "url": "https://open.spotify.com/track/1ju7EsSGvRybSNEsRvc7qY",
-      "durationMs": 356626,
-      "duration": "5:56",
-      "explicit": false
     }
   ],
   "stats": {
     "totalTracks": 50,
-    "uniqueArtists": 62,
+    "uniqueArtists": 64,
     "uniqueAlbums": 50,
-    "totalDurationMs": 13838759,
-    "totalDuration": "230:38",
-    "avgTrackDuration": "4:36",
+    "totalDurationMs": 13981685,
+    "totalDuration": "233:01",
+    "avgTrackDuration": "4:39",
     "longestTrack": {
       "name": "La Ka Rubà",
       "artist": "NenaHalena, Akil",
       "duration": "7:59"
     },
     "shortestTrack": {
-      "name": "Black Friday (pretty like the sun)",
+      "name": "Black Friday - pretty like the sun",
       "artist": "Lost Frequencies, Tom Odell",
       "duration": "2:25"
     },
@@ -598,22 +598,22 @@
         "count": 2
       },
       {
-        "name": "Tom Odell",
-        "count": 2
-      },
-      {
         "name": "andhim",
         "count": 2
       },
       {
-        "name": "Bob Seger",
-        "count": 1
+        "name": "Tom Odell",
+        "count": 2
+      },
+      {
+        "name": "DJ Kent",
+        "count": 2
       }
     ],
     "decades": [
       {
         "decade": "2010s",
-        "count": 21
+        "count": 23
       },
       {
         "decade": "2000s",
@@ -624,16 +624,16 @@
         "count": 8
       },
       {
-        "decade": "1990s",
-        "count": 6
-      },
-      {
         "decade": "1970s",
         "count": 5
       },
       {
+        "decade": "1990s",
+        "count": 5
+      },
+      {
         "decade": "1980s",
-        "count": 2
+        "count": 1
       }
     ]
   }
