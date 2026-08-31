@@ -24,34 +24,16 @@
     "url": "https://open.spotify.com/album/3Bk1gC3Np3k5BLjbdvkrR1"
   },
   {
-    "title": "Inspirations",
-    "artist": "gardenstate, Marcus Schössow, anamē",
-    "cover": "https://i.scdn.co/image/ab67616d0000b27303e8d733196eb6ead8ba74ea",
-    "url": "https://open.spotify.com/album/0i73CBJl788pVN1OendqgI"
-  },
-  {
     "title": "White Ladder (2020 Remaster)",
     "artist": "David Gray",
     "cover": "https://i.scdn.co/image/ab67616d0000b273786a2ccbdd971e5903a09d45",
     "url": "https://open.spotify.com/album/65dV0TVZ9BEfudSPEt1hb6"
   },
   {
-    "title": "Jar Of Flies",
-    "artist": "Alice In Chains",
-    "cover": "https://i.scdn.co/image/ab67616d0000b27325b42be683b8d3c6500db726",
-    "url": "https://open.spotify.com/album/4FCoFSNIFhK36holxHWCnc"
-  },
-  {
-    "title": "Rust Never Sleeps",
-    "artist": "Neil Young, Crazy Horse",
-    "cover": "https://i.scdn.co/image/ab67616d0000b273db0caaa2b01471d6068053a8",
-    "url": "https://open.spotify.com/album/2QqocFdpBkxOBLcIRo6UuJ"
-  },
-  {
-    "title": "Catch a Bird",
-    "artist": "Marbert Rocel",
-    "cover": "https://i.scdn.co/image/ab67616d0000b2733f77e9c475ee88151ff2e4e7",
-    "url": "https://open.spotify.com/album/0j9BzWa1gmABSMuatN6kgH"
+    "title": "Inspirations",
+    "artist": "gardenstate, Marcus Schössow, anamē",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27303e8d733196eb6ead8ba74ea",
+    "url": "https://open.spotify.com/album/0i73CBJl788pVN1OendqgI"
   },
   {
     "title": "Ipoly Mate 003",
@@ -60,15 +42,33 @@
     "url": "https://open.spotify.com/album/12PoK2Qc6zG8wluwzV9QUq"
   },
   {
-    "title": "One Size Fits All",
-    "artist": "Extra Medium",
-    "cover": "https://i.scdn.co/image/ab67616d0000b2735cedd69b78b4d3d72e8756c0",
-    "url": "https://open.spotify.com/album/28EqWImAS6WdFczsu3g8hv"
+    "title": "Jar Of Flies",
+    "artist": "Alice In Chains",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27325b42be683b8d3c6500db726",
+    "url": "https://open.spotify.com/album/4FCoFSNIFhK36holxHWCnc"
   },
   {
-    "title": "Every 1's a Winner",
-    "artist": "Hot Chocolate",
-    "cover": "https://i.scdn.co/image/ab67616d0000b273269ffd226ce76fdb762c126c",
-    "url": "https://open.spotify.com/album/2MdCe2CS9EcdJ9V20TKzxo"
+    "title": "So Good to Me",
+    "artist": "Chris Malinchak",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273b6e6c7300ae6ff614c936318",
+    "url": "https://open.spotify.com/album/5WS1ZsMHjy4xKLbe41fpx3"
+  },
+  {
+    "title": "Rust Never Sleeps",
+    "artist": "Neil Young, Crazy Horse",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273db0caaa2b01471d6068053a8",
+    "url": "https://open.spotify.com/album/2QqocFdpBkxOBLcIRo6UuJ"
+  },
+  {
+    "title": "In the Beginning",
+    "artist": "Marbert Rocel",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273330332df92727a84eda40aaf",
+    "url": "https://open.spotify.com/album/2TXW6slePRiTf4OHii3xVF"
+  },
+  {
+    "title": "Catch a Bird",
+    "artist": "Marbert Rocel",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2733f77e9c475ee88151ff2e4e7",
+    "url": "https://open.spotify.com/album/0j9BzWa1gmABSMuatN6kgH"
   }
 ]
